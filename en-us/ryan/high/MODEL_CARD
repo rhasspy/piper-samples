@@ -1,0 +1,15 @@
+# Model card for Ryan (high)
+
+* Language: en-us (U.S. English)
+* Speakers: 1
+* Quality: high
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://www.kaggle.com/datasets/roholazandie/ryanspeech
+* License: CC BY-NC-SA 4.0
+
+## Training
+
+Trained from scratch.

@@ -1,0 +1,15 @@
+# Model card for talesyntese (medium)
+
+* Language: no (Norwegian)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-15/
+* License:  CC0
+
+## Training
+
+Trained from scratch.

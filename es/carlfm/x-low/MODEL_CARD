@@ -1,0 +1,15 @@
+# Model card for carlfm (x-low)
+
+* Language: es (Spanish)
+* Speakers: 1
+* Quality: x-low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* URL: https://github.com/carlfm01/my-speech-datasets
+* License: Public domain
+
+## Training
+
+Trained from scratch.

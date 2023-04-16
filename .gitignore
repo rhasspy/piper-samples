@@ -2,6 +2,9 @@
 lightning_logs/
 *.tar.gz
 
+dataset.jsonl
+dataset.jsonl.gz
+
 *.ckpt
 *.onnx
 *.onnx.json
