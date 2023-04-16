@@ -261,7 +261,7 @@ def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument(
         "--output-dir",
-        default=_DIR.parent / "_samples",
+        default=_DIR.parent / "samples",
         help="Path to output samples directory",
     )
     parser.add_argument(
