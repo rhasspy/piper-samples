@@ -31,7 +31,7 @@ def write_output(f):
     for model in sorted(_DIR.parent.rglob("*.onnx")):
         model_dir = model.parent
         model_name = model.stem
-        samples_dir = _DIR.parent / "_samples" / model_name
+        samples_dir = _DIR.parent / "samples" / model_name
         if not samples_dir.is_dir():
             continue
 
@@ -86,7 +86,7 @@ def write_output(f):
 
         print(
             "<td>",
-            f'<audio id="audio-{model_name}" preload="none" controls src="_samples/{model_name}/{speaker_dirs[0].name}/sample.opus"></audio>',
+            f'<audio id="audio-{model_name}" preload="none" controls src="samples/{model_name}/{speaker_dirs[0].name}/sample.opus"></audio>',
             "<details><summary>sample text</summary><p>",
             (speaker_dirs[0] / "sample.txt").read_text(encoding="utf-8"),
             "</p></details>",
