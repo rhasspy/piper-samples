@@ -59,7 +59,7 @@ def write_output(f):
             classes.append("switch")
 
         class_str = " ".join(classes)
-        print("<tr", f'class="{class_str}">', file=f)
+        print(f'<tr id="{model_name}"', f'class="{class_str}">', file=f)
 
         print(f'<dialog id="dialog-{model_name}"><form>', file=f)
         print(model_card_html, file=f)
