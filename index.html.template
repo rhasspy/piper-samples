@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"><title>Piper Voice Samples</title>
+    <style type="text/css">
+      body {
+          margin: auto;
+          max-width: 90%;
+      }
+      table {
+          width: 100%;
+          border-collapse: collapse;
+          margin: 25px 0;
+          font-size: 1.25em;
+          font-family: sans-serif;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+      }
+
+      tr.alt {
+          background-color: #DDD;
+      }
+
+      tr.switch {
+          border-top: 2px solid #AAA;
+      }
+
+      th {
+          text-align: left;
+      }
+      th,td {
+          padding: 10px;
+      }
+
+      summary {
+          font-size: 0.8em;
+      }
+    </style>
+  </head>
+  <body>
+    <a href="https://github.com/rhasspy/piper" title="Piper TTS">
+      <img src="_img/logo.png" alt="Piper logo">
+    </a>
+    <p>
+      Below are samples for <a href="https://github.com/rhasspy/piper" title="Piper TTS">Piper</a>, a fast and local text to speech system.
+      Samples were generated from the first paragraph of the Wikipedia entry for <a href="https://en.wikipedia.org/wiki/Rainbow">rainbow</a>.
+    </p>
+    <table>
+      <thead>
+        <th>Language</th>
+        <th>Voice</th>
+        <th>Model Card</th>
+        <th>Quality <a href="#quality">[?]</a></th>
+        <th>Sample</th>
+        <th>Speaker</th>
+      </thead>
+
+      {{ OUTPUT }}
+
+    </table>
+
+    <hr />
+
+    <h2 id="quality">Quality</h2>
+    Voices are trained at one of 4 "quality" levels:
+    <ul>
+      <li>
+        <b>x-low</b> - 16Khz audio, 5-7M params
+      </li>
+      <li>
+        <b>low</b> - 16Khz audio, 15-20M params
+      </li>
+      <li>
+        <b>medium</b> - 22.05Khz audio, 15-20 params
+      </li>
+      <li>
+        <b>high</b> - 22.05Khz audio, 28-32M params
+      </li>
+    </ul>
+
+
+    <script type="text/javascript">
+      function q(selector) {return document.querySelector(selector)}
+
+      function setAudio(name) {
+          var audio = q("#audio-" + name);
+          var speaker = q("#speaker-" + name);
+
+          audio.src = "_samples/" + name + "/" + speaker.value + "/sample.opus";
+      }
+    </script>
+  </body>
+</html>

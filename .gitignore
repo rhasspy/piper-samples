@@ -1,0 +1,14 @@
+.numba_cache/
+lightning_logs/
+*.tar.gz
+
+*.ckpt
+*.onnx
+*.onnx.json
+*.pt
+*.pt.json
+
+output/
+
+/ar/
+/en-gb/
