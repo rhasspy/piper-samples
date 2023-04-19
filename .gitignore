@@ -1,5 +1,4 @@
 .numba_cache/
-lightning_logs/
 *.tar.gz
 
 dataset.jsonl
