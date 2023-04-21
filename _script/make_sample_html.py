@@ -96,7 +96,7 @@ def write_output(f):
 
         if len(speaker_dirs) > 1:
             print(
-                f'<td><select id="speaker-{model_name}" onclick="setAudio(\'{model_name}\')">',
+                f'<td><select id="speaker-{model_name}" onchange="setAudio(\'{model_name}\')">',
                 file=f,
             )
             for i, speaker_dir in enumerate(speaker_dirs):
