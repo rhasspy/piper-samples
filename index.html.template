@@ -85,7 +85,7 @@
           var audio = q("#audio-" + name);
           var speaker = q("#speaker-" + name);
 
-          audio.src = "samples/" + name + "/" + speaker.value + "/sample.opus";
+          audio.src = "samples/" + name + "/" + speaker.value + "/sample.mp3";
       }
     </script>
   </body>

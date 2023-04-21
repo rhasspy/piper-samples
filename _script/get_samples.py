@@ -333,9 +333,9 @@ def generate_sample(cmd, samples_dir, text):
         ) as proc:
             print(text, file=proc.stdin, flush=True)
             wav_path = Path(proc.stdout.readline().strip())
-            opus_path = samples_dir / "sample.opus"
+            mp3_path = samples_dir / "sample.mp3"
             subprocess.check_call(
-                ["ffmpeg", "-y", "-i", str(wav_path), str(opus_path)],
+                ["ffmpeg", "-y", "-i", str(wav_path), str(mp3_path)],
             )
             wav_path.unlink()
 
