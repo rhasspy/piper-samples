@@ -58,12 +58,12 @@ _TEST_SENTENCES = {
         resulting in a spectrum of light appearing in the sky. It takes the form
         of a multi-colored circular arc. Rainbows caused by sunlight always
         appear in the section of sky directly opposite the Sun.""",
-    "el": """Οι επιστήμονες μελετούν ακόμη το ουράνιο τόξο. Ο Καρλ Μπ. Μπόγιερ
-        παρατηρεί: «Μέσα σε μια σταγόνα βροχής η αλληλεπίδραση της ενέργειας του
-        φωτός με την ύλη είναι τόσο στενή ώστε οδηγούμαστε κατευθείαν στην
-        κβαντομηχανική και στη θεωρία της σχετικότητας. Αν και γνωρίζουμε αρκετά
-        πράγματα για το πώς σχηματίζεται το ουράνιο τόξο, λίγα είναι αυτά που
-        έχουμε μάθει για το πώς γίνεται αντιληπτό».""",
+    "el": """Οι επιστήμονες μελετούν ακόμη το ουράνιο τόξο. Μπόγιερ παρατηρεί:
+        «Μέσα σε μια σταγόνα βροχής η αλληλεπίδραση της ενέργειας του φωτός με
+        την ύλη είναι τόσο στενή ώστε οδηγούμαστε κατευθείαν στην κβαντομηχανική
+        και στη θεωρία της σχετικότητας. Αν και γνωρίζουμε αρκετά πράγματα για
+        το πώς σχηματίζεται το ουράνιο τόξο, λίγα είναι αυτά που έχουμε μάθει
+        για το πώς γίνεται αντιληπτό».""",
     "es": """Un arcoíris​ o arco iris es un fenómeno óptico y meteorológico que
         consiste en la aparición en el cielo de un arco de luz multicolor,
         originado por la descomposición de la luz solar en el espectro visible,
