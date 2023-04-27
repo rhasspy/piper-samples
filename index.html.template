@@ -10,14 +10,14 @@
       table {
           width: 100%;
           border-collapse: collapse;
-          margin: 25px 0;
+          margin: 25px 0 50px 0;
           font-size: 1.25em;
           font-family: sans-serif;
           box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
       }
 
       tr.alt {
-          background-color: #DDD;
+          background-color: #EEE;
       }
 
       tr.switch {
@@ -29,34 +29,32 @@
       }
       th,td {
           padding: 10px;
+          width: 15%;
       }
 
       summary {
           font-size: 0.8em;
       }
+
+      #languages {
+          margin-bottom: 15px;
+      }
+
+      #logo {
+          margin-left: -50px;
+      }
     </style>
   </head>
   <body>
     <a href="https://github.com/rhasspy/piper" title="Piper TTS">
-      <img src="img/logo.png" alt="Piper logo">
+      <img id="logo" src="img/logo.png" alt="Piper logo">
     </a>
     <p>
       Below are samples for <a href="https://github.com/rhasspy/piper" title="Piper TTS">Piper</a>, a fast and local text to speech system.
       Samples were generated from the first paragraph of the Wikipedia entry for <a href="https://en.wikipedia.org/wiki/Rainbow">rainbow</a>.
     </p>
-    <table>
-      <thead>
-        <th>Language</th>
-        <th>Voice</th>
-        <th>Model Card</th>
-        <th>Quality <a href="#quality">[?]</a></th>
-        <th>Sample</th>
-        <th>Speaker</th>
-      </thead>
 
-      {{ OUTPUT }}
-
-    </table>
+    {{ OUTPUT }}
 
     <hr />
 
@@ -86,6 +84,13 @@
           var speaker = q("#speaker-" + name);
 
           audio.src = "samples/" + name + "/" + speaker.value + "/sample.mp3";
+      }
+
+      function jumpLanguage() {
+          var language = q("#languages").value;
+          if (language.length > 0) {
+              location.hash = "#" + language;
+          }
       }
     </script>
   </body>
