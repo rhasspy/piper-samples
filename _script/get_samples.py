@@ -108,6 +108,11 @@ _TEST_SENTENCES = {
         kialakul a színképe, más néven spektruma. Az ív külső része vörös, míg a
         belső ibolya. Előfordul az ún. dupla szivárvány is, amelynél egy másik,
         halványabb ív is látható fordított sorrendű színekkel.""",
+    "is": """Regnbogi (einnig kallaður friðarbogi) er ljósfræðilegt og
+        veðurfræðilegt fyrirbæri sem orsakast þegar litróf birtist á himninum á
+        meðan sólin skín á vætu í andrúmslofti jarðar. Hann er marglitur með
+        rauðan að utanverðu og fjólubláan að innanverðu. Sjaldnar má sjá daufari
+        regnboga með litina í öfugri röð.""",
     "it": """In fisica dell'atmosfera e meteorologia l'arcobaleno è un fenomeno
         ottico atmosferico che produce uno spettro quasi continuo di luce nel
         cielo quando la luce del Sole attraversa le gocce d'acqua rimaste in
@@ -122,6 +127,19 @@ _TEST_SENTENCES = {
         sacedhaké grojogan. Racaké udan anané ing wektu soré, saéngga kluwung
         katon ing sisih wétan. Déné menawa ésuk, kluwung katon ing kulon,
         diarani téja.""",
+    "ka": """ცისარტყელა — ატმოსფერული ოპტიკური და მეტეოროლოგიური მოვლენა,
+        რომელიც ხშირად წვიმის შემდეგ ჩნდება. ეს თავისებური რკალია ან წრეხაზი,
+        რომელიც ფერების სპექტრისგან შედგება. ცისარტყელა შედგება შვიდი ფერისგან:
+        წითელი, ნარინჯისფერი, ყვითელი, მწვანე, ცისფერი, ლურჯი, იისფერი. ცენტრი
+        წრისა, რომელსაც ცისარტყელა შემოწერს, ძევს წრფეზე, რომელიც გადის
+        დამკვირვებელსა და მზეს შორის, ამავდროულად ცისარტყელას დანახვისას მზე
+        ყოველთვის მდებარეობს დამკვირვებლის ზურგს უკან, შესაბამისად, სპეციალური
+        ოპტიკური ხელსაწყოების გარეშე შეუძლებელია ერთდროულად ცისარტყელასა და მზის
+        დანახვა. ხმელეთზე მდებარე დამკვირვებლისთვის ცისარტყელას, როგორც წესი,
+        აქვს რკალის, წრის ნაწილის, ფორმა. რაც უფრო მაღალია დაკვირვების წერტილი —
+        მით უფრო სრულია ეს რკალი (მთიდან ან თვითმფრინავიდან შესაძლებელია მთლიანი
+        წრის დანახვაც). როდესაც მზე აღიმართება ჰორიზონტიდან 42 გრადუსზე უფრო
+        მაღლა, ცისარტყელა დედამიწის ზედაპირიდან უხილავია.""",
     "kk": """Кемпірқосақ – аспан күмбезінде түрлі түсті доға түрінде көрінетін
         атмосферадағы оптикалық құбылыс. Ол аспанның бір жағында торлаған
         бұлттан жаңбыр жауып, қарсы жағында жарқырап күн шығып тұрған кезде
@@ -335,7 +353,17 @@ def generate_sample(cmd, samples_dir, text):
             wav_path = Path(proc.stdout.readline().strip())
             mp3_path = samples_dir / "sample.mp3"
             subprocess.check_call(
-                ["ffmpeg", "-y", "-i", str(wav_path), str(mp3_path)],
+                [
+                    "ffmpeg",
+                    "-y",
+                    "-i",
+                    str(wav_path),
+                    "-codec:a",
+                    "libmp3lame",
+                    "-qscale:a",
+                    "2",
+                    str(mp3_path),
+                ],
             )
             wav_path.unlink()
 

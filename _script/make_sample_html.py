@@ -22,6 +22,7 @@ LANG_NAMES = {
     "gu": ("ગુજરાતી", "Gujarati"),
     "ha": "Hausa",
     "hu": ("Magyar Nyelv", "Hungarian"),
+    "is": ("Icelandic", "íslenska"),
     "it": ("Italiano", "Italian"),
     "jv": ("Basa Jawa", "Javanese"),
     "kk": ("қазақша", "Kazakh"),
