@@ -1,0 +1,15 @@
+# Model card for irina (medium)
+
+* Language: ru (Russian)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://github.com/RHVoice/RHVoice
+* License: GPLv2
+
+## Training
+
+Finetuned from U.S. English lessac voice (medium quality).
