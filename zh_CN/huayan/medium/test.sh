@@ -1,0 +1,1 @@
+../../../_script/test.sh

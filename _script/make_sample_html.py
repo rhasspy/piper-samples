@@ -34,6 +34,7 @@ LANG_NAMES = {
     "pt": ("Português", "Portuguese"),
     "pt-br": ("Português (Brasil)", "Portuguese (Brazilian)"),
     "ru": ("Русский", "Russian"),
+    "sv-se": ("Svenska", "Swedish"),
     "sw": "Kiswahili",
     "te": ("తెలుగు", "Telugu"),
     "tn": "Setswana",
@@ -41,6 +42,10 @@ LANG_NAMES = {
     "vi": ("Tiếng Việt", "Vietnamese"),
     "yo": ("Èdè Yorùbá", "Yoruba"),
     "zh-cn": ("简体中文", "Chinese"),
+}
+
+LANG_ALIASES = {
+    "zh_CN": "zh-cn",
 }
 
 
@@ -92,6 +97,7 @@ def write_output(f):
     print('<select id="languages" onchange="jumpLanguage()">', file=f)
     print('<option value="">Jump to language</option>', file=f)
     for language in languages:
+        language = LANG_ALIASES.get(language, language)
         language_name = LANG_NAMES[language]
         if isinstance(language_name, tuple):
             language_name = f"{language_name[0]} ({language_name[1]})"
@@ -123,6 +129,7 @@ def write_output(f):
         print(model_dir)
         quality = model_dir.name
         language = model_dir.parent.parent.name
+        language = LANG_ALIASES.get(language, language)
         assert language in LANG_NAMES, f"No name for {language}"
 
         language_name = LANG_NAMES[language]

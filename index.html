@@ -88,6 +88,7 @@
 <option value="uk">украї́нська мо́ва (Ukrainian)</option>
 <option value="vi">Tiếng Việt (Vietnamese)</option>
 <option value="zh-cn">简体中文 (Chinese)</option>
+<option value="zh-cn">简体中文 (Chinese)</option>
 </select>
 <hr />
 <h2 id="ca">Català (Catalan)</h2>
@@ -524,6 +525,30 @@
 <li>License: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html</li>
 </ul>
 <h2>Training</h2>
+<p>Trained from scratch.</p>
+<div><button value="cancel" formmethod="dialog">Close</button></div>
+</form></dialog>
+<td> <a title="Download en-us-lessac-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-lessac-low.tar.gz">en-us-lessac-low</a> </td>
+<td> <a href="javascript:q('#dialog-en-us-lessac-low').showModal()">View</a> </td>
+<td> low </td>
+<td> <audio id="audio-en-us-lessac-low" preload="none" controls src="samples/en-us-lessac-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
+<td></td>
+</tr>
+<tr id="en-us-lessac-low" class="">
+<dialog id="dialog-en-us-lessac-low"><form>
+<h1>Model card for Lessac (low)</h1>
+<ul>
+<li>Language: en-us (U.S. English)</li>
+<li>Speakers: 1</li>
+<li>Quality: low</li>
+<li>Samplerate: 16,000Hz</li>
+</ul>
+<h2>Dataset</h2>
+<ul>
+<li>URL: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/</li>
+<li>License: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html</li>
+</ul>
+<h2>Training</h2>
 <p>Finetuned from U.S. English Ryan voice (low quality).</p>
 <div><button value="cancel" formmethod="dialog">Close</button></div>
 </form></dialog>
@@ -533,7 +558,7 @@
 <td> <audio id="audio-en-us-lessac-low" preload="none" controls src="samples/en-us-lessac-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
 <td></td>
 </tr>
-<tr id="en-us-lessac-medium" class="">
+<tr id="en-us-lessac-medium" class="alt">
 <dialog id="dialog-en-us-lessac-medium"><form>
 <h1>Model card for Lessac (medium)</h1>
 <ul>
@@ -557,7 +582,7 @@
 <td> <audio id="audio-en-us-lessac-medium" preload="none" controls src="samples/en-us-lessac-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
 <td></td>
 </tr>
-<tr id="en-us-libritts-high" class="alt">
+<tr id="en-us-libritts-high" class="">
 <dialog id="dialog-en-us-libritts-high"><form>
 <h1>Model card for LibriTTS (high)</h1>
 <ul>
@@ -1486,7 +1511,7 @@
 <option value="speaker_903"> 903 </option>
 </select> (904)</td>
 </tr>
-<tr id="en-us-ryan-high" class="">
+<tr id="en-us-ryan-high" class="alt">
 <dialog id="dialog-en-us-ryan-high"><form>
 <h1>Model card for Ryan (high)</h1>
 <ul>
@@ -1510,7 +1535,7 @@
 <td> <audio id="audio-en-us-ryan-high" preload="none" controls src="samples/en-us-ryan-high/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
 <td></td>
 </tr>
-<tr id="en-us-ryan-low" class="alt">
+<tr id="en-us-ryan-low" class="">
 <dialog id="dialog-en-us-ryan-low"><form>
 <h1>Model card for Ryan (low)</h1>
 <ul>
@@ -1534,7 +1559,7 @@
 <td> <audio id="audio-en-us-ryan-low" preload="none" controls src="samples/en-us-ryan-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
 <td></td>
 </tr>
-<tr id="en-us-ryan-medium" class="">
+<tr id="en-us-ryan-medium" class="alt">
 <dialog id="dialog-en-us-ryan-medium"><form>
 <h1>Model card for Ryan (medium)</h1>
 <ul>
@@ -2597,6 +2622,30 @@
 <td> <a href="javascript:q('#dialog-zh-cn-huayan-x-low').showModal()">View</a> </td>
 <td> x-low </td>
 <td> <audio id="audio-zh-cn-huayan-x-low" preload="none" controls src="samples/zh-cn-huayan-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> 彩虹，又稱天弓、天虹、絳等，簡稱虹，是氣象中的一種光學現象，當太陽 光照射到半空中的水滴，光線被折射及反射，在天空上形成拱形的七彩光譜，由外 圈至内圈呈紅、橙、黃、綠、蓝、靛蓝、堇紫七种颜色（霓虹則相反）。事實 上彩虹有无数種顏色，比如，在紅色和橙色之間還有許多種細微差別的顏色，根據 不同的文化背景被解讀爲3-9種不等，通常只用六七種顏色作為區別。國際LGBT 聯盟的彩虹旗为六色：紅橙黃綠藍紫。紅橙黃綠藍靛紫的七色說，就是在六色基礎 上將紫色分出偏藍色的靛。傳統中國文化說的七色是：赤橙黃綠青藍紫，青色 就是偏藍的綠色。要是把橙色也分爲偏紅、偏黃的兩種就是九色。三色說有：紅綠 藍，就是光學三原色，所有顏色的光都是這三種顏色混合出來的，和亚里士多 德紅、綠、紫三色說，就是兩頭加中間。 </p></details> </td>
+<td></td>
+</tr>
+<tr id="zh_CN-huayan-medium" class="alt">
+<dialog id="dialog-zh_CN-huayan-medium"><form>
+<h1>Model card for huayan (medium)</h1>
+<ul>
+<li>Language: zh-cn (Chinese)</li>
+<li>Speakers: 1</li>
+<li>Quality: medium</li>
+<li>Samplerate: 22,050Hz</li>
+</ul>
+<h2>Dataset</h2>
+<ul>
+<li>URL: https://github.com/PlayVoice/HuaYan_TTS</li>
+<li>License: Unknown</li>
+</ul>
+<h2>Training</h2>
+<p>Finetuned from U.S. English lessac voice (medium quality).</p>
+<div><button value="cancel" formmethod="dialog">Close</button></div>
+</form></dialog>
+<td> <a title="Download zh_CN-huayan-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-zh_CN-huayan-medium.tar.gz">zh_CN-huayan-medium</a> </td>
+<td> <a href="javascript:q('#dialog-zh_CN-huayan-medium').showModal()">View</a> </td>
+<td> medium </td>
+<td> <audio id="audio-zh_CN-huayan-medium" preload="none" controls src="samples/zh_CN-huayan-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> 彩虹，又稱天弓、天虹、絳等，簡稱虹，是氣象中的一種光學現象，當太陽 光照射到半空中的水滴，光線被折射及反射，在天空上形成拱形的七彩光譜，由外 圈至内圈呈紅、橙、黃、綠、蓝、靛蓝、堇紫七种颜色（霓虹則相反）。事實 上彩虹有无数種顏色，比如，在紅色和橙色之間還有許多種細微差別的顏色，根據 不同的文化背景被解讀爲3-9種不等，通常只用六七種顏色作為區別。國際LGBT 聯盟的彩虹旗为六色：紅橙黃綠藍紫。紅橙黃綠藍靛紫的七色說，就是在六色基礎 上將紫色分出偏藍色的靛。傳統中國文化說的七色是：赤橙黃綠青藍紫，青色 就是偏藍的綠色。要是把橙色也分爲偏紅、偏黃的兩種就是九色。三色說有：紅綠 藍，就是光學三原色，所有顏色的光都是這三種顏色混合出來的，和亚里士多 德紅、綠、紫三色說，就是兩頭加中間。 </p></details> </td>
 <td></td>
 </tr>
 </table>
