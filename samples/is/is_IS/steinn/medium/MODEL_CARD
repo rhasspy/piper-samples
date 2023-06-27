@@ -1,0 +1,15 @@
+# Model card for steinn (medium)
+
+* Language: is_IS (Icelandic, Iceland)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: http://hdl.handle.net/20.500.12537/104
+* License: See URL
+
+## Training
+
+Trained from scratch.

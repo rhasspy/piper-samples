@@ -1,0 +1,15 @@
+# Model card for rapunzelina (low)
+
+* Language: el_GR (Greek, Greece)
+* Speakers: 1
+* Quality: low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* URL: https://www.kaggle.com/datasets/bryanpark/greek-single-speaker-speech-dataset
+* License: CC0
+
+## Training
+
+Finetuned from U.S. English Ryan voice (low quality).

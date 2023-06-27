@@ -1,0 +1,2935 @@
+{
+    "zh_CN-huayan-x_low": {
+        "name": "huayan",
+        "language": "zh_CN",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "zh_CN-huayan-x_low.onnx": {
+                "size_bytes": 20628813,
+                "md5_digest": "2b96570db6becd09814a608c8d14a64f"
+            },
+            "zh_CN-huayan-x_low.onnx.json": {
+                "size_bytes": 5774,
+                "md5_digest": "b086dd6808691b3ba114645ab225f24b"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 237,
+                "md5_digest": "715587a977945498c5741b74eb81a1fd"
+            }
+        }
+    },
+    "zh_CN-huayan-medium": {
+        "name": "huayan",
+        "language": "zh_CN",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "zh_CN-huayan-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "40cdb7930ff91b81574d5f0489e076ea"
+            },
+            "zh_CN-huayan-medium.onnx.json": {
+                "size_bytes": 6771,
+                "md5_digest": "a62132d9b2506e7ad04297528e35fe6c"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 276,
+                "md5_digest": "b23255ace0cda4c2e02134d8a70c2e03"
+            }
+        }
+    },
+    "ru_RU-irina-medium": {
+        "name": "irina",
+        "language": "ru_RU",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ru_RU-irina-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "21fbe77fdc68bdc35d7adb6bf4f52199"
+            },
+            "ru_RU-irina-medium.onnx.json": {
+                "size_bytes": 6696,
+                "md5_digest": "ff90aed0c0932d0d274a1da44b591a1e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 271,
+                "md5_digest": "397e67453b4ea5a95642673d0debb5ba"
+            }
+        }
+    },
+    "ru_RU-dmitri-medium": {
+        "name": "dmitri",
+        "language": "ru_RU",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ru_RU-dmitri-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "589ccc91745a1e2353508ff62c5941b7"
+            },
+            "ru_RU-dmitri-medium.onnx.json": {
+                "size_bytes": 6770,
+                "md5_digest": "f96b3949813e206055cd587727337268"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 276,
+                "md5_digest": "c19f9eff768d0c0e1f476a4c6ca1ff1e"
+            }
+        }
+    },
+    "ru_RU-denis-medium": {
+        "name": "denis",
+        "language": "ru_RU",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ru_RU-denis-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "76c2f14e521fef3ed574f97ad492728e"
+            },
+            "ru_RU-denis-medium.onnx.json": {
+                "size_bytes": 6770,
+                "md5_digest": "f96b3949813e206055cd587727337268"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 275,
+                "md5_digest": "6fe09e0e097e4538809cc420653974e4"
+            }
+        }
+    },
+    "ru_RU-ruslan-medium": {
+        "name": "ruslan",
+        "language": "ru_RU",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ru_RU-ruslan-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "731eb188e63b4c57320e38047ba2d850"
+            },
+            "ru_RU-ruslan-medium.onnx.json": {
+                "size_bytes": 6856,
+                "md5_digest": "907f1cfa9aed04f134a7c702f2c10949"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 313,
+                "md5_digest": "7b50a255192cc1c44358d7cb20ddbb5c"
+            }
+        }
+    },
+    "nl_BE-nathalie-x_low": {
+        "name": "nathalie",
+        "language": "nl_BE",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "nl_BE-nathalie-x_low.onnx": {
+                "size_bytes": 20628813,
+                "md5_digest": "4a00803b60caecad30ea612bcd9f9344"
+            },
+            "nl_BE-nathalie-x_low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "189e6fd4e40bf8322800f50a743b4778"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 246,
+                "md5_digest": "5df62094bde427374223f91f44476392"
+            }
+        }
+    },
+    "nl_BE-nathalie-medium": {
+        "name": "nathalie",
+        "language": "nl_BE",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "nl_BE-nathalie-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "ab0c38b5f66764b59ad9e3e98b1c2172"
+            },
+            "nl_BE-nathalie-medium.onnx.json": {
+                "size_bytes": 6856,
+                "md5_digest": "5cfa8e713729ac1f29a8d4204ca5b809"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 284,
+                "md5_digest": "ff335f87ca41a3f89180781498e02635"
+            }
+        }
+    },
+    "nl_BE-rdh-x_low": {
+        "name": "rdh",
+        "language": "nl_BE",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "nl_BE-rdh-x_low.onnx": {
+                "size_bytes": 20628813,
+                "md5_digest": "7d60d0de9ad9ec11a1d293665743afda"
+            },
+            "nl_BE-rdh-x_low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "189e6fd4e40bf8322800f50a743b4778"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 242,
+                "md5_digest": "6d0157bcd5ff281717e663d56dab980e"
+            }
+        }
+    },
+    "nl_BE-rdh-medium": {
+        "name": "rdh",
+        "language": "nl_BE",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "nl_BE-rdh-medium.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "33d3469d745677ec4d7e96eb4145b09e"
+            },
+            "nl_BE-rdh-medium.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "eaae3e21dcd4899d5b522067ec994fd9"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 244,
+                "md5_digest": "dc4487b06fcef6ff270c852ce12947b9"
+            }
+        }
+    },
+    "nl_NL-mls_7432-low": {
+        "name": "mls_7432",
+        "language": "nl_NL",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "nl_NL-mls_7432-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "044b69d583e191203997761434607273"
+            },
+            "nl_NL-mls_7432-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "189e6fd4e40bf8322800f50a743b4778"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 260,
+                "md5_digest": "5d8ee8e955f077fc99cac61191d00892"
+            }
+        }
+    },
+    "nl_NL-mls_5809-low": {
+        "name": "mls_5809",
+        "language": "nl_NL",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "nl_NL-mls_5809-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "e69130a776b04c9962a1fefb4878d7d9"
+            },
+            "nl_NL-mls_5809-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "189e6fd4e40bf8322800f50a743b4778"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 261,
+                "md5_digest": "ac4b35e581cea8418909947a29a671bb"
+            }
+        }
+    },
+    "it_IT-riccardo-x_low": {
+        "name": "riccardo",
+        "language": "it_IT",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "it_IT-riccardo-x_low.onnx": {
+                "size_bytes": 28130791,
+                "md5_digest": "2c564b67f6bfaf3ad02d28ab528929b8"
+            },
+            "it_IT-riccardo-x_low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "2216aa093b516a5f07b7634f4c7fda1f"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 260,
+                "md5_digest": "3e70f29ab998ac0380edc0cec7395e80"
+            }
+        }
+    },
+    "ne_NP-google-x_low": {
+        "name": "google",
+        "language": "ne_NP",
+        "quality": "x_low",
+        "num_speakers": 18,
+        "speaker_id_map": {
+            "0546": 0,
+            "3614": 1,
+            "2099": 2,
+            "3960": 3,
+            "6834": 4,
+            "7957": 5,
+            "6329": 6,
+            "9407": 7,
+            "6587": 8,
+            "0258": 9,
+            "2139": 10,
+            "5687": 11,
+            "0283": 12,
+            "3997": 13,
+            "3154": 14,
+            "0883": 15,
+            "2027": 16,
+            "0649": 17
+        },
+        "files": {
+            "ne_NE-google-x_low.onnx": {
+                "size_bytes": 27693157,
+                "md5_digest": "b11030daccc781a7db64c9413197ca8a"
+            },
+            "ne_NE-google-x_low.onnx.json": {
+                "size_bytes": 6128,
+                "md5_digest": "309124f6068864743fba1c021cb599f4"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 244,
+                "md5_digest": "5ea405c002a69df5961c8d43cadbb844"
+            }
+        }
+    },
+    "ne_NP-google-medium": {
+        "name": "google",
+        "language": "ne_NP",
+        "quality": "medium",
+        "num_speakers": 18,
+        "speaker_id_map": {
+            "0546": 0,
+            "3614": 1,
+            "2099": 2,
+            "3960": 3,
+            "6834": 4,
+            "7957": 5,
+            "6329": 6,
+            "9407": 7,
+            "6587": 8,
+            "0258": 9,
+            "2139": 10,
+            "5687": 11,
+            "0283": 12,
+            "3997": 13,
+            "3154": 14,
+            "0883": 15,
+            "2027": 16,
+            "0649": 17
+        },
+        "files": {
+            "ne_NP-google-medium.onnx": {
+                "size_bytes": 76766385,
+                "md5_digest": "2c24ccfe18eca2f14bccd0a188516109"
+            },
+            "ne_NP-google-medium.onnx.json": {
+                "size_bytes": 7211,
+                "md5_digest": "c08b45f2b25b2ef1806d633c14c6191d"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 283,
+                "md5_digest": "afe022ba061870d0c9fe085fe9a9f31f"
+            }
+        }
+    },
+    "el_GR-rapunzelina-low": {
+        "name": "rapunzelina",
+        "language": "el_GR",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "el_GR-rapunzelina-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "04e0151b653bb64540b1cde027054140"
+            },
+            "el_GR-rapunzelina-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "72e6d38fb08d93b9858f246653b63f88"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 303,
+                "md5_digest": "c75270b41e7bf60dacd351753a483574"
+            }
+        }
+    },
+    "kk_KZ-issai-high": {
+        "name": "issai",
+        "language": "kk_KZ",
+        "quality": "high",
+        "num_speakers": 6,
+        "speaker_id_map": {
+            "ISSAI_KazakhTTS2_M2": 0,
+            "ISSAI_KazakhTTS_M1_Iseke": 1,
+            "ISSAI_KazakhTTS2_F3": 2,
+            "ISSAI_KazakhTTS_F1_Raya": 3,
+            "ISSAI_KazakhTTS2_F1": 4,
+            "ISSAI_KazakhTTS2_F2": 5
+        },
+        "files": {
+            "kk_KZ-issai-high.onnx": {
+                "size_bytes": 127864258,
+                "md5_digest": "d5a97c25feb0949c187ae5f8e72753e3"
+            },
+            "kk_KZ-issai-high.onnx.json": {
+                "size_bytes": 5990,
+                "md5_digest": "5fc3ec6aee3d104c00a3e2ee0914e9d5"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 237,
+                "md5_digest": "30487d1011336ed15feabd156424cbd9"
+            }
+        }
+    },
+    "kk_KZ-raya-x_low": {
+        "name": "raya",
+        "language": "kk_KZ",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "kk_KZ-raya-x_low.onnx": {
+                "size_bytes": 28130791,
+                "md5_digest": "476ecc32e07cad26572a50f26d0ebe28"
+            },
+            "kk_KZ-raya-x_low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "838be60c9b2760337eb8e54a671f317b"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 238,
+                "md5_digest": "fb34d2e65fac42f4d6e003d3d30c897e"
+            }
+        }
+    },
+    "kk_KZ-iseke-x_low": {
+        "name": "iseke",
+        "language": "kk_KZ",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "kk_KZ-iseke-x_low.onnx": {
+                "size_bytes": 28130791,
+                "md5_digest": "1674f3f4ce48981d77e500741afa4ff9"
+            },
+            "kk_KZ-iseke-x_low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "838be60c9b2760337eb8e54a671f317b"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 239,
+                "md5_digest": "fce637093c4437a1f929280913a86aa5"
+            }
+        }
+    },
+    "pt_BR-faber-medium": {
+        "name": "faber",
+        "language": "pt_BR",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "pt_BR-faber-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "e0724a2f07965f6523d2a1e96b488a4c"
+            },
+            "pt_BR-faber-medium.onnx.json": {
+                "size_bytes": 6819,
+                "md5_digest": "b6c2c4e9755d9bd92485a65d4070cb2f"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 278,
+                "md5_digest": "a81a3840b1749cf34b0e31de1577ef47"
+            }
+        }
+    },
+    "pt_BR-edresson-low": {
+        "name": "edresson",
+        "language": "pt_BR",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "pt_BR-edresson-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "53e365c040dd07890fe1855b64c7cc58"
+            },
+            "pt_BR-edresson-low.onnx.json": {
+                "size_bytes": 5776,
+                "md5_digest": "3ec806d00312e12c21743eb88e8c7c81"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 283,
+                "md5_digest": "62cde47b9a3214109e601f90eeadea11"
+            }
+        }
+    },
+    "de_DE-eva_k-x_low": {
+        "name": "eva_k",
+        "language": "de_DE",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "de_DE-eva_k-x_low.onnx": {
+                "size_bytes": 20628813,
+                "md5_digest": "51bfc52a58282c2e4fc01ae66567a708"
+            },
+            "de_DE-eva_k-x_low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 246,
+                "md5_digest": "02b01f3d47b2798ece347b2c7e94c9e9"
+            }
+        }
+    },
+    "de_DE-pavoque-low": {
+        "name": "pavoque",
+        "language": "de_DE",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "de_DE-pavoque-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "bc37dccbad87fd65c8501c412c0c31ca"
+            },
+            "de_DE-pavoque-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 309,
+                "md5_digest": "e0aacaf7b834938c4e3ad1fb3f68ef87"
+            }
+        }
+    },
+    "de_DE-kerstin-low": {
+        "name": "kerstin",
+        "language": "de_DE",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "de_DE-kerstin-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "1d5e5788cfddb04cbb34418f2841931e"
+            },
+            "de_DE-kerstin-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 272,
+                "md5_digest": "69ec1bc99fc7e19c9ddcdf712920a6c7"
+            }
+        }
+    },
+    "de_DE-thorsten-low": {
+        "name": "thorsten",
+        "language": "de_DE",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "de_DE-thorsten-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "c06eb96aceb61895fcb09ffc30eef60b"
+            },
+            "de_DE-thorsten-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 274,
+                "md5_digest": "203f58b93f0372564e745f1e05ea47bb"
+            }
+        }
+    },
+    "de_DE-thorsten-medium": {
+        "name": "thorsten",
+        "language": "de_DE",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "de_DE-thorsten-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "a129b00fb3078df43c96bab6c94535c0"
+            },
+            "de_DE-thorsten-medium.onnx.json": {
+                "size_bytes": 6770,
+                "md5_digest": "d66233afbd7afec773e80c569bd0a74d"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 285,
+                "md5_digest": "e84cf8b09957fccceb068a3c1664d0f3"
+            }
+        }
+    },
+    "de_DE-ramona-low": {
+        "name": "ramona",
+        "language": "de_DE",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "de_DE-ramona-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "b4aaf3673170a0d96519cdc992c23fda"
+            },
+            "de_DE-ramona-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 255,
+                "md5_digest": "c970992423b5fc7a26340a9363e15952"
+            }
+        }
+    },
+    "de_DE-karlsson-low": {
+        "name": "karlsson",
+        "language": "de_DE",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "de_DE-karlsson-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "c94b5b8e8c7147b4b2c4a19ca5a3c41b"
+            },
+            "de_DE-karlsson-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 289,
+                "md5_digest": "6e2f3eec10cf7fceb0b68b67eccd06a4"
+            }
+        }
+    },
+    "da_DK-talesyntese-medium": {
+        "name": "talesyntese",
+        "language": "da_DK",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "da_DK-talesyntese-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "9c05494a3e0c1136337581e01222395d"
+            },
+            "da_DK-talesyntese-medium.onnx.json": {
+                "size_bytes": 6826,
+                "md5_digest": "a2543c3488e94c36cc4ca7326a5d698e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 308,
+                "md5_digest": "628cc03fca8f5d2c454824d6252955ad"
+            }
+        }
+    },
+    "is_IS-ugla-medium": {
+        "name": "ugla",
+        "language": "is_IS",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "is_IS-ugla-medium.onnx": {
+                "size_bytes": 76495465,
+                "md5_digest": "722fcea3546f0113ad6664290aa97cab"
+            },
+            "is_IS-ugla-medium.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "fe40a8dc0810d54d53f526ea9b97fac0"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 240,
+                "md5_digest": "a3ba0a35bc26d440ee3b0872e435fcd5"
+            }
+        }
+    },
+    "is_IS-salka-medium": {
+        "name": "salka",
+        "language": "is_IS",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "is_IS-salka-medium.onnx": {
+                "size_bytes": 76495465,
+                "md5_digest": "5967c9456b931d6123687d7b78fd81a7"
+            },
+            "is_IS-salka-medium.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "fe40a8dc0810d54d53f526ea9b97fac0"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 241,
+                "md5_digest": "0f3d286069e4c7bead9b40ece3bbefe6"
+            }
+        }
+    },
+    "is_IS-steinn-medium": {
+        "name": "steinn",
+        "language": "is_IS",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "is_IS-steinn-medium.onnx": {
+                "size_bytes": 76495465,
+                "md5_digest": "fd8189eb0a72e78d525e70a71aaa792c"
+            },
+            "is_IS-steinn-medium.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "fe40a8dc0810d54d53f526ea9b97fac0"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 242,
+                "md5_digest": "45ab46f37e5a6bdf739d58496752e6a0"
+            }
+        }
+    },
+    "is_IS-bui-medium": {
+        "name": "bui",
+        "language": "is_IS",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "is_IS-bui-medium.onnx": {
+                "size_bytes": 76495465,
+                "md5_digest": "08332bb41a67b52a3361bd1e8e36fb10"
+            },
+            "is_IS-bui-medium.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "fe40a8dc0810d54d53f526ea9b97fac0"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 246,
+                "md5_digest": "a055aad199d8cc58e52913ff2af461d8"
+            }
+        }
+    },
+    "vi_VN-vivos-x_low": {
+        "name": "vivos",
+        "language": "vi_VN",
+        "quality": "x_low",
+        "num_speakers": 65,
+        "speaker_id_map": {
+            "VIVOSSPK13": 0,
+            "VIVOSSPK14": 1,
+            "VIVOSSPK15": 2,
+            "VIVOSSPK16": 3,
+            "VIVOSSPK17": 4,
+            "VIVOSSPK18": 5,
+            "VIVOSSPK19": 6,
+            "VIVOSSPK20": 7,
+            "VIVOSSPK21": 8,
+            "VIVOSSPK22": 9,
+            "VIVOSSPK26": 10,
+            "VIVOSSPK34": 11,
+            "VIVOSSPK40": 12,
+            "VIVOSSPK41": 13,
+            "VIVOSSPK42": 14,
+            "VIVOSSPK43": 15,
+            "VIVOSSPK44": 16,
+            "VIVOSSPK45": 17,
+            "VIVOSSPK46": 18,
+            "VIVOSSPK38": 19,
+            "VIVOSSPK31": 20,
+            "VIVOSSPK35": 21,
+            "VIVOSSPK01": 22,
+            "VIVOSSPK02": 23,
+            "VIVOSSPK03": 24,
+            "VIVOSSPK04": 25,
+            "VIVOSSPK05": 26,
+            "VIVOSSPK06": 27,
+            "VIVOSSPK07": 28,
+            "VIVOSSPK08": 29,
+            "VIVOSSPK09": 30,
+            "VIVOSSPK10": 31,
+            "VIVOSSPK11": 32,
+            "VIVOSSPK12": 33,
+            "VIVOSSPK27": 34,
+            "VIVOSSPK36": 35,
+            "VIVOSSPK33": 36,
+            "VIVOSSPK32": 37,
+            "VIVOSSPK29": 38,
+            "VIVOSSPK39": 39,
+            "VIVOSSPK25": 40,
+            "VIVOSSPK28": 41,
+            "VIVOSSPK30": 42,
+            "VIVOSSPK37": 43,
+            "VIVOSSPK23": 44,
+            "VIVOSSPK24": 45,
+            "VIVOSDEV02": 46,
+            "VIVOSDEV03": 47,
+            "VIVOSDEV01": 48,
+            "VIVOSDEV04": 49,
+            "VIVOSDEV05": 50,
+            "VIVOSDEV06": 51,
+            "VIVOSDEV07": 52,
+            "VIVOSDEV08": 53,
+            "VIVOSDEV09": 54,
+            "VIVOSDEV10": 55,
+            "VIVOSDEV11": 56,
+            "VIVOSDEV12": 57,
+            "VIVOSDEV13": 58,
+            "VIVOSDEV14": 59,
+            "VIVOSDEV15": 60,
+            "VIVOSDEV16": 61,
+            "VIVOSDEV17": 62,
+            "VIVOSDEV18": 63,
+            "VIVOSDEV19": 64
+        },
+        "files": {
+            "vi_VN-vivos-x_low.onnx": {
+                "size_bytes": 27789413,
+                "md5_digest": "d5880d32e340f57489dcb9d4f1f7aa04"
+            },
+            "vi_VN-vivos-x_low.onnx.json": {
+                "size_bytes": 7458,
+                "md5_digest": "c578b42f2c512d8011c842a12af23134"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 272,
+                "md5_digest": "6bd1265a94a8f6bcce74a5b1145a7f95"
+            }
+        }
+    },
+    "vi_VN-25hours_single-low": {
+        "name": "25hours_single",
+        "language": "vi_VN",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "vi_VN-25hours_single-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "54ff8fb35b0084336377ddd10717e1fa"
+            },
+            "vi_VN-25hours_single-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "9af5281977bb1d9d06297d4585c38597"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 343,
+                "md5_digest": "25eb4744418cd7b8da0a9096dcfa6e61"
+            }
+        }
+    },
+    "vi_VN-vais1000-medium": {
+        "name": "vais1000",
+        "language": "vi_VN",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "vi_VN-vais1000-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "5e42428c4f6131f75557cf156c9c1526"
+            },
+            "vi_VN-vais1000-medium.onnx.json": {
+                "size_bytes": 6827,
+                "md5_digest": "534d6342e0dae0fa30abcce484c4cd7f"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 361,
+                "md5_digest": "1beeecba9042e5925b0c5fbd138c779d"
+            }
+        }
+    },
+    "sv_SE-nst-medium": {
+        "name": "nst",
+        "language": "sv_SE",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "sv_SE-nst-medium.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "20266cf58e93ca2140444b77398aea04"
+            },
+            "sv_SE-nst-medium.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "8ba2f8c640baa08bb1144f8e93b63d6e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 306,
+                "md5_digest": "4a7cdb8f218a909b2b5e81d1903628da"
+            }
+        }
+    },
+    "ca_ES-upc_ona-x_low": {
+        "name": "upc_ona",
+        "language": "ca_ES",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ca_ES-upc_ona-x_low.onnx": {
+                "size_bytes": 20628813,
+                "md5_digest": "ca22734cd8c5b01dd1fefbb42067ab06"
+            },
+            "ca_ES-upc_ona-x_low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "44952d2434e8759aed8e780c6ae695fa"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 258,
+                "md5_digest": "1f555643ff6f7d9133679d730f3f6016"
+            }
+        }
+    },
+    "ca_ES-upc_ona-medium": {
+        "name": "upc_ona",
+        "language": "ca_ES",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ca_ES-upc_ona-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "58ff3b049b6b721a4c353a551ec5ef3a"
+            },
+            "ca_ES-upc_ona-medium.onnx.json": {
+                "size_bytes": 6856,
+                "md5_digest": "1e79dd74c74e1de437b5424b40a2197e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 296,
+                "md5_digest": "395c782a56632400f46e7c442c7718bb"
+            }
+        }
+    },
+    "ca_ES-upc_pau-x_low": {
+        "name": "upc_pau",
+        "language": "ca_ES",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ca_ES-upc_pau-x_low.onnx": {
+                "size_bytes": 28130791,
+                "md5_digest": "504e8a643d5284fbfc95e9e392288b86"
+            },
+            "ca_ES-upc_pau-x_low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "44952d2434e8759aed8e780c6ae695fa"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 258,
+                "md5_digest": "4ff8699c4439c9f49180457f0becc49e"
+            }
+        }
+    },
+    "en_GB-southern_english_female-low": {
+        "name": "southern_english_female",
+        "language": "en_GB",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_GB-southern_english_female-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "596c7ed4d8488cf64e027765dce2dad1"
+            },
+            "en_GB-southern_english_female-low.onnx.json": {
+                "size_bytes": 5781,
+                "md5_digest": "9c7dc3e4f83524944b196c1646dc7fd6"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 296,
+                "md5_digest": "77ac998c8b37842ef98594567f141629"
+            }
+        }
+    },
+    "en_GB-northern_english_male-medium": {
+        "name": "northern_english_male",
+        "language": "en_GB",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_GB-northern_english_male-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "4c9a9735bfb76ad67c8b31b23d6840a0"
+            },
+            "en_GB-northern_english_male-medium.onnx.json": {
+                "size_bytes": 6778,
+                "md5_digest": "b46756986b58220e1051944148476b15"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 305,
+                "md5_digest": "8d1b725154c658ead4f068389c319c82"
+            }
+        }
+    },
+    "en_GB-alba-medium": {
+        "name": "alba",
+        "language": "en_GB",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_GB-alba-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "c07f313752bb3aba8061041666251654"
+            },
+            "en_GB-alba-medium.onnx.json": {
+                "size_bytes": 6864,
+                "md5_digest": "1b2417e1691fc4e2d6703d800615aaf7"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 324,
+                "md5_digest": "d5a8716acb311b20e0f28710d0fcc982"
+            }
+        }
+    },
+    "en_GB-vctk-medium": {
+        "name": "vctk",
+        "language": "en_GB",
+        "quality": "medium",
+        "num_speakers": 109,
+        "speaker_id_map": {
+            "p239": 0,
+            "p236": 1,
+            "p264": 2,
+            "p250": 3,
+            "p259": 4,
+            "p247": 5,
+            "p261": 6,
+            "p263": 7,
+            "p283": 8,
+            "p286": 9,
+            "p274": 10,
+            "p276": 11,
+            "p270": 12,
+            "p281": 13,
+            "p277": 14,
+            "p231": 15,
+            "p271": 16,
+            "p238": 17,
+            "p257": 18,
+            "p273": 19,
+            "p284": 20,
+            "p329": 21,
+            "p361": 22,
+            "p287": 23,
+            "p360": 24,
+            "p374": 25,
+            "p376": 26,
+            "p310": 27,
+            "p304": 28,
+            "p334": 29,
+            "p340": 30,
+            "p323": 31,
+            "p347": 32,
+            "p330": 33,
+            "p308": 34,
+            "p314": 35,
+            "p317": 36,
+            "p339": 37,
+            "p311": 38,
+            "p294": 39,
+            "p305": 40,
+            "p266": 41,
+            "p335": 42,
+            "p318": 43,
+            "p351": 44,
+            "p333": 45,
+            "p313": 46,
+            "p316": 47,
+            "p244": 48,
+            "p307": 49,
+            "p363": 50,
+            "p336": 51,
+            "p297": 52,
+            "p312": 53,
+            "p267": 54,
+            "p275": 55,
+            "p295": 56,
+            "p258": 57,
+            "p288": 58,
+            "p301": 59,
+            "p232": 60,
+            "p292": 61,
+            "p272": 62,
+            "p280": 63,
+            "p278": 64,
+            "p341": 65,
+            "p268": 66,
+            "p298": 67,
+            "p299": 68,
+            "p279": 69,
+            "p285": 70,
+            "p326": 71,
+            "p300": 72,
+            "s5": 73,
+            "p230": 74,
+            "p345": 75,
+            "p254": 76,
+            "p269": 77,
+            "p293": 78,
+            "p252": 79,
+            "p262": 80,
+            "p243": 81,
+            "p227": 82,
+            "p343": 83,
+            "p255": 84,
+            "p229": 85,
+            "p240": 86,
+            "p248": 87,
+            "p253": 88,
+            "p233": 89,
+            "p228": 90,
+            "p282": 91,
+            "p251": 92,
+            "p246": 93,
+            "p234": 94,
+            "p226": 95,
+            "p260": 96,
+            "p245": 97,
+            "p241": 98,
+            "p303": 99,
+            "p265": 100,
+            "p306": 101,
+            "p237": 102,
+            "p249": 103,
+            "p256": 104,
+            "p302": 105,
+            "p364": 106,
+            "p225": 107,
+            "p362": 108
+        },
+        "files": {
+            "en_GB-vctk-medium.onnx": {
+                "size_bytes": 76952753,
+                "md5_digest": "573025290fdc68812543b7438ace0c29"
+            },
+            "en_GB-vctk-medium.onnx.json": {
+                "size_bytes": 9052,
+                "md5_digest": "950bdc6f8a64618734ffac6bdc7f221b"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 326,
+                "md5_digest": "b88a963e3bee27bc4fff84563f1be388"
+            }
+        }
+    },
+    "en_GB-alan-low": {
+        "name": "alan",
+        "language": "en_GB",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_GB-alan-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "2acae8c79395ab109a7572f0afa61fff"
+            },
+            "en_GB-alan-low.onnx.json": {
+                "size_bytes": 5781,
+                "md5_digest": "9c7dc3e4f83524944b196c1646dc7fd6"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 309,
+                "md5_digest": "b116c3cbdebac99ade9af03807cb9301"
+            }
+        }
+    },
+    "en_GB-alan-medium": {
+        "name": "alan",
+        "language": "en_GB",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_GB-alan-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "8f6b35eeb8ef6269021c6cb6d2414c9b"
+            },
+            "en_GB-alan-medium.onnx.json": {
+                "size_bytes": 6864,
+                "md5_digest": "1b2417e1691fc4e2d6703d800615aaf7"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 320,
+                "md5_digest": "24a2232470ca1be071debf53c984666e"
+            }
+        }
+    },
+    "en_GB-aru-medium": {
+        "name": "aru",
+        "language": "en_GB",
+        "quality": "medium",
+        "num_speakers": 12,
+        "speaker_id_map": {
+            "03": 0,
+            "06": 1,
+            "10": 2,
+            "01": 3,
+            "09": 4,
+            "08": 5,
+            "11": 6,
+            "05": 7,
+            "12": 8,
+            "02": 9,
+            "07": 10,
+            "04": 11
+        },
+        "files": {
+            "en_GB-aru-medium.onnx": {
+                "size_bytes": 76754097,
+                "md5_digest": "7862d75539b8ef867e7c04e772d323ea"
+            },
+            "en_GB-aru-medium.onnx.json": {
+                "size_bytes": 7075,
+                "md5_digest": "7fa8ec61857f02e448f460002ec6039e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 368,
+                "md5_digest": "09496f38078e0eefe220a497b7b70631"
+            }
+        }
+    },
+    "en_GB-jenny_dioco-medium": {
+        "name": "jenny_dioco",
+        "language": "en_GB",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_GB-jenny_dioco-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "d08f2f7edf0c858275a7eca74ff2a9e4"
+            },
+            "en_GB-jenny_dioco-medium.onnx.json": {
+                "size_bytes": 6864,
+                "md5_digest": "1b2417e1691fc4e2d6703d800615aaf7"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 298,
+                "md5_digest": "ff351d05502764d5b4a074e0648e9434"
+            }
+        }
+    },
+    "en_US-kusal-medium": {
+        "name": "kusal",
+        "language": "en_US",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-kusal-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "95334de7385a03c5c9de25b920c33492"
+            },
+            "en_US-kusal-medium.onnx.json": {
+                "size_bytes": 6859,
+                "md5_digest": "a943690c845cd7f54bd5a7229951465e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 279,
+                "md5_digest": "b627e950e8e10a1ec7b30e5f9b312a05"
+            }
+        }
+    },
+    "en_US-libritts-high": {
+        "name": "libritts",
+        "language": "en_US",
+        "quality": "high",
+        "num_speakers": 904,
+        "speaker_id_map": {
+            "3922": 0,
+            "8699": 1,
+            "4535": 2,
+            "6701": 3,
+            "3638": 4,
+            "922": 5,
+            "2531": 6,
+            "1638": 7,
+            "8848": 8,
+            "6544": 9,
+            "3615": 10,
+            "318": 11,
+            "6104": 12,
+            "1382": 13,
+            "5400": 14,
+            "5712": 15,
+            "2769": 16,
+            "2573": 17,
+            "1463": 18,
+            "6458": 19,
+            "3274": 20,
+            "4356": 21,
+            "8498": 22,
+            "5570": 23,
+            "176": 24,
+            "339": 25,
+            "28": 26,
+            "5909": 27,
+            "3869": 28,
+            "4899": 29,
+            "64": 30,
+            "3368": 31,
+            "3307": 32,
+            "5618": 33,
+            "3370": 34,
+            "7704": 35,
+            "8506": 36,
+            "8410": 37,
+            "6904": 38,
+            "5655": 39,
+            "2204": 40,
+            "501": 41,
+            "7314": 42,
+            "1027": 43,
+            "5054": 44,
+            "534": 45,
+            "2853": 46,
+            "5935": 47,
+            "2404": 48,
+            "7874": 49,
+            "816": 50,
+            "2053": 51,
+            "8066": 52,
+            "16": 53,
+            "4586": 54,
+            "1923": 55,
+            "2592": 56,
+            "1265": 57,
+            "6189": 58,
+            "100": 59,
+            "6371": 60,
+            "4957": 61,
+            "4116": 62,
+            "3003": 63,
+            "7739": 64,
+            "1752": 65,
+            "5717": 66,
+            "5012": 67,
+            "5062": 68,
+            "7481": 69,
+            "4595": 70,
+            "2299": 71,
+            "7188": 72,
+            "93": 73,
+            "4145": 74,
+            "8684": 75,
+            "7594": 76,
+            "2598": 77,
+            "3540": 78,
+            "7717": 79,
+            "6426": 80,
+            "4148": 81,
+            "335": 82,
+            "1379": 83,
+            "2512": 84,
+            "242": 85,
+            "8855": 86,
+            "8118": 87,
+            "369": 88,
+            "6575": 89,
+            "6694": 90,
+            "8080": 91,
+            "1283": 92,
+            "7434": 93,
+            "5290": 94,
+            "1731": 95,
+            "2401": 96,
+            "459": 97,
+            "192": 98,
+            "7910": 99,
+            "114": 100,
+            "5660": 101,
+            "1313": 102,
+            "203": 103,
+            "7460": 104,
+            "207": 105,
+            "6497": 106,
+            "6696": 107,
+            "7766": 108,
+            "6233": 109,
+            "3185": 110,
+            "2010": 111,
+            "2056": 112,
+            "3717": 113,
+            "5802": 114,
+            "5622": 115,
+            "2156": 116,
+            "4243": 117,
+            "1422": 118,
+            "5039": 119,
+            "4110": 120,
+            "1093": 121,
+            "1776": 122,
+            "7995": 123,
+            "6877": 124,
+            "5635": 125,
+            "54": 126,
+            "288": 127,
+            "4592": 128,
+            "7276": 129,
+            "688": 130,
+            "8388": 131,
+            "8152": 132,
+            "8194": 133,
+            "7000": 134,
+            "8527": 135,
+            "5126": 136,
+            "3923": 137,
+            "1054": 138,
+            "3927": 139,
+            "5029": 140,
+            "4098": 141,
+            "1789": 142,
+            "56": 143,
+            "7240": 144,
+            "5538": 145,
+            "1903": 146,
+            "6538": 147,
+            "3380": 148,
+            "6643": 149,
+            "7495": 150,
+            "8718": 151,
+            "8050": 152,
+            "126": 153,
+            "7245": 154,
+            "2517": 155,
+            "4438": 156,
+            "4945": 157,
+            "7145": 158,
+            "724": 159,
+            "9022": 160,
+            "6637": 161,
+            "6927": 162,
+            "6937": 163,
+            "8113": 164,
+            "5724": 165,
+            "6006": 166,
+            "3584": 167,
+            "2971": 168,
+            "2230": 169,
+            "7982": 170,
+            "1649": 171,
+            "3994": 172,
+            "7720": 173,
+            "6981": 174,
+            "781": 175,
+            "4973": 176,
+            "6206": 177,
+            "2481": 178,
+            "3157": 179,
+            "1509": 180,
+            "510": 181,
+            "7540": 182,
+            "8887": 183,
+            "7120": 184,
+            "2882": 185,
+            "7128": 186,
+            "8142": 187,
+            "7229": 188,
+            "2787": 189,
+            "8820": 190,
+            "2368": 191,
+            "4331": 192,
+            "4967": 193,
+            "4427": 194,
+            "6054": 195,
+            "3728": 196,
+            "274": 197,
+            "7134": 198,
+            "1603": 199,
+            "1383": 200,
+            "1165": 201,
+            "4363": 202,
+            "512": 203,
+            "5985": 204,
+            "7967": 205,
+            "2060": 206,
+            "7752": 207,
+            "7484": 208,
+            "8643": 209,
+            "3549": 210,
+            "5731": 211,
+            "7881": 212,
+            "667": 213,
+            "6828": 214,
+            "5740": 215,
+            "3483": 216,
+            "718": 217,
+            "6341": 218,
+            "1913": 219,
+            "3228": 220,
+            "7247": 221,
+            "7705": 222,
+            "1018": 223,
+            "8193": 224,
+            "6098": 225,
+            "3989": 226,
+            "7828": 227,
+            "5876": 228,
+            "7754": 229,
+            "4719": 230,
+            "8011": 231,
+            "7939": 232,
+            "5975": 233,
+            "2004": 234,
+            "6139": 235,
+            "8183": 236,
+            "3482": 237,
+            "3361": 238,
+            "4289": 239,
+            "231": 240,
+            "7789": 241,
+            "4598": 242,
+            "5239": 243,
+            "2638": 244,
+            "6300": 245,
+            "8474": 246,
+            "2194": 247,
+            "7832": 248,
+            "1079": 249,
+            "1335": 250,
+            "188": 251,
+            "1195": 252,
+            "5914": 253,
+            "1401": 254,
+            "7318": 255,
+            "5448": 256,
+            "1392": 257,
+            "3703": 258,
+            "2113": 259,
+            "7783": 260,
+            "8176": 261,
+            "6519": 262,
+            "7933": 263,
+            "7938": 264,
+            "7802": 265,
+            "6120": 266,
+            "224": 267,
+            "209": 268,
+            "5656": 269,
+            "3032": 270,
+            "6965": 271,
+            "258": 272,
+            "4837": 273,
+            "5489": 274,
+            "272": 275,
+            "3851": 276,
+            "7140": 277,
+            "2562": 278,
+            "1472": 279,
+            "79": 280,
+            "2775": 281,
+            "3046": 282,
+            "2532": 283,
+            "8266": 284,
+            "6099": 285,
+            "4425": 286,
+            "5293": 287,
+            "7981": 288,
+            "2045": 289,
+            "920": 290,
+            "511": 291,
+            "7416": 292,
+            "835": 293,
+            "1289": 294,
+            "8195": 295,
+            "7833": 296,
+            "8772": 297,
+            "968": 298,
+            "1641": 299,
+            "7117": 300,
+            "1678": 301,
+            "5809": 302,
+            "8028": 303,
+            "500": 304,
+            "6505": 305,
+            "7868": 306,
+            "14": 307,
+            "2238": 308,
+            "4744": 309,
+            "3733": 310,
+            "7515": 311,
+            "699": 312,
+            "5093": 313,
+            "6388": 314,
+            "7959": 315,
+            "98": 316,
+            "3914": 317,
+            "5246": 318,
+            "2570": 319,
+            "8396": 320,
+            "3513": 321,
+            "882": 322,
+            "7994": 323,
+            "5968": 324,
+            "8591": 325,
+            "806": 326,
+            "5261": 327,
+            "1271": 328,
+            "899": 329,
+            "3945": 330,
+            "8404": 331,
+            "249": 332,
+            "3008": 333,
+            "7139": 334,
+            "6395": 335,
+            "6215": 336,
+            "6080": 337,
+            "4054": 338,
+            "7825": 339,
+            "6683": 340,
+            "8725": 341,
+            "3230": 342,
+            "4138": 343,
+            "6160": 344,
+            "666": 345,
+            "6510": 346,
+            "3551": 347,
+            "8075": 348,
+            "225": 349,
+            "7169": 350,
+            "1851": 351,
+            "5984": 352,
+            "2960": 353,
+            "8329": 354,
+            "175": 355,
+            "6378": 356,
+            "480": 357,
+            "7538": 358,
+            "479": 359,
+            "5519": 360,
+            "8534": 361,
+            "4856": 362,
+            "101": 363,
+            "3521": 364,
+            "2256": 365,
+            "3083": 366,
+            "4278": 367,
+            "8713": 368,
+            "1226": 369,
+            "4222": 370,
+            "8494": 371,
+            "8776": 372,
+            "731": 373,
+            "6574": 374,
+            "5319": 375,
+            "8605": 376,
+            "5583": 377,
+            "6406": 378,
+            "4064": 379,
+            "4806": 380,
+            "3972": 381,
+            "7383": 382,
+            "5133": 383,
+            "597": 384,
+            "1025": 385,
+            "7313": 386,
+            "5304": 387,
+            "8758": 388,
+            "1050": 389,
+            "6499": 390,
+            "6956": 391,
+            "770": 392,
+            "4108": 393,
+            "2774": 394,
+            "3864": 395,
+            "4490": 396,
+            "4848": 397,
+            "1826": 398,
+            "6294": 399,
+            "7949": 400,
+            "1446": 401,
+            "7867": 402,
+            "8163": 403,
+            "953": 404,
+            "8138": 405,
+            "353": 406,
+            "7553": 407,
+            "8825": 408,
+            "5189": 409,
+            "2012": 410,
+            "948": 411,
+            "205": 412,
+            "1535": 413,
+            "8008": 414,
+            "1112": 415,
+            "7926": 416,
+            "4039": 417,
+            "716": 418,
+            "3967": 419,
+            "7932": 420,
+            "7525": 421,
+            "7316": 422,
+            "3448": 423,
+            "2393": 424,
+            "6788": 425,
+            "6550": 426,
+            "7011": 427,
+            "8791": 428,
+            "8119": 429,
+            "1777": 430,
+            "6014": 431,
+            "1046": 432,
+            "6269": 433,
+            "6188": 434,
+            "5266": 435,
+            "3490": 436,
+            "8786": 437,
+            "8824": 438,
+            "589": 439,
+            "576": 440,
+            "1121": 441,
+            "1806": 442,
+            "7294": 443,
+            "3119": 444,
+            "2688": 445,
+            "1012": 446,
+            "4807": 447,
+            "7498": 448,
+            "3905": 449,
+            "7384": 450,
+            "2992": 451,
+            "30": 452,
+            "497": 453,
+            "227": 454,
+            "4226": 455,
+            "5007": 456,
+            "1066": 457,
+            "8222": 458,
+            "7688": 459,
+            "6865": 460,
+            "6286": 461,
+            "8225": 462,
+            "3224": 463,
+            "8635": 464,
+            "1348": 465,
+            "3645": 466,
+            "1961": 467,
+            "8190": 468,
+            "6032": 469,
+            "7286": 470,
+            "5389": 471,
+            "3105": 472,
+            "1028": 473,
+            "6038": 474,
+            "764": 475,
+            "7437": 476,
+            "6555": 477,
+            "8875": 478,
+            "2074": 479,
+            "7809": 480,
+            "2240": 481,
+            "2827": 482,
+            "5386": 483,
+            "6763": 484,
+            "3009": 485,
+            "6339": 486,
+            "1825": 487,
+            "7569": 488,
+            "359": 489,
+            "7956": 490,
+            "2137": 491,
+            "8677": 492,
+            "4434": 493,
+            "329": 494,
+            "3289": 495,
+            "4290": 496,
+            "2999": 497,
+            "2427": 498,
+            "637": 499,
+            "2229": 500,
+            "1874": 501,
+            "3446": 502,
+            "9023": 503,
+            "3114": 504,
+            "6235": 505,
+            "4860": 506,
+            "4519": 507,
+            "561": 508,
+            "70": 509,
+            "4800": 510,
+            "2294": 511,
+            "6115": 512,
+            "2582": 513,
+            "8464": 514,
+            "5139": 515,
+            "6918": 516,
+            "337": 517,
+            "5810": 518,
+            "8401": 519,
+            "303": 520,
+            "5206": 521,
+            "2589": 522,
+            "7061": 523,
+            "2269": 524,
+            "2758": 525,
+            "3389": 526,
+            "4629": 527,
+            "707": 528,
+            "5606": 529,
+            "1513": 530,
+            "2473": 531,
+            "664": 532,
+            "5092": 533,
+            "5154": 534,
+            "6288": 535,
+            "6308": 536,
+            "4731": 537,
+            "3328": 538,
+            "7816": 539,
+            "3221": 540,
+            "8687": 541,
+            "7030": 542,
+            "476": 543,
+            "4257": 544,
+            "5918": 545,
+            "6317": 546,
+            "204": 547,
+            "8006": 548,
+            "6895": 549,
+            "1264": 550,
+            "2494": 551,
+            "112": 552,
+            "1859": 553,
+            "398": 554,
+            "1052": 555,
+            "3294": 556,
+            "1460": 557,
+            "8573": 558,
+            "5684": 559,
+            "8421": 560,
+            "5883": 561,
+            "7297": 562,
+            "246": 563,
+            "8057": 564,
+            "3835": 565,
+            "1748": 566,
+            "3816": 567,
+            "3357": 568,
+            "1053": 569,
+            "409": 570,
+            "868": 571,
+            "3118": 572,
+            "7520": 573,
+            "6686": 574,
+            "1241": 575,
+            "5190": 576,
+            "166": 577,
+            "1482": 578,
+            "5604": 579,
+            "1212": 580,
+            "2741": 581,
+            "1259": 582,
+            "984": 583,
+            "6492": 584,
+            "6167": 585,
+            "296": 586,
+            "6567": 587,
+            "6924": 588,
+            "2272": 589,
+            "7085": 590,
+            "345": 591,
+            "2388": 592,
+            "1705": 593,
+            "1343": 594,
+            "7241": 595,
+            "451": 596,
+            "5401": 597,
+            "6446": 598,
+            "612": 599,
+            "594": 600,
+            "7555": 601,
+            "7069": 602,
+            "2577": 603,
+            "5333": 604,
+            "8742": 605,
+            "6727": 606,
+            "1571": 607,
+            "4734": 608,
+            "7258": 609,
+            "3977": 610,
+            "373": 611,
+            "5723": 612,
+            "1365": 613,
+            "7285": 614,
+            "580": 615,
+            "836": 616,
+            "6782": 617,
+            "3654": 618,
+            "1974": 619,
+            "6258": 620,
+            "925": 621,
+            "949": 622,
+            "2790": 623,
+            "698": 624,
+            "6373": 625,
+            "2785": 626,
+            "1222": 627,
+            "2751": 628,
+            "3825": 629,
+            "5115": 630,
+            "1827": 631,
+            "3171": 632,
+            "119": 633,
+            "850": 634,
+            "3258": 635,
+            "7909": 636,
+            "1322": 637,
+            "8097": 638,
+            "22": 639,
+            "7478": 640,
+            "1349": 641,
+            "4854": 642,
+            "2929": 643,
+            "7335": 644,
+            "5868": 645,
+            "454": 646,
+            "7945": 647,
+            "2654": 648,
+            "3493": 649,
+            "1060": 650,
+            "8545": 651,
+            "6509": 652,
+            "5002": 653,
+            "7732": 654,
+            "3082": 655,
+            "1779": 656,
+            "2709": 657,
+            "7398": 658,
+            "8879": 659,
+            "639": 660,
+            "598": 661,
+            "5672": 662,
+            "6553": 663,
+            "4111": 664,
+            "1417": 665,
+            "7991": 666,
+            "380": 667,
+            "8459": 668,
+            "8347": 669,
+            "1769": 670,
+            "2673": 671,
+            "3330": 672,
+            "7051": 673,
+            "1337": 674,
+            "4057": 675,
+            "4839": 676,
+            "6060": 677,
+            "7095": 678,
+            "278": 679,
+            "1445": 680,
+            "6518": 681,
+            "2364": 682,
+            "1958": 683,
+            "548": 684,
+            "4010": 685,
+            "3072": 686,
+            "6993": 687,
+            "8575": 688,
+            "2149": 689,
+            "240": 690,
+            "2920": 691,
+            "5588": 692,
+            "1885": 693,
+            "6082": 694,
+            "9026": 695,
+            "340": 696,
+            "159": 697,
+            "7730": 698,
+            "7962": 699,
+            "1987": 700,
+            "3876": 701,
+            "8771": 702,
+            "5123": 703,
+            "3866": 704,
+            "3546": 705,
+            "7777": 706,
+            "115": 707,
+            "5337": 708,
+            "475": 709,
+            "1724": 710,
+            "6359": 711,
+            "4260": 712,
+            "2110": 713,
+            "1845": 714,
+            "4335": 715,
+            "4133": 716,
+            "783": 717,
+            "8479": 718,
+            "1448": 719,
+            "1160": 720,
+            "7647": 721,
+            "2618": 722,
+            "3630": 723,
+            "4013": 724,
+            "5242": 725,
+            "7957": 726,
+            "3852": 727,
+            "3889": 728,
+            "1387": 729,
+            "439": 730,
+            "1425": 731,
+            "2061": 732,
+            "7395": 733,
+            "7837": 734,
+            "5147": 735,
+            "2319": 736,
+            "3781": 737,
+            "1311": 738,
+            "4733": 739,
+            "8705": 740,
+            "3094": 741,
+            "2823": 742,
+            "1914": 743,
+            "954": 744,
+            "4381": 745,
+            "4044": 746,
+            "593": 747,
+            "8300": 748,
+            "7558": 749,
+            "6494": 750,
+            "6330": 751,
+            "5940": 752,
+            "7126": 753,
+            "1061": 754,
+            "6352": 755,
+            "5186": 756,
+            "1944": 757,
+            "2285": 758,
+            "6673": 759,
+            "5746": 760,
+            "208": 761,
+            "492": 762,
+            "216": 763,
+            "979": 764,
+            "1668": 765,
+            "6620": 766,
+            "711": 767,
+            "7733": 768,
+            "8619": 769,
+            "5157": 770,
+            "829": 771,
+            "3180": 772,
+            "3979": 773,
+            "1556": 774,
+            "3379": 775,
+            "5727": 776,
+            "596": 777,
+            "2127": 778,
+            "581": 779,
+            "2652": 780,
+            "2628": 781,
+            "1849": 782,
+            "4238": 783,
+            "606": 784,
+            "1224": 785,
+            "1629": 786,
+            "1413": 787,
+            "957": 788,
+            "8592": 789,
+            "2254": 790,
+            "1323": 791,
+            "122": 792,
+            "2093": 793,
+            "1100": 794,
+            "81": 795,
+            "323": 796,
+            "815": 797,
+            "2581": 798,
+            "543": 799,
+            "6037": 800,
+            "2397": 801,
+            "5513": 802,
+            "4495": 803,
+            "5776": 804,
+            "17": 805,
+            "4590": 806,
+            "8228": 807,
+            "708": 808,
+            "3792": 809,
+            "3790": 810,
+            "7090": 811,
+            "1943": 812,
+            "4246": 813,
+            "559": 814,
+            "3738": 815,
+            "2167": 816,
+            "1933": 817,
+            "2162": 818,
+            "549": 819,
+            "3025": 820,
+            "1182": 821,
+            "4358": 822,
+            "636": 823,
+            "986": 824,
+            "8490": 825,
+            "3340": 826,
+            "90": 827,
+            "1487": 828,
+            "1639": 829,
+            "1547": 830,
+            "4152": 831,
+            "1498": 832,
+            "1740": 833,
+            "6157": 834,
+            "217": 835,
+            "2201": 836,
+            "362": 837,
+            "2146": 838,
+            "1801": 839,
+            "5063": 840,
+            "7339": 841,
+            "663": 842,
+            "38": 843,
+            "1336": 844,
+            "3215": 845,
+            "210": 846,
+            "6075": 847,
+            "55": 848,
+            "2411": 849,
+            "7445": 850,
+            "5767": 851,
+            "2812": 852,
+            "472": 853,
+            "803": 854,
+            "4236": 855,
+            "7665": 856,
+            "1607": 857,
+            "1316": 858,
+            "7475": 859,
+            "3001": 860,
+            "1473": 861,
+            "3537": 862,
+            "3070": 863,
+            "1390": 864,
+            "1290": 865,
+            "2499": 866,
+            "154": 867,
+            "7518": 868,
+            "408": 869,
+            "1811": 870,
+            "1734": 871,
+            "7342": 872,
+            "8722": 873,
+            "1754": 874,
+            "7657": 875,
+            "583": 876,
+            "830": 877,
+            "6690": 878,
+            "1552": 879,
+            "2498": 880,
+            "1296": 881,
+            "3686": 882,
+            "157": 883,
+            "487": 884,
+            "6119": 885,
+            "4926": 886,
+            "4846": 887,
+            "1536": 888,
+            "2674": 889,
+            "1645": 890,
+            "3187": 891,
+            "1058": 892,
+            "2039": 893,
+            "4071": 894,
+            "4433": 895,
+            "1175": 896,
+            "434": 897,
+            "1001": 898,
+            "2816": 899,
+            "820": 900,
+            "2696": 901,
+            "4681": 902,
+            "2085": 903
+        },
+        "files": {
+            "en_US-libritts-high.onnx": {
+                "size_bytes": 136673811,
+                "md5_digest": "61d7845257f8abdc27476f606151ef8d"
+            },
+            "en_US-libritts-high.onnx.json": {
+                "size_bytes": 24484,
+                "md5_digest": "ffab55eb698798ef8fcce3dc47bbcb26"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 255,
+                "md5_digest": "cdeac934f1154489924a071470b22365"
+            }
+        }
+    },
+    "en_US-l2arctic-medium": {
+        "name": "l2arctic",
+        "language": "en_US",
+        "quality": "medium",
+        "num_speakers": 24,
+        "speaker_id_map": {
+            "TXHC": 0,
+            "THV": 1,
+            "SVBI": 2,
+            "ZHAA": 3,
+            "PNV": 4,
+            "TLV": 5,
+            "ERMS": 6,
+            "MBMPS": 7,
+            "HQTV": 8,
+            "TNI": 9,
+            "ASI": 10,
+            "HJK": 11,
+            "LXC": 12,
+            "NCC": 13,
+            "YKWK": 14,
+            "YDCK": 15,
+            "HKK": 16,
+            "NJS": 17,
+            "YBAA": 18,
+            "RRBI": 19,
+            "BWC": 20,
+            "ABA": 21,
+            "EBVS": 22,
+            "SKA": 23
+        },
+        "files": {
+            "en_US-l2arctic-medium.onnx": {
+                "size_bytes": 76778673,
+                "md5_digest": "a71d8acf9b01676931cd548f739382cd"
+            },
+            "en_US-l2arctic-medium.onnx.json": {
+                "size_bytes": 7322,
+                "md5_digest": "cf02a79aa726e13d35ed69788ccfb52a"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 365,
+                "md5_digest": "8d5e9dc31cba2a9b7ee68a2a70e084f2"
+            }
+        }
+    },
+    "en_US-kathleen-low": {
+        "name": "kathleen",
+        "language": "en_US",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-kathleen-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "dd1ab131724b1cff76fe388252bec47b"
+            },
+            "en_US-kathleen-low.onnx.json": {
+                "size_bytes": 5776,
+                "md5_digest": "06b7255db7f49069a9abcb3037804cc5"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 281,
+                "md5_digest": "0585e0a798d093c9ee090b99d9c8f68e"
+            }
+        }
+    },
+    "en_US-amy-low": {
+        "name": "amy",
+        "language": "en_US",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-amy-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "3c3f6a6ec605f3a59763256d3b2db012"
+            },
+            "en_US-amy-low.onnx.json": {
+                "size_bytes": 5776,
+                "md5_digest": "06b7255db7f49069a9abcb3037804cc5"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 273,
+                "md5_digest": "e1cdd84aa7493b8fbe1e6471f6f93cea"
+            }
+        }
+    },
+    "en_US-amy-medium": {
+        "name": "amy",
+        "language": "en_US",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-amy-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "778d28aeb95fcdf8a882344d9df142fc"
+            },
+            "en_US-amy-medium.onnx.json": {
+                "size_bytes": 6859,
+                "md5_digest": "a943690c845cd7f54bd5a7229951465e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 281,
+                "md5_digest": "6fca05ee5bfe8b28211b88b86b47e822"
+            }
+        }
+    },
+    "en_US-ryan-low": {
+        "name": "ryan",
+        "language": "en_US",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-ryan-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "32f6a995d6d561cd040b20a76f4edb1e"
+            },
+            "en_US-ryan-low.onnx.json": {
+                "size_bytes": 5777,
+                "md5_digest": "9cacb6725a72074808d677454d046cff"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 263,
+                "md5_digest": "030252d21b0bd1048c37a9eb7f94eb17"
+            }
+        }
+    },
+    "en_US-ryan-high": {
+        "name": "ryan",
+        "language": "en_US",
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-ryan-high.onnx": {
+                "size_bytes": 120786792,
+                "md5_digest": "5d879a17bddf5007f76655b445ba78b4"
+            },
+            "en_US-ryan-high.onnx.json": {
+                "size_bytes": 5776,
+                "md5_digest": "6023490bab8a15da7e59bb9fd3c29762"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 265,
+                "md5_digest": "9c966517ed0bfbffbfdb218e99dbeadd"
+            }
+        }
+    },
+    "en_US-ryan-medium": {
+        "name": "ryan",
+        "language": "en_US",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-ryan-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "8f06d3aff8ded5a7f13f907e6bec32ac"
+            },
+            "en_US-ryan-medium.onnx.json": {
+                "size_bytes": 6859,
+                "md5_digest": "a943690c845cd7f54bd5a7229951465e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 306,
+                "md5_digest": "79d9200481a9dcabfa1803cb9e31c28a"
+            }
+        }
+    },
+    "en_US-danny-low": {
+        "name": "danny",
+        "language": "en_US",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-danny-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "73cc296e178ab3d2a5698179b629cd12"
+            },
+            "en_US-danny-low.onnx.json": {
+                "size_bytes": 5776,
+                "md5_digest": "06b7255db7f49069a9abcb3037804cc5"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 275,
+                "md5_digest": "62d30d0cccea265949980cb48212ebee"
+            }
+        }
+    },
+    "en_US-arctic-medium": {
+        "name": "arctic",
+        "language": "en_US",
+        "quality": "medium",
+        "num_speakers": 18,
+        "speaker_id_map": {
+            "awb": 0,
+            "rms": 1,
+            "slt": 2,
+            "ksp": 3,
+            "clb": 4,
+            "lnh": 5,
+            "aew": 6,
+            "bdl": 7,
+            "jmk": 8,
+            "rxr": 9,
+            "fem": 10,
+            "ljm": 11,
+            "slp": 12,
+            "aup": 13,
+            "ahw": 14,
+            "axb": 15,
+            "eey": 16,
+            "gka": 17
+        },
+        "files": {
+            "en_US-arctic-medium.onnx": {
+                "size_bytes": 76766385,
+                "md5_digest": "497c47037c2e279faf467e0a06f965d2"
+            },
+            "en_US-arctic-medium.onnx.json": {
+                "size_bytes": 7196,
+                "md5_digest": "bd450bc646a3e00bda683ff812134a4a"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 289,
+                "md5_digest": "efe5b89e46cf8e0efa254203da8c7baf"
+            }
+        }
+    },
+    "en_US-lessac-low": {
+        "name": "lessac",
+        "language": "en_US",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-lessac-low.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "31883a7506589feadf3c3474fd8ef658"
+            },
+            "en_US-lessac-low.onnx.json": {
+                "size_bytes": 6860,
+                "md5_digest": "e0dc276d7eb8c21d687e43def347d53b"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 345,
+                "md5_digest": "999cbf2c337d8fb2f21b0fa2c95e9e85"
+            }
+        }
+    },
+    "en_US-lessac-high": {
+        "name": "lessac",
+        "language": "en_US",
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-lessac-high.onnx": {
+                "size_bytes": 113895201,
+                "md5_digest": "99d1f6181a7f5ccbe3f117ba8ce63c93"
+            },
+            "en_US-lessac-high.onnx.json": {
+                "size_bytes": 6859,
+                "md5_digest": "a943690c845cd7f54bd5a7229951465e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 347,
+                "md5_digest": "2ff564555f6d6cde3c19dcc8f3815428"
+            }
+        }
+    },
+    "en_US-lessac-medium": {
+        "name": "lessac",
+        "language": "en_US",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-lessac-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "2fc642b535197b6305c7c8f92dc8b24f"
+            },
+            "en_US-lessac-medium.onnx.json": {
+                "size_bytes": 6860,
+                "md5_digest": "10428ba058a4238eb455219d4a50f17b"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 351,
+                "md5_digest": "42f2dd4a98149e12fc70b301d9579dfd"
+            }
+        }
+    },
+    "en_US-joe-medium": {
+        "name": "joe",
+        "language": "en_US",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en_US-joe-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "74fd6a4dc39e0aa9dce145d7f5acd4f6"
+            },
+            "en_US-joe-medium.onnx.json": {
+                "size_bytes": 6729,
+                "md5_digest": "10eebc49ebf86c1a7749cd5f9392e2a3"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 280,
+                "md5_digest": "7d25cb111aa9699518764a1cb3943af1"
+            }
+        }
+    },
+    "es_MX-ald-medium": {
+        "name": "ald",
+        "language": "es_MX",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "es_MX-ald-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "86374058e59b41ac3b7fe4181e1daad6"
+            },
+            "es_MX-ald-medium.onnx.json": {
+                "size_bytes": 6872,
+                "md5_digest": "c17db4ddbef38305701e4047a3adbcf3"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 320,
+                "md5_digest": "a858af3698e0c7cda6c9ad5d0d11b651"
+            }
+        }
+    },
+    "es_ES-mls_9772-low": {
+        "name": "mls_9772",
+        "language": "es_ES",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "es_ES-mls_9972-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "587f2fc38dc3f582e771c3748465e2a2"
+            },
+            "es_ES-mls_9972-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "a3750f9fff6ae97bc60de668c8107e5f"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 256,
+                "md5_digest": "4ba8c18ce72a202a49312ee1914ca6b0"
+            }
+        }
+    },
+    "es_ES-davefx-medium": {
+        "name": "davefx",
+        "language": "es_ES",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "es_ES-davefx-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "dc515cd4ecc5f6f72fe14a941188fc9c"
+            },
+            "es_ES-davefx-medium.onnx.json": {
+                "size_bytes": 6770,
+                "md5_digest": "d493f20191c47c69309c3b806cb1302b"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 275,
+                "md5_digest": "5569c0fb20448308466216428b52f392"
+            }
+        }
+    },
+    "es_ES-sharvard-medium": {
+        "name": "sharvard",
+        "language": "es_ES",
+        "quality": "medium",
+        "num_speakers": 2,
+        "speaker_id_map": {
+            "M": 0,
+            "F": 1
+        },
+        "files": {
+            "es_ES-sharvard-medium.onnx": {
+                "size_bytes": 76733615,
+                "md5_digest": "77e6f9c26e92799fb04bb90b46bf1834"
+            },
+            "es_ES-sharvard-medium.onnx.json": {
+                "size_bytes": 6892,
+                "md5_digest": "398b0cc43670182e138d7e3e881c6a4e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 392,
+                "md5_digest": "b600a21381af84fa21b29f519a3a829a"
+            }
+        }
+    },
+    "es_ES-carlfm-x_low": {
+        "name": "carlfm",
+        "language": "es_ES",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "es_ES-carlfm-x-low.onnx": {
+                "size_bytes": 28130791,
+                "md5_digest": "4137b5aee01ea6241080fc4dbe59a8ee"
+            },
+            "es_ES-carlfm-x-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "a3750f9fff6ae97bc60de668c8107e5f"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 250,
+                "md5_digest": "19cb47bbe9e07e8d7937cfd39027d3a9"
+            }
+        }
+    },
+    "es_ES-mls_10246-low": {
+        "name": "mls_10246",
+        "language": "es_ES",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "es_ES-mls_10246-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "ab8e93c9d2714fd4481fbca4e2a38891"
+            },
+            "es_ES-mls_10246-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "a3750f9fff6ae97bc60de668c8107e5f"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 257,
+                "md5_digest": "a345cefedda92347f53ea9a84d1b3983"
+            }
+        }
+    },
+    "uk_UK-lada-x_low": {
+        "name": "lada",
+        "language": "uk_UK",
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "uk_UK-lada-x_low.onnx": {
+                "size_bytes": 20628813,
+                "md5_digest": "b84110e3923d64cdd4e0056a22090557"
+            },
+            "uk_UK-lada-x_low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "0dc53021ef5b2086b9072b1f5ad90b18"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 267,
+                "md5_digest": "edf5a72d6b117b37f9a6ef1d56e77640"
+            }
+        }
+    },
+    "uk_UK-ukrainian_tts-medium": {
+        "name": "ukrainian_tts",
+        "language": "uk_UK",
+        "quality": "medium",
+        "num_speakers": 3,
+        "speaker_id_map": {
+            "lada": 0,
+            "mykyta": 1,
+            "tetiana": 2
+        },
+        "files": {
+            "uk_UK-ukrainian_tts-medium.onnx": {
+                "size_bytes": 76735663,
+                "md5_digest": "3366c3d4f31cb77966fb14d042956b4f"
+            },
+            "uk_UK-ukrainian_tts-medium.onnx.json": {
+                "size_bytes": 2491,
+                "md5_digest": "b21ad4df81478d1bdb0c50ab95442884"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 266,
+                "md5_digest": "5d87c44f816de40700558256659fd13b"
+            }
+        }
+    },
+    "sw_CD-lanfrica-medium": {
+        "name": "lanfrica",
+        "language": "sw_CD",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "sw_CD-lanfrica-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "7b28078f0e76cb201dc8b512ea4bf4d6"
+            },
+            "sw_CD-lanfrica-medium.onnx.json": {
+                "size_bytes": 6856,
+                "md5_digest": "0d142b4edb3cd419b4fcac5dcf446268"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 315,
+                "md5_digest": "225cc22fc4a35a83f2039988499baa85"
+            }
+        }
+    },
+    "fr_FR-siwis-low": {
+        "name": "siwis",
+        "language": "fr_FR",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fr_FR-siwis-low.onnx": {
+                "size_bytes": 28130791,
+                "md5_digest": "fcb614122005d70f27e4e61e58b4bb56"
+            },
+            "fr_FR-siwis-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "c800dbf8a43eb67a1ec4d5438893c11c"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 274,
+                "md5_digest": "5d4a6b6e8d4a476e9b415ec0c1f030da"
+            }
+        }
+    },
+    "fr_FR-siwis-medium": {
+        "name": "siwis",
+        "language": "fr_FR",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fr_FR-siwis-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "20e876e8c839e9b11a26085858f2300c"
+            },
+            "fr_FR-siwis-medium.onnx.json": {
+                "size_bytes": 6856,
+                "md5_digest": "ea90f292c155c1b6def5564061409ad0"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 284,
+                "md5_digest": "2b9ea48b15e9e1fd25f95b415caaf66f"
+            }
+        }
+    },
+    "fr_FR-mls_1840-low": {
+        "name": "mls_1840",
+        "language": "fr_FR",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fr_FR-mls_1840-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "1873b5d95cb0aad9909d32d1747ae72b"
+            },
+            "fr_FR-mls_1840-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "c800dbf8a43eb67a1ec4d5438893c11c"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 257,
+                "md5_digest": "35d860ab0a8497966c73da525728e711"
+            }
+        }
+    },
+    "fr_FR-gilles-low": {
+        "name": "gilles",
+        "language": "fr_FR",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fr_FR-gilles-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "f984386d1f0927597f09a3ec10b11b5d"
+            },
+            "fr_FR-gilles-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "c800dbf8a43eb67a1ec4d5438893c11c"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 300,
+                "md5_digest": "9317af9efdb0d9986d42357b180f06e2"
+            }
+        }
+    },
+    "fi_FI-harri-low": {
+        "name": "harri",
+        "language": "fi_FI",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fi_FI-harri-low.onnx": {
+                "size_bytes": 69795191,
+                "md5_digest": "f44b67203de7fd488eabc4692d30b598"
+            },
+            "fi_FI-harri-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "eba0de0dea4f2adb0cb5c4bcc3f636bc"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 284,
+                "md5_digest": "93ccf398abae82b7d7a3d420658e26f1"
+            }
+        }
+    },
+    "fi_FI-harri-medium": {
+        "name": "harri",
+        "language": "fi_FI",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fi_FI-harri-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "8e96b9e765f8db3e910943520aa0f475"
+            },
+            "fi_FI-harri-medium.onnx.json": {
+                "size_bytes": 6856,
+                "md5_digest": "cdadec39c6a43b1f413a2866351d61be"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 304,
+                "md5_digest": "95d5aff86d27b69c8ee7deed6c056aff"
+            }
+        }
+    },
+    "ka_GE-natia-medium": {
+        "name": "natia",
+        "language": "ka_GE",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ka_GE-natia-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "83bd40f8d176a83d3d8d605fada2a5e7"
+            },
+            "ka_GE-natia-medium.onnx.json": {
+                "size_bytes": 6770,
+                "md5_digest": "1a5e7dbbe5beb3a3776822fc9b3e01cb"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 288,
+                "md5_digest": "81ac71dd5b3dac89bf7762bf7b738c95"
+            }
+        }
+    },
+    "pl_PL-darkman-medium": {
+        "name": "darkman",
+        "language": "pl_PL",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "pl_PL-darkman-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "27bf2d71e934b112657544fd0b100a7a"
+            },
+            "pl_PL-darkman-medium.onnx.json": {
+                "size_bytes": 6770,
+                "md5_digest": "bc06cd7feea1c1f194f71b778443b233"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 276,
+                "md5_digest": "952772905864f6f6375df54a675895b7"
+            }
+        }
+    },
+    "pl_PL-mls_6892-low": {
+        "name": "mls_6892",
+        "language": "pl_PL",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "pl_PL-mls_6892-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "8590d8e979292ca35d20e6e123bfa612"
+            },
+            "pl_PL-mls_6892-low.onnx.json": {
+                "size_bytes": 5773,
+                "md5_digest": "ea661adb29682d6900dbfbd76e3f71bd"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 257,
+                "md5_digest": "74ebc618d120896113449ad2f957b7a4"
+            }
+        }
+    },
+    "pl_PL-gosia-medium": {
+        "name": "gosia",
+        "language": "pl_PL",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "pl_PL-gosia-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "ecf817530e575025166e454adde1f382"
+            },
+            "pl_PL-gosia-medium.onnx.json": {
+                "size_bytes": 6770,
+                "md5_digest": "bc06cd7feea1c1f194f71b778443b233"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 274,
+                "md5_digest": "e1355330fe5fab166e6f2e20af7e91e9"
+            }
+        }
+    },
+    "no_NO-talesyntese-medium": {
+        "name": "talesyntese",
+        "language": "no_NO",
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "no_NO-talesyntese-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "9fc876e7edc6593086b4f2f34889f44b"
+            },
+            "no_NO-talesyntese-medium.onnx.json": {
+                "size_bytes": 6856,
+                "md5_digest": "0aaf1141170a1dc26d07adf6e643c60e"
+            },
+            "MODEL_CARD": {
+                "size_bytes": 312,
+                "md5_digest": "5fe51d2a4a0e05e85c88a80373000ae1"
+            }
+        }
+    }
+}

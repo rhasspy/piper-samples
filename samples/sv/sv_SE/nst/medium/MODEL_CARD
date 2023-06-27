@@ -1,0 +1,15 @@
+# Model card for nst (medium)
+
+* Language: sv_SE (Swedish, Sweden)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-17/
+* License: CC0
+
+## Training
+
+Trained from scratch by KBLab at The National Library of Sweden.

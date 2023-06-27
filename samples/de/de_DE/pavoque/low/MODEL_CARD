@@ -1,0 +1,15 @@
+# Model card for pavoque (low)
+
+* Language: de_DE (German, Germany)
+* Speakers: 1
+* Quality: low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* URL: https://github.com/marytts/pavoque-data
+* License: http://creativecommons.org/licenses/by-nc-sa/4.0/
+
+## Training
+
+Finetuned from U.S. English Ryan voice (low quality).

@@ -1,0 +1,16 @@
+# Model card for vivos (x_low)
+
+* Language: vi_VN (Vietnamese, Vietnam)
+* Speakers: 65
+* Quality: x_low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* Name: InfoRe Technology 1
+* URL: https://ailab.hcmus.edu.vn/vivos/
+* License: CC BY-NC-SA 4.0
+
+## Training
+
+Trained from scratch.

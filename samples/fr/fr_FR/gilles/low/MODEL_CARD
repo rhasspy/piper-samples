@@ -1,0 +1,15 @@
+# Model card for gilles (low)
+
+* Language: fr_FR (French, France)
+* Speakers: 1
+* Quality: low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* URL: https://www.kaggle.com/datasets/bryanpark/french-single-speaker-speech-dataset
+* License: CC0
+
+## Training
+
+Finetuned from U.S. English Ryan voice (low quality).

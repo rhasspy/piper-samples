@@ -1,0 +1,15 @@
+# Model card for edresson (low)
+
+* Language: pt_BR (Portuguese, Brazil)
+* Speakers: 1
+* Quality: low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* URL: https://github.com/Edresson/TTS-Portuguese-Corpus
+* License: CC BY 4.0
+
+## Training
+
+Finetuned from U.S. English Ryan voice (low quality).

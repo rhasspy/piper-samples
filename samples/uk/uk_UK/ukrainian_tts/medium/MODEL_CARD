@@ -1,0 +1,16 @@
+# Model card for ukrainian_tts (medium)
+
+* Language: uk_UK (Ukrainian, Ukraine)
+* Speakers: 3
+* Quality: medium
+* Samplerate: 22,050Hz
+* Phonemes: text
+
+## Dataset
+
+* URL: https://github.com/NabuCasa/voice-datasets
+* License: CC0
+
+## Training
+
+Trained from scratch.

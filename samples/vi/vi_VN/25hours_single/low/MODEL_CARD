@@ -1,0 +1,16 @@
+# Model card for 25hours_single (low)
+
+* Language: vi_VN (Vietnamese, Vietnam)
+* Speakers: 1
+* Quality: low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* Name: InfoRe Technology 1
+* URL: https://github.com/TensorSpeech/TensorFlowASR/blob/main/README.md#vietnamese
+* License: Unknown
+
+## Training
+
+Finetuned from U.S. English Ryan voice (low quality).

@@ -7,33 +7,15 @@
           margin: auto;
           max-width: 90%;
       }
-      table {
+
+      #modelCard {
+          font-family: monospace;
           width: 100%;
-          border-collapse: collapse;
-          margin: 25px 0 50px 0;
-          font-size: 1.25em;
-          font-family: sans-serif;
-          box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
       }
 
-      tr.alt {
-          background-color: #EEE;
-      }
-
-      tr.switch {
-          border-top: 2px solid #AAA;
-      }
-
-      th {
-          text-align: left;
-      }
-      th,td {
-          padding: 10px;
-          width: 15%;
-      }
-
-      summary {
-          font-size: 0.8em;
+      #key {
+          font-weight: bold;
+          margin-left: 10px;
       }
 
       #languages {
@@ -64,2599 +46,40 @@
       Samples were generated from the first paragraph of the Wikipedia entry for <a href="https://en.wikipedia.org/wiki/Rainbow">rainbow</a>.
     </p>
 
-<select id="languages" onchange="jumpLanguage()">
-<option value="">Jump to language</option>
-<option value="ca">Català (Catalan)</option>
-<option value="da">Dansk (Danish)</option>
-<option value="de">Deutsch (German)</option>
-<option value="el-gr">Ελληνικά (Greek)</option>
-<option value="en-gb">English (British)</option>
-<option value="en-us">English (U.S.)</option>
-<option value="es">Español (Spanish)</option>
-<option value="fi">Suomi (Finnish)</option>
-<option value="fr">Français (French)</option>
-<option value="is">Icelandic (íslenska)</option>
-<option value="it">Italiano (Italian)</option>
-<option value="kk">қазақша (Kazakh)</option>
-<option value="ne">नेपाली (Nepali)</option>
-<option value="nl">Nederlands (Dutch)</option>
-<option value="no">Norsk (Norwegian)</option>
-<option value="pl">Polski (Polish)</option>
-<option value="pt-br">Português (Brasil) (Portuguese (Brazilian))</option>
-<option value="ru">Русский (Russian)</option>
-<option value="sv-se">Svenska (Swedish)</option>
-<option value="uk">украї́нська мо́ва (Ukrainian)</option>
-<option value="vi">Tiếng Việt (Vietnamese)</option>
-<option value="zh-cn">简体中文 (Chinese)</option>
-<option value="zh-cn">简体中文 (Chinese)</option>
-</select>
-<hr />
-<h2 id="ca">Català (Catalan)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="ca-upc_ona-x-low" class="">
-<dialog id="dialog-ca-upc_ona-x-low"><form>
-<h1>Model card for upc_ona (x-low)</h1>
-<ul>
-<li>Language: ca (Catalan)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://collectivat.cat/asr#upc-festcat-tts-corpora</li>
-<li>License: CC BY-SA 3.0 ES</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download ca-upc_ona-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ca-upc_ona-x-low.tar.gz">ca-upc_ona-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-ca-upc_ona-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-ca-upc_ona-x-low" preload="none" controls src="samples/ca-upc_ona-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> L'arc de Sant Martí o arc del cel és un fenomen meteorològic òptic produït per la reflexió, refracció i dispersió de la llum causada per gotes d'aigua en suspensió a la troposfera que resulta en l'aparició al cel de l'espectre de la llum visible, interpretat per l'ull humà com els colors vermell, taronja, groc, verd, blau, indi i violat. </p></details> </td>
-<td></td>
-</tr>
-<tr id="ca-upc_pau-x-low" class="alt">
-<dialog id="dialog-ca-upc_pau-x-low"><form>
-<h1>Model card for upc_pau (x-low)</h1>
-<ul>
-<li>Language: ca (Catalan)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://collectivat.cat/asr#upc-festcat-tts-corpora</li>
-<li>License: CC BY-SA 3.0 ES</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download ca-upc_pau-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ca-upc_pau-x-low.tar.gz">ca-upc_pau-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-ca-upc_pau-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-ca-upc_pau-x-low" preload="none" controls src="samples/ca-upc_pau-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> L'arc de Sant Martí o arc del cel és un fenomen meteorològic òptic produït per la reflexió, refracció i dispersió de la llum causada per gotes d'aigua en suspensió a la troposfera que resulta en l'aparició al cel de l'espectre de la llum visible, interpretat per l'ull humà com els colors vermell, taronja, groc, verd, blau, indi i violat. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="da">Dansk (Danish)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="da-nst_talesyntese-medium" class="">
-<dialog id="dialog-da-nst_talesyntese-medium"><form>
-<h1>Model card for nst_talesyntese (medium)</h1>
-<ul>
-<li>Language: da (Danish)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-21/</li>
-<li>License: CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (medium quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download da-nst_talesyntese-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-da-nst_talesyntese-medium.tar.gz">da-nst_talesyntese-medium</a> </td>
-<td> <a href="javascript:q('#dialog-da-nst_talesyntese-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-da-nst_talesyntese-medium" preload="none" controls src="samples/da-nst_talesyntese-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> En regnbue er et optisk fænomen; en "lyseffekt", som skabes på himlen, når lys fra Solen rammer små vanddråber i luften, f.eks. faldende regn. Sådanne svævende vanddråber har facon omtrent som en kugle – jo mindre de er, desto mere perfekt kugleform har de. Disse kuglerunde dråber bryder, eller "afbøjer" lyset på samme måde som et optisk prisme ved en proces, der kaldes refraktion. Og derudover opfører indersiden af dråbernes overflader sig til en vis grad som små spejle, (et fænomen der kaldes for intern refleksion), der kaster lyset tilbage i nogenlunde den retning, det kom fra – det er derfor, man altid ser regnbuer i retningen direkte væk fra solen. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="de">Deutsch (German)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="de-eva_k-x-low" class="">
-<dialog id="dialog-de-eva_k-x-low"><form>
-<h1>Model card for eva_k (x-low)</h1>
-<ul>
-<li>Language: de (German)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download de-eva_k-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-eva_k-x-low.tar.gz">de-eva_k-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-de-eva_k-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-de-eva_k-x-low" preload="none" controls src="samples/de-eva_k-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Der Regenbogen ist ein atmosphärisch-optisches Phänomen, das als kreisbogenförmiges farbiges Lichtband in einer von der Sonne beschienenen Regenwand oder -wolke wahrgenommen wird. Sein radialer Farbverlauf ist das mehr oder weniger verweißlichte sichtbare Licht des Sonnenspektrums. Das Sonnenlicht wird beim Ein- und beim Austritt an jedem annähernd kugelförmigen Regentropfen abgelenkt und in Licht mehrerer Farben zerlegt. Dazwischen wird es an der Tropfenrückseite reflektiert. Das jeden Tropfen verlassende Licht ist in farbigen Schichten konzentriert, die aufeinandergesteckte dünne Kegelmäntel bilden. Der Beobachter hat die Regenwolke vor sich und die Sonne im Rücken. Ihn erreicht Licht einer bestimmten Farbe aus Regentropfen, die sich auf einem schmalen Kreisbogen am Himmel befinden. Der Winkel, unter dem der Regenbogen gesehen wird, ist gleich wie der Winkel der Kegelmäntel, in dem diese Farben beim Austritt am Regentropfen konzentriert sind. </p></details> </td>
-<td></td>
-</tr>
-<tr id="de-karlsson-low" class="alt">
-<dialog id="dialog-de-karlsson-low"><form>
-<h1>Model card for karlsson (low)</h1>
-<ul>
-<li>Language: de (German)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download de-karlsson-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-karlsson-low.tar.gz">de-karlsson-low</a> </td>
-<td> <a href="javascript:q('#dialog-de-karlsson-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-de-karlsson-low" preload="none" controls src="samples/de-karlsson-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Der Regenbogen ist ein atmosphärisch-optisches Phänomen, das als kreisbogenförmiges farbiges Lichtband in einer von der Sonne beschienenen Regenwand oder -wolke wahrgenommen wird. Sein radialer Farbverlauf ist das mehr oder weniger verweißlichte sichtbare Licht des Sonnenspektrums. Das Sonnenlicht wird beim Ein- und beim Austritt an jedem annähernd kugelförmigen Regentropfen abgelenkt und in Licht mehrerer Farben zerlegt. Dazwischen wird es an der Tropfenrückseite reflektiert. Das jeden Tropfen verlassende Licht ist in farbigen Schichten konzentriert, die aufeinandergesteckte dünne Kegelmäntel bilden. Der Beobachter hat die Regenwolke vor sich und die Sonne im Rücken. Ihn erreicht Licht einer bestimmten Farbe aus Regentropfen, die sich auf einem schmalen Kreisbogen am Himmel befinden. Der Winkel, unter dem der Regenbogen gesehen wird, ist gleich wie der Winkel der Kegelmäntel, in dem diese Farben beim Austritt am Regentropfen konzentriert sind. </p></details> </td>
-<td></td>
-</tr>
-<tr id="de-kerstin-low" class="">
-<dialog id="dialog-de-kerstin-low"><form>
-<h1>Model card for kerstin (low)</h1>
-<ul>
-<li>Language: de (German)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/rhasspy/dataset-voice-kerstin</li>
-<li>License: CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download de-kerstin-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-kerstin-low.tar.gz">de-kerstin-low</a> </td>
-<td> <a href="javascript:q('#dialog-de-kerstin-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-de-kerstin-low" preload="none" controls src="samples/de-kerstin-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Der Regenbogen ist ein atmosphärisch-optisches Phänomen, das als kreisbogenförmiges farbiges Lichtband in einer von der Sonne beschienenen Regenwand oder -wolke wahrgenommen wird. Sein radialer Farbverlauf ist das mehr oder weniger verweißlichte sichtbare Licht des Sonnenspektrums. Das Sonnenlicht wird beim Ein- und beim Austritt an jedem annähernd kugelförmigen Regentropfen abgelenkt und in Licht mehrerer Farben zerlegt. Dazwischen wird es an der Tropfenrückseite reflektiert. Das jeden Tropfen verlassende Licht ist in farbigen Schichten konzentriert, die aufeinandergesteckte dünne Kegelmäntel bilden. Der Beobachter hat die Regenwolke vor sich und die Sonne im Rücken. Ihn erreicht Licht einer bestimmten Farbe aus Regentropfen, die sich auf einem schmalen Kreisbogen am Himmel befinden. Der Winkel, unter dem der Regenbogen gesehen wird, ist gleich wie der Winkel der Kegelmäntel, in dem diese Farben beim Austritt am Regentropfen konzentriert sind. </p></details> </td>
-<td></td>
-</tr>
-<tr id="de-pavoque-low" class="alt">
-<dialog id="dialog-de-pavoque-low"><form>
-<h1>Model card for pavoque (low)</h1>
-<ul>
-<li>Language: de (German)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/marytts/pavoque-data</li>
-<li>License: http://creativecommons.org/licenses/by-nc-sa/4.0/</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download de-pavoque-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-pavoque-low.tar.gz">de-pavoque-low</a> </td>
-<td> <a href="javascript:q('#dialog-de-pavoque-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-de-pavoque-low" preload="none" controls src="samples/de-pavoque-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Der Regenbogen ist ein atmosphärisch-optisches Phänomen, das als kreisbogenförmiges farbiges Lichtband in einer von der Sonne beschienenen Regenwand oder -wolke wahrgenommen wird. Sein radialer Farbverlauf ist das mehr oder weniger verweißlichte sichtbare Licht des Sonnenspektrums. Das Sonnenlicht wird beim Ein- und beim Austritt an jedem annähernd kugelförmigen Regentropfen abgelenkt und in Licht mehrerer Farben zerlegt. Dazwischen wird es an der Tropfenrückseite reflektiert. Das jeden Tropfen verlassende Licht ist in farbigen Schichten konzentriert, die aufeinandergesteckte dünne Kegelmäntel bilden. Der Beobachter hat die Regenwolke vor sich und die Sonne im Rücken. Ihn erreicht Licht einer bestimmten Farbe aus Regentropfen, die sich auf einem schmalen Kreisbogen am Himmel befinden. Der Winkel, unter dem der Regenbogen gesehen wird, ist gleich wie der Winkel der Kegelmäntel, in dem diese Farben beim Austritt am Regentropfen konzentriert sind. </p></details> </td>
-<td></td>
-</tr>
-<tr id="de-ramona-low" class="">
-<dialog id="dialog-de-ramona-low"><form>
-<h1>Model card for ramona (x-low)</h1>
-<ul>
-<li>Language: de (German)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download de-ramona-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-ramona-low.tar.gz">de-ramona-low</a> </td>
-<td> <a href="javascript:q('#dialog-de-ramona-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-de-ramona-low" preload="none" controls src="samples/de-ramona-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Der Regenbogen ist ein atmosphärisch-optisches Phänomen, das als kreisbogenförmiges farbiges Lichtband in einer von der Sonne beschienenen Regenwand oder -wolke wahrgenommen wird. Sein radialer Farbverlauf ist das mehr oder weniger verweißlichte sichtbare Licht des Sonnenspektrums. Das Sonnenlicht wird beim Ein- und beim Austritt an jedem annähernd kugelförmigen Regentropfen abgelenkt und in Licht mehrerer Farben zerlegt. Dazwischen wird es an der Tropfenrückseite reflektiert. Das jeden Tropfen verlassende Licht ist in farbigen Schichten konzentriert, die aufeinandergesteckte dünne Kegelmäntel bilden. Der Beobachter hat die Regenwolke vor sich und die Sonne im Rücken. Ihn erreicht Licht einer bestimmten Farbe aus Regentropfen, die sich auf einem schmalen Kreisbogen am Himmel befinden. Der Winkel, unter dem der Regenbogen gesehen wird, ist gleich wie der Winkel der Kegelmäntel, in dem diese Farben beim Austritt am Regentropfen konzentriert sind. </p></details> </td>
-<td></td>
-</tr>
-<tr id="de-thorsten-low" class="alt">
-<dialog id="dialog-de-thorsten-low"><form>
-<h1>Model card for Thorsten (low)</h1>
-<ul>
-<li>Language: de (German)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/thorstenMueller/Thorsten-Voice</li>
-<li>License: CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download de-thorsten-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-de-thorsten-low.tar.gz">de-thorsten-low</a> </td>
-<td> <a href="javascript:q('#dialog-de-thorsten-low').showModal()">View</a> </td>
-<td> low_finetuned </td>
-<td> <audio id="audio-de-thorsten-low" preload="none" controls src="samples/de-thorsten-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Der Regenbogen ist ein atmosphärisch-optisches Phänomen, das als kreisbogenförmiges farbiges Lichtband in einer von der Sonne beschienenen Regenwand oder -wolke wahrgenommen wird. Sein radialer Farbverlauf ist das mehr oder weniger verweißlichte sichtbare Licht des Sonnenspektrums. Das Sonnenlicht wird beim Ein- und beim Austritt an jedem annähernd kugelförmigen Regentropfen abgelenkt und in Licht mehrerer Farben zerlegt. Dazwischen wird es an der Tropfenrückseite reflektiert. Das jeden Tropfen verlassende Licht ist in farbigen Schichten konzentriert, die aufeinandergesteckte dünne Kegelmäntel bilden. Der Beobachter hat die Regenwolke vor sich und die Sonne im Rücken. Ihn erreicht Licht einer bestimmten Farbe aus Regentropfen, die sich auf einem schmalen Kreisbogen am Himmel befinden. Der Winkel, unter dem der Regenbogen gesehen wird, ist gleich wie der Winkel der Kegelmäntel, in dem diese Farben beim Austritt am Regentropfen konzentriert sind. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="el-gr">Ελληνικά (Greek)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="el-gr-rapunzelina-low" class="">
-<dialog id="dialog-el-gr-rapunzelina-low"><form>
-<h1>Model card for rapunzelina (low)</h1>
-<ul>
-<li>Language: el-gr (Greek)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.kaggle.com/datasets/bryanpark/greek-single-speaker-speech-dataset</li>
-<li>License: CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download el-gr-rapunzelina-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-el-gr-rapunzelina-low.tar.gz">el-gr-rapunzelina-low</a> </td>
-<td> <a href="javascript:q('#dialog-el-gr-rapunzelina-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-el-gr-rapunzelina-low" preload="none" controls src="samples/el-gr-rapunzelina-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Οι επιστήμονες μελετούν ακόμη το ουράνιο τόξο. Μπόγιερ παρατηρεί: «Μέσα σε μια σταγόνα βροχής η αλληλεπίδραση της ενέργειας του φωτός με την ύλη είναι τόσο στενή ώστε οδηγούμαστε κατευθείαν στην κβαντομηχανική και στη θεωρία της σχετικότητας. Αν και γνωρίζουμε αρκετά πράγματα για το πώς σχηματίζεται το ουράνιο τόξο, λίγα είναι αυτά που έχουμε μάθει για το πώς γίνεται αντιληπτό». </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="en-gb">English (British)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="en-gb-alan-low" class="">
-<dialog id="dialog-en-gb-alan-low"><form>
-<h1>Model card for Alan (low)</h1>
-<ul>
-<li>Language: en-gb (British English)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/MycroftAI/mimic3-voices/blob/master/voices/en_UK/apope_low</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-gb-alan-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-gb-alan-low.tar.gz">en-gb-alan-low</a> </td>
-<td> <a href="javascript:q('#dialog-en-gb-alan-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-en-gb-alan-low" preload="none" controls src="samples/en-gb-alan-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-<tr id="en-gb-southern_english_female-low" class="alt">
-<dialog id="dialog-en-gb-southern_english_female-low"><form>
-<h1>Model card for Southern English Female (low)</h1>
-<ul>
-<li>Language: en-gb (British English)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/83/</li>
-<li>License: CC-BY-SA 4.0 International</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-gb-southern_english_female-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-gb-southern_english_female-low.tar.gz">en-gb-southern_english_female-low</a> </td>
-<td> <a href="javascript:q('#dialog-en-gb-southern_english_female-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-en-gb-southern_english_female-low" preload="none" controls src="samples/en-gb-southern_english_female-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="en-us">English (U.S.)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="en-us-amy-low" class="">
-<dialog id="dialog-en-us-amy-low"><form>
-<h1>Model card for Amy (low)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/MycroftAI/mimic3-voices</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-amy-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-amy-low.tar.gz">en-us-amy-low</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-amy-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-en-us-amy-low" preload="none" controls src="samples/en-us-amy-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-<tr id="en-us-danny-low" class="alt">
-<dialog id="dialog-en-us-danny-low"><form>
-<h1>Model card for Danny (low)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/MycroftAI/mimic3-voices</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-danny-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-danny-low.tar.gz">en-us-danny-low</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-danny-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-en-us-danny-low" preload="none" controls src="samples/en-us-danny-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-<tr id="en-us-kathleen-low" class="">
-<dialog id="dialog-en-us-kathleen-low"><form>
-<h1>Model card for Kathleen (low)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/rhasspy/dataset-voice-kathleen</li>
-<li>License: CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-kathleen-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-kathleen-low.tar.gz">en-us-kathleen-low</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-kathleen-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-en-us-kathleen-low" preload="none" controls src="samples/en-us-kathleen-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-<tr id="en-us-lessac-low" class="alt">
-<dialog id="dialog-en-us-lessac-low"><form>
-<h1>Model card for Lessac (low)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/</li>
-<li>License: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-lessac-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-lessac-low.tar.gz">en-us-lessac-low</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-lessac-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-en-us-lessac-low" preload="none" controls src="samples/en-us-lessac-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-<tr id="en-us-lessac-low" class="">
-<dialog id="dialog-en-us-lessac-low"><form>
-<h1>Model card for Lessac (low)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/</li>
-<li>License: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-lessac-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-lessac-low.tar.gz">en-us-lessac-low</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-lessac-low').showModal()">View</a> </td>
-<td> low_finetuned </td>
-<td> <audio id="audio-en-us-lessac-low" preload="none" controls src="samples/en-us-lessac-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-<tr id="en-us-lessac-medium" class="alt">
-<dialog id="dialog-en-us-lessac-medium"><form>
-<h1>Model card for Lessac (medium)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/</li>
-<li>License: https://www.cstr.ed.ac.uk/projects/blizzard/2013/lessac_blizzard2013/license.html</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-lessac-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-lessac-medium.tar.gz">en-us-lessac-medium</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-lessac-medium').showModal()">View</a> </td>
-<td> medium_16k </td>
-<td> <audio id="audio-en-us-lessac-medium" preload="none" controls src="samples/en-us-lessac-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-<tr id="en-us-libritts-high" class="">
-<dialog id="dialog-en-us-libritts-high"><form>
-<h1>Model card for LibriTTS (high)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 904</li>
-<li>Quality: high</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/60/</li>
-<li>License: CC BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch on train-clean-360.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-libritts-high" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-libritts-high.tar.gz">en-us-libritts-high</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-libritts-high').showModal()">View</a> </td>
-<td> high </td>
-<td> <audio id="audio-en-us-libritts-high" preload="none" controls src="samples/en-us-libritts-high/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td><select id="speaker-en-us-libritts-high" onchange="setAudio('en-us-libritts-high')">
-<option value="speaker_0"> 0 </option>
-<option value="speaker_1"> 1 </option>
-<option value="speaker_2"> 2 </option>
-<option value="speaker_3"> 3 </option>
-<option value="speaker_4"> 4 </option>
-<option value="speaker_5"> 5 </option>
-<option value="speaker_6"> 6 </option>
-<option value="speaker_7"> 7 </option>
-<option value="speaker_8"> 8 </option>
-<option value="speaker_9"> 9 </option>
-<option value="speaker_10"> 10 </option>
-<option value="speaker_11"> 11 </option>
-<option value="speaker_12"> 12 </option>
-<option value="speaker_13"> 13 </option>
-<option value="speaker_14"> 14 </option>
-<option value="speaker_15"> 15 </option>
-<option value="speaker_16"> 16 </option>
-<option value="speaker_17"> 17 </option>
-<option value="speaker_18"> 18 </option>
-<option value="speaker_19"> 19 </option>
-<option value="speaker_20"> 20 </option>
-<option value="speaker_21"> 21 </option>
-<option value="speaker_22"> 22 </option>
-<option value="speaker_23"> 23 </option>
-<option value="speaker_24"> 24 </option>
-<option value="speaker_25"> 25 </option>
-<option value="speaker_26"> 26 </option>
-<option value="speaker_27"> 27 </option>
-<option value="speaker_28"> 28 </option>
-<option value="speaker_29"> 29 </option>
-<option value="speaker_30"> 30 </option>
-<option value="speaker_31"> 31 </option>
-<option value="speaker_32"> 32 </option>
-<option value="speaker_33"> 33 </option>
-<option value="speaker_34"> 34 </option>
-<option value="speaker_35"> 35 </option>
-<option value="speaker_36"> 36 </option>
-<option value="speaker_37"> 37 </option>
-<option value="speaker_38"> 38 </option>
-<option value="speaker_39"> 39 </option>
-<option value="speaker_40"> 40 </option>
-<option value="speaker_41"> 41 </option>
-<option value="speaker_42"> 42 </option>
-<option value="speaker_43"> 43 </option>
-<option value="speaker_44"> 44 </option>
-<option value="speaker_45"> 45 </option>
-<option value="speaker_46"> 46 </option>
-<option value="speaker_47"> 47 </option>
-<option value="speaker_48"> 48 </option>
-<option value="speaker_49"> 49 </option>
-<option value="speaker_50"> 50 </option>
-<option value="speaker_51"> 51 </option>
-<option value="speaker_52"> 52 </option>
-<option value="speaker_53"> 53 </option>
-<option value="speaker_54"> 54 </option>
-<option value="speaker_55"> 55 </option>
-<option value="speaker_56"> 56 </option>
-<option value="speaker_57"> 57 </option>
-<option value="speaker_58"> 58 </option>
-<option value="speaker_59"> 59 </option>
-<option value="speaker_60"> 60 </option>
-<option value="speaker_61"> 61 </option>
-<option value="speaker_62"> 62 </option>
-<option value="speaker_63"> 63 </option>
-<option value="speaker_64"> 64 </option>
-<option value="speaker_65"> 65 </option>
-<option value="speaker_66"> 66 </option>
-<option value="speaker_67"> 67 </option>
-<option value="speaker_68"> 68 </option>
-<option value="speaker_69"> 69 </option>
-<option value="speaker_70"> 70 </option>
-<option value="speaker_71"> 71 </option>
-<option value="speaker_72"> 72 </option>
-<option value="speaker_73"> 73 </option>
-<option value="speaker_74"> 74 </option>
-<option value="speaker_75"> 75 </option>
-<option value="speaker_76"> 76 </option>
-<option value="speaker_77"> 77 </option>
-<option value="speaker_78"> 78 </option>
-<option value="speaker_79"> 79 </option>
-<option value="speaker_80"> 80 </option>
-<option value="speaker_81"> 81 </option>
-<option value="speaker_82"> 82 </option>
-<option value="speaker_83"> 83 </option>
-<option value="speaker_84"> 84 </option>
-<option value="speaker_85"> 85 </option>
-<option value="speaker_86"> 86 </option>
-<option value="speaker_87"> 87 </option>
-<option value="speaker_88"> 88 </option>
-<option value="speaker_89"> 89 </option>
-<option value="speaker_90"> 90 </option>
-<option value="speaker_91"> 91 </option>
-<option value="speaker_92"> 92 </option>
-<option value="speaker_93"> 93 </option>
-<option value="speaker_94"> 94 </option>
-<option value="speaker_95"> 95 </option>
-<option value="speaker_96"> 96 </option>
-<option value="speaker_97"> 97 </option>
-<option value="speaker_98"> 98 </option>
-<option value="speaker_99"> 99 </option>
-<option value="speaker_100"> 100 </option>
-<option value="speaker_101"> 101 </option>
-<option value="speaker_102"> 102 </option>
-<option value="speaker_103"> 103 </option>
-<option value="speaker_104"> 104 </option>
-<option value="speaker_105"> 105 </option>
-<option value="speaker_106"> 106 </option>
-<option value="speaker_107"> 107 </option>
-<option value="speaker_108"> 108 </option>
-<option value="speaker_109"> 109 </option>
-<option value="speaker_110"> 110 </option>
-<option value="speaker_111"> 111 </option>
-<option value="speaker_112"> 112 </option>
-<option value="speaker_113"> 113 </option>
-<option value="speaker_114"> 114 </option>
-<option value="speaker_115"> 115 </option>
-<option value="speaker_116"> 116 </option>
-<option value="speaker_117"> 117 </option>
-<option value="speaker_118"> 118 </option>
-<option value="speaker_119"> 119 </option>
-<option value="speaker_120"> 120 </option>
-<option value="speaker_121"> 121 </option>
-<option value="speaker_122"> 122 </option>
-<option value="speaker_123"> 123 </option>
-<option value="speaker_124"> 124 </option>
-<option value="speaker_125"> 125 </option>
-<option value="speaker_126"> 126 </option>
-<option value="speaker_127"> 127 </option>
-<option value="speaker_128"> 128 </option>
-<option value="speaker_129"> 129 </option>
-<option value="speaker_130"> 130 </option>
-<option value="speaker_131"> 131 </option>
-<option value="speaker_132"> 132 </option>
-<option value="speaker_133"> 133 </option>
-<option value="speaker_134"> 134 </option>
-<option value="speaker_135"> 135 </option>
-<option value="speaker_136"> 136 </option>
-<option value="speaker_137"> 137 </option>
-<option value="speaker_138"> 138 </option>
-<option value="speaker_139"> 139 </option>
-<option value="speaker_140"> 140 </option>
-<option value="speaker_141"> 141 </option>
-<option value="speaker_142"> 142 </option>
-<option value="speaker_143"> 143 </option>
-<option value="speaker_144"> 144 </option>
-<option value="speaker_145"> 145 </option>
-<option value="speaker_146"> 146 </option>
-<option value="speaker_147"> 147 </option>
-<option value="speaker_148"> 148 </option>
-<option value="speaker_149"> 149 </option>
-<option value="speaker_150"> 150 </option>
-<option value="speaker_151"> 151 </option>
-<option value="speaker_152"> 152 </option>
-<option value="speaker_153"> 153 </option>
-<option value="speaker_154"> 154 </option>
-<option value="speaker_155"> 155 </option>
-<option value="speaker_156"> 156 </option>
-<option value="speaker_157"> 157 </option>
-<option value="speaker_158"> 158 </option>
-<option value="speaker_159"> 159 </option>
-<option value="speaker_160"> 160 </option>
-<option value="speaker_161"> 161 </option>
-<option value="speaker_162"> 162 </option>
-<option value="speaker_163"> 163 </option>
-<option value="speaker_164"> 164 </option>
-<option value="speaker_165"> 165 </option>
-<option value="speaker_166"> 166 </option>
-<option value="speaker_167"> 167 </option>
-<option value="speaker_168"> 168 </option>
-<option value="speaker_169"> 169 </option>
-<option value="speaker_170"> 170 </option>
-<option value="speaker_171"> 171 </option>
-<option value="speaker_172"> 172 </option>
-<option value="speaker_173"> 173 </option>
-<option value="speaker_174"> 174 </option>
-<option value="speaker_175"> 175 </option>
-<option value="speaker_176"> 176 </option>
-<option value="speaker_177"> 177 </option>
-<option value="speaker_178"> 178 </option>
-<option value="speaker_179"> 179 </option>
-<option value="speaker_180"> 180 </option>
-<option value="speaker_181"> 181 </option>
-<option value="speaker_182"> 182 </option>
-<option value="speaker_183"> 183 </option>
-<option value="speaker_184"> 184 </option>
-<option value="speaker_185"> 185 </option>
-<option value="speaker_186"> 186 </option>
-<option value="speaker_187"> 187 </option>
-<option value="speaker_188"> 188 </option>
-<option value="speaker_189"> 189 </option>
-<option value="speaker_190"> 190 </option>
-<option value="speaker_191"> 191 </option>
-<option value="speaker_192"> 192 </option>
-<option value="speaker_193"> 193 </option>
-<option value="speaker_194"> 194 </option>
-<option value="speaker_195"> 195 </option>
-<option value="speaker_196"> 196 </option>
-<option value="speaker_197"> 197 </option>
-<option value="speaker_198"> 198 </option>
-<option value="speaker_199"> 199 </option>
-<option value="speaker_200"> 200 </option>
-<option value="speaker_201"> 201 </option>
-<option value="speaker_202"> 202 </option>
-<option value="speaker_203"> 203 </option>
-<option value="speaker_204"> 204 </option>
-<option value="speaker_205"> 205 </option>
-<option value="speaker_206"> 206 </option>
-<option value="speaker_207"> 207 </option>
-<option value="speaker_208"> 208 </option>
-<option value="speaker_209"> 209 </option>
-<option value="speaker_210"> 210 </option>
-<option value="speaker_211"> 211 </option>
-<option value="speaker_212"> 212 </option>
-<option value="speaker_213"> 213 </option>
-<option value="speaker_214"> 214 </option>
-<option value="speaker_215"> 215 </option>
-<option value="speaker_216"> 216 </option>
-<option value="speaker_217"> 217 </option>
-<option value="speaker_218"> 218 </option>
-<option value="speaker_219"> 219 </option>
-<option value="speaker_220"> 220 </option>
-<option value="speaker_221"> 221 </option>
-<option value="speaker_222"> 222 </option>
-<option value="speaker_223"> 223 </option>
-<option value="speaker_224"> 224 </option>
-<option value="speaker_225"> 225 </option>
-<option value="speaker_226"> 226 </option>
-<option value="speaker_227"> 227 </option>
-<option value="speaker_228"> 228 </option>
-<option value="speaker_229"> 229 </option>
-<option value="speaker_230"> 230 </option>
-<option value="speaker_231"> 231 </option>
-<option value="speaker_232"> 232 </option>
-<option value="speaker_233"> 233 </option>
-<option value="speaker_234"> 234 </option>
-<option value="speaker_235"> 235 </option>
-<option value="speaker_236"> 236 </option>
-<option value="speaker_237"> 237 </option>
-<option value="speaker_238"> 238 </option>
-<option value="speaker_239"> 239 </option>
-<option value="speaker_240"> 240 </option>
-<option value="speaker_241"> 241 </option>
-<option value="speaker_242"> 242 </option>
-<option value="speaker_243"> 243 </option>
-<option value="speaker_244"> 244 </option>
-<option value="speaker_245"> 245 </option>
-<option value="speaker_246"> 246 </option>
-<option value="speaker_247"> 247 </option>
-<option value="speaker_248"> 248 </option>
-<option value="speaker_249"> 249 </option>
-<option value="speaker_250"> 250 </option>
-<option value="speaker_251"> 251 </option>
-<option value="speaker_252"> 252 </option>
-<option value="speaker_253"> 253 </option>
-<option value="speaker_254"> 254 </option>
-<option value="speaker_255"> 255 </option>
-<option value="speaker_256"> 256 </option>
-<option value="speaker_257"> 257 </option>
-<option value="speaker_258"> 258 </option>
-<option value="speaker_259"> 259 </option>
-<option value="speaker_260"> 260 </option>
-<option value="speaker_261"> 261 </option>
-<option value="speaker_262"> 262 </option>
-<option value="speaker_263"> 263 </option>
-<option value="speaker_264"> 264 </option>
-<option value="speaker_265"> 265 </option>
-<option value="speaker_266"> 266 </option>
-<option value="speaker_267"> 267 </option>
-<option value="speaker_268"> 268 </option>
-<option value="speaker_269"> 269 </option>
-<option value="speaker_270"> 270 </option>
-<option value="speaker_271"> 271 </option>
-<option value="speaker_272"> 272 </option>
-<option value="speaker_273"> 273 </option>
-<option value="speaker_274"> 274 </option>
-<option value="speaker_275"> 275 </option>
-<option value="speaker_276"> 276 </option>
-<option value="speaker_277"> 277 </option>
-<option value="speaker_278"> 278 </option>
-<option value="speaker_279"> 279 </option>
-<option value="speaker_280"> 280 </option>
-<option value="speaker_281"> 281 </option>
-<option value="speaker_282"> 282 </option>
-<option value="speaker_283"> 283 </option>
-<option value="speaker_284"> 284 </option>
-<option value="speaker_285"> 285 </option>
-<option value="speaker_286"> 286 </option>
-<option value="speaker_287"> 287 </option>
-<option value="speaker_288"> 288 </option>
-<option value="speaker_289"> 289 </option>
-<option value="speaker_290"> 290 </option>
-<option value="speaker_291"> 291 </option>
-<option value="speaker_292"> 292 </option>
-<option value="speaker_293"> 293 </option>
-<option value="speaker_294"> 294 </option>
-<option value="speaker_295"> 295 </option>
-<option value="speaker_296"> 296 </option>
-<option value="speaker_297"> 297 </option>
-<option value="speaker_298"> 298 </option>
-<option value="speaker_299"> 299 </option>
-<option value="speaker_300"> 300 </option>
-<option value="speaker_301"> 301 </option>
-<option value="speaker_302"> 302 </option>
-<option value="speaker_303"> 303 </option>
-<option value="speaker_304"> 304 </option>
-<option value="speaker_305"> 305 </option>
-<option value="speaker_306"> 306 </option>
-<option value="speaker_307"> 307 </option>
-<option value="speaker_308"> 308 </option>
-<option value="speaker_309"> 309 </option>
-<option value="speaker_310"> 310 </option>
-<option value="speaker_311"> 311 </option>
-<option value="speaker_312"> 312 </option>
-<option value="speaker_313"> 313 </option>
-<option value="speaker_314"> 314 </option>
-<option value="speaker_315"> 315 </option>
-<option value="speaker_316"> 316 </option>
-<option value="speaker_317"> 317 </option>
-<option value="speaker_318"> 318 </option>
-<option value="speaker_319"> 319 </option>
-<option value="speaker_320"> 320 </option>
-<option value="speaker_321"> 321 </option>
-<option value="speaker_322"> 322 </option>
-<option value="speaker_323"> 323 </option>
-<option value="speaker_324"> 324 </option>
-<option value="speaker_325"> 325 </option>
-<option value="speaker_326"> 326 </option>
-<option value="speaker_327"> 327 </option>
-<option value="speaker_328"> 328 </option>
-<option value="speaker_329"> 329 </option>
-<option value="speaker_330"> 330 </option>
-<option value="speaker_331"> 331 </option>
-<option value="speaker_332"> 332 </option>
-<option value="speaker_333"> 333 </option>
-<option value="speaker_334"> 334 </option>
-<option value="speaker_335"> 335 </option>
-<option value="speaker_336"> 336 </option>
-<option value="speaker_337"> 337 </option>
-<option value="speaker_338"> 338 </option>
-<option value="speaker_339"> 339 </option>
-<option value="speaker_340"> 340 </option>
-<option value="speaker_341"> 341 </option>
-<option value="speaker_342"> 342 </option>
-<option value="speaker_343"> 343 </option>
-<option value="speaker_344"> 344 </option>
-<option value="speaker_345"> 345 </option>
-<option value="speaker_346"> 346 </option>
-<option value="speaker_347"> 347 </option>
-<option value="speaker_348"> 348 </option>
-<option value="speaker_349"> 349 </option>
-<option value="speaker_350"> 350 </option>
-<option value="speaker_351"> 351 </option>
-<option value="speaker_352"> 352 </option>
-<option value="speaker_353"> 353 </option>
-<option value="speaker_354"> 354 </option>
-<option value="speaker_355"> 355 </option>
-<option value="speaker_356"> 356 </option>
-<option value="speaker_357"> 357 </option>
-<option value="speaker_358"> 358 </option>
-<option value="speaker_359"> 359 </option>
-<option value="speaker_360"> 360 </option>
-<option value="speaker_361"> 361 </option>
-<option value="speaker_362"> 362 </option>
-<option value="speaker_363"> 363 </option>
-<option value="speaker_364"> 364 </option>
-<option value="speaker_365"> 365 </option>
-<option value="speaker_366"> 366 </option>
-<option value="speaker_367"> 367 </option>
-<option value="speaker_368"> 368 </option>
-<option value="speaker_369"> 369 </option>
-<option value="speaker_370"> 370 </option>
-<option value="speaker_371"> 371 </option>
-<option value="speaker_372"> 372 </option>
-<option value="speaker_373"> 373 </option>
-<option value="speaker_374"> 374 </option>
-<option value="speaker_375"> 375 </option>
-<option value="speaker_376"> 376 </option>
-<option value="speaker_377"> 377 </option>
-<option value="speaker_378"> 378 </option>
-<option value="speaker_379"> 379 </option>
-<option value="speaker_380"> 380 </option>
-<option value="speaker_381"> 381 </option>
-<option value="speaker_382"> 382 </option>
-<option value="speaker_383"> 383 </option>
-<option value="speaker_384"> 384 </option>
-<option value="speaker_385"> 385 </option>
-<option value="speaker_386"> 386 </option>
-<option value="speaker_387"> 387 </option>
-<option value="speaker_388"> 388 </option>
-<option value="speaker_389"> 389 </option>
-<option value="speaker_390"> 390 </option>
-<option value="speaker_391"> 391 </option>
-<option value="speaker_392"> 392 </option>
-<option value="speaker_393"> 393 </option>
-<option value="speaker_394"> 394 </option>
-<option value="speaker_395"> 395 </option>
-<option value="speaker_396"> 396 </option>
-<option value="speaker_397"> 397 </option>
-<option value="speaker_398"> 398 </option>
-<option value="speaker_399"> 399 </option>
-<option value="speaker_400"> 400 </option>
-<option value="speaker_401"> 401 </option>
-<option value="speaker_402"> 402 </option>
-<option value="speaker_403"> 403 </option>
-<option value="speaker_404"> 404 </option>
-<option value="speaker_405"> 405 </option>
-<option value="speaker_406"> 406 </option>
-<option value="speaker_407"> 407 </option>
-<option value="speaker_408"> 408 </option>
-<option value="speaker_409"> 409 </option>
-<option value="speaker_410"> 410 </option>
-<option value="speaker_411"> 411 </option>
-<option value="speaker_412"> 412 </option>
-<option value="speaker_413"> 413 </option>
-<option value="speaker_414"> 414 </option>
-<option value="speaker_415"> 415 </option>
-<option value="speaker_416"> 416 </option>
-<option value="speaker_417"> 417 </option>
-<option value="speaker_418"> 418 </option>
-<option value="speaker_419"> 419 </option>
-<option value="speaker_420"> 420 </option>
-<option value="speaker_421"> 421 </option>
-<option value="speaker_422"> 422 </option>
-<option value="speaker_423"> 423 </option>
-<option value="speaker_424"> 424 </option>
-<option value="speaker_425"> 425 </option>
-<option value="speaker_426"> 426 </option>
-<option value="speaker_427"> 427 </option>
-<option value="speaker_428"> 428 </option>
-<option value="speaker_429"> 429 </option>
-<option value="speaker_430"> 430 </option>
-<option value="speaker_431"> 431 </option>
-<option value="speaker_432"> 432 </option>
-<option value="speaker_433"> 433 </option>
-<option value="speaker_434"> 434 </option>
-<option value="speaker_435"> 435 </option>
-<option value="speaker_436"> 436 </option>
-<option value="speaker_437"> 437 </option>
-<option value="speaker_438"> 438 </option>
-<option value="speaker_439"> 439 </option>
-<option value="speaker_440"> 440 </option>
-<option value="speaker_441"> 441 </option>
-<option value="speaker_442"> 442 </option>
-<option value="speaker_443"> 443 </option>
-<option value="speaker_444"> 444 </option>
-<option value="speaker_445"> 445 </option>
-<option value="speaker_446"> 446 </option>
-<option value="speaker_447"> 447 </option>
-<option value="speaker_448"> 448 </option>
-<option value="speaker_449"> 449 </option>
-<option value="speaker_450"> 450 </option>
-<option value="speaker_451"> 451 </option>
-<option value="speaker_452"> 452 </option>
-<option value="speaker_453"> 453 </option>
-<option value="speaker_454"> 454 </option>
-<option value="speaker_455"> 455 </option>
-<option value="speaker_456"> 456 </option>
-<option value="speaker_457"> 457 </option>
-<option value="speaker_458"> 458 </option>
-<option value="speaker_459"> 459 </option>
-<option value="speaker_460"> 460 </option>
-<option value="speaker_461"> 461 </option>
-<option value="speaker_462"> 462 </option>
-<option value="speaker_463"> 463 </option>
-<option value="speaker_464"> 464 </option>
-<option value="speaker_465"> 465 </option>
-<option value="speaker_466"> 466 </option>
-<option value="speaker_467"> 467 </option>
-<option value="speaker_468"> 468 </option>
-<option value="speaker_469"> 469 </option>
-<option value="speaker_470"> 470 </option>
-<option value="speaker_471"> 471 </option>
-<option value="speaker_472"> 472 </option>
-<option value="speaker_473"> 473 </option>
-<option value="speaker_474"> 474 </option>
-<option value="speaker_475"> 475 </option>
-<option value="speaker_476"> 476 </option>
-<option value="speaker_477"> 477 </option>
-<option value="speaker_478"> 478 </option>
-<option value="speaker_479"> 479 </option>
-<option value="speaker_480"> 480 </option>
-<option value="speaker_481"> 481 </option>
-<option value="speaker_482"> 482 </option>
-<option value="speaker_483"> 483 </option>
-<option value="speaker_484"> 484 </option>
-<option value="speaker_485"> 485 </option>
-<option value="speaker_486"> 486 </option>
-<option value="speaker_487"> 487 </option>
-<option value="speaker_488"> 488 </option>
-<option value="speaker_489"> 489 </option>
-<option value="speaker_490"> 490 </option>
-<option value="speaker_491"> 491 </option>
-<option value="speaker_492"> 492 </option>
-<option value="speaker_493"> 493 </option>
-<option value="speaker_494"> 494 </option>
-<option value="speaker_495"> 495 </option>
-<option value="speaker_496"> 496 </option>
-<option value="speaker_497"> 497 </option>
-<option value="speaker_498"> 498 </option>
-<option value="speaker_499"> 499 </option>
-<option value="speaker_500"> 500 </option>
-<option value="speaker_501"> 501 </option>
-<option value="speaker_502"> 502 </option>
-<option value="speaker_503"> 503 </option>
-<option value="speaker_504"> 504 </option>
-<option value="speaker_505"> 505 </option>
-<option value="speaker_506"> 506 </option>
-<option value="speaker_507"> 507 </option>
-<option value="speaker_508"> 508 </option>
-<option value="speaker_509"> 509 </option>
-<option value="speaker_510"> 510 </option>
-<option value="speaker_511"> 511 </option>
-<option value="speaker_512"> 512 </option>
-<option value="speaker_513"> 513 </option>
-<option value="speaker_514"> 514 </option>
-<option value="speaker_515"> 515 </option>
-<option value="speaker_516"> 516 </option>
-<option value="speaker_517"> 517 </option>
-<option value="speaker_518"> 518 </option>
-<option value="speaker_519"> 519 </option>
-<option value="speaker_520"> 520 </option>
-<option value="speaker_521"> 521 </option>
-<option value="speaker_522"> 522 </option>
-<option value="speaker_523"> 523 </option>
-<option value="speaker_524"> 524 </option>
-<option value="speaker_525"> 525 </option>
-<option value="speaker_526"> 526 </option>
-<option value="speaker_527"> 527 </option>
-<option value="speaker_528"> 528 </option>
-<option value="speaker_529"> 529 </option>
-<option value="speaker_530"> 530 </option>
-<option value="speaker_531"> 531 </option>
-<option value="speaker_532"> 532 </option>
-<option value="speaker_533"> 533 </option>
-<option value="speaker_534"> 534 </option>
-<option value="speaker_535"> 535 </option>
-<option value="speaker_536"> 536 </option>
-<option value="speaker_537"> 537 </option>
-<option value="speaker_538"> 538 </option>
-<option value="speaker_539"> 539 </option>
-<option value="speaker_540"> 540 </option>
-<option value="speaker_541"> 541 </option>
-<option value="speaker_542"> 542 </option>
-<option value="speaker_543"> 543 </option>
-<option value="speaker_544"> 544 </option>
-<option value="speaker_545"> 545 </option>
-<option value="speaker_546"> 546 </option>
-<option value="speaker_547"> 547 </option>
-<option value="speaker_548"> 548 </option>
-<option value="speaker_549"> 549 </option>
-<option value="speaker_550"> 550 </option>
-<option value="speaker_551"> 551 </option>
-<option value="speaker_552"> 552 </option>
-<option value="speaker_553"> 553 </option>
-<option value="speaker_554"> 554 </option>
-<option value="speaker_555"> 555 </option>
-<option value="speaker_556"> 556 </option>
-<option value="speaker_557"> 557 </option>
-<option value="speaker_558"> 558 </option>
-<option value="speaker_559"> 559 </option>
-<option value="speaker_560"> 560 </option>
-<option value="speaker_561"> 561 </option>
-<option value="speaker_562"> 562 </option>
-<option value="speaker_563"> 563 </option>
-<option value="speaker_564"> 564 </option>
-<option value="speaker_565"> 565 </option>
-<option value="speaker_566"> 566 </option>
-<option value="speaker_567"> 567 </option>
-<option value="speaker_568"> 568 </option>
-<option value="speaker_569"> 569 </option>
-<option value="speaker_570"> 570 </option>
-<option value="speaker_571"> 571 </option>
-<option value="speaker_572"> 572 </option>
-<option value="speaker_573"> 573 </option>
-<option value="speaker_574"> 574 </option>
-<option value="speaker_575"> 575 </option>
-<option value="speaker_576"> 576 </option>
-<option value="speaker_577"> 577 </option>
-<option value="speaker_578"> 578 </option>
-<option value="speaker_579"> 579 </option>
-<option value="speaker_580"> 580 </option>
-<option value="speaker_581"> 581 </option>
-<option value="speaker_582"> 582 </option>
-<option value="speaker_583"> 583 </option>
-<option value="speaker_584"> 584 </option>
-<option value="speaker_585"> 585 </option>
-<option value="speaker_586"> 586 </option>
-<option value="speaker_587"> 587 </option>
-<option value="speaker_588"> 588 </option>
-<option value="speaker_589"> 589 </option>
-<option value="speaker_590"> 590 </option>
-<option value="speaker_591"> 591 </option>
-<option value="speaker_592"> 592 </option>
-<option value="speaker_593"> 593 </option>
-<option value="speaker_594"> 594 </option>
-<option value="speaker_595"> 595 </option>
-<option value="speaker_596"> 596 </option>
-<option value="speaker_597"> 597 </option>
-<option value="speaker_598"> 598 </option>
-<option value="speaker_599"> 599 </option>
-<option value="speaker_600"> 600 </option>
-<option value="speaker_601"> 601 </option>
-<option value="speaker_602"> 602 </option>
-<option value="speaker_603"> 603 </option>
-<option value="speaker_604"> 604 </option>
-<option value="speaker_605"> 605 </option>
-<option value="speaker_606"> 606 </option>
-<option value="speaker_607"> 607 </option>
-<option value="speaker_608"> 608 </option>
-<option value="speaker_609"> 609 </option>
-<option value="speaker_610"> 610 </option>
-<option value="speaker_611"> 611 </option>
-<option value="speaker_612"> 612 </option>
-<option value="speaker_613"> 613 </option>
-<option value="speaker_614"> 614 </option>
-<option value="speaker_615"> 615 </option>
-<option value="speaker_616"> 616 </option>
-<option value="speaker_617"> 617 </option>
-<option value="speaker_618"> 618 </option>
-<option value="speaker_619"> 619 </option>
-<option value="speaker_620"> 620 </option>
-<option value="speaker_621"> 621 </option>
-<option value="speaker_622"> 622 </option>
-<option value="speaker_623"> 623 </option>
-<option value="speaker_624"> 624 </option>
-<option value="speaker_625"> 625 </option>
-<option value="speaker_626"> 626 </option>
-<option value="speaker_627"> 627 </option>
-<option value="speaker_628"> 628 </option>
-<option value="speaker_629"> 629 </option>
-<option value="speaker_630"> 630 </option>
-<option value="speaker_631"> 631 </option>
-<option value="speaker_632"> 632 </option>
-<option value="speaker_633"> 633 </option>
-<option value="speaker_634"> 634 </option>
-<option value="speaker_635"> 635 </option>
-<option value="speaker_636"> 636 </option>
-<option value="speaker_637"> 637 </option>
-<option value="speaker_638"> 638 </option>
-<option value="speaker_639"> 639 </option>
-<option value="speaker_640"> 640 </option>
-<option value="speaker_641"> 641 </option>
-<option value="speaker_642"> 642 </option>
-<option value="speaker_643"> 643 </option>
-<option value="speaker_644"> 644 </option>
-<option value="speaker_645"> 645 </option>
-<option value="speaker_646"> 646 </option>
-<option value="speaker_647"> 647 </option>
-<option value="speaker_648"> 648 </option>
-<option value="speaker_649"> 649 </option>
-<option value="speaker_650"> 650 </option>
-<option value="speaker_651"> 651 </option>
-<option value="speaker_652"> 652 </option>
-<option value="speaker_653"> 653 </option>
-<option value="speaker_654"> 654 </option>
-<option value="speaker_655"> 655 </option>
-<option value="speaker_656"> 656 </option>
-<option value="speaker_657"> 657 </option>
-<option value="speaker_658"> 658 </option>
-<option value="speaker_659"> 659 </option>
-<option value="speaker_660"> 660 </option>
-<option value="speaker_661"> 661 </option>
-<option value="speaker_662"> 662 </option>
-<option value="speaker_663"> 663 </option>
-<option value="speaker_664"> 664 </option>
-<option value="speaker_665"> 665 </option>
-<option value="speaker_666"> 666 </option>
-<option value="speaker_667"> 667 </option>
-<option value="speaker_668"> 668 </option>
-<option value="speaker_669"> 669 </option>
-<option value="speaker_670"> 670 </option>
-<option value="speaker_671"> 671 </option>
-<option value="speaker_672"> 672 </option>
-<option value="speaker_673"> 673 </option>
-<option value="speaker_674"> 674 </option>
-<option value="speaker_675"> 675 </option>
-<option value="speaker_676"> 676 </option>
-<option value="speaker_677"> 677 </option>
-<option value="speaker_678"> 678 </option>
-<option value="speaker_679"> 679 </option>
-<option value="speaker_680"> 680 </option>
-<option value="speaker_681"> 681 </option>
-<option value="speaker_682"> 682 </option>
-<option value="speaker_683"> 683 </option>
-<option value="speaker_684"> 684 </option>
-<option value="speaker_685"> 685 </option>
-<option value="speaker_686"> 686 </option>
-<option value="speaker_687"> 687 </option>
-<option value="speaker_688"> 688 </option>
-<option value="speaker_689"> 689 </option>
-<option value="speaker_690"> 690 </option>
-<option value="speaker_691"> 691 </option>
-<option value="speaker_692"> 692 </option>
-<option value="speaker_693"> 693 </option>
-<option value="speaker_694"> 694 </option>
-<option value="speaker_695"> 695 </option>
-<option value="speaker_696"> 696 </option>
-<option value="speaker_697"> 697 </option>
-<option value="speaker_698"> 698 </option>
-<option value="speaker_699"> 699 </option>
-<option value="speaker_700"> 700 </option>
-<option value="speaker_701"> 701 </option>
-<option value="speaker_702"> 702 </option>
-<option value="speaker_703"> 703 </option>
-<option value="speaker_704"> 704 </option>
-<option value="speaker_705"> 705 </option>
-<option value="speaker_706"> 706 </option>
-<option value="speaker_707"> 707 </option>
-<option value="speaker_708"> 708 </option>
-<option value="speaker_709"> 709 </option>
-<option value="speaker_710"> 710 </option>
-<option value="speaker_711"> 711 </option>
-<option value="speaker_712"> 712 </option>
-<option value="speaker_713"> 713 </option>
-<option value="speaker_714"> 714 </option>
-<option value="speaker_715"> 715 </option>
-<option value="speaker_716"> 716 </option>
-<option value="speaker_717"> 717 </option>
-<option value="speaker_718"> 718 </option>
-<option value="speaker_719"> 719 </option>
-<option value="speaker_720"> 720 </option>
-<option value="speaker_721"> 721 </option>
-<option value="speaker_722"> 722 </option>
-<option value="speaker_723"> 723 </option>
-<option value="speaker_724"> 724 </option>
-<option value="speaker_725"> 725 </option>
-<option value="speaker_726"> 726 </option>
-<option value="speaker_727"> 727 </option>
-<option value="speaker_728"> 728 </option>
-<option value="speaker_729"> 729 </option>
-<option value="speaker_730"> 730 </option>
-<option value="speaker_731"> 731 </option>
-<option value="speaker_732"> 732 </option>
-<option value="speaker_733"> 733 </option>
-<option value="speaker_734"> 734 </option>
-<option value="speaker_735"> 735 </option>
-<option value="speaker_736"> 736 </option>
-<option value="speaker_737"> 737 </option>
-<option value="speaker_738"> 738 </option>
-<option value="speaker_739"> 739 </option>
-<option value="speaker_740"> 740 </option>
-<option value="speaker_741"> 741 </option>
-<option value="speaker_742"> 742 </option>
-<option value="speaker_743"> 743 </option>
-<option value="speaker_744"> 744 </option>
-<option value="speaker_745"> 745 </option>
-<option value="speaker_746"> 746 </option>
-<option value="speaker_747"> 747 </option>
-<option value="speaker_748"> 748 </option>
-<option value="speaker_749"> 749 </option>
-<option value="speaker_750"> 750 </option>
-<option value="speaker_751"> 751 </option>
-<option value="speaker_752"> 752 </option>
-<option value="speaker_753"> 753 </option>
-<option value="speaker_754"> 754 </option>
-<option value="speaker_755"> 755 </option>
-<option value="speaker_756"> 756 </option>
-<option value="speaker_757"> 757 </option>
-<option value="speaker_758"> 758 </option>
-<option value="speaker_759"> 759 </option>
-<option value="speaker_760"> 760 </option>
-<option value="speaker_761"> 761 </option>
-<option value="speaker_762"> 762 </option>
-<option value="speaker_763"> 763 </option>
-<option value="speaker_764"> 764 </option>
-<option value="speaker_765"> 765 </option>
-<option value="speaker_766"> 766 </option>
-<option value="speaker_767"> 767 </option>
-<option value="speaker_768"> 768 </option>
-<option value="speaker_769"> 769 </option>
-<option value="speaker_770"> 770 </option>
-<option value="speaker_771"> 771 </option>
-<option value="speaker_772"> 772 </option>
-<option value="speaker_773"> 773 </option>
-<option value="speaker_774"> 774 </option>
-<option value="speaker_775"> 775 </option>
-<option value="speaker_776"> 776 </option>
-<option value="speaker_777"> 777 </option>
-<option value="speaker_778"> 778 </option>
-<option value="speaker_779"> 779 </option>
-<option value="speaker_780"> 780 </option>
-<option value="speaker_781"> 781 </option>
-<option value="speaker_782"> 782 </option>
-<option value="speaker_783"> 783 </option>
-<option value="speaker_784"> 784 </option>
-<option value="speaker_785"> 785 </option>
-<option value="speaker_786"> 786 </option>
-<option value="speaker_787"> 787 </option>
-<option value="speaker_788"> 788 </option>
-<option value="speaker_789"> 789 </option>
-<option value="speaker_790"> 790 </option>
-<option value="speaker_791"> 791 </option>
-<option value="speaker_792"> 792 </option>
-<option value="speaker_793"> 793 </option>
-<option value="speaker_794"> 794 </option>
-<option value="speaker_795"> 795 </option>
-<option value="speaker_796"> 796 </option>
-<option value="speaker_797"> 797 </option>
-<option value="speaker_798"> 798 </option>
-<option value="speaker_799"> 799 </option>
-<option value="speaker_800"> 800 </option>
-<option value="speaker_801"> 801 </option>
-<option value="speaker_802"> 802 </option>
-<option value="speaker_803"> 803 </option>
-<option value="speaker_804"> 804 </option>
-<option value="speaker_805"> 805 </option>
-<option value="speaker_806"> 806 </option>
-<option value="speaker_807"> 807 </option>
-<option value="speaker_808"> 808 </option>
-<option value="speaker_809"> 809 </option>
-<option value="speaker_810"> 810 </option>
-<option value="speaker_811"> 811 </option>
-<option value="speaker_812"> 812 </option>
-<option value="speaker_813"> 813 </option>
-<option value="speaker_814"> 814 </option>
-<option value="speaker_815"> 815 </option>
-<option value="speaker_816"> 816 </option>
-<option value="speaker_817"> 817 </option>
-<option value="speaker_818"> 818 </option>
-<option value="speaker_819"> 819 </option>
-<option value="speaker_820"> 820 </option>
-<option value="speaker_821"> 821 </option>
-<option value="speaker_822"> 822 </option>
-<option value="speaker_823"> 823 </option>
-<option value="speaker_824"> 824 </option>
-<option value="speaker_825"> 825 </option>
-<option value="speaker_826"> 826 </option>
-<option value="speaker_827"> 827 </option>
-<option value="speaker_828"> 828 </option>
-<option value="speaker_829"> 829 </option>
-<option value="speaker_830"> 830 </option>
-<option value="speaker_831"> 831 </option>
-<option value="speaker_832"> 832 </option>
-<option value="speaker_833"> 833 </option>
-<option value="speaker_834"> 834 </option>
-<option value="speaker_835"> 835 </option>
-<option value="speaker_836"> 836 </option>
-<option value="speaker_837"> 837 </option>
-<option value="speaker_838"> 838 </option>
-<option value="speaker_839"> 839 </option>
-<option value="speaker_840"> 840 </option>
-<option value="speaker_841"> 841 </option>
-<option value="speaker_842"> 842 </option>
-<option value="speaker_843"> 843 </option>
-<option value="speaker_844"> 844 </option>
-<option value="speaker_845"> 845 </option>
-<option value="speaker_846"> 846 </option>
-<option value="speaker_847"> 847 </option>
-<option value="speaker_848"> 848 </option>
-<option value="speaker_849"> 849 </option>
-<option value="speaker_850"> 850 </option>
-<option value="speaker_851"> 851 </option>
-<option value="speaker_852"> 852 </option>
-<option value="speaker_853"> 853 </option>
-<option value="speaker_854"> 854 </option>
-<option value="speaker_855"> 855 </option>
-<option value="speaker_856"> 856 </option>
-<option value="speaker_857"> 857 </option>
-<option value="speaker_858"> 858 </option>
-<option value="speaker_859"> 859 </option>
-<option value="speaker_860"> 860 </option>
-<option value="speaker_861"> 861 </option>
-<option value="speaker_862"> 862 </option>
-<option value="speaker_863"> 863 </option>
-<option value="speaker_864"> 864 </option>
-<option value="speaker_865"> 865 </option>
-<option value="speaker_866"> 866 </option>
-<option value="speaker_867"> 867 </option>
-<option value="speaker_868"> 868 </option>
-<option value="speaker_869"> 869 </option>
-<option value="speaker_870"> 870 </option>
-<option value="speaker_871"> 871 </option>
-<option value="speaker_872"> 872 </option>
-<option value="speaker_873"> 873 </option>
-<option value="speaker_874"> 874 </option>
-<option value="speaker_875"> 875 </option>
-<option value="speaker_876"> 876 </option>
-<option value="speaker_877"> 877 </option>
-<option value="speaker_878"> 878 </option>
-<option value="speaker_879"> 879 </option>
-<option value="speaker_880"> 880 </option>
-<option value="speaker_881"> 881 </option>
-<option value="speaker_882"> 882 </option>
-<option value="speaker_883"> 883 </option>
-<option value="speaker_884"> 884 </option>
-<option value="speaker_885"> 885 </option>
-<option value="speaker_886"> 886 </option>
-<option value="speaker_887"> 887 </option>
-<option value="speaker_888"> 888 </option>
-<option value="speaker_889"> 889 </option>
-<option value="speaker_890"> 890 </option>
-<option value="speaker_891"> 891 </option>
-<option value="speaker_892"> 892 </option>
-<option value="speaker_893"> 893 </option>
-<option value="speaker_894"> 894 </option>
-<option value="speaker_895"> 895 </option>
-<option value="speaker_896"> 896 </option>
-<option value="speaker_897"> 897 </option>
-<option value="speaker_898"> 898 </option>
-<option value="speaker_899"> 899 </option>
-<option value="speaker_900"> 900 </option>
-<option value="speaker_901"> 901 </option>
-<option value="speaker_902"> 902 </option>
-<option value="speaker_903"> 903 </option>
-</select> (904)</td>
-</tr>
-<tr id="en-us-ryan-high" class="alt">
-<dialog id="dialog-en-us-ryan-high"><form>
-<h1>Model card for Ryan (high)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 1</li>
-<li>Quality: high</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.kaggle.com/datasets/roholazandie/ryanspeech</li>
-<li>License: CC BY-NC-SA 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-ryan-high" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-ryan-high.tar.gz">en-us-ryan-high</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-ryan-high').showModal()">View</a> </td>
-<td> high </td>
-<td> <audio id="audio-en-us-ryan-high" preload="none" controls src="samples/en-us-ryan-high/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-<tr id="en-us-ryan-low" class="">
-<dialog id="dialog-en-us-ryan-low"><form>
-<h1>Model card for Ryan (low)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.kaggle.com/datasets/roholazandie/ryanspeech</li>
-<li>License: CC BY-NC-SA 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-ryan-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-ryan-low.tar.gz">en-us-ryan-low</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-ryan-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-en-us-ryan-low" preload="none" controls src="samples/en-us-ryan-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-<tr id="en-us-ryan-medium" class="alt">
-<dialog id="dialog-en-us-ryan-medium"><form>
-<h1>Model card for Ryan (medium)</h1>
-<ul>
-<li>Language: en-us (U.S. English)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.kaggle.com/datasets/roholazandie/ryanspeech</li>
-<li>License: CC BY-NC-SA 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download en-us-ryan-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-en-us-ryan-medium.tar.gz">en-us-ryan-medium</a> </td>
-<td> <a href="javascript:q('#dialog-en-us-ryan-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-en-us-ryan-medium" preload="none" controls src="samples/en-us-ryan-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> A rainbow is a meteorological phenomenon that is caused by reflection, refraction and dispersion of light in water droplets resulting in a spectrum of light appearing in the sky. It takes the form of a multi-colored circular arc. Rainbows caused by sunlight always appear in the section of sky directly opposite the Sun. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="es">Español (Spanish)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="es-carlfm-x-low" class="">
-<dialog id="dialog-es-carlfm-x-low"><form>
-<h1>Model card for carlfm (x-low)</h1>
-<ul>
-<li>Language: es (Spanish)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/carlfm01/my-speech-datasets</li>
-<li>License: Public domain</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download es-carlfm-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-es-carlfm-x-low.tar.gz">es-carlfm-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-es-carlfm-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-es-carlfm-x-low" preload="none" controls src="samples/es-carlfm-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Un arcoíris​ o arco iris es un fenómeno óptico y meteorológico que consiste en la aparición en el cielo de un arco de luz multicolor, originado por la descomposición de la luz solar en el espectro visible, la cual se produce por refracción, cuando los rayos del sol atraviesan pequeñas gotas de agua contenidas en la atmósfera terrestre. Es un arco compuesto de arcos concéntricos de colores, sin solución de continuidad entre ellos, con el rojo hacia la parte exterior y el violeta hacia el interior. A altitud suficiente, por ejemplo cuando se viaja en avión, el arcoíris se puede observar en forma de círculo completo. </p></details> </td>
-<td></td>
-</tr>
-<tr id="es-mls_10246-low" class="alt">
-<dialog id="dialog-es-mls_10246-low"><form>
-<h1>Model card for mls_10246 (low)</h1>
-<ul>
-<li>Language: es (Spanish)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/94/</li>
-<li>License: CC BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download es-mls_10246-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-es-mls_10246-low.tar.gz">es-mls_10246-low</a> </td>
-<td> <a href="javascript:q('#dialog-es-mls_10246-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-es-mls_10246-low" preload="none" controls src="samples/es-mls_10246-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Un arcoíris​ o arco iris es un fenómeno óptico y meteorológico que consiste en la aparición en el cielo de un arco de luz multicolor, originado por la descomposición de la luz solar en el espectro visible, la cual se produce por refracción, cuando los rayos del sol atraviesan pequeñas gotas de agua contenidas en la atmósfera terrestre. Es un arco compuesto de arcos concéntricos de colores, sin solución de continuidad entre ellos, con el rojo hacia la parte exterior y el violeta hacia el interior. A altitud suficiente, por ejemplo cuando se viaja en avión, el arcoíris se puede observar en forma de círculo completo. </p></details> </td>
-<td></td>
-</tr>
-<tr id="es-mls_9972-low" class="">
-<dialog id="dialog-es-mls_9972-low"><form>
-<h1>Model card for mls_9972 (low)</h1>
-<ul>
-<li>Language: es (Spanish)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/94/</li>
-<li>License: CC BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download es-mls_9972-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-es-mls_9972-low.tar.gz">es-mls_9972-low</a> </td>
-<td> <a href="javascript:q('#dialog-es-mls_9972-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-es-mls_9972-low" preload="none" controls src="samples/es-mls_9972-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Un arcoíris​ o arco iris es un fenómeno óptico y meteorológico que consiste en la aparición en el cielo de un arco de luz multicolor, originado por la descomposición de la luz solar en el espectro visible, la cual se produce por refracción, cuando los rayos del sol atraviesan pequeñas gotas de agua contenidas en la atmósfera terrestre. Es un arco compuesto de arcos concéntricos de colores, sin solución de continuidad entre ellos, con el rojo hacia la parte exterior y el violeta hacia el interior. A altitud suficiente, por ejemplo cuando se viaja en avión, el arcoíris se puede observar en forma de círculo completo. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="fi">Suomi (Finnish)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="fi-harri-low" class="">
-<dialog id="dialog-fi-harri-low"><form>
-<h1>Model card for harri (low)</h1>
-<ul>
-<li>Language: fi (Finnish)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.kaggle.com/bryanpark/finnish-single-speaker-speech-dataset</li>
-<li>License: CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download fi-harri-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-fi-harri-low.tar.gz">fi-harri-low</a> </td>
-<td> <a href="javascript:q('#dialog-fi-harri-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-fi-harri-low" preload="none" controls src="samples/fi-harri-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Sateenkaari on spektrin väreissä esiintyvä ilmakehän optinen ilmiö. Se syntyy, kun valo taittuu pisaran etupinnasta, heijastuu pisaran takapinnasta ja taittuu jälleen pisaran etupinnasta. Koska vesipisara on dispersiivinen, valkoinen valo hajoaa väreiksi muodostaen sateenkaaren. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="fr">Français (French)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="fr-gilles-low" class="">
-<dialog id="dialog-fr-gilles-low"><form>
-<h1>Model card for gilles (low)</h1>
-<ul>
-<li>Language: fr (French)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.kaggle.com/datasets/bryanpark/french-single-speaker-speech-dataset</li>
-<li>License: CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download fr-gilles-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-fr-gilles-low.tar.gz">fr-gilles-low</a> </td>
-<td> <a href="javascript:q('#dialog-fr-gilles-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-fr-gilles-low" preload="none" controls src="samples/fr-gilles-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Un arc-en-ciel est un photométéore, un phénomène optique se produisant dans le ciel, visible dans la direction opposée au Soleil quand il brille pendant la pluie. C'est un arc de cercle coloré d'un dégradé de couleurs continu du rouge, à l'extérieur, au jaune au vert et au bleu, jusqu'au violet à l'intérieur. </p></details> </td>
-<td></td>
-</tr>
-<tr id="fr-mls_1840-low" class="alt">
-<dialog id="dialog-fr-mls_1840-low"><form>
-<h1>Model card for mls_1840 (low)</h1>
-<ul>
-<li>Language: fr (French)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/94/</li>
-<li>License:  CC BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download fr-mls_1840-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-fr-mls_1840-low.tar.gz">fr-mls_1840-low</a> </td>
-<td> <a href="javascript:q('#dialog-fr-mls_1840-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-fr-mls_1840-low" preload="none" controls src="samples/fr-mls_1840-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Un arc-en-ciel est un photométéore, un phénomène optique se produisant dans le ciel, visible dans la direction opposée au Soleil quand il brille pendant la pluie. C'est un arc de cercle coloré d'un dégradé de couleurs continu du rouge, à l'extérieur, au jaune au vert et au bleu, jusqu'au violet à l'intérieur. </p></details> </td>
-<td></td>
-</tr>
-<tr id="fr-siwis-low" class="">
-<dialog id="dialog-fr-siwis-low"><form>
-<h1>Model card for siwis (low)</h1>
-<ul>
-<li>Language: fr (French)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://datashare.is.ed.ac.uk/handle/10283/2353</li>
-<li>License: CC-BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download fr-siwis-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-fr-siwis-low.tar.gz">fr-siwis-low</a> </td>
-<td> <a href="javascript:q('#dialog-fr-siwis-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-fr-siwis-low" preload="none" controls src="samples/fr-siwis-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Un arc-en-ciel est un photométéore, un phénomène optique se produisant dans le ciel, visible dans la direction opposée au Soleil quand il brille pendant la pluie. C'est un arc de cercle coloré d'un dégradé de couleurs continu du rouge, à l'extérieur, au jaune au vert et au bleu, jusqu'au violet à l'intérieur. </p></details> </td>
-<td></td>
-</tr>
-<tr id="fr-siwis-medium" class="alt">
-<dialog id="dialog-fr-siwis-medium"><form>
-<h1>Model card for siwis (medium)</h1>
-<ul>
-<li>Language: fr (French)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://datashare.is.ed.ac.uk/handle/10283/2353</li>
-<li>License: CC-BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download fr-siwis-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-fr-siwis-medium.tar.gz">fr-siwis-medium</a> </td>
-<td> <a href="javascript:q('#dialog-fr-siwis-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-fr-siwis-medium" preload="none" controls src="samples/fr-siwis-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Un arc-en-ciel est un photométéore, un phénomène optique se produisant dans le ciel, visible dans la direction opposée au Soleil quand il brille pendant la pluie. C'est un arc de cercle coloré d'un dégradé de couleurs continu du rouge, à l'extérieur, au jaune au vert et au bleu, jusqu'au violet à l'intérieur. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="is">Icelandic (íslenska)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="is-bui-medium" class="">
-<dialog id="dialog-is-bui-medium"><form>
-<h1>Model card for Búi (medium)</h1>
-<ul>
-<li>Language: is (Icelandic)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://hdl.handle.net/20.500.12537/104</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download is-bui-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-is-bui-medium.tar.gz">is-bui-medium</a> </td>
-<td> <a href="javascript:q('#dialog-is-bui-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-is-bui-medium" preload="none" controls src="samples/is-bui-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Regnbogi (einnig kallaður friðarbogi) er ljósfræðilegt og veðurfræðilegt fyrirbæri sem orsakast þegar litróf birtist á himninum á meðan sólin skín á vætu í andrúmslofti jarðar. Hann er marglitur með rauðan að utanverðu og fjólubláan að innanverðu. Sjaldnar má sjá daufari regnboga með litina í öfugri röð. </p></details> </td>
-<td></td>
-</tr>
-<tr id="is-salka-medium" class="alt">
-<dialog id="dialog-is-salka-medium"><form>
-<h1>Model card for Salka (medium)</h1>
-<ul>
-<li>Language: is (Icelandic)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://hdl.handle.net/20.500.12537/104</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download is-salka-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-is-salka-medium.tar.gz">is-salka-medium</a> </td>
-<td> <a href="javascript:q('#dialog-is-salka-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-is-salka-medium" preload="none" controls src="samples/is-salka-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Regnbogi (einnig kallaður friðarbogi) er ljósfræðilegt og veðurfræðilegt fyrirbæri sem orsakast þegar litróf birtist á himninum á meðan sólin skín á vætu í andrúmslofti jarðar. Hann er marglitur með rauðan að utanverðu og fjólubláan að innanverðu. Sjaldnar má sjá daufari regnboga með litina í öfugri röð. </p></details> </td>
-<td></td>
-</tr>
-<tr id="is-steinn-medium" class="">
-<dialog id="dialog-is-steinn-medium"><form>
-<h1>Model card for Steinn (medium)</h1>
-<ul>
-<li>Language: is (Icelandic)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://hdl.handle.net/20.500.12537/104</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download is-steinn-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-is-steinn-medium.tar.gz">is-steinn-medium</a> </td>
-<td> <a href="javascript:q('#dialog-is-steinn-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-is-steinn-medium" preload="none" controls src="samples/is-steinn-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Regnbogi (einnig kallaður friðarbogi) er ljósfræðilegt og veðurfræðilegt fyrirbæri sem orsakast þegar litróf birtist á himninum á meðan sólin skín á vætu í andrúmslofti jarðar. Hann er marglitur með rauðan að utanverðu og fjólubláan að innanverðu. Sjaldnar má sjá daufari regnboga með litina í öfugri röð. </p></details> </td>
-<td></td>
-</tr>
-<tr id="is-ugla-medium" class="alt">
-<dialog id="dialog-is-ugla-medium"><form>
-<h1>Model card for Ugla (medium)</h1>
-<ul>
-<li>Language: is (Icelandic)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://hdl.handle.net/20.500.12537/104</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download is-ugla-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-is-ugla-medium.tar.gz">is-ugla-medium</a> </td>
-<td> <a href="javascript:q('#dialog-is-ugla-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-is-ugla-medium" preload="none" controls src="samples/is-ugla-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Regnbogi (einnig kallaður friðarbogi) er ljósfræðilegt og veðurfræðilegt fyrirbæri sem orsakast þegar litróf birtist á himninum á meðan sólin skín á vætu í andrúmslofti jarðar. Hann er marglitur með rauðan að utanverðu og fjólubláan að innanverðu. Sjaldnar má sjá daufari regnboga með litina í öfugri röð. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="it">Italiano (Italian)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="it-riccardo_fasol-x-low" class="">
-<dialog id="dialog-it-riccardo_fasol-x-low"><form>
-<h1>Model card for riccardo_fasol (x-low)</h1>
-<ul>
-<li>Language: it (Italian)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/</li>
-<li>License: See URL</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download it-riccardo_fasol-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-it-riccardo_fasol-x-low.tar.gz">it-riccardo_fasol-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-it-riccardo_fasol-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-it-riccardo_fasol-x-low" preload="none" controls src="samples/it-riccardo_fasol-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> In fisica dell'atmosfera e meteorologia l'arcobaleno è un fenomeno ottico atmosferico che produce uno spettro quasi continuo di luce nel cielo quando la luce del Sole attraversa le gocce d'acqua rimaste in sospensione dopo un temporale, o presso una cascata o una fontana. Lo spettro elettromagnetico dell'arcobaleno include lunghezze d'onda sia visibili sia non visibili all'occhio umano, queste ultime rilevabili attraverso uno spettrometro. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="kk">қазақша (Kazakh)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="kk-iseke-x-low" class="">
-<dialog id="dialog-kk-iseke-x-low"><form>
-<h1>Model card for iseke (x-low)</h1>
-<ul>
-<li>Language: kk (Kazakh)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/IS2AI/Kazakh_TTS</li>
-<li>License:  CC-BY-4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download kk-iseke-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-kk-iseke-x-low.tar.gz">kk-iseke-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-kk-iseke-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-kk-iseke-x-low" preload="none" controls src="samples/kk-iseke-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Кемпірқосақ – аспан күмбезінде түрлі түсті доға түрінде көрінетін атмосферадағы оптикалық құбылыс. Ол аспанның бір жағында торлаған бұлттан жаңбыр жауып, қарсы жағында жарқырап күн шығып тұрған кезде көрінеді. Кемпірқосақ тікелей түскен күн сәулесінің жаңбыр тамшыларынан өткенде сынып, құрамдас бөліктерге (қызыл, сарғылт, сары, жасыл, көгілдір, көк, күлгін) бөлінуінің және тамшы бетінен шағылған толқын ұзындығы әр түрлі сәулелердің дифракциялануы мен интерференциялануы нәтижесінде пайда болады. Кемпірқосақтың айқындығы жаңбыр тамшыларының үлкен-кішілігіне байланысты өзгеріп отырады. Тамшы үлкен болса кемпірқосақ айқын, жарық болып көрінеді. Кейде алғашқы кемпірқосақпен бірге екінші кемпірқосақ қабаттаса көрінеді, оны қос кемпірқосақ деп атайды. Қос кемпірқосақ күн сәулесінің су тамшысына белгілі бұрыш жасай, екі рет шағылысуынан түзіледі. Сонымен бірге ай сәулесінен пайда болатын кемпірқосақты ай кемпірқосағы деп атайды. </p></details> </td>
-<td></td>
-</tr>
-<tr id="kk-issai-high" class="alt">
-<dialog id="dialog-kk-issai-high"><form>
-<h1>Model card for ISSAI (high)</h1>
-<ul>
-<li>Language: kk (Kazakh)</li>
-<li>Speakers: 6</li>
-<li>Quality: high</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/IS2AI/Kazakh_TTS</li>
-<li>License:  CC-BY-4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download kk-issai-high" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-kk-issai-high.tar.gz">kk-issai-high</a> </td>
-<td> <a href="javascript:q('#dialog-kk-issai-high').showModal()">View</a> </td>
-<td> high </td>
-<td> <audio id="audio-kk-issai-high" preload="none" controls src="samples/kk-issai-high/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Кемпірқосақ – аспан күмбезінде түрлі түсті доға түрінде көрінетін атмосферадағы оптикалық құбылыс. Ол аспанның бір жағында торлаған бұлттан жаңбыр жауып, қарсы жағында жарқырап күн шығып тұрған кезде көрінеді. Кемпірқосақ тікелей түскен күн сәулесінің жаңбыр тамшыларынан өткенде сынып, құрамдас бөліктерге (қызыл, сарғылт, сары, жасыл, көгілдір, көк, күлгін) бөлінуінің және тамшы бетінен шағылған толқын ұзындығы әр түрлі сәулелердің дифракциялануы мен интерференциялануы нәтижесінде пайда болады. Кемпірқосақтың айқындығы жаңбыр тамшыларының үлкен-кішілігіне байланысты өзгеріп отырады. Тамшы үлкен болса кемпірқосақ айқын, жарық болып көрінеді. Кейде алғашқы кемпірқосақпен бірге екінші кемпірқосақ қабаттаса көрінеді, оны қос кемпірқосақ деп атайды. Қос кемпірқосақ күн сәулесінің су тамшысына белгілі бұрыш жасай, екі рет шағылысуынан түзіледі. Сонымен бірге ай сәулесінен пайда болатын кемпірқосақты ай кемпірқосағы деп атайды. </p></details> </td>
-<td><select id="speaker-kk-issai-high" onchange="setAudio('kk-issai-high')">
-<option value="speaker_0"> 0 </option>
-<option value="speaker_1"> 1 </option>
-<option value="speaker_2"> 2 </option>
-<option value="speaker_3"> 3 </option>
-<option value="speaker_4"> 4 </option>
-<option value="speaker_5"> 5 </option>
-</select> (6)</td>
-</tr>
-<tr id="kk-raya-x-low" class="">
-<dialog id="dialog-kk-raya-x-low"><form>
-<h1>Model card for raya (x-low)</h1>
-<ul>
-<li>Language: kk (Kazakh)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/IS2AI/Kazakh_TTS</li>
-<li>License:  CC-BY-4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download kk-raya-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-kk-raya-x-low.tar.gz">kk-raya-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-kk-raya-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-kk-raya-x-low" preload="none" controls src="samples/kk-raya-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Кемпірқосақ – аспан күмбезінде түрлі түсті доға түрінде көрінетін атмосферадағы оптикалық құбылыс. Ол аспанның бір жағында торлаған бұлттан жаңбыр жауып, қарсы жағында жарқырап күн шығып тұрған кезде көрінеді. Кемпірқосақ тікелей түскен күн сәулесінің жаңбыр тамшыларынан өткенде сынып, құрамдас бөліктерге (қызыл, сарғылт, сары, жасыл, көгілдір, көк, күлгін) бөлінуінің және тамшы бетінен шағылған толқын ұзындығы әр түрлі сәулелердің дифракциялануы мен интерференциялануы нәтижесінде пайда болады. Кемпірқосақтың айқындығы жаңбыр тамшыларының үлкен-кішілігіне байланысты өзгеріп отырады. Тамшы үлкен болса кемпірқосақ айқын, жарық болып көрінеді. Кейде алғашқы кемпірқосақпен бірге екінші кемпірқосақ қабаттаса көрінеді, оны қос кемпірқосақ деп атайды. Қос кемпірқосақ күн сәулесінің су тамшысына белгілі бұрыш жасай, екі рет шағылысуынан түзіледі. Сонымен бірге ай сәулесінен пайда болатын кемпірқосақты ай кемпірқосағы деп атайды. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="ne">नेपाली (Nepali)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="ne-google-medium" class="">
-<dialog id="dialog-ne-google-medium"><form>
-<h1>Model card for google (medium)</h1>
-<ul>
-<li>Language: ne (Nepali)</li>
-<li>Speakers: 18</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/43/</li>
-<li>License:  CC-BY-SA-4.0 International</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download ne-google-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ne-google-medium.tar.gz">ne-google-medium</a> </td>
-<td> <a href="javascript:q('#dialog-ne-google-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-ne-google-medium" preload="none" controls src="samples/ne-google-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> इन्द्रेणी वा इन्द्रधनुष प्रकाश र रंगबाट उत्पन्न भएको यस्तो घटना हो जसमा रंगीन प्रकाशको एउटा अर्धवृत आकाशमा देखिन्छ। जब सूर्यको प्रकाश पृथ्वीको वायुमण्डलमा भएको पानीको थोपा माथि पर्छ, पानीको थोपाले प्रकाशलाई परावर्तन, आवर्तन र डिस्पर्सन गर्दछ। फलस्वरुप आकाशमा एउटा सप्तरङ्गी अर्धवृताकार प्रकाशीय आकृति उत्पन्न हुन्छ। यो आकृतिलाई नै इन्द्रेणी भनिन्छ। इन्द्रेणी देखिनुको कारण वायुमण्डलमा पानीका कणहरु हुनु नै हो। वर्षा, झरनाबाट उछिट्टिएको पानी, शीत, कुहिरो आदिको इन्द्रेणी देखिने प्रक्रियामा महत्त्वपूर्ण भूमिका हुन्छ। इन्द्रेणीमा सात रंगहरु रातो, सुन्तला, पहेंलो, हरियो, आकाशे निलो, गाढा निलो र बैजनी रंग क्रमैसँग देखिन्छ। यसमा सबैभन्दा माथिल्लो छेउमा रातो रंग र अर्को छेउमा बैजनी रंग देखिन्छ। इन्द्रेणी पूर्ण वृत्ताकार समेत हुन सक्ने भए पनि साधरण अवलोकनकर्ताले जमिन माथि बनेको आधा भाग मात्र देख्न सकिन्छ । </p></details> </td>
-<td><select id="speaker-ne-google-medium" onchange="setAudio('ne-google-medium')">
-<option value="speaker_0"> 0 </option>
-<option value="speaker_1"> 1 </option>
-<option value="speaker_2"> 2 </option>
-<option value="speaker_3"> 3 </option>
-<option value="speaker_4"> 4 </option>
-<option value="speaker_5"> 5 </option>
-<option value="speaker_6"> 6 </option>
-<option value="speaker_7"> 7 </option>
-<option value="speaker_8"> 8 </option>
-<option value="speaker_9"> 9 </option>
-<option value="speaker_10"> 10 </option>
-<option value="speaker_11"> 11 </option>
-<option value="speaker_12"> 12 </option>
-<option value="speaker_13"> 13 </option>
-<option value="speaker_14"> 14 </option>
-<option value="speaker_15"> 15 </option>
-<option value="speaker_16"> 16 </option>
-<option value="speaker_17"> 17 </option>
-</select> (18)</td>
-</tr>
-<tr id="ne-google-x-low" class="alt">
-<dialog id="dialog-ne-google-x-low"><form>
-<h1>Model card for google (x-low)</h1>
-<ul>
-<li>Language: ne (Nepali)</li>
-<li>Speakers: 18</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/43/</li>
-<li>License:  CC-BY-SA-4.0 International</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download ne-google-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ne-google-x-low.tar.gz">ne-google-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-ne-google-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-ne-google-x-low" preload="none" controls src="samples/ne-google-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> इन्द्रेणी वा इन्द्रधनुष प्रकाश र रंगबाट उत्पन्न भएको यस्तो घटना हो जसमा रंगीन प्रकाशको एउटा अर्धवृत आकाशमा देखिन्छ। जब सूर्यको प्रकाश पृथ्वीको वायुमण्डलमा भएको पानीको थोपा माथि पर्छ, पानीको थोपाले प्रकाशलाई परावर्तन, आवर्तन र डिस्पर्सन गर्दछ। फलस्वरुप आकाशमा एउटा सप्तरङ्गी अर्धवृताकार प्रकाशीय आकृति उत्पन्न हुन्छ। यो आकृतिलाई नै इन्द्रेणी भनिन्छ। इन्द्रेणी देखिनुको कारण वायुमण्डलमा पानीका कणहरु हुनु नै हो। वर्षा, झरनाबाट उछिट्टिएको पानी, शीत, कुहिरो आदिको इन्द्रेणी देखिने प्रक्रियामा महत्त्वपूर्ण भूमिका हुन्छ। इन्द्रेणीमा सात रंगहरु रातो, सुन्तला, पहेंलो, हरियो, आकाशे निलो, गाढा निलो र बैजनी रंग क्रमैसँग देखिन्छ। यसमा सबैभन्दा माथिल्लो छेउमा रातो रंग र अर्को छेउमा बैजनी रंग देखिन्छ। इन्द्रेणी पूर्ण वृत्ताकार समेत हुन सक्ने भए पनि साधरण अवलोकनकर्ताले जमिन माथि बनेको आधा भाग मात्र देख्न सकिन्छ । </p></details> </td>
-<td><select id="speaker-ne-google-x-low" onchange="setAudio('ne-google-x-low')">
-<option value="speaker_0"> 0 </option>
-<option value="speaker_1"> 1 </option>
-<option value="speaker_2"> 2 </option>
-<option value="speaker_3"> 3 </option>
-<option value="speaker_4"> 4 </option>
-<option value="speaker_5"> 5 </option>
-<option value="speaker_6"> 6 </option>
-<option value="speaker_7"> 7 </option>
-<option value="speaker_8"> 8 </option>
-<option value="speaker_9"> 9 </option>
-<option value="speaker_10"> 10 </option>
-<option value="speaker_11"> 11 </option>
-<option value="speaker_12"> 12 </option>
-<option value="speaker_13"> 13 </option>
-<option value="speaker_14"> 14 </option>
-<option value="speaker_15"> 15 </option>
-<option value="speaker_16"> 16 </option>
-<option value="speaker_17"> 17 </option>
-</select> (18)</td>
-</tr>
-</table>
-<h2 id="nl">Nederlands (Dutch)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="nl-mls_5809-low" class="">
-<dialog id="dialog-nl-mls_5809-low"><form>
-<h1>Model card for mls_5809 (low)</h1>
-<ul>
-<li>Language: nl (Dutch)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/94/</li>
-<li>License:  CC BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download nl-mls_5809-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-nl-mls_5809-low.tar.gz">nl-mls_5809-low</a> </td>
-<td> <a href="javascript:q('#dialog-nl-mls_5809-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-nl-mls_5809-low" preload="none" controls src="samples/nl-mls_5809-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Een regenboog is een gekleurde cirkelboog die aan de hemel waargenomen kan worden als de, laagstaande, zon tegen een nevel van waterdruppeltjes aan schijnt en de zon zich achter de waarnemer bevindt. Het is een optisch effect dat wordt veroorzaakt door de breking en weerspiegeling van licht in de waterdruppels. </p></details> </td>
-<td></td>
-</tr>
-<tr id="nl-mls_7432-low" class="alt">
-<dialog id="dialog-nl-mls_7432-low"><form>
-<h1>Model card for mls_7432 (low)</h1>
-<ul>
-<li>Language: nl (Dutch)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/94/</li>
-<li>License: CC BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download nl-mls_7432-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-nl-mls_7432-low.tar.gz">nl-mls_7432-low</a> </td>
-<td> <a href="javascript:q('#dialog-nl-mls_7432-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-nl-mls_7432-low" preload="none" controls src="samples/nl-mls_7432-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Een regenboog is een gekleurde cirkelboog die aan de hemel waargenomen kan worden als de, laagstaande, zon tegen een nevel van waterdruppeltjes aan schijnt en de zon zich achter de waarnemer bevindt. Het is een optisch effect dat wordt veroorzaakt door de breking en weerspiegeling van licht in de waterdruppels. </p></details> </td>
-<td></td>
-</tr>
-<tr id="nl-nathalie-x-low" class="">
-<dialog id="dialog-nl-nathalie-x-low"><form>
-<h1>Model card for nathalie (x-low)</h1>
-<ul>
-<li>Language: nl (Dutch)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/rhasspy/dataset-voice-nathalie</li>
-<li>License:  CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download nl-nathalie-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-nl-nathalie-x-low.tar.gz">nl-nathalie-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-nl-nathalie-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-nl-nathalie-x-low" preload="none" controls src="samples/nl-nathalie-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Een regenboog is een gekleurde cirkelboog die aan de hemel waargenomen kan worden als de, laagstaande, zon tegen een nevel van waterdruppeltjes aan schijnt en de zon zich achter de waarnemer bevindt. Het is een optisch effect dat wordt veroorzaakt door de breking en weerspiegeling van licht in de waterdruppels. </p></details> </td>
-<td></td>
-</tr>
-<tr id="nl-rdh-medium" class="alt">
-<dialog id="dialog-nl-rdh-medium"><form>
-<h1>Model card for rdh (medium)</h1>
-<ul>
-<li>Language: nl (Dutch)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/r-dh/dutch-vl-tts</li>
-<li>License:  CC0 1.0 Universal</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download nl-rdh-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-nl-rdh-medium.tar.gz">nl-rdh-medium</a> </td>
-<td> <a href="javascript:q('#dialog-nl-rdh-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-nl-rdh-medium" preload="none" controls src="samples/nl-rdh-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Een regenboog is een gekleurde cirkelboog die aan de hemel waargenomen kan worden als de, laagstaande, zon tegen een nevel van waterdruppeltjes aan schijnt en de zon zich achter de waarnemer bevindt. Het is een optisch effect dat wordt veroorzaakt door de breking en weerspiegeling van licht in de waterdruppels. </p></details> </td>
-<td></td>
-</tr>
-<tr id="nl-rdh-x-low" class="">
-<dialog id="dialog-nl-rdh-x-low"><form>
-<h1>Model card for rdh (x-low)</h1>
-<ul>
-<li>Language: nl (Dutch)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/r-dh/dutch-vl-tts</li>
-<li>License:  CC0 1.0 Universal</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download nl-rdh-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-nl-rdh-x-low.tar.gz">nl-rdh-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-nl-rdh-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-nl-rdh-x-low" preload="none" controls src="samples/nl-rdh-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Een regenboog is een gekleurde cirkelboog die aan de hemel waargenomen kan worden als de, laagstaande, zon tegen een nevel van waterdruppeltjes aan schijnt en de zon zich achter de waarnemer bevindt. Het is een optisch effect dat wordt veroorzaakt door de breking en weerspiegeling van licht in de waterdruppels. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="no">Norsk (Norwegian)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="no-talesyntese-medium" class="">
-<dialog id="dialog-no-talesyntese-medium"><form>
-<h1>Model card for talesyntese (medium)</h1>
-<ul>
-<li>Language: no (Norwegian)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-15/</li>
-<li>License:  CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download no-talesyntese-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-no-talesyntese-medium.tar.gz">no-talesyntese-medium</a> </td>
-<td> <a href="javascript:q('#dialog-no-talesyntese-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-no-talesyntese-medium" preload="none" controls src="samples/no-talesyntese-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Regnbuen eller regnbogen er et optisk fenomen som oppstår når solen skinner gjennom regndråper i atmosfæren og betrakteren står med solen i ryggen. Gulhvitt sollys består av alle synlige bølgelengder av lys. Lysbrytningen er forskjellig avhengig av bølgelengden slik at sollyset spaltes til et spektrum av rødt ytterst og deretter oransje, gult, grønt, blått, indigo (blålilla) og fiolett. En fullstendig regnbue har en tydelig hovedregnbue (primærbue) innerst og en svakere regnbue (sekundærbue) ytterst der fargene ligger i omvendt rekkefølge. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="pl">Polski (Polish)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="pl-mls_6892-low" class="">
-<dialog id="dialog-pl-mls_6892-low"><form>
-<h1>Model card for mls_6892 (low)</h1>
-<ul>
-<li>Language: pl (Polish)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: http://www.openslr.org/94/</li>
-<li>License:  CC BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download pl-mls_6892-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-pl-mls_6892-low.tar.gz">pl-mls_6892-low</a> </td>
-<td> <a href="javascript:q('#dialog-pl-mls_6892-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-pl-mls_6892-low" preload="none" controls src="samples/pl-mls_6892-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Tęcza, zjawisko optyczne i meteorologiczne, występujące w postaci charakterystycznego wielobarwnego łuku powstającego w wyniku rozszczepienia światła widzialnego, zwykle promieniowania słonecznego, załamującego się i odbijającego wewnątrz licznych kropli wody mających kształt zbliżony do kulistego. Rozszczepienie światła jest wynikiem zjawiska dyspersji, powodującego różnice w kącie załamania światła o różnej długości fali przy przejściu z powietrza do wody i z wody do powietrza. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="pt-br">Português (Brasil) (Portuguese (Brazilian))</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="pt-br-edresson-low" class="">
-<dialog id="dialog-pt-br-edresson-low"><form>
-<h1>Model card for edresson (low)</h1>
-<ul>
-<li>Language: pt-br (Brazilian Portuguese)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/Edresson/TTS-Portuguese-Corpus</li>
-<li>License: CC BY 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download pt-br-edresson-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-pt-br-edresson-low.tar.gz">pt-br-edresson-low</a> </td>
-<td> <a href="javascript:q('#dialog-pt-br-edresson-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-pt-br-edresson-low" preload="none" controls src="samples/pt-br-edresson-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Um arco-íris, também popularmente denominado arco-da-velha, é um fenômeno óptico e meteorológico que separa a luz do sol em seu espectro contínuo quando o sol brilha sobre gotículas de água suspensas no ar. É um arco multicolorido com o vermelho em seu exterior e o violeta em seu interior. Por ser um espectro de dispersão da luz branca, o arco-íris contém uma quantidade infinita de cores sem qualquer delimitação entre elas. Devido à necessidade humana de classificação dos fenômenos da natureza, a capacidade finita de distinção de cores pela visão humana e por questões didáticas, o arco-íris é mais conhecido por uma simplificação criada culturalmente que resume o espectro em sete cores na seguinte ordem: vermelho, laranja, amarelo, verde, azul, anil e violeta. Tal simplificação foi proposta primeiramente por Isaac Newton, que decidiu nomear apenas cinco cores e depois adicionou mais duas apenas para fazer analogia com as sete notas musicais, os sete dias da semana e os sete objetos do sistema solar conhecidos à época. Para informações sobre o espectro de cores do arco-íris, veja também o artigo sobre cores. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="ru">Русский (Russian)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="ru-irinia-medium" class="">
-<dialog id="dialog-ru-irinia-medium"><form>
-<h1>Model card for irina (medium)</h1>
-<ul>
-<li>Language: ru (Russian)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/RHVoice/RHVoice</li>
-<li>License: GPLv2</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English lessac voice (medium quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download ru-irinia-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-ru-irinia-medium.tar.gz">ru-irinia-medium</a> </td>
-<td> <a href="javascript:q('#dialog-ru-irinia-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-ru-irinia-medium" preload="none" controls src="samples/ru-irinia-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Ра́дуга, атмосферное, оптическое и метеорологическое явление, наблюдаемое при освещении ярким источником света множества водяных капель. Радуга выглядит как разноцветная дуга или окружность, составленная из цветов спектра видимого излучения. Это те семь цветов, которые принято выделять в радуге в русской культуре, но следует иметь в виду, что на самом деле спектр непрерывен, и его цвета плавно переходят друг в друга через множество промежуточных оттенков. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="sv-se">Svenska (Swedish)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="sv-se-nst-medium" class="">
-<dialog id="dialog-sv-se-nst-medium"><form>
-<h1>Model card for nst (medium)</h1>
-<ul>
-<li>Language: sv (Swedish)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-17/</li>
-<li>License: CC0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch by KBLab at The National Library of Sweden.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download sv-se-nst-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-sv-se-nst-medium.tar.gz">sv-se-nst-medium</a> </td>
-<td> <a href="javascript:q('#dialog-sv-se-nst-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-sv-se-nst-medium" preload="none" controls src="samples/sv-se-nst-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> En regnbåge är ett optiskt, meteorologiskt fenomen som uppträder som ett fullständigt ljusspektrum i form av en båge på himlen då solen lyser på nedfallande regn. Regnbågen består färgmässigt av en kontinuerlig övergång från rött via gula, gröna och blå nyanser till violett innerst; ofta definieras antalet färger som sju, inklusive orange och indigo. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="uk">украї́нська мо́ва (Ukrainian)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="uk-lada-x-low" class="">
-<dialog id="dialog-uk-lada-x-low"><form>
-<h1>Model card for lada (x-low)</h1>
-<ul>
-<li>Language: uk (Ukranian)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/egorsmkv/ukrainian-tts-datasets/tree/main/lada</li>
-<li>License: Apache 2.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download uk-lada-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-uk-lada-x-low.tar.gz">uk-lada-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-uk-lada-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-uk-lada-x-low" preload="none" controls src="samples/uk-lada-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Весе́лка, також ра́йдуга оптичне явище в атмосфері, що являє собою одну, дві чи декілька різнокольорових дуг (або кіл, якщо дивитися з повітря), що спостерігаються на тлі хмари, якщо вона розташована проти Сонця. Червоний колір ми бачимо з зовнішнього боку первинної веселки, а фіолетовий — із внутрішнього. </p></details> </td>
-<td></td>
-</tr>
-</table>
-<h2 id="vi">Tiếng Việt (Vietnamese)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="vi-25hours-single-low" class="">
-<dialog id="dialog-vi-25hours-single-low"><form>
-<h1>Model card for 25hours-single (low)</h1>
-<ul>
-<li>Language: vi (Vietnamese)</li>
-<li>Speakers: 1</li>
-<li>Quality: low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>Name: InfoRe Technology 1</li>
-<li>URL: https://github.com/TensorSpeech/TensorFlowASR/blob/main/README.md#vietnamese</li>
-<li>License: Unknown</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English Ryan voice (low quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download vi-25hours-single-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-vi-25hours-single-low.tar.gz">vi-25hours-single-low</a> </td>
-<td> <a href="javascript:q('#dialog-vi-25hours-single-low').showModal()">View</a> </td>
-<td> low </td>
-<td> <audio id="audio-vi-25hours-single-low" preload="none" controls src="samples/vi-25hours-single-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Cầu vồng hay mống cũng như quang phổ là hiện tượng tán sắc của các ánh sáng từ Mặt Trời khi khúc xạ và phản xạ qua các giọt nước mưa. Ở nhiều nền văn hóa khác nhau, cầu vồng xuất hiện được coi là mang đến điềm lành cho nhân thế. </p></details> </td>
-<td></td>
-</tr>
-<tr id="vi-vivos-x-low" class="alt">
-<dialog id="dialog-vi-vivos-x-low"><form>
-<h1>Model card for vivos (x-low)</h1>
-<ul>
-<li>Language: vi (Vietnamese)</li>
-<li>Speakers: 65</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>Name: InfoRe Technology 1</li>
-<li>URL: https://ailab.hcmus.edu.vn/vivos/</li>
-<li>License: CC BY-NC-SA 4.0</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download vi-vivos-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-vi-vivos-x-low.tar.gz">vi-vivos-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-vi-vivos-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-vi-vivos-x-low" preload="none" controls src="samples/vi-vivos-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> Cầu vồng hay mống cũng như quang phổ là hiện tượng tán sắc của các ánh sáng từ Mặt Trời khi khúc xạ và phản xạ qua các giọt nước mưa. Ở nhiều nền văn hóa khác nhau, cầu vồng xuất hiện được coi là mang đến điềm lành cho nhân thế. </p></details> </td>
-<td><select id="speaker-vi-vivos-x-low" onchange="setAudio('vi-vivos-x-low')">
-<option value="speaker_0"> 0 </option>
-<option value="speaker_1"> 1 </option>
-<option value="speaker_2"> 2 </option>
-<option value="speaker_3"> 3 </option>
-<option value="speaker_4"> 4 </option>
-<option value="speaker_5"> 5 </option>
-<option value="speaker_6"> 6 </option>
-<option value="speaker_7"> 7 </option>
-<option value="speaker_8"> 8 </option>
-<option value="speaker_9"> 9 </option>
-<option value="speaker_10"> 10 </option>
-<option value="speaker_11"> 11 </option>
-<option value="speaker_12"> 12 </option>
-<option value="speaker_13"> 13 </option>
-<option value="speaker_14"> 14 </option>
-<option value="speaker_15"> 15 </option>
-<option value="speaker_16"> 16 </option>
-<option value="speaker_17"> 17 </option>
-<option value="speaker_18"> 18 </option>
-<option value="speaker_19"> 19 </option>
-<option value="speaker_20"> 20 </option>
-<option value="speaker_21"> 21 </option>
-<option value="speaker_22"> 22 </option>
-<option value="speaker_23"> 23 </option>
-<option value="speaker_24"> 24 </option>
-<option value="speaker_25"> 25 </option>
-<option value="speaker_26"> 26 </option>
-<option value="speaker_27"> 27 </option>
-<option value="speaker_28"> 28 </option>
-<option value="speaker_29"> 29 </option>
-<option value="speaker_30"> 30 </option>
-<option value="speaker_31"> 31 </option>
-<option value="speaker_32"> 32 </option>
-<option value="speaker_33"> 33 </option>
-<option value="speaker_34"> 34 </option>
-<option value="speaker_35"> 35 </option>
-<option value="speaker_36"> 36 </option>
-<option value="speaker_37"> 37 </option>
-<option value="speaker_38"> 38 </option>
-<option value="speaker_39"> 39 </option>
-<option value="speaker_40"> 40 </option>
-<option value="speaker_41"> 41 </option>
-<option value="speaker_42"> 42 </option>
-<option value="speaker_43"> 43 </option>
-<option value="speaker_44"> 44 </option>
-<option value="speaker_45"> 45 </option>
-<option value="speaker_46"> 46 </option>
-<option value="speaker_47"> 47 </option>
-<option value="speaker_48"> 48 </option>
-<option value="speaker_49"> 49 </option>
-<option value="speaker_50"> 50 </option>
-<option value="speaker_51"> 51 </option>
-<option value="speaker_52"> 52 </option>
-<option value="speaker_53"> 53 </option>
-<option value="speaker_54"> 54 </option>
-<option value="speaker_55"> 55 </option>
-<option value="speaker_56"> 56 </option>
-<option value="speaker_57"> 57 </option>
-<option value="speaker_58"> 58 </option>
-<option value="speaker_59"> 59 </option>
-<option value="speaker_60"> 60 </option>
-<option value="speaker_61"> 61 </option>
-<option value="speaker_62"> 62 </option>
-<option value="speaker_63"> 63 </option>
-<option value="speaker_64"> 64 </option>
-</select> (65)</td>
-</tr>
-</table>
-<h2 id="zh-cn">简体中文 (Chinese)</h2>
-<table>
-<thead>
-<th>Voice</th>
-<th>Model Card</th>
-<th>Quality <a href="#quality">[?]</a></th>
-<th>Sample</th>
-<th>Speaker</th>
-</thead>
-<tr id="zh-cn-huayan-x-low" class="">
-<dialog id="dialog-zh-cn-huayan-x-low"><form>
-<h1>Model card for huayan (x-low)</h1>
-<ul>
-<li>Language: zh-cn (Chinese)</li>
-<li>Speakers: 1</li>
-<li>Quality: x-low</li>
-<li>Samplerate: 16,000Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/PlayVoice/HuaYan_TTS</li>
-<li>License: Unknown</li>
-</ul>
-<h2>Training</h2>
-<p>Trained from scratch.</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download zh-cn-huayan-x-low" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-zh-cn-huayan-x-low.tar.gz">zh-cn-huayan-x-low</a> </td>
-<td> <a href="javascript:q('#dialog-zh-cn-huayan-x-low').showModal()">View</a> </td>
-<td> x-low </td>
-<td> <audio id="audio-zh-cn-huayan-x-low" preload="none" controls src="samples/zh-cn-huayan-x-low/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> 彩虹，又稱天弓、天虹、絳等，簡稱虹，是氣象中的一種光學現象，當太陽 光照射到半空中的水滴，光線被折射及反射，在天空上形成拱形的七彩光譜，由外 圈至内圈呈紅、橙、黃、綠、蓝、靛蓝、堇紫七种颜色（霓虹則相反）。事實 上彩虹有无数種顏色，比如，在紅色和橙色之間還有許多種細微差別的顏色，根據 不同的文化背景被解讀爲3-9種不等，通常只用六七種顏色作為區別。國際LGBT 聯盟的彩虹旗为六色：紅橙黃綠藍紫。紅橙黃綠藍靛紫的七色說，就是在六色基礎 上將紫色分出偏藍色的靛。傳統中國文化說的七色是：赤橙黃綠青藍紫，青色 就是偏藍的綠色。要是把橙色也分爲偏紅、偏黃的兩種就是九色。三色說有：紅綠 藍，就是光學三原色，所有顏色的光都是這三種顏色混合出來的，和亚里士多 德紅、綠、紫三色說，就是兩頭加中間。 </p></details> </td>
-<td></td>
-</tr>
-<tr id="zh_CN-huayan-medium" class="alt">
-<dialog id="dialog-zh_CN-huayan-medium"><form>
-<h1>Model card for huayan (medium)</h1>
-<ul>
-<li>Language: zh-cn (Chinese)</li>
-<li>Speakers: 1</li>
-<li>Quality: medium</li>
-<li>Samplerate: 22,050Hz</li>
-</ul>
-<h2>Dataset</h2>
-<ul>
-<li>URL: https://github.com/PlayVoice/HuaYan_TTS</li>
-<li>License: Unknown</li>
-</ul>
-<h2>Training</h2>
-<p>Finetuned from U.S. English lessac voice (medium quality).</p>
-<div><button value="cancel" formmethod="dialog">Close</button></div>
-</form></dialog>
-<td> <a title="Download zh_CN-huayan-medium" href="https://github.com/rhasspy/piper/releases/download/v0.0.2/voice-zh_CN-huayan-medium.tar.gz">zh_CN-huayan-medium</a> </td>
-<td> <a href="javascript:q('#dialog-zh_CN-huayan-medium').showModal()">View</a> </td>
-<td> medium </td>
-<td> <audio id="audio-zh_CN-huayan-medium" preload="none" controls src="samples/zh_CN-huayan-medium/speaker_0/sample.mp3"></audio> <details><summary>sample text</summary><p> 彩虹，又稱天弓、天虹、絳等，簡稱虹，是氣象中的一種光學現象，當太陽 光照射到半空中的水滴，光線被折射及反射，在天空上形成拱形的七彩光譜，由外 圈至内圈呈紅、橙、黃、綠、蓝、靛蓝、堇紫七种颜色（霓虹則相反）。事實 上彩虹有无数種顏色，比如，在紅色和橙色之間還有許多種細微差別的顏色，根據 不同的文化背景被解讀爲3-9種不等，通常只用六七種顏色作為區別。國際LGBT 聯盟的彩虹旗为六色：紅橙黃綠藍紫。紅橙黃綠藍靛紫的七色說，就是在六色基礎 上將紫色分出偏藍色的靛。傳統中國文化說的七色是：赤橙黃綠青藍紫，青色 就是偏藍的綠色。要是把橙色也分爲偏紅、偏黃的兩種就是九色。三色說有：紅綠 藍，就是光學三原色，所有顏色的光都是這三種顏色混合出來的，和亚里士多 德紅、綠、紫三色說，就是兩頭加中間。 </p></details> </td>
-<td></td>
-</tr>
-</table>
+    <select id="languages" onchange="setLanguage()">
+      <option value="">Language</option>
+    </select>
 
-    <hr />
+    <select id="voice" onchange="setVoice()">
+      <option value="">Voice</option>
+    </select>
 
-    <h2 id="quality">Quality</h2>
+    <select id="quality" onchange="setQuality()">
+      <option value="">Quality</option>
+    </select>
+
+    <select id="speaker" onchange="setSpeaker()">
+      <option value="">Speaker</option>
+    </select>
+
+    <span id="key"></span>
+
+    <br />
+
+    <div id="info" hidden>
+      <audio id="audio" controls></audio>
+      <br />
+      <a id="download" target="_blank">Download</a>
+      <br />
+      <p id="text"></p>
+      <textarea id="modelCard" readonly rows=15></textarea>
+    </div>
+
+    <h2>Quality</h2>
     Voices are trained at one of 4 "quality" levels:
     <ul>
       <li>
-        <b>x-low</b> - 16Khz audio, 5-7M params
+        <b>x_low</b> - 16Khz audio, 5-7M params
       </li>
       <li>
         <b>low</b> - 16Khz audio, 15-20M params
@@ -2669,8 +92,49 @@
       </li>
     </ul>
 
+    <h2>Multi-Speaker</h2>
+    Some voices contain multiple speakers, which captures the style of multiple people within a single model.
+    <br />
+    Multi-speaker models can quickly switch between different speakers, but the quality of an individual speaker may be less than a single speaker model.
+
 
     <script type="text/javascript">
+      var voices = {};
+      const languageNames = {
+          ca_ES: "Català (Catalan, Spain)",
+          da_DK: "Dansk (Danish, Denmark)",
+          de_DE: "Deutsch (German, Germany)",
+          el_GR: "Ελληνικά (Greek, Greece)",
+          en_GB: "English (Great Britain)",
+          en_US: "English (United States)",
+          es_ES: "Español (Spanish, Spain)",
+          es_MX: "Español (Spanish, Mexico)",
+          fi_FI: "Suomi (Finnish, Finland)",
+          fr_FR: "Français (French, France)",
+          is_IS: "íslenska (Icelandic, Iceland)",
+          it_IT: "Italiano (Italian, Italy)",
+          ka_GE: "ქართული ენა (Georgian, Georgia)",
+          kk_KZ: "қазақша (Kazakh, Kazakhstan)",
+          ne_NP: "नेपाली (Nepali, Nepal)",
+          nl_BE: "Nederlands (Dutch, Belgium)",
+          nl_NL: "Nederlands (Dutch, Netherlands)",
+          no_NO: "Norsk (Norwegian, Norway)",
+          pl_PL: "Polski (Polish, Poland)",
+          pt_BR: "Português (Portuguese, Brazil)",
+          ru_RU: "Русский (Russian, Russia)",
+          sv_SE: "Svenska (Swedish, Sweden)",
+          sw_CD: "Kiswahili (Swahili, Democratic Republic of the Congo)",
+          uk_UK: "украї́нська мо́ва (Ukrainian, Ukraine)",
+          vi_VN: "Tiếng Việt (Vietnamese, Vietnam)",
+          zh_CN: "简体中文 (Chinese, China)",
+      };
+      const qualitySort = {
+          "x_low": 0,
+          "low": 1,
+          "medium": 2,
+          "high": 3,
+      };
+      
       function q(selector) {return document.querySelector(selector)}
 
       function setAudio(name) {
@@ -2680,11 +144,202 @@
           audio.src = "samples/" + name + "/" + speaker.value + "/sample.mp3";
       }
 
-      function jumpLanguage() {
+      function setLanguage() {
           var language = q("#languages").value;
           if (language.length > 0) {
-              location.hash = "#" + language;
+              var voiceSelect = q("#voice");
+              while (voiceSelect.options.length > 1) {
+                  voiceSelect.remove(voiceSelect.options.length - 1);
+              }
+
+              let names = [];
+              for (key in voices) {
+                  let voice = voices[key];
+                  if (voice.language == language) {
+                      names.push(voice.name);
+                  }
+              }
+
+              names = Array.from(new Set(names)).sort();
+              for (i in names) {
+                  let name = names[i];
+                  let option = document.createElement("option");
+                  option.text = name;
+                  option.value = name;
+                  voiceSelect.add(option);
+              }
+
+              if (voiceSelect.options.length > 1) {
+                  // Select first voice
+                  voiceSelect.selectedIndex = 1;
+                  setVoice();
+              }
           }
+      }
+
+      function setVoice() {
+          var language = q("#languages").value;
+          var voiceName = q("#voice").value;
+          if (voiceName.length > 0) {
+              var qualitySelect = q("#quality");
+              while (qualitySelect.options.length > 1) {
+                  qualitySelect.remove(qualitySelect.options.length - 1);
+              }
+
+              let qualities = [];
+              for (key in voices) {
+                  let voice = voices[key];
+                  if ((voice.language == language) && (voice.name == voiceName)) {
+                      qualities.push(voice.quality);
+                  }
+              }
+
+              qualities = Array.from(new Set(qualities)).sort((a, b) => qualitySort[a] - qualitySort[b]);
+              for (i in qualities) {
+                  let quality = qualities[i];
+                  let option = document.createElement("option");
+                  option.text = quality;
+                  option.value = quality;
+                  qualitySelect.add(option);
+              }
+
+              if (qualitySelect.options.length > 1) {
+                  // Select highest quality
+                  qualitySelect.selectedIndex = qualitySelect.options.length - 1;
+                  setQuality();
+              }
+          }
+      }
+
+      function setQuality() {
+          var language = q("#languages").value;
+          var voiceName = q("#voice").value;
+          var quality = q("#quality").value;
+          if (quality.length > 0) {
+              var speakerSelect = q("#speaker");
+              while (speakerSelect.options.length > 1) {
+                  speakerSelect.remove(speakerSelect.options.length - 1);
+              }
+
+              var numSpeakers = 1;
+              var speakerIdMap = {};
+              for (key in voices) {
+                  let voice = voices[key];
+                  if ((voice.language == language)
+                      && (voice.name == voiceName)
+                      && (voice.quality == quality)) {
+                      numSpeakers = voice.num_speakers;
+                      speakerIdMap = voice.speaker_id_map;
+                      break;
+                  }
+              }
+
+              if (numSpeakers <= 1) {
+                  // Single speaker model
+                  let option = document.createElement("option");
+                  option.text = "default";
+                  option.value = "0";
+                  speakerSelect.add(option);
+              } else {
+                  // Multi-speaker model
+                  let sortedSpeakers = Object.keys(speakerIdMap).sort((a, b) => speakerIdMap[a] - speakerIdMap[b]);
+                  for (i in sortedSpeakers) {
+                      let speaker = sortedSpeakers[i];
+                      let option = document.createElement("option");
+                      option.text = speaker + " (" + i.toString() + ")";
+                      option.value = i.toString();
+                      speakerSelect.add(option);
+                  }
+              }
+
+              if (speakerSelect.options.length > 1) {
+                  // Select first speaker
+                  speakerSelect.selectedIndex = 1;
+                  setSpeaker();
+              }
+          }
+      }
+
+      function setSpeaker() {
+          var language = q("#languages").value;
+          let languageFamily = language.split("_")[0];
+          var voiceName = q("#voice").value;
+          var quality = q("#quality").value;
+          var speaker = q("#speaker").value;
+          var audio = q("#audio");
+          if (speaker.length > 0) {
+              for (key in voices) {
+                  let voice = voices[key];
+                  if ((voice.language == language)
+                      && (voice.name == voiceName)
+                      && (voice.quality == quality)) {
+
+                      q("#key").innerHTML = key;
+
+                      q("#download").href = "https://huggingface.co/rhasspy/piper-voices/tree/main/"
+                          + languageFamily
+                          + "/"
+                          + language
+                          + "/"
+                          + voiceName
+                          + "/"
+                          + quality
+                          + "/";
+
+                      q("#info").hidden = false;
+
+                      let sampleDir = "samples/"
+                          + languageFamily
+                          + "/"
+                          + language
+                          + "/"
+                          + voiceName
+                          + "/"
+                          + quality;
+                      
+                      audio.src = sampleDir
+                          +"/speaker_"
+                          + speaker
+                          + ".mp3";
+
+                      fetch(sampleDir + "/sample.txt")
+                          .then(response => response.text())
+                          .then(text => {
+                              q("#text").innerHTML = text;
+                          });
+
+                      fetch(sampleDir + "/MODEL_CARD")
+                          .then(response => response.text())
+                          .then(text => {
+                              q("#modelCard").innerHTML = text;
+                          });
+                      break;
+                  }
+              }
+          }
+      }
+
+      window.onload = function(e) {
+          fetch("voices.json")
+              .then(response => response.json())
+              .then(response_obj => {
+                  voices = response_obj;
+                  let voiceLanguages = [];
+                  for (key in voices) {
+                      let voice = voices[key];
+                      voiceLanguages.push(voice.language);
+                  }
+
+                  let sortedLanguages = Array.from(new Set(voiceLanguages)).sort();
+                  let languagesSelect = q("#languages");
+                  for (i in sortedLanguages) {
+                      let language = sortedLanguages[i];
+                      let option = document.createElement("option");
+                      option.text = languageNames[language];
+                      option.value = language;
+                      languagesSelect.add(option);
+                  }
+              });
       }
     </script>
   </body>

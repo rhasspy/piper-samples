@@ -1,0 +1,15 @@
+# Model card for google (x_low)
+
+* Language: ne_NE (Nepali, Nepal)
+* Speakers: 18
+* Quality: x_low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* URL: http://www.openslr.org/43/
+* License:  CC-BY-SA-4.0 International
+
+## Training
+
+Trained from scratch.

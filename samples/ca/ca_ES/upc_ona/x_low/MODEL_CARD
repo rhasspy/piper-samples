@@ -1,0 +1,15 @@
+# Model card for upc_ona (x_low)
+
+* Language: ca_ES (Catalan, Spain)
+* Speakers: 1
+* Quality: x_low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* URL: https://collectivat.cat/asr#upc-festcat-tts-corpora
+* License: CC BY-SA 3.0 ES
+
+## Training
+
+Trained from scratch.

@@ -22,7 +22,7 @@ LANG_NAMES = {
     "gu": ("ગુજરાતી", "Gujarati"),
     "ha": "Hausa",
     "hu": ("Magyar Nyelv", "Hungarian"),
-    "is": ("Icelandic", "íslenska"),
+    "is": ("íslenska", "Icelandic"),
     "it": ("Italiano", "Italian"),
     "jv": ("Basa Jawa", "Javanese"),
     "kk": ("қазақша", "Kazakh"),
@@ -42,10 +42,6 @@ LANG_NAMES = {
     "vi": ("Tiếng Việt", "Vietnamese"),
     "yo": ("Èdè Yorùbá", "Yoruba"),
     "zh-cn": ("简体中文", "Chinese"),
-}
-
-LANG_ALIASES = {
-    "zh_CN": "zh-cn",
 }
 
 
@@ -97,7 +93,6 @@ def write_output(f):
     print('<select id="languages" onchange="jumpLanguage()">', file=f)
     print('<option value="">Jump to language</option>', file=f)
     for language in languages:
-        language = LANG_ALIASES.get(language, language)
         language_name = LANG_NAMES[language]
         if isinstance(language_name, tuple):
             language_name = f"{language_name[0]} ({language_name[1]})"

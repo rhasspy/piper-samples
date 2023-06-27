@@ -1,0 +1,15 @@
+# Model card for karlsson (low)
+
+* Language: de_DE (German, Germany)
+* Speakers: 1
+* Quality: low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* URL: https://www.caito.de/2019/01/03/the-m-ailabs-speech-dataset/
+* License: See URL
+
+## Training
+
+Finetuned from U.S. English Ryan voice (low quality).
