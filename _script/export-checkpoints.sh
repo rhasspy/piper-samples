@@ -137,8 +137,3 @@ find "${piper_voices}" -name '*.onnx' | sort | \
             fi;
         done
     done
-
-# Collect into JSON
-echo "Writing ${piper_voices}/voices.json"
-python3 "${this_dir}/write_voices_json.py" "${piper_voices}" \
-    > "${piper_voices}/voices.json"

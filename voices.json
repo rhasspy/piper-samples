@@ -6,15 +6,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "zh_CN-huayan-x_low.onnx": {
+            "zh/zh_CN/huayan/x_low/zh_CN-huayan-x_low.onnx": {
                 "size_bytes": 20628813,
                 "md5_digest": "2b96570db6becd09814a608c8d14a64f"
             },
-            "zh_CN-huayan-x_low.onnx.json": {
-                "size_bytes": 5774,
-                "md5_digest": "b086dd6808691b3ba114645ab225f24b"
+            "zh/zh_CN/huayan/x_low/zh_CN-huayan-x_low.onnx.json": {
+                "size_bytes": 5954,
+                "md5_digest": "9270af91d9b44a35b75cb6ce70dac93e"
             },
-            "MODEL_CARD": {
+            "zh/zh_CN/huayan/x_low/MODEL_CARD": {
                 "size_bytes": 237,
                 "md5_digest": "715587a977945498c5741b74eb81a1fd"
             }
@@ -27,15 +27,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "zh_CN-huayan-medium.onnx": {
+            "zh/zh_CN/huayan/medium/zh_CN-huayan-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "40cdb7930ff91b81574d5f0489e076ea"
             },
-            "zh_CN-huayan-medium.onnx.json": {
-                "size_bytes": 6771,
-                "md5_digest": "a62132d9b2506e7ad04297528e35fe6c"
+            "zh/zh_CN/huayan/medium/zh_CN-huayan-medium.onnx.json": {
+                "size_bytes": 6922,
+                "md5_digest": "f1c77a621e220d545042a4c8c2eaae64"
             },
-            "MODEL_CARD": {
+            "zh/zh_CN/huayan/medium/MODEL_CARD": {
                 "size_bytes": 276,
                 "md5_digest": "b23255ace0cda4c2e02134d8a70c2e03"
             }
@@ -48,15 +48,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "ru_RU-irina-medium.onnx": {
+            "ru/ru_RU/irina/medium/ru_RU-irina-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "21fbe77fdc68bdc35d7adb6bf4f52199"
             },
-            "ru_RU-irina-medium.onnx.json": {
-                "size_bytes": 6696,
-                "md5_digest": "ff90aed0c0932d0d274a1da44b591a1e"
+            "ru/ru_RU/irina/medium/ru_RU-irina-medium.onnx.json": {
+                "size_bytes": 6846,
+                "md5_digest": "b915de8ef7523207d131bba462be11f3"
             },
-            "MODEL_CARD": {
+            "ru/ru_RU/irina/medium/MODEL_CARD": {
                 "size_bytes": 271,
                 "md5_digest": "397e67453b4ea5a95642673d0debb5ba"
             }
@@ -69,15 +69,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "ru_RU-dmitri-medium.onnx": {
+            "ru/ru_RU/dmitri/medium/ru_RU-dmitri-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "589ccc91745a1e2353508ff62c5941b7"
             },
-            "ru_RU-dmitri-medium.onnx.json": {
-                "size_bytes": 6770,
-                "md5_digest": "f96b3949813e206055cd587727337268"
+            "ru/ru_RU/dmitri/medium/ru_RU-dmitri-medium.onnx.json": {
+                "size_bytes": 6921,
+                "md5_digest": "d9eff56c1b8441273bf83441e51ca06e"
             },
-            "MODEL_CARD": {
+            "ru/ru_RU/dmitri/medium/MODEL_CARD": {
                 "size_bytes": 276,
                 "md5_digest": "c19f9eff768d0c0e1f476a4c6ca1ff1e"
             }
@@ -90,15 +90,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "ru_RU-denis-medium.onnx": {
+            "ru/ru_RU/denis/medium/ru_RU-denis-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "76c2f14e521fef3ed574f97ad492728e"
             },
-            "ru_RU-denis-medium.onnx.json": {
-                "size_bytes": 6770,
-                "md5_digest": "f96b3949813e206055cd587727337268"
+            "ru/ru_RU/denis/medium/ru_RU-denis-medium.onnx.json": {
+                "size_bytes": 6920,
+                "md5_digest": "cdecd72b59bbd7b22f406d91e0680beb"
             },
-            "MODEL_CARD": {
+            "ru/ru_RU/denis/medium/MODEL_CARD": {
                 "size_bytes": 275,
                 "md5_digest": "6fe09e0e097e4538809cc420653974e4"
             }
@@ -111,15 +111,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "ru_RU-ruslan-medium.onnx": {
+            "ru/ru_RU/ruslan/medium/ru_RU-ruslan-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "731eb188e63b4c57320e38047ba2d850"
             },
-            "ru_RU-ruslan-medium.onnx.json": {
-                "size_bytes": 6856,
-                "md5_digest": "907f1cfa9aed04f134a7c702f2c10949"
+            "ru/ru_RU/ruslan/medium/ru_RU-ruslan-medium.onnx.json": {
+                "size_bytes": 7007,
+                "md5_digest": "b5b2edc5be5ce94e32ccb5239d18c012"
             },
-            "MODEL_CARD": {
+            "ru/ru_RU/ruslan/medium/MODEL_CARD": {
                 "size_bytes": 313,
                 "md5_digest": "7b50a255192cc1c44358d7cb20ddbb5c"
             }
@@ -132,15 +132,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "nl_BE-nathalie-x_low.onnx": {
+            "nl/nl_BE/nathalie/x_low/nl_BE-nathalie-x_low.onnx": {
                 "size_bytes": 20628813,
                 "md5_digest": "4a00803b60caecad30ea612bcd9f9344"
             },
-            "nl_BE-nathalie-x_low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "189e6fd4e40bf8322800f50a743b4778"
+            "nl/nl_BE/nathalie/x_low/nl_BE-nathalie-x_low.onnx.json": {
+                "size_bytes": 5955,
+                "md5_digest": "9370d6cec73eaa3006303b490983119a"
             },
-            "MODEL_CARD": {
+            "nl/nl_BE/nathalie/x_low/MODEL_CARD": {
                 "size_bytes": 246,
                 "md5_digest": "5df62094bde427374223f91f44476392"
             }
@@ -153,15 +153,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "nl_BE-nathalie-medium.onnx": {
+            "nl/nl_BE/nathalie/medium/nl_BE-nathalie-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "ab0c38b5f66764b59ad9e3e98b1c2172"
             },
-            "nl_BE-nathalie-medium.onnx.json": {
-                "size_bytes": 6856,
-                "md5_digest": "5cfa8e713729ac1f29a8d4204ca5b809"
+            "nl/nl_BE/nathalie/medium/nl_BE-nathalie-medium.onnx.json": {
+                "size_bytes": 7009,
+                "md5_digest": "ed7e4ab955d9514f4274ad93cafe0618"
             },
-            "MODEL_CARD": {
+            "nl/nl_BE/nathalie/medium/MODEL_CARD": {
                 "size_bytes": 284,
                 "md5_digest": "ff335f87ca41a3f89180781498e02635"
             }
@@ -174,15 +174,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "nl_BE-rdh-x_low.onnx": {
+            "nl/nl_BE/rdh/x_low/nl_BE-rdh-x_low.onnx": {
                 "size_bytes": 20628813,
                 "md5_digest": "7d60d0de9ad9ec11a1d293665743afda"
             },
-            "nl_BE-rdh-x_low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "189e6fd4e40bf8322800f50a743b4778"
+            "nl/nl_BE/rdh/x_low/nl_BE-rdh-x_low.onnx.json": {
+                "size_bytes": 5950,
+                "md5_digest": "44fc96689545fb39bce58301d2b1d5d7"
             },
-            "MODEL_CARD": {
+            "nl/nl_BE/rdh/x_low/MODEL_CARD": {
                 "size_bytes": 242,
                 "md5_digest": "6d0157bcd5ff281717e663d56dab980e"
             }
@@ -195,15 +195,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "nl_BE-rdh-medium.onnx": {
+            "nl/nl_BE/rdh/medium/nl_BE-rdh-medium.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "33d3469d745677ec4d7e96eb4145b09e"
             },
-            "nl_BE-rdh-medium.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "eaae3e21dcd4899d5b522067ec994fd9"
+            "nl/nl_BE/rdh/medium/nl_BE-rdh-medium.onnx.json": {
+                "size_bytes": 5951,
+                "md5_digest": "652cc22303033a5ddc3dd12e595cd83e"
             },
-            "MODEL_CARD": {
+            "nl/nl_BE/rdh/medium/MODEL_CARD": {
                 "size_bytes": 244,
                 "md5_digest": "dc4487b06fcef6ff270c852ce12947b9"
             }
@@ -216,15 +216,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "nl_NL-mls_7432-low.onnx": {
+            "nl/nl_NL/mls_7432/low/nl_NL-mls_7432-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "044b69d583e191203997761434607273"
             },
-            "nl_NL-mls_7432-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "189e6fd4e40bf8322800f50a743b4778"
+            "nl/nl_NL/mls_7432/low/nl_NL-mls_7432-low.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "242366c4042cd3df8c4f8727e4171010"
             },
-            "MODEL_CARD": {
+            "nl/nl_NL/mls_7432/low/MODEL_CARD": {
                 "size_bytes": 260,
                 "md5_digest": "5d8ee8e955f077fc99cac61191d00892"
             }
@@ -237,15 +237,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "nl_NL-mls_5809-low.onnx": {
+            "nl/nl_NL/mls_5809/low/nl_NL-mls_5809-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "e69130a776b04c9962a1fefb4878d7d9"
             },
-            "nl_NL-mls_5809-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "189e6fd4e40bf8322800f50a743b4778"
+            "nl/nl_NL/mls_5809/low/nl_NL-mls_5809-low.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "f829e4463305e56d3c4dfeb25d3f9232"
             },
-            "MODEL_CARD": {
+            "nl/nl_NL/mls_5809/low/MODEL_CARD": {
                 "size_bytes": 261,
                 "md5_digest": "ac4b35e581cea8418909947a29a671bb"
             }
@@ -258,15 +258,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "it_IT-riccardo-x_low.onnx": {
+            "it/it_IT/riccardo/x_low/it_IT-riccardo-x_low.onnx": {
                 "size_bytes": 28130791,
                 "md5_digest": "2c564b67f6bfaf3ad02d28ab528929b8"
             },
-            "it_IT-riccardo-x_low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "2216aa093b516a5f07b7634f4c7fda1f"
+            "it/it_IT/riccardo/x_low/it_IT-riccardo-x_low.onnx.json": {
+                "size_bytes": 5955,
+                "md5_digest": "110a150990a72d9533677b914cb028ce"
             },
-            "MODEL_CARD": {
+            "it/it_IT/riccardo/x_low/MODEL_CARD": {
                 "size_bytes": 260,
                 "md5_digest": "3e70f29ab998ac0380edc0cec7395e80"
             }
@@ -298,15 +298,15 @@
             "0649": 17
         },
         "files": {
-            "ne_NE-google-x_low.onnx": {
+            "ne/ne_NP/google/x_low/ne_NP-google-x_low.onnx": {
                 "size_bytes": 27693157,
                 "md5_digest": "b11030daccc781a7db64c9413197ca8a"
             },
-            "ne_NE-google-x_low.onnx.json": {
-                "size_bytes": 6128,
-                "md5_digest": "309124f6068864743fba1c021cb599f4"
+            "ne/ne_NP/google/x_low/ne_NP-google-x_low.onnx.json": {
+                "size_bytes": 6308,
+                "md5_digest": "908b3b9ef643863b9f4cb26562c01caf"
             },
-            "MODEL_CARD": {
+            "ne/ne_NP/google/x_low/MODEL_CARD": {
                 "size_bytes": 244,
                 "md5_digest": "5ea405c002a69df5961c8d43cadbb844"
             }
@@ -338,15 +338,15 @@
             "0649": 17
         },
         "files": {
-            "ne_NP-google-medium.onnx": {
+            "ne/ne_NP/google/medium/ne_NP-google-medium.onnx": {
                 "size_bytes": 76766385,
                 "md5_digest": "2c24ccfe18eca2f14bccd0a188516109"
             },
-            "ne_NP-google-medium.onnx.json": {
-                "size_bytes": 7211,
-                "md5_digest": "c08b45f2b25b2ef1806d633c14c6191d"
+            "ne/ne_NP/google/medium/ne_NP-google-medium.onnx.json": {
+                "size_bytes": 7362,
+                "md5_digest": "8a28e58fead8c687caa0db23ba5d602e"
             },
-            "MODEL_CARD": {
+            "ne/ne_NP/google/medium/MODEL_CARD": {
                 "size_bytes": 283,
                 "md5_digest": "afe022ba061870d0c9fe085fe9a9f31f"
             }
@@ -359,15 +359,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "el_GR-rapunzelina-low.onnx": {
+            "el/el_GR/rapunzelina/low/el_GR-rapunzelina-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "04e0151b653bb64540b1cde027054140"
             },
-            "el_GR-rapunzelina-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "72e6d38fb08d93b9858f246653b63f88"
+            "el/el_GR/rapunzelina/low/el_GR-rapunzelina-low.onnx.json": {
+                "size_bytes": 5956,
+                "md5_digest": "7db5de1c165aec2c8ff9b9dd63f09f71"
             },
-            "MODEL_CARD": {
+            "el/el_GR/rapunzelina/low/MODEL_CARD": {
                 "size_bytes": 303,
                 "md5_digest": "c75270b41e7bf60dacd351753a483574"
             }
@@ -387,15 +387,15 @@
             "ISSAI_KazakhTTS2_F2": 5
         },
         "files": {
-            "kk_KZ-issai-high.onnx": {
+            "kk/kk_KZ/issai/high/kk_KZ-issai-high.onnx": {
                 "size_bytes": 127864258,
                 "md5_digest": "d5a97c25feb0949c187ae5f8e72753e3"
             },
-            "kk_KZ-issai-high.onnx.json": {
-                "size_bytes": 5990,
-                "md5_digest": "5fc3ec6aee3d104c00a3e2ee0914e9d5"
+            "kk/kk_KZ/issai/high/kk_KZ-issai-high.onnx.json": {
+                "size_bytes": 6168,
+                "md5_digest": "13aaa087c24754c9e7aa14f1e223765a"
             },
-            "MODEL_CARD": {
+            "kk/kk_KZ/issai/high/MODEL_CARD": {
                 "size_bytes": 237,
                 "md5_digest": "30487d1011336ed15feabd156424cbd9"
             }
@@ -408,15 +408,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "kk_KZ-raya-x_low.onnx": {
+            "kk/kk_KZ/raya/x_low/kk_KZ-raya-x_low.onnx": {
                 "size_bytes": 28130791,
                 "md5_digest": "476ecc32e07cad26572a50f26d0ebe28"
             },
-            "kk_KZ-raya-x_low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "838be60c9b2760337eb8e54a671f317b"
+            "kk/kk_KZ/raya/x_low/kk_KZ-raya-x_low.onnx.json": {
+                "size_bytes": 5951,
+                "md5_digest": "459f40a8f5842a170793fcbf4a1130e6"
             },
-            "MODEL_CARD": {
+            "kk/kk_KZ/raya/x_low/MODEL_CARD": {
                 "size_bytes": 238,
                 "md5_digest": "fb34d2e65fac42f4d6e003d3d30c897e"
             }
@@ -429,15 +429,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "kk_KZ-iseke-x_low.onnx": {
+            "kk/kk_KZ/iseke/x_low/kk_KZ-iseke-x_low.onnx": {
                 "size_bytes": 28130791,
                 "md5_digest": "1674f3f4ce48981d77e500741afa4ff9"
             },
-            "kk_KZ-iseke-x_low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "838be60c9b2760337eb8e54a671f317b"
+            "kk/kk_KZ/iseke/x_low/kk_KZ-iseke-x_low.onnx.json": {
+                "size_bytes": 5952,
+                "md5_digest": "780d3d67bea7f29fac0dcdcd74ef3e54"
             },
-            "MODEL_CARD": {
+            "kk/kk_KZ/iseke/x_low/MODEL_CARD": {
                 "size_bytes": 239,
                 "md5_digest": "fce637093c4437a1f929280913a86aa5"
             }
@@ -450,15 +450,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "pt_BR-faber-medium.onnx": {
+            "pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "e0724a2f07965f6523d2a1e96b488a4c"
             },
-            "pt_BR-faber-medium.onnx.json": {
-                "size_bytes": 6819,
-                "md5_digest": "b6c2c4e9755d9bd92485a65d4070cb2f"
+            "pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx.json": {
+                "size_bytes": 6969,
+                "md5_digest": "cbd8c19032f775db27d563b3bc3df7c6"
             },
-            "MODEL_CARD": {
+            "pt/pt_BR/faber/medium/MODEL_CARD": {
                 "size_bytes": 278,
                 "md5_digest": "a81a3840b1749cf34b0e31de1577ef47"
             }
@@ -471,15 +471,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "pt_BR-edresson-low.onnx": {
+            "pt/pt_BR/edresson/low/pt_BR-edresson-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "53e365c040dd07890fe1855b64c7cc58"
             },
-            "pt_BR-edresson-low.onnx.json": {
-                "size_bytes": 5776,
-                "md5_digest": "3ec806d00312e12c21743eb88e8c7c81"
+            "pt/pt_BR/edresson/low/pt_BR-edresson-low.onnx.json": {
+                "size_bytes": 5956,
+                "md5_digest": "83421e3628c25e62fb0ea046b939f926"
             },
-            "MODEL_CARD": {
+            "pt/pt_BR/edresson/low/MODEL_CARD": {
                 "size_bytes": 283,
                 "md5_digest": "62cde47b9a3214109e601f90eeadea11"
             }
@@ -492,15 +492,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "de_DE-eva_k-x_low.onnx": {
+            "de/de_DE/eva_k/x_low/de_DE-eva_k-x_low.onnx": {
                 "size_bytes": 20628813,
                 "md5_digest": "51bfc52a58282c2e4fc01ae66567a708"
             },
-            "de_DE-eva_k-x_low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            "de/de_DE/eva_k/x_low/de_DE-eva_k-x_low.onnx.json": {
+                "size_bytes": 5952,
+                "md5_digest": "2593d0fab71795b7ba76832579c1185a"
             },
-            "MODEL_CARD": {
+            "de/de_DE/eva_k/x_low/MODEL_CARD": {
                 "size_bytes": 246,
                 "md5_digest": "02b01f3d47b2798ece347b2c7e94c9e9"
             }
@@ -513,15 +513,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "de_DE-pavoque-low.onnx": {
+            "de/de_DE/pavoque/low/de_DE-pavoque-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "bc37dccbad87fd65c8501c412c0c31ca"
             },
-            "de_DE-pavoque-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            "de/de_DE/pavoque/low/de_DE-pavoque-low.onnx.json": {
+                "size_bytes": 5952,
+                "md5_digest": "9dbe88264431af0ea20fa4ca4fe03091"
             },
-            "MODEL_CARD": {
+            "de/de_DE/pavoque/low/MODEL_CARD": {
                 "size_bytes": 309,
                 "md5_digest": "e0aacaf7b834938c4e3ad1fb3f68ef87"
             }
@@ -534,15 +534,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "de_DE-kerstin-low.onnx": {
+            "de/de_DE/kerstin/low/de_DE-kerstin-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "1d5e5788cfddb04cbb34418f2841931e"
             },
-            "de_DE-kerstin-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            "de/de_DE/kerstin/low/de_DE-kerstin-low.onnx.json": {
+                "size_bytes": 5952,
+                "md5_digest": "952af66f912007b6ec6b065b94072447"
             },
-            "MODEL_CARD": {
+            "de/de_DE/kerstin/low/MODEL_CARD": {
                 "size_bytes": 272,
                 "md5_digest": "69ec1bc99fc7e19c9ddcdf712920a6c7"
             }
@@ -555,15 +555,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "de_DE-thorsten-low.onnx": {
+            "de/de_DE/thorsten/low/de_DE-thorsten-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "c06eb96aceb61895fcb09ffc30eef60b"
             },
-            "de_DE-thorsten-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            "de/de_DE/thorsten/low/de_DE-thorsten-low.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "a6d7c8de4b562e9631ef3f262756e51b"
             },
-            "MODEL_CARD": {
+            "de/de_DE/thorsten/low/MODEL_CARD": {
                 "size_bytes": 274,
                 "md5_digest": "203f58b93f0372564e745f1e05ea47bb"
             }
@@ -576,15 +576,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "de_DE-thorsten-medium.onnx": {
+            "de/de_DE/thorsten/medium/de_DE-thorsten-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "a129b00fb3078df43c96bab6c94535c0"
             },
-            "de_DE-thorsten-medium.onnx.json": {
-                "size_bytes": 6770,
-                "md5_digest": "d66233afbd7afec773e80c569bd0a74d"
+            "de/de_DE/thorsten/medium/de_DE-thorsten-medium.onnx.json": {
+                "size_bytes": 6923,
+                "md5_digest": "0ba02428e952e6556157df235b740e93"
             },
-            "MODEL_CARD": {
+            "de/de_DE/thorsten/medium/MODEL_CARD": {
                 "size_bytes": 285,
                 "md5_digest": "e84cf8b09957fccceb068a3c1664d0f3"
             }
@@ -597,15 +597,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "de_DE-ramona-low.onnx": {
+            "de/de_DE/ramona/low/de_DE-ramona-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "b4aaf3673170a0d96519cdc992c23fda"
             },
-            "de_DE-ramona-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            "de/de_DE/ramona/low/de_DE-ramona-low.onnx.json": {
+                "size_bytes": 5951,
+                "md5_digest": "b86770e4875dc512fc4fe53ebf3492bc"
             },
-            "MODEL_CARD": {
+            "de/de_DE/ramona/low/MODEL_CARD": {
                 "size_bytes": 255,
                 "md5_digest": "c970992423b5fc7a26340a9363e15952"
             }
@@ -618,15 +618,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "de_DE-karlsson-low.onnx": {
+            "de/de_DE/karlsson/low/de_DE-karlsson-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "c94b5b8e8c7147b4b2c4a19ca5a3c41b"
             },
-            "de_DE-karlsson-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "1a46002d8bbef555078530e0953e61f9"
+            "de/de_DE/karlsson/low/de_DE-karlsson-low.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "09bb5d214e30fe91427097634070b191"
             },
-            "MODEL_CARD": {
+            "de/de_DE/karlsson/low/MODEL_CARD": {
                 "size_bytes": 289,
                 "md5_digest": "6e2f3eec10cf7fceb0b68b67eccd06a4"
             }
@@ -639,15 +639,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "da_DK-talesyntese-medium.onnx": {
+            "da/da_DK/talesyntese/medium/da_DK-talesyntese-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "9c05494a3e0c1136337581e01222395d"
             },
-            "da_DK-talesyntese-medium.onnx.json": {
-                "size_bytes": 6826,
-                "md5_digest": "a2543c3488e94c36cc4ca7326a5d698e"
+            "da/da_DK/talesyntese/medium/da_DK-talesyntese-medium.onnx.json": {
+                "size_bytes": 7012,
+                "md5_digest": "4cfe905fcf8fdb0f84d6705a3dc7844b"
             },
-            "MODEL_CARD": {
+            "da/da_DK/talesyntese/medium/MODEL_CARD": {
                 "size_bytes": 308,
                 "md5_digest": "628cc03fca8f5d2c454824d6252955ad"
             }
@@ -660,15 +660,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "is_IS-ugla-medium.onnx": {
+            "is/is_IS/ugla/medium/is_IS-ugla-medium.onnx": {
                 "size_bytes": 76495465,
                 "md5_digest": "722fcea3546f0113ad6664290aa97cab"
             },
-            "is_IS-ugla-medium.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "fe40a8dc0810d54d53f526ea9b97fac0"
+            "is/is_IS/ugla/medium/is_IS-ugla-medium.onnx.json": {
+                "size_bytes": 5952,
+                "md5_digest": "13be98e291aada712bf0ca47d805209f"
             },
-            "MODEL_CARD": {
+            "is/is_IS/ugla/medium/MODEL_CARD": {
                 "size_bytes": 240,
                 "md5_digest": "a3ba0a35bc26d440ee3b0872e435fcd5"
             }
@@ -681,15 +681,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "is_IS-salka-medium.onnx": {
+            "is/is_IS/salka/medium/is_IS-salka-medium.onnx": {
                 "size_bytes": 76495465,
                 "md5_digest": "5967c9456b931d6123687d7b78fd81a7"
             },
-            "is_IS-salka-medium.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "fe40a8dc0810d54d53f526ea9b97fac0"
+            "is/is_IS/salka/medium/is_IS-salka-medium.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "f6424072a68ed4d57c210682cf1a33a1"
             },
-            "MODEL_CARD": {
+            "is/is_IS/salka/medium/MODEL_CARD": {
                 "size_bytes": 241,
                 "md5_digest": "0f3d286069e4c7bead9b40ece3bbefe6"
             }
@@ -702,15 +702,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "is_IS-steinn-medium.onnx": {
+            "is/is_IS/steinn/medium/is_IS-steinn-medium.onnx": {
                 "size_bytes": 76495465,
                 "md5_digest": "fd8189eb0a72e78d525e70a71aaa792c"
             },
-            "is_IS-steinn-medium.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "fe40a8dc0810d54d53f526ea9b97fac0"
+            "is/is_IS/steinn/medium/is_IS-steinn-medium.onnx.json": {
+                "size_bytes": 5954,
+                "md5_digest": "4e777952d5cdbfe6a074fba17555e714"
             },
-            "MODEL_CARD": {
+            "is/is_IS/steinn/medium/MODEL_CARD": {
                 "size_bytes": 242,
                 "md5_digest": "45ab46f37e5a6bdf739d58496752e6a0"
             }
@@ -723,15 +723,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "is_IS-bui-medium.onnx": {
+            "is/is_IS/bui/medium/is_IS-bui-medium.onnx": {
                 "size_bytes": 76495465,
                 "md5_digest": "08332bb41a67b52a3361bd1e8e36fb10"
             },
-            "is_IS-bui-medium.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "fe40a8dc0810d54d53f526ea9b97fac0"
+            "is/is_IS/bui/medium/is_IS-bui-medium.onnx.json": {
+                "size_bytes": 5951,
+                "md5_digest": "ff4231eeba2c144bf8466d0adb9671db"
             },
-            "MODEL_CARD": {
+            "is/is_IS/bui/medium/MODEL_CARD": {
                 "size_bytes": 246,
                 "md5_digest": "a055aad199d8cc58e52913ff2af461d8"
             }
@@ -810,15 +810,15 @@
             "VIVOSDEV19": 64
         },
         "files": {
-            "vi_VN-vivos-x_low.onnx": {
+            "vi/vi_VN/vivos/x_low/vi_VN-vivos-x_low.onnx": {
                 "size_bytes": 27789413,
                 "md5_digest": "d5880d32e340f57489dcb9d4f1f7aa04"
             },
-            "vi_VN-vivos-x_low.onnx.json": {
-                "size_bytes": 7458,
-                "md5_digest": "c578b42f2c512d8011c842a12af23134"
+            "vi/vi_VN/vivos/x_low/vi_VN-vivos-x_low.onnx.json": {
+                "size_bytes": 7637,
+                "md5_digest": "85cf0a21c7de5c37bad0439bbcc6223e"
             },
-            "MODEL_CARD": {
+            "vi/vi_VN/vivos/x_low/MODEL_CARD": {
                 "size_bytes": 272,
                 "md5_digest": "6bd1265a94a8f6bcce74a5b1145a7f95"
             }
@@ -831,15 +831,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "vi_VN-25hours_single-low.onnx": {
+            "vi/vi_VN/25hours_single/low/vi_VN-25hours_single-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "54ff8fb35b0084336377ddd10717e1fa"
             },
-            "vi_VN-25hours_single-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "9af5281977bb1d9d06297d4585c38597"
+            "vi/vi_VN/25hours_single/low/vi_VN-25hours_single-low.onnx.json": {
+                "size_bytes": 5959,
+                "md5_digest": "38c5cd03543f3a76a81ae28915b9eee0"
             },
-            "MODEL_CARD": {
+            "vi/vi_VN/25hours_single/low/MODEL_CARD": {
                 "size_bytes": 343,
                 "md5_digest": "25eb4744418cd7b8da0a9096dcfa6e61"
             }
@@ -852,15 +852,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "vi_VN-vais1000-medium.onnx": {
+            "vi/vi_VN/vais1000/medium/vi_VN-vais1000-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "5e42428c4f6131f75557cf156c9c1526"
             },
-            "vi_VN-vais1000-medium.onnx.json": {
-                "size_bytes": 6827,
-                "md5_digest": "534d6342e0dae0fa30abcce484c4cd7f"
+            "vi/vi_VN/vais1000/medium/vi_VN-vais1000-medium.onnx.json": {
+                "size_bytes": 6979,
+                "md5_digest": "5fd6b9a5116abc0ceeccef1140a222b5"
             },
-            "MODEL_CARD": {
+            "vi/vi_VN/vais1000/medium/MODEL_CARD": {
                 "size_bytes": 361,
                 "md5_digest": "1beeecba9042e5925b0c5fbd138c779d"
             }
@@ -873,15 +873,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "sv_SE-nst-medium.onnx": {
+            "sv/sv_SE/nst/medium/sv_SE-nst-medium.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "20266cf58e93ca2140444b77398aea04"
             },
-            "sv_SE-nst-medium.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "8ba2f8c640baa08bb1144f8e93b63d6e"
+            "sv/sv_SE/nst/medium/sv_SE-nst-medium.onnx.json": {
+                "size_bytes": 5951,
+                "md5_digest": "a370e4dbc4acb86dfab4a43c28939b3c"
             },
-            "MODEL_CARD": {
+            "sv/sv_SE/nst/medium/MODEL_CARD": {
                 "size_bytes": 306,
                 "md5_digest": "4a7cdb8f218a909b2b5e81d1903628da"
             }
@@ -894,15 +894,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "ca_ES-upc_ona-x_low.onnx": {
+            "ca/ca_ES/upc_ona/x_low/ca_ES-upc_ona-x_low.onnx": {
                 "size_bytes": 20628813,
                 "md5_digest": "ca22734cd8c5b01dd1fefbb42067ab06"
             },
-            "ca_ES-upc_ona-x_low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "44952d2434e8759aed8e780c6ae695fa"
+            "ca/ca_ES/upc_ona/x_low/ca_ES-upc_ona-x_low.onnx.json": {
+                "size_bytes": 5954,
+                "md5_digest": "27a280606d09c37017df9c268c70360e"
             },
-            "MODEL_CARD": {
+            "ca/ca_ES/upc_ona/x_low/MODEL_CARD": {
                 "size_bytes": 258,
                 "md5_digest": "1f555643ff6f7d9133679d730f3f6016"
             }
@@ -915,15 +915,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "ca_ES-upc_ona-medium.onnx": {
+            "ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "58ff3b049b6b721a4c353a551ec5ef3a"
             },
-            "ca_ES-upc_ona-medium.onnx.json": {
-                "size_bytes": 6856,
-                "md5_digest": "1e79dd74c74e1de437b5424b40a2197e"
+            "ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium.onnx.json": {
+                "size_bytes": 7008,
+                "md5_digest": "2340f71d7b29683f746db6e03c0dfabd"
             },
-            "MODEL_CARD": {
+            "ca/ca_ES/upc_ona/medium/MODEL_CARD": {
                 "size_bytes": 296,
                 "md5_digest": "395c782a56632400f46e7c442c7718bb"
             }
@@ -936,15 +936,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "ca_ES-upc_pau-x_low.onnx": {
+            "ca/ca_ES/upc_pau/x_low/ca_ES-upc_pau-x_low.onnx": {
                 "size_bytes": 28130791,
                 "md5_digest": "504e8a643d5284fbfc95e9e392288b86"
             },
-            "ca_ES-upc_pau-x_low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "44952d2434e8759aed8e780c6ae695fa"
+            "ca/ca_ES/upc_pau/x_low/ca_ES-upc_pau-x_low.onnx.json": {
+                "size_bytes": 5954,
+                "md5_digest": "2006cd9e35ac60338234fa86edf165a5"
             },
-            "MODEL_CARD": {
+            "ca/ca_ES/upc_pau/x_low/MODEL_CARD": {
                 "size_bytes": 258,
                 "md5_digest": "4ff8699c4439c9f49180457f0becc49e"
             }
@@ -957,15 +957,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_GB-southern_english_female-low.onnx": {
+            "en/en_GB/southern_english_female/low/en_GB-southern_english_female-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "596c7ed4d8488cf64e027765dce2dad1"
             },
-            "en_GB-southern_english_female-low.onnx.json": {
-                "size_bytes": 5781,
-                "md5_digest": "9c7dc3e4f83524944b196c1646dc7fd6"
+            "en/en_GB/southern_english_female/low/en_GB-southern_english_female-low.onnx.json": {
+                "size_bytes": 5976,
+                "md5_digest": "6ae00287de2a78aa1661f75ae9e7bce6"
             },
-            "MODEL_CARD": {
+            "en/en_GB/southern_english_female/low/MODEL_CARD": {
                 "size_bytes": 296,
                 "md5_digest": "77ac998c8b37842ef98594567f141629"
             }
@@ -978,15 +978,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_GB-northern_english_male-medium.onnx": {
+            "en/en_GB/northern_english_male/medium/en_GB-northern_english_male-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "4c9a9735bfb76ad67c8b31b23d6840a0"
             },
-            "en_GB-northern_english_male-medium.onnx.json": {
-                "size_bytes": 6778,
-                "md5_digest": "b46756986b58220e1051944148476b15"
+            "en/en_GB/northern_english_male/medium/en_GB-northern_english_male-medium.onnx.json": {
+                "size_bytes": 6944,
+                "md5_digest": "cfbc79946b49f6a57ebcc85feb55aad8"
             },
-            "MODEL_CARD": {
+            "en/en_GB/northern_english_male/medium/MODEL_CARD": {
                 "size_bytes": 305,
                 "md5_digest": "8d1b725154c658ead4f068389c319c82"
             }
@@ -999,15 +999,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_GB-alba-medium.onnx": {
+            "en/en_GB/alba/medium/en_GB-alba-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "c07f313752bb3aba8061041666251654"
             },
-            "en_GB-alba-medium.onnx.json": {
-                "size_bytes": 6864,
-                "md5_digest": "1b2417e1691fc4e2d6703d800615aaf7"
+            "en/en_GB/alba/medium/en_GB-alba-medium.onnx.json": {
+                "size_bytes": 7013,
+                "md5_digest": "58b58c2541079e5ae693f93ffd15becf"
             },
-            "MODEL_CARD": {
+            "en/en_GB/alba/medium/MODEL_CARD": {
                 "size_bytes": 324,
                 "md5_digest": "d5a8716acb311b20e0f28710d0fcc982"
             }
@@ -1130,15 +1130,15 @@
             "p362": 108
         },
         "files": {
-            "en_GB-vctk-medium.onnx": {
+            "en/en_GB/vctk/medium/en_GB-vctk-medium.onnx": {
                 "size_bytes": 76952753,
                 "md5_digest": "573025290fdc68812543b7438ace0c29"
             },
-            "en_GB-vctk-medium.onnx.json": {
-                "size_bytes": 9052,
-                "md5_digest": "950bdc6f8a64618734ffac6bdc7f221b"
+            "en/en_GB/vctk/medium/en_GB-vctk-medium.onnx.json": {
+                "size_bytes": 9200,
+                "md5_digest": "0eca51508c23837212e7c35d51c4a1fb"
             },
-            "MODEL_CARD": {
+            "en/en_GB/vctk/medium/MODEL_CARD": {
                 "size_bytes": 326,
                 "md5_digest": "b88a963e3bee27bc4fff84563f1be388"
             }
@@ -1151,15 +1151,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_GB-alan-low.onnx": {
+            "en/en_GB/alan/low/en_GB-alan-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "2acae8c79395ab109a7572f0afa61fff"
             },
-            "en_GB-alan-low.onnx.json": {
-                "size_bytes": 5781,
-                "md5_digest": "9c7dc3e4f83524944b196c1646dc7fd6"
+            "en/en_GB/alan/low/en_GB-alan-low.onnx.json": {
+                "size_bytes": 5957,
+                "md5_digest": "739bed9864cc4e6c691384de77b15814"
             },
-            "MODEL_CARD": {
+            "en/en_GB/alan/low/MODEL_CARD": {
                 "size_bytes": 309,
                 "md5_digest": "b116c3cbdebac99ade9af03807cb9301"
             }
@@ -1172,15 +1172,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_GB-alan-medium.onnx": {
+            "en/en_GB/alan/medium/en_GB-alan-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "8f6b35eeb8ef6269021c6cb6d2414c9b"
             },
-            "en_GB-alan-medium.onnx.json": {
-                "size_bytes": 6864,
-                "md5_digest": "1b2417e1691fc4e2d6703d800615aaf7"
+            "en/en_GB/alan/medium/en_GB-alan-medium.onnx.json": {
+                "size_bytes": 7013,
+                "md5_digest": "8927af81e8b16650fb7c9593464daa6e"
             },
-            "MODEL_CARD": {
+            "en/en_GB/alan/medium/MODEL_CARD": {
                 "size_bytes": 320,
                 "md5_digest": "24a2232470ca1be071debf53c984666e"
             }
@@ -1206,15 +1206,15 @@
             "04": 11
         },
         "files": {
-            "en_GB-aru-medium.onnx": {
+            "en/en_GB/aru/medium/en_GB-aru-medium.onnx": {
                 "size_bytes": 76754097,
                 "md5_digest": "7862d75539b8ef867e7c04e772d323ea"
             },
-            "en_GB-aru-medium.onnx.json": {
-                "size_bytes": 7075,
-                "md5_digest": "7fa8ec61857f02e448f460002ec6039e"
+            "en/en_GB/aru/medium/en_GB-aru-medium.onnx.json": {
+                "size_bytes": 7223,
+                "md5_digest": "00b26fa5bfc67a6a11845b1f39c33ad1"
             },
-            "MODEL_CARD": {
+            "en/en_GB/aru/medium/MODEL_CARD": {
                 "size_bytes": 368,
                 "md5_digest": "09496f38078e0eefe220a497b7b70631"
             }
@@ -1227,15 +1227,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_GB-jenny_dioco-medium.onnx": {
+            "en/en_GB/jenny_dioco/medium/en_GB-jenny_dioco-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "d08f2f7edf0c858275a7eca74ff2a9e4"
             },
-            "en_GB-jenny_dioco-medium.onnx.json": {
-                "size_bytes": 6864,
-                "md5_digest": "1b2417e1691fc4e2d6703d800615aaf7"
+            "en/en_GB/jenny_dioco/medium/en_GB-jenny_dioco-medium.onnx.json": {
+                "size_bytes": 7020,
+                "md5_digest": "5338cad16dcd408d2b0a247cf163abac"
             },
-            "MODEL_CARD": {
+            "en/en_GB/jenny_dioco/medium/MODEL_CARD": {
                 "size_bytes": 298,
                 "md5_digest": "ff351d05502764d5b4a074e0648e9434"
             }
@@ -1248,15 +1248,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-kusal-medium.onnx": {
+            "en/en_US/kusal/medium/en_US-kusal-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "95334de7385a03c5c9de25b920c33492"
             },
-            "en_US-kusal-medium.onnx.json": {
-                "size_bytes": 6859,
-                "md5_digest": "a943690c845cd7f54bd5a7229951465e"
+            "en/en_US/kusal/medium/en_US-kusal-medium.onnx.json": {
+                "size_bytes": 7009,
+                "md5_digest": "68bf8ca4d72b9f2aedfba64af13f847d"
             },
-            "MODEL_CARD": {
+            "en/en_US/kusal/medium/MODEL_CARD": {
                 "size_bytes": 279,
                 "md5_digest": "b627e950e8e10a1ec7b30e5f9b312a05"
             }
@@ -2174,15 +2174,15 @@
             "2085": 903
         },
         "files": {
-            "en_US-libritts-high.onnx": {
+            "en/en_US/libritts/high/en_US-libritts-high.onnx": {
                 "size_bytes": 136673811,
                 "md5_digest": "61d7845257f8abdc27476f606151ef8d"
             },
-            "en_US-libritts-high.onnx.json": {
-                "size_bytes": 24484,
-                "md5_digest": "ffab55eb698798ef8fcce3dc47bbcb26"
+            "en/en_US/libritts/high/en_US-libritts-high.onnx.json": {
+                "size_bytes": 24664,
+                "md5_digest": "80c2e4e8f3967024557d61859e7e9fc3"
             },
-            "MODEL_CARD": {
+            "en/en_US/libritts/high/MODEL_CARD": {
                 "size_bytes": 255,
                 "md5_digest": "cdeac934f1154489924a071470b22365"
             }
@@ -2220,15 +2220,15 @@
             "SKA": 23
         },
         "files": {
-            "en_US-l2arctic-medium.onnx": {
+            "en/en_US/l2arctic/medium/en_US-l2arctic-medium.onnx": {
                 "size_bytes": 76778673,
                 "md5_digest": "a71d8acf9b01676931cd548f739382cd"
             },
-            "en_US-l2arctic-medium.onnx.json": {
-                "size_bytes": 7322,
-                "md5_digest": "cf02a79aa726e13d35ed69788ccfb52a"
+            "en/en_US/l2arctic/medium/en_US-l2arctic-medium.onnx.json": {
+                "size_bytes": 7475,
+                "md5_digest": "40927583d95e1e0cdf19494a08c281b6"
             },
-            "MODEL_CARD": {
+            "en/en_US/l2arctic/medium/MODEL_CARD": {
                 "size_bytes": 365,
                 "md5_digest": "8d5e9dc31cba2a9b7ee68a2a70e084f2"
             }
@@ -2241,15 +2241,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-kathleen-low.onnx": {
+            "en/en_US/kathleen/low/en_US-kathleen-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "dd1ab131724b1cff76fe388252bec47b"
             },
-            "en_US-kathleen-low.onnx.json": {
-                "size_bytes": 5776,
-                "md5_digest": "06b7255db7f49069a9abcb3037804cc5"
+            "en/en_US/kathleen/low/en_US-kathleen-low.onnx.json": {
+                "size_bytes": 5956,
+                "md5_digest": "24ee1f4eedd4b554bc38be0959d47c8b"
             },
-            "MODEL_CARD": {
+            "en/en_US/kathleen/low/MODEL_CARD": {
                 "size_bytes": 281,
                 "md5_digest": "0585e0a798d093c9ee090b99d9c8f68e"
             }
@@ -2262,15 +2262,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-amy-low.onnx": {
+            "en/en_US/amy/low/en_US-amy-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "3c3f6a6ec605f3a59763256d3b2db012"
             },
-            "en_US-amy-low.onnx.json": {
-                "size_bytes": 5776,
-                "md5_digest": "06b7255db7f49069a9abcb3037804cc5"
+            "en/en_US/amy/low/en_US-amy-low.onnx.json": {
+                "size_bytes": 5951,
+                "md5_digest": "5781d54c3075cb5d2c1dd9d6c86b8e5c"
             },
-            "MODEL_CARD": {
+            "en/en_US/amy/low/MODEL_CARD": {
                 "size_bytes": 273,
                 "md5_digest": "e1cdd84aa7493b8fbe1e6471f6f93cea"
             }
@@ -2283,15 +2283,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-amy-medium.onnx": {
+            "en/en_US/amy/medium/en_US-amy-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "778d28aeb95fcdf8a882344d9df142fc"
             },
-            "en_US-amy-medium.onnx.json": {
-                "size_bytes": 6859,
-                "md5_digest": "a943690c845cd7f54bd5a7229951465e"
+            "en/en_US/amy/medium/en_US-amy-medium.onnx.json": {
+                "size_bytes": 7007,
+                "md5_digest": "eed7b28ea26b86395fd842942bdaea4c"
             },
-            "MODEL_CARD": {
+            "en/en_US/amy/medium/MODEL_CARD": {
                 "size_bytes": 281,
                 "md5_digest": "6fca05ee5bfe8b28211b88b86b47e822"
             }
@@ -2304,15 +2304,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-ryan-low.onnx": {
+            "en/en_US/ryan/low/en_US-ryan-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "32f6a995d6d561cd040b20a76f4edb1e"
             },
-            "en_US-ryan-low.onnx.json": {
-                "size_bytes": 5777,
-                "md5_digest": "9cacb6725a72074808d677454d046cff"
+            "en/en_US/ryan/low/en_US-ryan-low.onnx.json": {
+                "size_bytes": 5952,
+                "md5_digest": "b11005076636a5f5a622f314ac0e775d"
             },
-            "MODEL_CARD": {
+            "en/en_US/ryan/low/MODEL_CARD": {
                 "size_bytes": 263,
                 "md5_digest": "030252d21b0bd1048c37a9eb7f94eb17"
             }
@@ -2325,15 +2325,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-ryan-high.onnx": {
+            "en/en_US/ryan/high/en_US-ryan-high.onnx": {
                 "size_bytes": 120786792,
                 "md5_digest": "5d879a17bddf5007f76655b445ba78b4"
             },
-            "en_US-ryan-high.onnx.json": {
-                "size_bytes": 5776,
-                "md5_digest": "6023490bab8a15da7e59bb9fd3c29762"
+            "en/en_US/ryan/high/en_US-ryan-high.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "9d0afdf46e5006e84379801d84690018"
             },
-            "MODEL_CARD": {
+            "en/en_US/ryan/high/MODEL_CARD": {
                 "size_bytes": 265,
                 "md5_digest": "9c966517ed0bfbffbfdb218e99dbeadd"
             }
@@ -2346,15 +2346,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-ryan-medium.onnx": {
+            "en/en_US/ryan/medium/en_US-ryan-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "8f06d3aff8ded5a7f13f907e6bec32ac"
             },
-            "en_US-ryan-medium.onnx.json": {
-                "size_bytes": 6859,
-                "md5_digest": "a943690c845cd7f54bd5a7229951465e"
+            "en/en_US/ryan/medium/en_US-ryan-medium.onnx.json": {
+                "size_bytes": 7008,
+                "md5_digest": "6222797bca87b2a799ef0ed2d2f66adf"
             },
-            "MODEL_CARD": {
+            "en/en_US/ryan/medium/MODEL_CARD": {
                 "size_bytes": 306,
                 "md5_digest": "79d9200481a9dcabfa1803cb9e31c28a"
             }
@@ -2367,15 +2367,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-danny-low.onnx": {
+            "en/en_US/danny/low/en_US-danny-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "73cc296e178ab3d2a5698179b629cd12"
             },
-            "en_US-danny-low.onnx.json": {
-                "size_bytes": 5776,
-                "md5_digest": "06b7255db7f49069a9abcb3037804cc5"
+            "en/en_US/danny/low/en_US-danny-low.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "004e9fc219e2391997a89980582c7d50"
             },
-            "MODEL_CARD": {
+            "en/en_US/danny/low/MODEL_CARD": {
                 "size_bytes": 275,
                 "md5_digest": "62d30d0cccea265949980cb48212ebee"
             }
@@ -2407,15 +2407,15 @@
             "gka": 17
         },
         "files": {
-            "en_US-arctic-medium.onnx": {
+            "en/en_US/arctic/medium/en_US-arctic-medium.onnx": {
                 "size_bytes": 76766385,
                 "md5_digest": "497c47037c2e279faf467e0a06f965d2"
             },
-            "en_US-arctic-medium.onnx.json": {
-                "size_bytes": 7196,
-                "md5_digest": "bd450bc646a3e00bda683ff812134a4a"
+            "en/en_US/arctic/medium/en_US-arctic-medium.onnx.json": {
+                "size_bytes": 7347,
+                "md5_digest": "0a3270843677fabafc87ef423d1e5e52"
             },
-            "MODEL_CARD": {
+            "en/en_US/arctic/medium/MODEL_CARD": {
                 "size_bytes": 289,
                 "md5_digest": "efe5b89e46cf8e0efa254203da8c7baf"
             }
@@ -2428,15 +2428,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-lessac-low.onnx": {
+            "en/en_US/lessac/low/en_US-lessac-low.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "31883a7506589feadf3c3474fd8ef658"
             },
-            "en_US-lessac-low.onnx.json": {
-                "size_bytes": 6860,
-                "md5_digest": "e0dc276d7eb8c21d687e43def347d53b"
+            "en/en_US/lessac/low/en_US-lessac-low.onnx.json": {
+                "size_bytes": 7007,
+                "md5_digest": "a4c8e9e2a4c5a852b2a1a43089a0b752"
             },
-            "MODEL_CARD": {
+            "en/en_US/lessac/low/MODEL_CARD": {
                 "size_bytes": 345,
                 "md5_digest": "999cbf2c337d8fb2f21b0fa2c95e9e85"
             }
@@ -2449,15 +2449,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-lessac-high.onnx": {
+            "en/en_US/lessac/high/en_US-lessac-high.onnx": {
                 "size_bytes": 113895201,
                 "md5_digest": "99d1f6181a7f5ccbe3f117ba8ce63c93"
             },
-            "en_US-lessac-high.onnx.json": {
-                "size_bytes": 6859,
-                "md5_digest": "a943690c845cd7f54bd5a7229951465e"
+            "en/en_US/lessac/high/en_US-lessac-high.onnx.json": {
+                "size_bytes": 7008,
+                "md5_digest": "685dcf1ef319cfacf38cfe2c94a3b71e"
             },
-            "MODEL_CARD": {
+            "en/en_US/lessac/high/MODEL_CARD": {
                 "size_bytes": 347,
                 "md5_digest": "2ff564555f6d6cde3c19dcc8f3815428"
             }
@@ -2470,15 +2470,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-lessac-medium.onnx": {
+            "en/en_US/lessac/medium/en_US-lessac-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "2fc642b535197b6305c7c8f92dc8b24f"
             },
-            "en_US-lessac-medium.onnx.json": {
-                "size_bytes": 6860,
-                "md5_digest": "10428ba058a4238eb455219d4a50f17b"
+            "en/en_US/lessac/medium/en_US-lessac-medium.onnx.json": {
+                "size_bytes": 7010,
+                "md5_digest": "46e565a656f76b42b588d822025ed439"
             },
-            "MODEL_CARD": {
+            "en/en_US/lessac/medium/MODEL_CARD": {
                 "size_bytes": 351,
                 "md5_digest": "42f2dd4a98149e12fc70b301d9579dfd"
             }
@@ -2491,15 +2491,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "en_US-joe-medium.onnx": {
+            "en/en_US/joe/medium/en_US-joe-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "74fd6a4dc39e0aa9dce145d7f5acd4f6"
             },
-            "en_US-joe-medium.onnx.json": {
-                "size_bytes": 6729,
-                "md5_digest": "10eebc49ebf86c1a7749cd5f9392e2a3"
+            "en/en_US/joe/medium/en_US-joe-medium.onnx.json": {
+                "size_bytes": 6877,
+                "md5_digest": "6ceb0a247c83c41ea741133825749568"
             },
-            "MODEL_CARD": {
+            "en/en_US/joe/medium/MODEL_CARD": {
                 "size_bytes": 280,
                 "md5_digest": "7d25cb111aa9699518764a1cb3943af1"
             }
@@ -2512,38 +2512,17 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "es_MX-ald-medium.onnx": {
+            "es/es_MX/ald/medium/es_MX-ald-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "86374058e59b41ac3b7fe4181e1daad6"
             },
-            "es_MX-ald-medium.onnx.json": {
-                "size_bytes": 6872,
-                "md5_digest": "c17db4ddbef38305701e4047a3adbcf3"
+            "es/es_MX/ald/medium/es_MX-ald-medium.onnx.json": {
+                "size_bytes": 7020,
+                "md5_digest": "5d9f729ad9fc9ed0cea369ee7984c608"
             },
-            "MODEL_CARD": {
+            "es/es_MX/ald/medium/MODEL_CARD": {
                 "size_bytes": 320,
                 "md5_digest": "a858af3698e0c7cda6c9ad5d0d11b651"
-            }
-        }
-    },
-    "es_ES-mls_9772-low": {
-        "name": "mls_9772",
-        "language": "es_ES",
-        "quality": "low",
-        "num_speakers": 1,
-        "speaker_id_map": {},
-        "files": {
-            "es_ES-mls_9972-low.onnx": {
-                "size_bytes": 63104526,
-                "md5_digest": "587f2fc38dc3f582e771c3748465e2a2"
-            },
-            "es_ES-mls_9972-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "a3750f9fff6ae97bc60de668c8107e5f"
-            },
-            "MODEL_CARD": {
-                "size_bytes": 256,
-                "md5_digest": "4ba8c18ce72a202a49312ee1914ca6b0"
             }
         }
     },
@@ -2554,17 +2533,38 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "es_ES-davefx-medium.onnx": {
+            "es/es_ES/davefx/medium/es_ES-davefx-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "dc515cd4ecc5f6f72fe14a941188fc9c"
             },
-            "es_ES-davefx-medium.onnx.json": {
-                "size_bytes": 6770,
-                "md5_digest": "d493f20191c47c69309c3b806cb1302b"
+            "es/es_ES/davefx/medium/es_ES-davefx-medium.onnx.json": {
+                "size_bytes": 6921,
+                "md5_digest": "e3ea0eebe0f918c3d2430262a4a454ca"
             },
-            "MODEL_CARD": {
+            "es/es_ES/davefx/medium/MODEL_CARD": {
                 "size_bytes": 275,
                 "md5_digest": "5569c0fb20448308466216428b52f392"
+            }
+        }
+    },
+    "es_ES-mls_9972-low": {
+        "name": "mls_9972",
+        "language": "es_ES",
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "es/es_ES/mls_9972/low/es_ES-mls_9972-low.onnx": {
+                "size_bytes": 63104526,
+                "md5_digest": "587f2fc38dc3f582e771c3748465e2a2"
+            },
+            "es/es_ES/mls_9972/low/es_ES-mls_9972-low.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "59b7f5b2e6f599eebf42e10b4b13667d"
+            },
+            "es/es_ES/mls_9972/low/MODEL_CARD": {
+                "size_bytes": 256,
+                "md5_digest": "4ba8c18ce72a202a49312ee1914ca6b0"
             }
         }
     },
@@ -2578,15 +2578,15 @@
             "F": 1
         },
         "files": {
-            "es_ES-sharvard-medium.onnx": {
+            "es/es_ES/sharvard/medium/es_ES-sharvard-medium.onnx": {
                 "size_bytes": 76733615,
                 "md5_digest": "77e6f9c26e92799fb04bb90b46bf1834"
             },
-            "es_ES-sharvard-medium.onnx.json": {
-                "size_bytes": 6892,
-                "md5_digest": "398b0cc43670182e138d7e3e881c6a4e"
+            "es/es_ES/sharvard/medium/es_ES-sharvard-medium.onnx.json": {
+                "size_bytes": 7045,
+                "md5_digest": "05383f58a12f2937b47a179b19b58968"
             },
-            "MODEL_CARD": {
+            "es/es_ES/sharvard/medium/MODEL_CARD": {
                 "size_bytes": 392,
                 "md5_digest": "b600a21381af84fa21b29f519a3a829a"
             }
@@ -2599,15 +2599,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "es_ES-carlfm-x-low.onnx": {
+            "es/es_ES/carlfm/x_low/es_ES-carlfm-x_low.onnx": {
                 "size_bytes": 28130791,
                 "md5_digest": "4137b5aee01ea6241080fc4dbe59a8ee"
             },
-            "es_ES-carlfm-x-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "a3750f9fff6ae97bc60de668c8107e5f"
+            "es/es_ES/carlfm/x_low/es_ES-carlfm-x_low.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "41229762134c23d28d018e07c0d3071c"
             },
-            "MODEL_CARD": {
+            "es/es_ES/carlfm/x_low/MODEL_CARD": {
                 "size_bytes": 250,
                 "md5_digest": "19cb47bbe9e07e8d7937cfd39027d3a9"
             }
@@ -2620,15 +2620,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "es_ES-mls_10246-low.onnx": {
+            "es/es_ES/mls_10246/low/es_ES-mls_10246-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "ab8e93c9d2714fd4481fbca4e2a38891"
             },
-            "es_ES-mls_10246-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "a3750f9fff6ae97bc60de668c8107e5f"
+            "es/es_ES/mls_10246/low/es_ES-mls_10246-low.onnx.json": {
+                "size_bytes": 5954,
+                "md5_digest": "7d2635e157ac47bef9aea4c9e7516eaa"
             },
-            "MODEL_CARD": {
+            "es/es_ES/mls_10246/low/MODEL_CARD": {
                 "size_bytes": 257,
                 "md5_digest": "a345cefedda92347f53ea9a84d1b3983"
             }
@@ -2641,15 +2641,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "uk_UK-lada-x_low.onnx": {
+            "uk/uk_UK/lada/x_low/uk_UK-lada-x_low.onnx": {
                 "size_bytes": 20628813,
                 "md5_digest": "b84110e3923d64cdd4e0056a22090557"
             },
-            "uk_UK-lada-x_low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "0dc53021ef5b2086b9072b1f5ad90b18"
+            "uk/uk_UK/lada/x_low/uk_UK-lada-x_low.onnx.json": {
+                "size_bytes": 5951,
+                "md5_digest": "2ac728c11b85dff83e1a52c8ad4f8fdf"
             },
-            "MODEL_CARD": {
+            "uk/uk_UK/lada/x_low/MODEL_CARD": {
                 "size_bytes": 267,
                 "md5_digest": "edf5a72d6b117b37f9a6ef1d56e77640"
             }
@@ -2666,15 +2666,15 @@
             "tetiana": 2
         },
         "files": {
-            "uk_UK-ukrainian_tts-medium.onnx": {
+            "uk/uk_UK/ukrainian_tts/medium/uk_UK-ukrainian_tts-medium.onnx": {
                 "size_bytes": 76735663,
                 "md5_digest": "3366c3d4f31cb77966fb14d042956b4f"
             },
-            "uk_UK-ukrainian_tts-medium.onnx.json": {
-                "size_bytes": 2491,
-                "md5_digest": "b21ad4df81478d1bdb0c50ab95442884"
+            "uk/uk_UK/ukrainian_tts/medium/uk_UK-ukrainian_tts-medium.onnx.json": {
+                "size_bytes": 2649,
+                "md5_digest": "1bb5118662ab1609398ad68e13c33961"
             },
-            "MODEL_CARD": {
+            "uk/uk_UK/ukrainian_tts/medium/MODEL_CARD": {
                 "size_bytes": 266,
                 "md5_digest": "5d87c44f816de40700558256659fd13b"
             }
@@ -2687,15 +2687,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "sw_CD-lanfrica-medium.onnx": {
+            "sw/sw_CD/lanfrica/medium/sw_CD-lanfrica-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "7b28078f0e76cb201dc8b512ea4bf4d6"
             },
-            "sw_CD-lanfrica-medium.onnx.json": {
-                "size_bytes": 6856,
-                "md5_digest": "0d142b4edb3cd419b4fcac5dcf446268"
+            "sw/sw_CD/lanfrica/medium/sw_CD-lanfrica-medium.onnx.json": {
+                "size_bytes": 7009,
+                "md5_digest": "b4d8985b21902e559e49e5dec1858276"
             },
-            "MODEL_CARD": {
+            "sw/sw_CD/lanfrica/medium/MODEL_CARD": {
                 "size_bytes": 315,
                 "md5_digest": "225cc22fc4a35a83f2039988499baa85"
             }
@@ -2708,15 +2708,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "fr_FR-siwis-low.onnx": {
+            "fr/fr_FR/siwis/low/fr_FR-siwis-low.onnx": {
                 "size_bytes": 28130791,
                 "md5_digest": "fcb614122005d70f27e4e61e58b4bb56"
             },
-            "fr_FR-siwis-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "c800dbf8a43eb67a1ec4d5438893c11c"
+            "fr/fr_FR/siwis/low/fr_FR-siwis-low.onnx.json": {
+                "size_bytes": 5950,
+                "md5_digest": "54392cc51bd08e8aa6270302e9d0180b"
             },
-            "MODEL_CARD": {
+            "fr/fr_FR/siwis/low/MODEL_CARD": {
                 "size_bytes": 274,
                 "md5_digest": "5d4a6b6e8d4a476e9b415ec0c1f030da"
             }
@@ -2729,15 +2729,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "fr_FR-siwis-medium.onnx": {
+            "fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "20e876e8c839e9b11a26085858f2300c"
             },
-            "fr_FR-siwis-medium.onnx.json": {
-                "size_bytes": 6856,
-                "md5_digest": "ea90f292c155c1b6def5564061409ad0"
+            "fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json": {
+                "size_bytes": 7006,
+                "md5_digest": "ae79606057c9a36af84e3bef86bfffb4"
             },
-            "MODEL_CARD": {
+            "fr/fr_FR/siwis/medium/MODEL_CARD": {
                 "size_bytes": 284,
                 "md5_digest": "2b9ea48b15e9e1fd25f95b415caaf66f"
             }
@@ -2750,15 +2750,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "fr_FR-mls_1840-low.onnx": {
+            "fr/fr_FR/mls_1840/low/fr_FR-mls_1840-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "1873b5d95cb0aad9909d32d1747ae72b"
             },
-            "fr_FR-mls_1840-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "c800dbf8a43eb67a1ec4d5438893c11c"
+            "fr/fr_FR/mls_1840/low/fr_FR-mls_1840-low.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "498528bad39f13b5515e905452d585f1"
             },
-            "MODEL_CARD": {
+            "fr/fr_FR/mls_1840/low/MODEL_CARD": {
                 "size_bytes": 257,
                 "md5_digest": "35d860ab0a8497966c73da525728e711"
             }
@@ -2771,15 +2771,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "fr_FR-gilles-low.onnx": {
+            "fr/fr_FR/gilles/low/fr_FR-gilles-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "f984386d1f0927597f09a3ec10b11b5d"
             },
-            "fr_FR-gilles-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "c800dbf8a43eb67a1ec4d5438893c11c"
+            "fr/fr_FR/gilles/low/fr_FR-gilles-low.onnx.json": {
+                "size_bytes": 5951,
+                "md5_digest": "4366e56a9131c47465f9bf70db59eb7e"
             },
-            "MODEL_CARD": {
+            "fr/fr_FR/gilles/low/MODEL_CARD": {
                 "size_bytes": 300,
                 "md5_digest": "9317af9efdb0d9986d42357b180f06e2"
             }
@@ -2792,15 +2792,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "fi_FI-harri-low.onnx": {
+            "fi/fi_FI/harri/low/fi_FI-harri-low.onnx": {
                 "size_bytes": 69795191,
                 "md5_digest": "f44b67203de7fd488eabc4692d30b598"
             },
-            "fi_FI-harri-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "eba0de0dea4f2adb0cb5c4bcc3f636bc"
+            "fi/fi_FI/harri/low/fi_FI-harri-low.onnx.json": {
+                "size_bytes": 5950,
+                "md5_digest": "626221fa0bec76d4f71bf713174fc781"
             },
-            "MODEL_CARD": {
+            "fi/fi_FI/harri/low/MODEL_CARD": {
                 "size_bytes": 284,
                 "md5_digest": "93ccf398abae82b7d7a3d420658e26f1"
             }
@@ -2813,15 +2813,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "fi_FI-harri-medium.onnx": {
+            "fi/fi_FI/harri/medium/fi_FI-harri-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "8e96b9e765f8db3e910943520aa0f475"
             },
-            "fi_FI-harri-medium.onnx.json": {
-                "size_bytes": 6856,
-                "md5_digest": "cdadec39c6a43b1f413a2866351d61be"
+            "fi/fi_FI/harri/medium/fi_FI-harri-medium.onnx.json": {
+                "size_bytes": 7006,
+                "md5_digest": "0cd2634e19aa67b04982eaa65c3ceb87"
             },
-            "MODEL_CARD": {
+            "fi/fi_FI/harri/medium/MODEL_CARD": {
                 "size_bytes": 304,
                 "md5_digest": "95d5aff86d27b69c8ee7deed6c056aff"
             }
@@ -2834,15 +2834,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "ka_GE-natia-medium.onnx": {
+            "ka/ka_GE/natia/medium/ka_GE-natia-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "83bd40f8d176a83d3d8d605fada2a5e7"
             },
-            "ka_GE-natia-medium.onnx.json": {
-                "size_bytes": 6770,
-                "md5_digest": "1a5e7dbbe5beb3a3776822fc9b3e01cb"
+            "ka/ka_GE/natia/medium/ka_GE-natia-medium.onnx.json": {
+                "size_bytes": 6920,
+                "md5_digest": "81163e42b6f91fc51cd611c2ed330386"
             },
-            "MODEL_CARD": {
+            "ka/ka_GE/natia/medium/MODEL_CARD": {
                 "size_bytes": 288,
                 "md5_digest": "81ac71dd5b3dac89bf7762bf7b738c95"
             }
@@ -2855,15 +2855,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "pl_PL-darkman-medium.onnx": {
+            "pl/pl_PL/darkman/medium/pl_PL-darkman-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "27bf2d71e934b112657544fd0b100a7a"
             },
-            "pl_PL-darkman-medium.onnx.json": {
-                "size_bytes": 6770,
-                "md5_digest": "bc06cd7feea1c1f194f71b778443b233"
+            "pl/pl_PL/darkman/medium/pl_PL-darkman-medium.onnx.json": {
+                "size_bytes": 6922,
+                "md5_digest": "fe9c08562aafa2d7ab6996e5e46f75a0"
             },
-            "MODEL_CARD": {
+            "pl/pl_PL/darkman/medium/MODEL_CARD": {
                 "size_bytes": 276,
                 "md5_digest": "952772905864f6f6375df54a675895b7"
             }
@@ -2876,15 +2876,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "pl_PL-mls_6892-low.onnx": {
+            "pl/pl_PL/mls_6892/low/pl_PL-mls_6892-low.onnx": {
                 "size_bytes": 63104526,
                 "md5_digest": "8590d8e979292ca35d20e6e123bfa612"
             },
-            "pl_PL-mls_6892-low.onnx.json": {
-                "size_bytes": 5773,
-                "md5_digest": "ea661adb29682d6900dbfbd76e3f71bd"
+            "pl/pl_PL/mls_6892/low/pl_PL-mls_6892-low.onnx.json": {
+                "size_bytes": 5953,
+                "md5_digest": "e1452902947280b5d245c6534aa4905d"
             },
-            "MODEL_CARD": {
+            "pl/pl_PL/mls_6892/low/MODEL_CARD": {
                 "size_bytes": 257,
                 "md5_digest": "74ebc618d120896113449ad2f957b7a4"
             }
@@ -2897,15 +2897,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "pl_PL-gosia-medium.onnx": {
+            "pl/pl_PL/gosia/medium/pl_PL-gosia-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "ecf817530e575025166e454adde1f382"
             },
-            "pl_PL-gosia-medium.onnx.json": {
-                "size_bytes": 6770,
-                "md5_digest": "bc06cd7feea1c1f194f71b778443b233"
+            "pl/pl_PL/gosia/medium/pl_PL-gosia-medium.onnx.json": {
+                "size_bytes": 6920,
+                "md5_digest": "82fe5f840c3af4c98e8a1430431ecdbd"
             },
-            "MODEL_CARD": {
+            "pl/pl_PL/gosia/medium/MODEL_CARD": {
                 "size_bytes": 274,
                 "md5_digest": "e1355330fe5fab166e6f2e20af7e91e9"
             }
@@ -2918,15 +2918,15 @@
         "num_speakers": 1,
         "speaker_id_map": {},
         "files": {
-            "no_NO-talesyntese-medium.onnx": {
+            "no/no_NO/talesyntese/medium/no_NO-talesyntese-medium.onnx": {
                 "size_bytes": 63201294,
                 "md5_digest": "9fc876e7edc6593086b4f2f34889f44b"
             },
-            "no_NO-talesyntese-medium.onnx.json": {
-                "size_bytes": 6856,
-                "md5_digest": "0aaf1141170a1dc26d07adf6e643c60e"
+            "no/no_NO/talesyntese/medium/no_NO-talesyntese-medium.onnx.json": {
+                "size_bytes": 7012,
+                "md5_digest": "e01d969fb2f31121b1839b5f16e96738"
             },
-            "MODEL_CARD": {
+            "no/no_NO/talesyntese/medium/MODEL_CARD": {
                 "size_bytes": 312,
                 "md5_digest": "5fe51d2a4a0e05e85c88a80373000ae1"
             }
