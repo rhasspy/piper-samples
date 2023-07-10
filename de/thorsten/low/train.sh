@@ -9,10 +9,9 @@ python3 -m larynx_train \
     --dataset-dir "${this_dir}" \
     --accelerator 'gpu' \
     --devices 1 \
-    --batch-size 80 \
-    --validation-split 0.01 \
+    --batch-size 32 \
+    --validation-split 0 \
     --num-test-examples 0 \
-    --max-phoneme-ids 400 \
     --max_epochs 10000 \
     --checkpoint-epochs 1 \
     --precision 32 "$@"

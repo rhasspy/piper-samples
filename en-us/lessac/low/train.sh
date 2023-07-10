@@ -5,7 +5,7 @@ this_dir="$( cd "$( dirname "$0" )" && pwd )"
 repo_dir="$(realpath "${this_dir}/../../../../")"
 
 export PYTHONPATH="${repo_dir}/src/python:${PYTHONPATH}"
-python3 -m larynx_train \
+python3 -m piper_train \
     --dataset-dir "${this_dir}" \
     --accelerator 'gpu' \
     --devices 1 \
