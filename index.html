@@ -100,34 +100,6 @@
 
     <script type="text/javascript">
       var voices = {};
-      const languageNames = {
-          ca_ES: "Català (Catalan, Spain)",
-          da_DK: "Dansk (Danish, Denmark)",
-          de_DE: "Deutsch (German, Germany)",
-          el_GR: "Ελληνικά (Greek, Greece)",
-          en_GB: "English (Great Britain)",
-          en_US: "English (United States)",
-          es_ES: "Español (Spanish, Spain)",
-          es_MX: "Español (Spanish, Mexico)",
-          fi_FI: "Suomi (Finnish, Finland)",
-          fr_FR: "Français (French, France)",
-          is_IS: "íslenska (Icelandic, Iceland)",
-          it_IT: "Italiano (Italian, Italy)",
-          ka_GE: "ქართული ენა (Georgian, Georgia)",
-          kk_KZ: "қазақша (Kazakh, Kazakhstan)",
-          ne_NP: "नेपाली (Nepali, Nepal)",
-          nl_BE: "Nederlands (Dutch, Belgium)",
-          nl_NL: "Nederlands (Dutch, Netherlands)",
-          no_NO: "Norsk (Norwegian, Norway)",
-          pl_PL: "Polski (Polish, Poland)",
-          pt_BR: "Português (Portuguese, Brazil)",
-          ru_RU: "Русский (Russian, Russia)",
-          sv_SE: "Svenska (Swedish, Sweden)",
-          sw_CD: "Kiswahili (Swahili, Democratic Republic of the Congo)",
-          uk_UA: "украї́нська мо́ва (Ukrainian, Ukraine)",
-          vi_VN: "Tiếng Việt (Vietnamese, Vietnam)",
-          zh_CN: "简体中文 (Chinese, China)",
-      };
       const qualitySort = {
           "x_low": 0,
           "low": 1,
@@ -155,7 +127,7 @@
               let names = [];
               for (key in voices) {
                   let voice = voices[key];
-                  if (voice.language == language) {
+                  if (voice.language.code == language) {
                       names.push(voice.name);
                   }
               }
@@ -189,7 +161,7 @@
               let qualities = [];
               for (key in voices) {
                   let voice = voices[key];
-                  if ((voice.language == language) && (voice.name == voiceName)) {
+                  if ((voice.language.code == language) && (voice.name == voiceName)) {
                       qualities.push(voice.quality);
                   }
               }
@@ -225,7 +197,7 @@
               var speakerIdMap = {};
               for (key in voices) {
                   let voice = voices[key];
-                  if ((voice.language == language)
+                  if ((voice.language.code == language)
                       && (voice.name == voiceName)
                       && (voice.quality == quality)) {
                       numSpeakers = voice.num_speakers;
@@ -270,7 +242,7 @@
           if (speaker.length > 0) {
               for (key in voices) {
                   let voice = voices[key];
-                  if ((voice.language == language)
+                  if ((voice.language.code == language)
                       && (voice.name == voiceName)
                       && (voice.quality == quality)) {
 
@@ -325,9 +297,13 @@
               .then(response_obj => {
                   voices = response_obj;
                   let voiceLanguages = [];
+                  let languageNames = {};
                   for (key in voices) {
                       let voice = voices[key];
-                      voiceLanguages.push(voice.language);
+                      voiceLanguages.push(voice.language.code);
+                      languageNames[voice.language.code] = voice.language.name_native
+                          + " (" + voice.language.name_english + ", "
+                          + voice.language.country_english + ")";
                   }
 
                   let sortedLanguages = Array.from(new Set(voiceLanguages)).sort();
