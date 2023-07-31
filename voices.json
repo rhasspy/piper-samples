@@ -1,5 +1,6 @@
 {
     "zh_CN-huayan-x_low": {
+        "key": "zh_CN-huayan-x_low",
         "name": "huayan",
         "language": {
             "code": "zh_CN",
@@ -25,9 +26,13 @@
                 "size_bytes": 237,
                 "md5_digest": "715587a977945498c5741b74eb81a1fd"
             }
-        }
+        },
+        "aliases": [
+            "zh-cn-huayan-x-low"
+        ]
     },
     "zh_CN-huayan-medium": {
+        "key": "zh_CN-huayan-medium",
         "name": "huayan",
         "language": {
             "code": "zh_CN",
@@ -53,9 +58,11 @@
                 "size_bytes": 276,
                 "md5_digest": "b23255ace0cda4c2e02134d8a70c2e03"
             }
-        }
+        },
+        "aliases": []
     },
     "ru_RU-irina-medium": {
+        "key": "ru_RU-irina-medium",
         "name": "irina",
         "language": {
             "code": "ru_RU",
@@ -81,9 +88,13 @@
                 "size_bytes": 271,
                 "md5_digest": "397e67453b4ea5a95642673d0debb5ba"
             }
-        }
+        },
+        "aliases": [
+            "ru-irinia-medium"
+        ]
     },
     "ru_RU-dmitri-medium": {
+        "key": "ru_RU-dmitri-medium",
         "name": "dmitri",
         "language": {
             "code": "ru_RU",
@@ -109,9 +120,11 @@
                 "size_bytes": 276,
                 "md5_digest": "c19f9eff768d0c0e1f476a4c6ca1ff1e"
             }
-        }
+        },
+        "aliases": []
     },
     "ru_RU-denis-medium": {
+        "key": "ru_RU-denis-medium",
         "name": "denis",
         "language": {
             "code": "ru_RU",
@@ -137,9 +150,11 @@
                 "size_bytes": 275,
                 "md5_digest": "6fe09e0e097e4538809cc420653974e4"
             }
-        }
+        },
+        "aliases": []
     },
     "ru_RU-ruslan-medium": {
+        "key": "ru_RU-ruslan-medium",
         "name": "ruslan",
         "language": {
             "code": "ru_RU",
@@ -165,9 +180,11 @@
                 "size_bytes": 313,
                 "md5_digest": "7b50a255192cc1c44358d7cb20ddbb5c"
             }
-        }
+        },
+        "aliases": []
     },
     "nl_BE-nathalie-x_low": {
+        "key": "nl_BE-nathalie-x_low",
         "name": "nathalie",
         "language": {
             "code": "nl_BE",
@@ -193,9 +210,13 @@
                 "size_bytes": 246,
                 "md5_digest": "5df62094bde427374223f91f44476392"
             }
-        }
+        },
+        "aliases": [
+            "nl-nathalie-x-low"
+        ]
     },
     "nl_BE-nathalie-medium": {
+        "key": "nl_BE-nathalie-medium",
         "name": "nathalie",
         "language": {
             "code": "nl_BE",
@@ -221,9 +242,11 @@
                 "size_bytes": 284,
                 "md5_digest": "ff335f87ca41a3f89180781498e02635"
             }
-        }
+        },
+        "aliases": []
     },
     "nl_BE-rdh-x_low": {
+        "key": "nl_BE-rdh-x_low",
         "name": "rdh",
         "language": {
             "code": "nl_BE",
@@ -249,9 +272,13 @@
                 "size_bytes": 242,
                 "md5_digest": "6d0157bcd5ff281717e663d56dab980e"
             }
-        }
+        },
+        "aliases": [
+            "nl-rdh-x-low"
+        ]
     },
     "nl_BE-rdh-medium": {
+        "key": "nl_BE-rdh-medium",
         "name": "rdh",
         "language": {
             "code": "nl_BE",
@@ -277,9 +304,13 @@
                 "size_bytes": 244,
                 "md5_digest": "dc4487b06fcef6ff270c852ce12947b9"
             }
-        }
+        },
+        "aliases": [
+            "nl-rdh-medium"
+        ]
     },
     "nl_NL-mls_7432-low": {
+        "key": "nl_NL-mls_7432-low",
         "name": "mls_7432",
         "language": {
             "code": "nl_NL",
@@ -305,9 +336,13 @@
                 "size_bytes": 260,
                 "md5_digest": "5d8ee8e955f077fc99cac61191d00892"
             }
-        }
+        },
+        "aliases": [
+            "nl-mls_7432-low"
+        ]
     },
     "nl_NL-mls_5809-low": {
+        "key": "nl_NL-mls_5809-low",
         "name": "mls_5809",
         "language": {
             "code": "nl_NL",
@@ -333,9 +368,13 @@
                 "size_bytes": 261,
                 "md5_digest": "ac4b35e581cea8418909947a29a671bb"
             }
-        }
+        },
+        "aliases": [
+            "nl-mls_5809-low"
+        ]
     },
     "it_IT-riccardo-x_low": {
+        "key": "it_IT-riccardo-x_low",
         "name": "riccardo",
         "language": {
             "code": "it_IT",
@@ -361,9 +400,13 @@
                 "size_bytes": 260,
                 "md5_digest": "3e70f29ab998ac0380edc0cec7395e80"
             }
-        }
+        },
+        "aliases": [
+            "it-riccardo_fasol-x-low"
+        ]
     },
     "ne_NP-google-x_low": {
+        "key": "ne_NP-google-x_low",
         "name": "google",
         "language": {
             "code": "ne_NP",
@@ -408,9 +451,13 @@
                 "size_bytes": 244,
                 "md5_digest": "5ea405c002a69df5961c8d43cadbb844"
             }
-        }
+        },
+        "aliases": [
+            "ne-google-x-low"
+        ]
     },
     "ne_NP-google-medium": {
+        "key": "ne_NP-google-medium",
         "name": "google",
         "language": {
             "code": "ne_NP",
@@ -455,9 +502,13 @@
                 "size_bytes": 283,
                 "md5_digest": "afe022ba061870d0c9fe085fe9a9f31f"
             }
-        }
+        },
+        "aliases": [
+            "ne-google-medium"
+        ]
     },
     "el_GR-rapunzelina-low": {
+        "key": "el_GR-rapunzelina-low",
         "name": "rapunzelina",
         "language": {
             "code": "el_GR",
@@ -483,9 +534,11 @@
                 "size_bytes": 303,
                 "md5_digest": "c75270b41e7bf60dacd351753a483574"
             }
-        }
+        },
+        "aliases": []
     },
     "kk_KZ-issai-high": {
+        "key": "kk_KZ-issai-high",
         "name": "issai",
         "language": {
             "code": "kk_KZ",
@@ -518,9 +571,13 @@
                 "size_bytes": 237,
                 "md5_digest": "30487d1011336ed15feabd156424cbd9"
             }
-        }
+        },
+        "aliases": [
+            "kk-issai-high"
+        ]
     },
     "kk_KZ-raya-x_low": {
+        "key": "kk_KZ-raya-x_low",
         "name": "raya",
         "language": {
             "code": "kk_KZ",
@@ -546,9 +603,13 @@
                 "size_bytes": 238,
                 "md5_digest": "fb34d2e65fac42f4d6e003d3d30c897e"
             }
-        }
+        },
+        "aliases": [
+            "kk-raya-x-low"
+        ]
     },
     "kk_KZ-iseke-x_low": {
+        "key": "kk_KZ-iseke-x_low",
         "name": "iseke",
         "language": {
             "code": "kk_KZ",
@@ -574,9 +635,43 @@
                 "size_bytes": 239,
                 "md5_digest": "fce637093c4437a1f929280913a86aa5"
             }
-        }
+        },
+        "aliases": [
+            "kk-iseke-x-low"
+        ]
+    },
+    "lb_LU-marylux-medium": {
+        "key": "lb_LU-marylux-medium",
+        "name": "marylux",
+        "language": {
+            "code": "lb_LU",
+            "family": "lb",
+            "region": "LU",
+            "name_native": "Lëtzebuergesch",
+            "name_english": "Luxembourgish",
+            "country_english": "Luxembourg"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "lb/lb_LU/marylux/medium/lb_LU-marylux-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "966856e665a46cee45cb0cd2c475f8d5"
+            },
+            "lb/lb_LU/marylux/medium/lb_LU-marylux-medium.onnx.json": {
+                "size_bytes": 4979,
+                "md5_digest": "aea98b0e4fecaa0b3b7adc2048561095"
+            },
+            "lb/lb_LU/marylux/medium/MODEL_CARD": {
+                "size_bytes": 330,
+                "md5_digest": "1eeb3d600789cdd8b3f23866023d8543"
+            }
+        },
+        "aliases": []
     },
     "pt_BR-faber-medium": {
+        "key": "pt_BR-faber-medium",
         "name": "faber",
         "language": {
             "code": "pt_BR",
@@ -602,9 +697,11 @@
                 "size_bytes": 278,
                 "md5_digest": "a81a3840b1749cf34b0e31de1577ef47"
             }
-        }
+        },
+        "aliases": []
     },
     "pt_BR-edresson-low": {
+        "key": "pt_BR-edresson-low",
         "name": "edresson",
         "language": {
             "code": "pt_BR",
@@ -630,9 +727,13 @@
                 "size_bytes": 283,
                 "md5_digest": "62cde47b9a3214109e601f90eeadea11"
             }
-        }
+        },
+        "aliases": [
+            "pt-br-edresson-low"
+        ]
     },
     "de_DE-eva_k-x_low": {
+        "key": "de_DE-eva_k-x_low",
         "name": "eva_k",
         "language": {
             "code": "de_DE",
@@ -658,9 +759,13 @@
                 "size_bytes": 246,
                 "md5_digest": "02b01f3d47b2798ece347b2c7e94c9e9"
             }
-        }
+        },
+        "aliases": [
+            "de-eva_k-x-low"
+        ]
     },
     "de_DE-pavoque-low": {
+        "key": "de_DE-pavoque-low",
         "name": "pavoque",
         "language": {
             "code": "de_DE",
@@ -686,9 +791,13 @@
                 "size_bytes": 309,
                 "md5_digest": "e0aacaf7b834938c4e3ad1fb3f68ef87"
             }
-        }
+        },
+        "aliases": [
+            "de-pavoque-low"
+        ]
     },
     "de_DE-kerstin-low": {
+        "key": "de_DE-kerstin-low",
         "name": "kerstin",
         "language": {
             "code": "de_DE",
@@ -714,9 +823,13 @@
                 "size_bytes": 272,
                 "md5_digest": "69ec1bc99fc7e19c9ddcdf712920a6c7"
             }
-        }
+        },
+        "aliases": [
+            "de-kerstin-low"
+        ]
     },
     "de_DE-thorsten-low": {
+        "key": "de_DE-thorsten-low",
         "name": "thorsten",
         "language": {
             "code": "de_DE",
@@ -742,9 +855,13 @@
                 "size_bytes": 274,
                 "md5_digest": "203f58b93f0372564e745f1e05ea47bb"
             }
-        }
+        },
+        "aliases": [
+            "de-thorsten-low"
+        ]
     },
     "de_DE-thorsten-medium": {
+        "key": "de_DE-thorsten-medium",
         "name": "thorsten",
         "language": {
             "code": "de_DE",
@@ -770,9 +887,50 @@
                 "size_bytes": 285,
                 "md5_digest": "e84cf8b09957fccceb068a3c1664d0f3"
             }
-        }
+        },
+        "aliases": []
+    },
+    "de_DE-thorsten_emotional-medium": {
+        "key": "de_DE-thorsten_emotional-medium",
+        "name": "thorsten_emotional",
+        "language": {
+            "code": "de_DE",
+            "family": "de",
+            "region": "DE",
+            "name_native": "Deutsch",
+            "name_english": "German",
+            "country_english": "Germany"
+        },
+        "quality": "medium",
+        "num_speakers": 8,
+        "speaker_id_map": {
+            "amused": 0,
+            "angry": 1,
+            "disgusted": 2,
+            "drunk": 3,
+            "neutral": 4,
+            "sleepy": 5,
+            "surprised": 6,
+            "whisper": 7
+        },
+        "files": {
+            "de/de_DE/thorsten_emotional/medium/de_DE-thorsten_emotional-medium.onnx": {
+                "size_bytes": 76745905,
+                "md5_digest": "7cc67d24d9d0b34d7a4f6224d16236b9"
+            },
+            "de/de_DE/thorsten_emotional/medium/de_DE-thorsten_emotional-medium.onnx.json": {
+                "size_bytes": 5031,
+                "md5_digest": "1abac7e46522f774217c170da222f2a6"
+            },
+            "de/de_DE/thorsten_emotional/medium/MODEL_CARD": {
+                "size_bytes": 302,
+                "md5_digest": "91874c31e5b2e497ecda2ea8e6fda4a7"
+            }
+        },
+        "aliases": []
     },
     "de_DE-ramona-low": {
+        "key": "de_DE-ramona-low",
         "name": "ramona",
         "language": {
             "code": "de_DE",
@@ -798,9 +956,13 @@
                 "size_bytes": 255,
                 "md5_digest": "c970992423b5fc7a26340a9363e15952"
             }
-        }
+        },
+        "aliases": [
+            "de-ramona-low"
+        ]
     },
     "de_DE-karlsson-low": {
+        "key": "de_DE-karlsson-low",
         "name": "karlsson",
         "language": {
             "code": "de_DE",
@@ -826,9 +988,13 @@
                 "size_bytes": 289,
                 "md5_digest": "6e2f3eec10cf7fceb0b68b67eccd06a4"
             }
-        }
+        },
+        "aliases": [
+            "de-karlsson-low"
+        ]
     },
     "da_DK-talesyntese-medium": {
+        "key": "da_DK-talesyntese-medium",
         "name": "talesyntese",
         "language": {
             "code": "da_DK",
@@ -854,9 +1020,43 @@
                 "size_bytes": 308,
                 "md5_digest": "628cc03fca8f5d2c454824d6252955ad"
             }
-        }
+        },
+        "aliases": [
+            "da-nst_talesyntese-medium"
+        ]
+    },
+    "ro_RO-mihai-medium": {
+        "key": "ro_RO-mihai-medium",
+        "name": "mihai",
+        "language": {
+            "code": "ro_RO",
+            "family": "ro",
+            "region": "RO",
+            "name_native": "Română",
+            "name_english": "Romanian",
+            "country_english": "Romania"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ro/ro_RO/mihai/medium/ro_RO-mihai-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "45f4253916c93d3d05ad3fe1b07ea4f3"
+            },
+            "ro/ro_RO/mihai/medium/ro_RO-mihai-medium.onnx.json": {
+                "size_bytes": 4877,
+                "md5_digest": "f820f8ba65a8646c68792be581b85144"
+            },
+            "ro/ro_RO/mihai/medium/MODEL_CARD": {
+                "size_bytes": 277,
+                "md5_digest": "4075864685b207c9a98bf1af237a1502"
+            }
+        },
+        "aliases": []
     },
     "is_IS-ugla-medium": {
+        "key": "is_IS-ugla-medium",
         "name": "ugla",
         "language": {
             "code": "is_IS",
@@ -882,9 +1082,13 @@
                 "size_bytes": 240,
                 "md5_digest": "a3ba0a35bc26d440ee3b0872e435fcd5"
             }
-        }
+        },
+        "aliases": [
+            "is-ugla-medium"
+        ]
     },
     "is_IS-salka-medium": {
+        "key": "is_IS-salka-medium",
         "name": "salka",
         "language": {
             "code": "is_IS",
@@ -910,9 +1114,13 @@
                 "size_bytes": 241,
                 "md5_digest": "0f3d286069e4c7bead9b40ece3bbefe6"
             }
-        }
+        },
+        "aliases": [
+            "is-salka-medium"
+        ]
     },
     "is_IS-steinn-medium": {
+        "key": "is_IS-steinn-medium",
         "name": "steinn",
         "language": {
             "code": "is_IS",
@@ -938,9 +1146,13 @@
                 "size_bytes": 242,
                 "md5_digest": "45ab46f37e5a6bdf739d58496752e6a0"
             }
-        }
+        },
+        "aliases": [
+            "is-steinn-medium"
+        ]
     },
     "is_IS-bui-medium": {
+        "key": "is_IS-bui-medium",
         "name": "bui",
         "language": {
             "code": "is_IS",
@@ -966,9 +1178,13 @@
                 "size_bytes": 246,
                 "md5_digest": "a055aad199d8cc58e52913ff2af461d8"
             }
-        }
+        },
+        "aliases": [
+            "is-bui-medium"
+        ]
     },
     "vi_VN-vivos-x_low": {
+        "key": "vi_VN-vivos-x_low",
         "name": "vivos",
         "language": {
             "code": "vi_VN",
@@ -1060,9 +1276,13 @@
                 "size_bytes": 272,
                 "md5_digest": "6bd1265a94a8f6bcce74a5b1145a7f95"
             }
-        }
+        },
+        "aliases": [
+            "vi-vivos-x-low"
+        ]
     },
     "vi_VN-25hours_single-low": {
+        "key": "vi_VN-25hours_single-low",
         "name": "25hours_single",
         "language": {
             "code": "vi_VN",
@@ -1088,9 +1308,13 @@
                 "size_bytes": 343,
                 "md5_digest": "25eb4744418cd7b8da0a9096dcfa6e61"
             }
-        }
+        },
+        "aliases": [
+            "vi-25hours-single-low"
+        ]
     },
     "vi_VN-vais1000-medium": {
+        "key": "vi_VN-vais1000-medium",
         "name": "vais1000",
         "language": {
             "code": "vi_VN",
@@ -1116,9 +1340,11 @@
                 "size_bytes": 361,
                 "md5_digest": "1beeecba9042e5925b0c5fbd138c779d"
             }
-        }
+        },
+        "aliases": []
     },
     "sv_SE-nst-medium": {
+        "key": "sv_SE-nst-medium",
         "name": "nst",
         "language": {
             "code": "sv_SE",
@@ -1144,9 +1370,11 @@
                 "size_bytes": 306,
                 "md5_digest": "4a7cdb8f218a909b2b5e81d1903628da"
             }
-        }
+        },
+        "aliases": []
     },
     "ca_ES-upc_ona-x_low": {
+        "key": "ca_ES-upc_ona-x_low",
         "name": "upc_ona",
         "language": {
             "code": "ca_ES",
@@ -1172,9 +1400,13 @@
                 "size_bytes": 258,
                 "md5_digest": "1f555643ff6f7d9133679d730f3f6016"
             }
-        }
+        },
+        "aliases": [
+            "ca-upc_ona-x-low"
+        ]
     },
     "ca_ES-upc_ona-medium": {
+        "key": "ca_ES-upc_ona-medium",
         "name": "upc_ona",
         "language": {
             "code": "ca_ES",
@@ -1200,9 +1432,11 @@
                 "size_bytes": 296,
                 "md5_digest": "395c782a56632400f46e7c442c7718bb"
             }
-        }
+        },
+        "aliases": []
     },
     "ca_ES-upc_pau-x_low": {
+        "key": "ca_ES-upc_pau-x_low",
         "name": "upc_pau",
         "language": {
             "code": "ca_ES",
@@ -1228,9 +1462,13 @@
                 "size_bytes": 258,
                 "md5_digest": "4ff8699c4439c9f49180457f0becc49e"
             }
-        }
+        },
+        "aliases": [
+            "ca-upc_pau-x-low"
+        ]
     },
     "en_GB-southern_english_female-low": {
+        "key": "en_GB-southern_english_female-low",
         "name": "southern_english_female",
         "language": {
             "code": "en_GB",
@@ -1256,9 +1494,13 @@
                 "size_bytes": 296,
                 "md5_digest": "77ac998c8b37842ef98594567f141629"
             }
-        }
+        },
+        "aliases": [
+            "en-gb-southern_english_female-low"
+        ]
     },
     "en_GB-northern_english_male-medium": {
+        "key": "en_GB-northern_english_male-medium",
         "name": "northern_english_male",
         "language": {
             "code": "en_GB",
@@ -1284,9 +1526,11 @@
                 "size_bytes": 305,
                 "md5_digest": "8d1b725154c658ead4f068389c319c82"
             }
-        }
+        },
+        "aliases": []
     },
     "en_GB-alba-medium": {
+        "key": "en_GB-alba-medium",
         "name": "alba",
         "language": {
             "code": "en_GB",
@@ -1312,9 +1556,11 @@
                 "size_bytes": 324,
                 "md5_digest": "d5a8716acb311b20e0f28710d0fcc982"
             }
-        }
+        },
+        "aliases": []
     },
     "en_GB-vctk-medium": {
+        "key": "en_GB-vctk-medium",
         "name": "vctk",
         "language": {
             "code": "en_GB",
@@ -1450,9 +1696,11 @@
                 "size_bytes": 326,
                 "md5_digest": "b88a963e3bee27bc4fff84563f1be388"
             }
-        }
+        },
+        "aliases": []
     },
     "en_GB-alan-low": {
+        "key": "en_GB-alan-low",
         "name": "alan",
         "language": {
             "code": "en_GB",
@@ -1478,9 +1726,13 @@
                 "size_bytes": 309,
                 "md5_digest": "b116c3cbdebac99ade9af03807cb9301"
             }
-        }
+        },
+        "aliases": [
+            "en-gb-alan-low"
+        ]
     },
     "en_GB-alan-medium": {
+        "key": "en_GB-alan-medium",
         "name": "alan",
         "language": {
             "code": "en_GB",
@@ -1506,9 +1758,11 @@
                 "size_bytes": 320,
                 "md5_digest": "24a2232470ca1be071debf53c984666e"
             }
-        }
+        },
+        "aliases": []
     },
     "en_GB-aru-medium": {
+        "key": "en_GB-aru-medium",
         "name": "aru",
         "language": {
             "code": "en_GB",
@@ -1547,9 +1801,11 @@
                 "size_bytes": 368,
                 "md5_digest": "09496f38078e0eefe220a497b7b70631"
             }
-        }
+        },
+        "aliases": []
     },
     "en_GB-jenny_dioco-medium": {
+        "key": "en_GB-jenny_dioco-medium",
         "name": "jenny_dioco",
         "language": {
             "code": "en_GB",
@@ -1575,9 +1831,11 @@
                 "size_bytes": 298,
                 "md5_digest": "ff351d05502764d5b4a074e0648e9434"
             }
-        }
+        },
+        "aliases": []
     },
     "en_US-kusal-medium": {
+        "key": "en_US-kusal-medium",
         "name": "kusal",
         "language": {
             "code": "en_US",
@@ -1603,9 +1861,11 @@
                 "size_bytes": 279,
                 "md5_digest": "b627e950e8e10a1ec7b30e5f9b312a05"
             }
-        }
+        },
+        "aliases": []
     },
     "en_US-libritts-high": {
+        "key": "en_US-libritts-high",
         "name": "libritts",
         "language": {
             "code": "en_US",
@@ -2536,9 +2796,13 @@
                 "size_bytes": 255,
                 "md5_digest": "cdeac934f1154489924a071470b22365"
             }
-        }
+        },
+        "aliases": [
+            "en-us-libritts-high"
+        ]
     },
     "en_US-l2arctic-medium": {
+        "key": "en_US-l2arctic-medium",
         "name": "l2arctic",
         "language": {
             "code": "en_US",
@@ -2589,9 +2853,11 @@
                 "size_bytes": 365,
                 "md5_digest": "8d5e9dc31cba2a9b7ee68a2a70e084f2"
             }
-        }
+        },
+        "aliases": []
     },
     "en_US-kathleen-low": {
+        "key": "en_US-kathleen-low",
         "name": "kathleen",
         "language": {
             "code": "en_US",
@@ -2617,9 +2883,13 @@
                 "size_bytes": 281,
                 "md5_digest": "0585e0a798d093c9ee090b99d9c8f68e"
             }
-        }
+        },
+        "aliases": [
+            "en-us-kathleen-low"
+        ]
     },
     "en_US-amy-low": {
+        "key": "en_US-amy-low",
         "name": "amy",
         "language": {
             "code": "en_US",
@@ -2645,9 +2915,13 @@
                 "size_bytes": 273,
                 "md5_digest": "e1cdd84aa7493b8fbe1e6471f6f93cea"
             }
-        }
+        },
+        "aliases": [
+            "en-us-amy-low"
+        ]
     },
     "en_US-amy-medium": {
+        "key": "en_US-amy-medium",
         "name": "amy",
         "language": {
             "code": "en_US",
@@ -2673,9 +2947,11 @@
                 "size_bytes": 281,
                 "md5_digest": "6fca05ee5bfe8b28211b88b86b47e822"
             }
-        }
+        },
+        "aliases": []
     },
     "en_US-ryan-low": {
+        "key": "en_US-ryan-low",
         "name": "ryan",
         "language": {
             "code": "en_US",
@@ -2701,9 +2977,13 @@
                 "size_bytes": 263,
                 "md5_digest": "030252d21b0bd1048c37a9eb7f94eb17"
             }
-        }
+        },
+        "aliases": [
+            "en-us-ryan-low"
+        ]
     },
     "en_US-ryan-high": {
+        "key": "en_US-ryan-high",
         "name": "ryan",
         "language": {
             "code": "en_US",
@@ -2729,9 +3009,13 @@
                 "size_bytes": 265,
                 "md5_digest": "9c966517ed0bfbffbfdb218e99dbeadd"
             }
-        }
+        },
+        "aliases": [
+            "en-us-ryan-high"
+        ]
     },
     "en_US-ryan-medium": {
+        "key": "en_US-ryan-medium",
         "name": "ryan",
         "language": {
             "code": "en_US",
@@ -2757,9 +3041,13 @@
                 "size_bytes": 306,
                 "md5_digest": "79d9200481a9dcabfa1803cb9e31c28a"
             }
-        }
+        },
+        "aliases": [
+            "en-us-ryan-medium"
+        ]
     },
     "en_US-danny-low": {
+        "key": "en_US-danny-low",
         "name": "danny",
         "language": {
             "code": "en_US",
@@ -2785,9 +3073,11 @@
                 "size_bytes": 275,
                 "md5_digest": "62d30d0cccea265949980cb48212ebee"
             }
-        }
+        },
+        "aliases": []
     },
     "en_US-arctic-medium": {
+        "key": "en_US-arctic-medium",
         "name": "arctic",
         "language": {
             "code": "en_US",
@@ -2832,9 +3122,11 @@
                 "size_bytes": 289,
                 "md5_digest": "efe5b89e46cf8e0efa254203da8c7baf"
             }
-        }
+        },
+        "aliases": []
     },
     "en_US-lessac-low": {
+        "key": "en_US-lessac-low",
         "name": "lessac",
         "language": {
             "code": "en_US",
@@ -2860,9 +3152,13 @@
                 "size_bytes": 345,
                 "md5_digest": "999cbf2c337d8fb2f21b0fa2c95e9e85"
             }
-        }
+        },
+        "aliases": [
+            "en-us-lessac-low"
+        ]
     },
     "en_US-lessac-high": {
+        "key": "en_US-lessac-high",
         "name": "lessac",
         "language": {
             "code": "en_US",
@@ -2888,9 +3184,11 @@
                 "size_bytes": 347,
                 "md5_digest": "2ff564555f6d6cde3c19dcc8f3815428"
             }
-        }
+        },
+        "aliases": []
     },
     "en_US-lessac-medium": {
+        "key": "en_US-lessac-medium",
         "name": "lessac",
         "language": {
             "code": "en_US",
@@ -2916,9 +3214,13 @@
                 "size_bytes": 351,
                 "md5_digest": "42f2dd4a98149e12fc70b301d9579dfd"
             }
-        }
+        },
+        "aliases": [
+            "en-us-lessac-medium"
+        ]
     },
     "en_US-joe-medium": {
+        "key": "en_US-joe-medium",
         "name": "joe",
         "language": {
             "code": "en_US",
@@ -2944,9 +3246,11 @@
                 "size_bytes": 280,
                 "md5_digest": "7d25cb111aa9699518764a1cb3943af1"
             }
-        }
+        },
+        "aliases": []
     },
     "es_MX-ald-medium": {
+        "key": "es_MX-ald-medium",
         "name": "ald",
         "language": {
             "code": "es_MX",
@@ -2972,9 +3276,11 @@
                 "size_bytes": 320,
                 "md5_digest": "a858af3698e0c7cda6c9ad5d0d11b651"
             }
-        }
+        },
+        "aliases": []
     },
     "es_ES-davefx-medium": {
+        "key": "es_ES-davefx-medium",
         "name": "davefx",
         "language": {
             "code": "es_ES",
@@ -3000,9 +3306,11 @@
                 "size_bytes": 275,
                 "md5_digest": "5569c0fb20448308466216428b52f392"
             }
-        }
+        },
+        "aliases": []
     },
     "es_ES-mls_9972-low": {
+        "key": "es_ES-mls_9972-low",
         "name": "mls_9972",
         "language": {
             "code": "es_ES",
@@ -3028,9 +3336,13 @@
                 "size_bytes": 256,
                 "md5_digest": "4ba8c18ce72a202a49312ee1914ca6b0"
             }
-        }
+        },
+        "aliases": [
+            "es-mls_9972-low"
+        ]
     },
     "es_ES-sharvard-medium": {
+        "key": "es_ES-sharvard-medium",
         "name": "sharvard",
         "language": {
             "code": "es_ES",
@@ -3059,9 +3371,11 @@
                 "size_bytes": 392,
                 "md5_digest": "b600a21381af84fa21b29f519a3a829a"
             }
-        }
+        },
+        "aliases": []
     },
     "es_ES-carlfm-x_low": {
+        "key": "es_ES-carlfm-x_low",
         "name": "carlfm",
         "language": {
             "code": "es_ES",
@@ -3087,9 +3401,13 @@
                 "size_bytes": 250,
                 "md5_digest": "19cb47bbe9e07e8d7937cfd39027d3a9"
             }
-        }
+        },
+        "aliases": [
+            "es-carlfm-x-low"
+        ]
     },
     "es_ES-mls_10246-low": {
+        "key": "es_ES-mls_10246-low",
         "name": "mls_10246",
         "language": {
             "code": "es_ES",
@@ -3115,9 +3433,13 @@
                 "size_bytes": 257,
                 "md5_digest": "a345cefedda92347f53ea9a84d1b3983"
             }
-        }
+        },
+        "aliases": [
+            "es-mls_10246-low"
+        ]
     },
     "uk_UA-lada-x_low": {
+        "key": "uk_UA-lada-x_low",
         "name": "lada",
         "language": {
             "code": "uk_UA",
@@ -3143,9 +3465,13 @@
                 "size_bytes": 267,
                 "md5_digest": "8de03ca7a0aee2a1c088638ec18fdb87"
             }
-        }
+        },
+        "aliases": [
+            "uk-lada-x-low"
+        ]
     },
     "uk_UA-ukrainian_tts-medium": {
+        "key": "uk_UA-ukrainian_tts-medium",
         "name": "ukrainian_tts",
         "language": {
             "code": "uk_UA",
@@ -3175,9 +3501,44 @@
                 "size_bytes": 266,
                 "md5_digest": "d615c1c54d0017f4eb42c95dabc5573b"
             }
-        }
+        },
+        "aliases": []
+    },
+    "sr_RS-serbski_institut-medium": {
+        "key": "sr_RS-serbski_institut-medium",
+        "name": "serbski_institut",
+        "language": {
+            "code": "sr_RS",
+            "family": "sr",
+            "region": "RS",
+            "name_native": "srpski",
+            "name_english": "Serbian",
+            "country_english": "Serbia"
+        },
+        "quality": "medium",
+        "num_speakers": 2,
+        "speaker_id_map": {
+            "dsb": 0,
+            "hsb": 1
+        },
+        "files": {
+            "sr/sr_RS/serbski_institut/medium/sr_RS-serbski_institut-medium.onnx": {
+                "size_bytes": 76733615,
+                "md5_digest": "02c6e27ac7b4dfa84272df89edca9feb"
+            },
+            "sr/sr_RS/serbski_institut/medium/sr_RS-serbski_institut-medium.onnx.json": {
+                "size_bytes": 4999,
+                "md5_digest": "dacee7595352af9b4d78bb42237bd759"
+            },
+            "sr/sr_RS/serbski_institut/medium/MODEL_CARD": {
+                "size_bytes": 343,
+                "md5_digest": "407a5b8ebef4877405de2e89eb806633"
+            }
+        },
+        "aliases": []
     },
     "sw_CD-lanfrica-medium": {
+        "key": "sw_CD-lanfrica-medium",
         "name": "lanfrica",
         "language": {
             "code": "sw_CD",
@@ -3203,9 +3564,11 @@
                 "size_bytes": 315,
                 "md5_digest": "225cc22fc4a35a83f2039988499baa85"
             }
-        }
+        },
+        "aliases": []
     },
     "fr_FR-siwis-low": {
+        "key": "fr_FR-siwis-low",
         "name": "siwis",
         "language": {
             "code": "fr_FR",
@@ -3231,9 +3594,13 @@
                 "size_bytes": 274,
                 "md5_digest": "5d4a6b6e8d4a476e9b415ec0c1f030da"
             }
-        }
+        },
+        "aliases": [
+            "fr-siwis-low"
+        ]
     },
     "fr_FR-siwis-medium": {
+        "key": "fr_FR-siwis-medium",
         "name": "siwis",
         "language": {
             "code": "fr_FR",
@@ -3259,9 +3626,13 @@
                 "size_bytes": 284,
                 "md5_digest": "2b9ea48b15e9e1fd25f95b415caaf66f"
             }
-        }
+        },
+        "aliases": [
+            "fr-siwis-medium"
+        ]
     },
     "fr_FR-mls_1840-low": {
+        "key": "fr_FR-mls_1840-low",
         "name": "mls_1840",
         "language": {
             "code": "fr_FR",
@@ -3287,9 +3658,13 @@
                 "size_bytes": 257,
                 "md5_digest": "35d860ab0a8497966c73da525728e711"
             }
-        }
+        },
+        "aliases": [
+            "fr-mls_1840-low"
+        ]
     },
     "fr_FR-gilles-low": {
+        "key": "fr_FR-gilles-low",
         "name": "gilles",
         "language": {
             "code": "fr_FR",
@@ -3315,9 +3690,13 @@
                 "size_bytes": 300,
                 "md5_digest": "9317af9efdb0d9986d42357b180f06e2"
             }
-        }
+        },
+        "aliases": [
+            "fr-gilles-low"
+        ]
     },
     "fi_FI-harri-low": {
+        "key": "fi_FI-harri-low",
         "name": "harri",
         "language": {
             "code": "fi_FI",
@@ -3343,9 +3722,13 @@
                 "size_bytes": 284,
                 "md5_digest": "93ccf398abae82b7d7a3d420658e26f1"
             }
-        }
+        },
+        "aliases": [
+            "fi-harri-low"
+        ]
     },
     "fi_FI-harri-medium": {
+        "key": "fi_FI-harri-medium",
         "name": "harri",
         "language": {
             "code": "fi_FI",
@@ -3371,9 +3754,41 @@
                 "size_bytes": 304,
                 "md5_digest": "95d5aff86d27b69c8ee7deed6c056aff"
             }
-        }
+        },
+        "aliases": []
+    },
+    "tr_TR-dfki-medium": {
+        "key": "tr_TR-dfki-medium",
+        "name": "dfki",
+        "language": {
+            "code": "tr_TR",
+            "family": "tr",
+            "region": "TR",
+            "name_native": "Türkçe",
+            "name_english": "Turkish",
+            "country_english": "Turkey"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "tr/tr_TR/dfki/medium/tr_TR-dfki-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "f51287b350a042dd8d67b2b215145e5a"
+            },
+            "tr/tr_TR/dfki/medium/tr_TR-dfki-medium.onnx.json": {
+                "size_bytes": 4874,
+                "md5_digest": "d76424a40a79733bfbe59751e949b9ff"
+            },
+            "tr/tr_TR/dfki/medium/MODEL_CARD": {
+                "size_bytes": 319,
+                "md5_digest": "870d6bc19719328699449cb7b4dd56cf"
+            }
+        },
+        "aliases": []
     },
     "ka_GE-natia-medium": {
+        "key": "ka_GE-natia-medium",
         "name": "natia",
         "language": {
             "code": "ka_GE",
@@ -3399,9 +3814,11 @@
                 "size_bytes": 288,
                 "md5_digest": "81ac71dd5b3dac89bf7762bf7b738c95"
             }
-        }
+        },
+        "aliases": []
     },
     "pl_PL-darkman-medium": {
+        "key": "pl_PL-darkman-medium",
         "name": "darkman",
         "language": {
             "code": "pl_PL",
@@ -3427,9 +3844,11 @@
                 "size_bytes": 276,
                 "md5_digest": "952772905864f6f6375df54a675895b7"
             }
-        }
+        },
+        "aliases": []
     },
     "pl_PL-mls_6892-low": {
+        "key": "pl_PL-mls_6892-low",
         "name": "mls_6892",
         "language": {
             "code": "pl_PL",
@@ -3455,9 +3874,13 @@
                 "size_bytes": 257,
                 "md5_digest": "74ebc618d120896113449ad2f957b7a4"
             }
-        }
+        },
+        "aliases": [
+            "pl-mls_6892-low"
+        ]
     },
     "pl_PL-gosia-medium": {
+        "key": "pl_PL-gosia-medium",
         "name": "gosia",
         "language": {
             "code": "pl_PL",
@@ -3483,9 +3906,11 @@
                 "size_bytes": 274,
                 "md5_digest": "e1355330fe5fab166e6f2e20af7e91e9"
             }
-        }
+        },
+        "aliases": []
     },
     "no_NO-talesyntese-medium": {
+        "key": "no_NO-talesyntese-medium",
         "name": "talesyntese",
         "language": {
             "code": "no_NO",
@@ -3511,6 +3936,9 @@
                 "size_bytes": 312,
                 "md5_digest": "5fe51d2a4a0e05e85c88a80373000ae1"
             }
-        }
+        },
+        "aliases": [
+            "no-talesyntese-medium"
+        ]
     }
 }
