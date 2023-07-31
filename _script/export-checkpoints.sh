@@ -75,8 +75,14 @@ find "${piper_checkpoints}" -name '*.ckpt' | sort | \
         mkdir -p "${output_dir}"
 
         onnx="${output_dir}/${voice_name}.onnx"
-        cp "${voice_dir}/MODEL_CARD" "${output_dir}/"
-        cp "${voice_dir}/config.json" "${onnx}.json"
+
+        if [ -s "${output_dir}/MODEL_CARD" ]; then
+            cp "${voice_dir}/MODEL_CARD" "${output_dir}/"
+        fi
+
+        if [ -s "${output_dir}/${onnx}.json" ]; then
+            cp "${voice_dir}/config.json" "${onnx}.json"
+        fi
 
         if [ ! -s "${onnx}" ]; then
             # Export to onnx and optimize

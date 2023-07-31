@@ -1,0 +1,15 @@
+# Model card for thorsten_emotional (medium)
+
+* Language: de_DE (German, Germany)
+* Speakers: 8 (emotions)
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://github.com/thorstenMueller/Thorsten-Voice
+* License: CC0
+
+## Training
+
+Finetuned from German thorsten voice (medium quality).
