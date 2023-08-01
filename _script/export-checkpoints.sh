@@ -80,7 +80,7 @@ find "${piper_checkpoints}" -name '*.ckpt' | sort | \
             cp "${voice_dir}/MODEL_CARD" "${output_dir}/"
         fi
 
-        if [ -s "${output_dir}/${onnx}.json" ]; then
+        if [ ! -s "${output_dir}/${onnx}.json" ]; then
             cp "${voice_dir}/config.json" "${onnx}.json"
         fi
 
