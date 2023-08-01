@@ -106,6 +106,9 @@
           "medium": 2,
           "high": 3,
       };
+      var languageToSelect = null;
+      var voiceToSelect = null;
+      var qualityToSelect = null;
       
       function q(selector) {return document.querySelector(selector)}
 
@@ -141,7 +144,11 @@
                   voiceSelect.add(option);
               }
 
-              if (voiceSelect.options.length > 1) {
+              if (voiceToSelect) {
+                  voiceSelect.value = voiceToSelect;
+                  voiceToSelect = null;
+                  setVoice();
+              } else if (voiceSelect.options.length > 1) {
                   // Select first voice
                   voiceSelect.selectedIndex = 1;
                   setVoice();
@@ -175,7 +182,11 @@
                   qualitySelect.add(option);
               }
 
-              if (qualitySelect.options.length > 1) {
+              if (qualityToSelect) {
+                  qualitySelect.value = qualityToSelect;
+                  qualityToSelect = null;
+                  setQuality();
+              } else if (qualitySelect.options.length > 1) {
                   // Select highest quality
                   qualitySelect.selectedIndex = qualitySelect.options.length - 1;
                   setQuality();
@@ -292,6 +303,17 @@
       }
 
       window.onload = function(e) {
+          let hash = window.location.hash;
+          if (hash.length > 0) {
+              let voiceIdRegexp = RegExp("^#([^-]+)-([^-]+)-([^-]+)$");
+              let match = voiceIdRegexp.exec(hash);
+              if (match) {
+                  languageToSelect = match[1];
+                  voiceToSelect = match[2];
+                  qualityToSelect = match[3];
+              }
+          }
+
           fetch("voices.json")
               .then(response => response.json())
               .then(response_obj => {
@@ -314,6 +336,12 @@
                       option.text = languageNames[language];
                       option.value = language;
                       languagesSelect.add(option);
+                  }
+
+                  if (languageToSelect) {
+                      languagesSelect.value = languageToSelect;
+                      languageToSelect = null;
+                      setLanguage();
                   }
               });
       }
