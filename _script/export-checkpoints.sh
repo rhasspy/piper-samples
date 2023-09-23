@@ -22,7 +22,7 @@ fi
 
 piper_checkpoints="$1"
 piper_voices="$2"
-piper_binary="${repo_dir}/build/piper"
+piper_binary="${repo_dir}/install/piper"
 
 # -----------------------------------------------------------------------------
 
