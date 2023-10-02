@@ -1,0 +1,15 @@
+# Model card for mc_speech (medium)
+
+* Language: pl_PL (Polish, Poland)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://www.kaggle.com/datasets/czyzi0/the-mc-speech-dataset
+* License: CC0
+
+## Training
+
+Finetuned from U.S. English lessac voice (medium quality).
