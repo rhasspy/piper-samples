@@ -1,4 +1,34 @@
 {
+    "ar_JO-kareem-low": {
+        "key": "ar_JO-kareem-low",
+        "name": "kareem",
+        "language": {
+            "code": "ar_JO",
+            "family": "ar",
+            "region": "JO",
+            "name_native": "العربية",
+            "name_english": "Arabic",
+            "country_english": "Jordan"
+        },
+        "quality": "low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ar/ar_JO/kareem/low/ar_JO-kareem-low.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "d335cd06fe4045a7ee9d8fb0712afaa9"
+            },
+            "ar/ar_JO/kareem/low/ar_JO-kareem-low.onnx.json": {
+                "size_bytes": 5022,
+                "md5_digest": "465724f7d2d5f2ff061b53acb8e7f7cc"
+            },
+            "ar/ar_JO/kareem/low/MODEL_CARD": {
+                "size_bytes": 274,
+                "md5_digest": "b6f0eaf5a7fd094be22a1bcb162173fb"
+            }
+        },
+        "aliases": []
+    },
     "ar_JO-kareem-medium": {
         "key": "ar_JO-kareem-medium",
         "name": "kareem",
@@ -1075,6 +1105,36 @@
             "en/en_US/danny/low/MODEL_CARD": {
                 "size_bytes": 275,
                 "md5_digest": "62d30d0cccea265949980cb48212ebee"
+            }
+        },
+        "aliases": []
+    },
+    "en_US-hfc_female-medium": {
+        "key": "en_US-hfc_female-medium",
+        "name": "hfc_female",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/hfc_female/medium/en_US-hfc_female-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "7abec91f1d6e19e913fbc4a333f62787"
+            },
+            "en/en_US/hfc_female/medium/en_US-hfc_female-medium.onnx.json": {
+                "size_bytes": 5033,
+                "md5_digest": "c3d00f54dac3b4068f2576c15c5da3bc"
+            },
+            "en/en_US/hfc_female/medium/MODEL_CARD": {
+                "size_bytes": 354,
+                "md5_digest": "a4a7b5da65e03e6972e44e9555a59aef"
             }
         },
         "aliases": []
@@ -3507,6 +3567,66 @@
         },
         "aliases": []
     },
+    "fa_IR-amir-medium": {
+        "key": "fa_IR-amir-medium",
+        "name": "amir",
+        "language": {
+            "code": "fa_IR",
+            "family": "fa",
+            "region": "IR",
+            "name_native": "فارسی",
+            "name_english": "Farsi",
+            "country_english": "Iran"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fa/fa_IR/amir/medium/fa_IR-amir-medium.onnx": {
+                "size_bytes": 63531379,
+                "md5_digest": "7c0598c9726427869e1e86447b333539"
+            },
+            "fa/fa_IR/amir/medium/fa_IR-amir-medium.onnx.json": {
+                "size_bytes": 4958,
+                "md5_digest": "48c5e81f5aa4e1c5eba3dda0be403b58"
+            },
+            "fa/fa_IR/amir/medium/MODEL_CARD": {
+                "size_bytes": 264,
+                "md5_digest": "0728165259eb968913a680077607cd5c"
+            }
+        },
+        "aliases": []
+    },
+    "fa_IR-gyro-medium": {
+        "key": "fa_IR-gyro-medium",
+        "name": "gyro",
+        "language": {
+            "code": "fa_IR",
+            "family": "fa",
+            "region": "IR",
+            "name_native": "فارسی",
+            "name_english": "Farsi",
+            "country_english": "Iran"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fa/fa_IR/gyro/medium/fa_IR-gyro-medium.onnx": {
+                "size_bytes": 63122309,
+                "md5_digest": "479695db58b82141fc48f0499a38a7c9"
+            },
+            "fa/fa_IR/gyro/medium/fa_IR-gyro-medium.onnx.json": {
+                "size_bytes": 4958,
+                "md5_digest": "6289e9785140547040a1e616388dd587"
+            },
+            "fa/fa_IR/gyro/medium/MODEL_CARD": {
+                "size_bytes": 262,
+                "md5_digest": "b30a1713c6e67946e3f1ed33eac06039"
+            }
+        },
+        "aliases": []
+    },
     "fi_FI-harri-low": {
         "key": "fi_FI-harri-low",
         "name": "harri",
@@ -3696,6 +3816,36 @@
         "aliases": [
             "fr-siwis-medium"
         ]
+    },
+    "fr_FR-tom-medium": {
+        "key": "fr_FR-tom-medium",
+        "name": "tom",
+        "language": {
+            "code": "fr_FR",
+            "family": "fr",
+            "region": "FR",
+            "name_native": "Français",
+            "name_english": "French",
+            "country_english": "France"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fr/fr_FR/tom/medium/fr_FR-tom-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "5b460c2394a871e675f5c798af149412"
+            },
+            "fr/fr_FR/tom/medium/fr_FR-tom-medium.onnx.json": {
+                "size_bytes": 4959,
+                "md5_digest": "964d58602df7adf76c2401b070f68ea2"
+            },
+            "fr/fr_FR/tom/medium/MODEL_CARD": {
+                "size_bytes": 233,
+                "md5_digest": "d82342c0c27cfbe9342814c7da46cb83"
+            }
+        },
+        "aliases": []
     },
     "fr_FR-upmc-medium": {
         "key": "fr_FR-upmc-medium",
@@ -4863,6 +5013,36 @@
         },
         "aliases": []
     },
+    "sl_SI-artur-medium": {
+        "key": "sl_SI-artur-medium",
+        "name": "artur",
+        "language": {
+            "code": "sl_SI",
+            "family": "sl",
+            "region": "SI",
+            "name_native": "Slovenščina",
+            "name_english": "Slovenian",
+            "country_english": "Slovenia"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "sl/sl_SI/artur/medium/sl_SI-artur-medium.onnx": {
+                "size_bytes": 63200492,
+                "md5_digest": "ca0aac61139e446bebf98561e8cf9407"
+            },
+            "sl/sl_SI/artur/medium/sl_SI-artur-medium.onnx.json": {
+                "size_bytes": 4970,
+                "md5_digest": "8683796803bce4e9131eec00a93251ad"
+            },
+            "sl/sl_SI/artur/medium/MODEL_CARD": {
+                "size_bytes": 333,
+                "md5_digest": "0d84fc54c1ba4ff0da5a62325e7702de"
+            }
+        },
+        "aliases": []
+    },
     "sr_RS-serbski_institut-medium": {
         "key": "sr_RS-serbski_institut-medium",
         "name": "serbski_institut",
@@ -5012,6 +5192,36 @@
             "tr/tr_TR/fahrettin/medium/MODEL_CARD": {
                 "size_bytes": 279,
                 "md5_digest": "f0fe18e5a6b7615d59a89dfe4873247f"
+            }
+        },
+        "aliases": []
+    },
+    "tr_TR-fettah-medium": {
+        "key": "tr_TR-fettah-medium",
+        "name": "fettah",
+        "language": {
+            "code": "tr_TR",
+            "family": "tr",
+            "region": "TR",
+            "name_native": "Türkçe",
+            "name_english": "Turkish",
+            "country_english": "Turkey"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "tr/tr_TR/fettah/medium/tr_TR-fettah-medium.onnx": {
+                "size_bytes": 63201294,
+                "md5_digest": "596984449bd075fc18e6412c66ed99c2"
+            },
+            "tr/tr_TR/fettah/medium/tr_TR-fettah-medium.onnx.json": {
+                "size_bytes": 4877,
+                "md5_digest": "583aa5f4bfac5237afb1cdbdf5bfc992"
+            },
+            "tr/tr_TR/fettah/medium/MODEL_CARD": {
+                "size_bytes": 276,
+                "md5_digest": "9c51c87dc191bd556c0634793c233d5c"
             }
         },
         "aliases": []

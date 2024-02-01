@@ -1,0 +1,15 @@
+# Model card for kareem (low)
+
+* Language: ar_JO (Arabic, Jordan)
+* Speakers: 1
+* Quality: low
+* Samplerate: 16,000Hz
+
+## Dataset
+
+* URL: https://github.com/AliMokhammad/arabicttstrain/
+* License: See URL
+
+## Training
+
+Finetuned from U.S English lessac voice (low quality).
