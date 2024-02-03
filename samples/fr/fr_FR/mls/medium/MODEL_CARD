@@ -1,0 +1,15 @@
+# Model card for mls (medium)
+
+* Language: fr_FR (French, France)
+* Speakers: 125
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: http://openslr.org/94/
+* License: CC-BY 4.0
+
+## Training
+
+Trained from scratch
