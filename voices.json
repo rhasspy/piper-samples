@@ -968,6 +968,36 @@
         },
         "aliases": []
     },
+    "en_GB-cori-high": {
+        "key": "en_GB-cori-high",
+        "name": "cori",
+        "language": {
+            "code": "en_GB",
+            "family": "en",
+            "region": "GB",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "Great Britain"
+        },
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_GB/cori/high/en_GB-cori-high.onnx": {
+                "size_bytes": 114219352,
+                "md5_digest": "3474a80133d9a03e6870d2ac42c18806"
+            },
+            "en/en_GB/cori/high/en_GB-cori-high.onnx.json": {
+                "size_bytes": 4963,
+                "md5_digest": "0f7d42e77a99193006aa34a34442f5e0"
+            },
+            "en/en_GB/cori/high/MODEL_CARD": {
+                "size_bytes": 470,
+                "md5_digest": "93702d22a081e5efe612625f2a9d6d51"
+            }
+        },
+        "aliases": []
+    },
     "en_GB-jenny_dioco-medium": {
         "key": "en_GB-jenny_dioco-medium",
         "name": "jenny_dioco",
@@ -1497,6 +1527,36 @@
         "aliases": [
             "en-us-kathleen-low"
         ]
+    },
+    "en_US-kristin-medium": {
+        "key": "en_US-kristin-medium",
+        "name": "kristin",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/kristin/medium/en_US-kristin-medium.onnx": {
+                "size_bytes": 63531379,
+                "md5_digest": "5fed42d2296baca042e2bf74785db725"
+            },
+            "en/en_US/kristin/medium/en_US-kristin-medium.onnx.json": {
+                "size_bytes": 4968,
+                "md5_digest": "70bc97d350c796c64ea5e4d08241afac"
+            },
+            "en/en_US/kristin/medium/MODEL_CARD": {
+                "size_bytes": 479,
+                "md5_digest": "9bfb8192299b34cddf76455f04cb8cd2"
+            }
+        },
+        "aliases": []
     },
     "en_US-kusal-medium": {
         "key": "en_US-kusal-medium",
@@ -3549,6 +3609,66 @@
         },
         "aliases": []
     },
+    "en_US-ljspeech-high": {
+        "key": "en_US-ljspeech-high",
+        "name": "ljspeech",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/ljspeech/high/en_US-ljspeech-high.onnx": {
+                "size_bytes": 114199011,
+                "md5_digest": "dad093b5d2cff6a5fda99883ceda09d1"
+            },
+            "en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json": {
+                "size_bytes": 4967,
+                "md5_digest": "1f93986f7c39647383f2a0b1471f30aa"
+            },
+            "en/en_US/ljspeech/high/MODEL_CARD": {
+                "size_bytes": 515,
+                "md5_digest": "59322a9a8d2c0e556f0be1171cd54ea7"
+            }
+        },
+        "aliases": []
+    },
+    "en_US-ljspeech-medium": {
+        "key": "en_US-ljspeech-medium",
+        "name": "ljspeech",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/ljspeech/medium/en_US-ljspeech-medium.onnx": {
+                "size_bytes": 63531379,
+                "md5_digest": "109d552e9dd78d92d1169a7edd6de38d"
+            },
+            "en/en_US/ljspeech/medium/en_US-ljspeech-medium.onnx.json": {
+                "size_bytes": 4969,
+                "md5_digest": "ae02d7c3f01e9606dcac4668e58720c9"
+            },
+            "en/en_US/ljspeech/medium/MODEL_CARD": {
+                "size_bytes": 517,
+                "md5_digest": "5ad31d314786587d4f97effb0b716d61"
+            }
+        },
+        "aliases": []
+    },
     "en_US-ryan-high": {
         "key": "en_US-ryan-high",
         "name": "ryan",
@@ -3830,6 +3950,36 @@
             "es/es_MX/ald/medium/MODEL_CARD": {
                 "size_bytes": 320,
                 "md5_digest": "a858af3698e0c7cda6c9ad5d0d11b651"
+            }
+        },
+        "aliases": []
+    },
+    "es_MX-claude-high": {
+        "key": "es_MX-claude-high",
+        "name": "claude",
+        "language": {
+            "code": "es_MX",
+            "family": "es",
+            "region": "MX",
+            "name_native": "Español",
+            "name_english": "Spanish",
+            "country_english": "Mexico"
+        },
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "es/es_MX/claude/high/es_MX-claude-high.onnx": {
+                "size_bytes": 63122309,
+                "md5_digest": "cb1966e0ff20ca3aa010f6c9a0ce296a"
+            },
+            "es/es_MX/claude/high/es_MX-claude-high.onnx.json": {
+                "size_bytes": 4963,
+                "md5_digest": "36882201922fabb409f18d284af3eddd"
+            },
+            "es/es_MX/claude/high/MODEL_CARD": {
+                "size_bytes": 247,
+                "md5_digest": "bca99dc9b9a6c8f2f8563d73d52c4a3b"
             }
         },
         "aliases": []

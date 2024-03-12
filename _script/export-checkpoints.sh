@@ -86,7 +86,8 @@ find "${piper_checkpoints}" -name '*.ckpt' | sort | \
 
         if [ ! -s "${onnx}" ]; then
             # Export to onnx and optimize
-            python3 -m piper_train.export_onnx \
+            PYTHONPATH="${repo_dir}/src/python" \
+                python3 -m piper_train.export_onnx \
                     "${checkpoint}" \
                     "${onnx}.unoptimized";
 
