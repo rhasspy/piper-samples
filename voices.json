@@ -992,8 +992,38 @@
                 "md5_digest": "0f7d42e77a99193006aa34a34442f5e0"
             },
             "en/en_GB/cori/high/MODEL_CARD": {
-                "size_bytes": 470,
-                "md5_digest": "93702d22a081e5efe612625f2a9d6d51"
+                "size_bytes": 468,
+                "md5_digest": "12db31ecedf1d6458a215d3012339a20"
+            }
+        },
+        "aliases": []
+    },
+    "en_GB-cori-medium": {
+        "key": "en_GB-cori-medium",
+        "name": "cori",
+        "language": {
+            "code": "en_GB",
+            "family": "en",
+            "region": "GB",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "Great Britain"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_GB/cori/medium/en_GB-cori-medium.onnx": {
+                "size_bytes": 63531379,
+                "md5_digest": "f143307611eccea9d976235d0895f57c"
+            },
+            "en/en_GB/cori/medium/en_GB-cori-medium.onnx.json": {
+                "size_bytes": 4966,
+                "md5_digest": "12b1dc45d8919f3475cf296d5f16a4c6"
+            },
+            "en/en_GB/cori/medium/MODEL_CARD": {
+                "size_bytes": 474,
+                "md5_digest": "43861aa2d2c143356702fd966b7812c4"
             }
         },
         "aliases": []
@@ -3629,8 +3659,8 @@
                 "md5_digest": "dad093b5d2cff6a5fda99883ceda09d1"
             },
             "en/en_US/ljspeech/high/en_US-ljspeech-high.onnx.json": {
-                "size_bytes": 4967,
-                "md5_digest": "1f93986f7c39647383f2a0b1471f30aa"
+                "size_bytes": 4970,
+                "md5_digest": "de98fc398ddead60fb82d93bfafb3ad1"
             },
             "en/en_US/ljspeech/high/MODEL_CARD": {
                 "size_bytes": 515,
@@ -3659,8 +3689,8 @@
                 "md5_digest": "109d552e9dd78d92d1169a7edd6de38d"
             },
             "en/en_US/ljspeech/medium/en_US-ljspeech-medium.onnx.json": {
-                "size_bytes": 4969,
-                "md5_digest": "ae02d7c3f01e9606dcac4668e58720c9"
+                "size_bytes": 4972,
+                "md5_digest": "0668112b8b3ac5bb4b12c2b1a366776a"
             },
             "en/en_US/ljspeech/medium/MODEL_CARD": {
                 "size_bytes": 517,
@@ -4031,11 +4061,11 @@
         "files": {
             "fa/fa_IR/gyro/medium/fa_IR-gyro-medium.onnx": {
                 "size_bytes": 63122309,
-                "md5_digest": "479695db58b82141fc48f0499a38a7c9"
+                "md5_digest": "e8ce094894c8ec2a77bfd0397b45d112"
             },
             "fa/fa_IR/gyro/medium/fa_IR-gyro-medium.onnx.json": {
-                "size_bytes": 4958,
-                "md5_digest": "6289e9785140547040a1e616388dd587"
+                "size_bytes": 7210,
+                "md5_digest": "15bcedc4117870524b30b0e07bdee27f"
             },
             "fa/fa_IR/gyro/medium/MODEL_CARD": {
                 "size_bytes": 262,
