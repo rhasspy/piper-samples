@@ -1436,6 +1436,36 @@
         },
         "aliases": []
     },
+    "en_US-bryce-medium": {
+        "key": "en_US-bryce-medium",
+        "name": "bryce",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/bryce/medium/en_US-bryce-medium.onnx": {
+                "size_bytes": 63531379,
+                "md5_digest": "a8482817c3bdc3d20121a0e31bfa9809"
+            },
+            "en/en_US/bryce/medium/en_US-bryce-medium.onnx.json": {
+                "size_bytes": 4966,
+                "md5_digest": "a548d1d4ce8579f5a16926bdec77c7bf"
+            },
+            "en/en_US/bryce/medium/MODEL_CARD": {
+                "size_bytes": 405,
+                "md5_digest": "79f21fcb165d0fcc4680222164bbb569"
+            }
+        },
+        "aliases": []
+    },
     "en_US-danny-low": {
         "key": "en_US-danny-low",
         "name": "danny",
@@ -1552,6 +1582,36 @@
             "en/en_US/joe/medium/MODEL_CARD": {
                 "size_bytes": 280,
                 "md5_digest": "7d25cb111aa9699518764a1cb3943af1"
+            }
+        },
+        "aliases": []
+    },
+    "en_US-john-medium": {
+        "key": "en_US-john-medium",
+        "name": "john",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/john/medium/en_US-john-medium.onnx": {
+                "size_bytes": 63531379,
+                "md5_digest": "70480857f21f2560f3a232722023b36d"
+            },
+            "en/en_US/john/medium/en_US-john-medium.onnx.json": {
+                "size_bytes": 4965,
+                "md5_digest": "f2d04611b498e14d394385d1ec8a2d2d"
+            },
+            "en/en_US/john/medium/MODEL_CARD": {
+                "size_bytes": 498,
+                "md5_digest": "4ef938585cf2cc8da4ada9b6d2c579ec"
             }
         },
         "aliases": []
@@ -3729,6 +3789,36 @@
         },
         "aliases": []
     },
+    "en_US-norman-medium": {
+        "key": "en_US-norman-medium",
+        "name": "norman",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/norman/medium/en_US-norman-medium.onnx": {
+                "size_bytes": 63531379,
+                "md5_digest": "829cea515dc724d694b83b71e8083f9f"
+            },
+            "en/en_US/norman/medium/en_US-norman-medium.onnx.json": {
+                "size_bytes": 4968,
+                "md5_digest": "975830d6f230f6eccf657d265de99eba"
+            },
+            "en/en_US/norman/medium/MODEL_CARD": {
+                "size_bytes": 528,
+                "md5_digest": "c34f20bbc4918681ad7a070a8321f2fa"
+            }
+        },
+        "aliases": []
+    },
     "en_US-ryan-high": {
         "key": "en_US-ryan-high",
         "name": "ryan",
@@ -4751,8 +4841,8 @@
                 "md5_digest": "3a44e73b12ca5d0c21a72e388b5847c8"
             },
             "it/it_IT/paola/medium/it_IT-paola-medium.onnx.json": {
-                "size_bytes": 7100,
-                "md5_digest": "3c983f7292518f042b4d137b2dfe65b3"
+                "size_bytes": 7099,
+                "md5_digest": "cd471a3757c88a7a4baee6207248b5d5"
             },
             "it/it_IT/paola/medium/MODEL_CARD": {
                 "size_bytes": 303,
