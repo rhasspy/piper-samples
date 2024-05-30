@@ -42,6 +42,21 @@ find "${piper_voices}" -name '*.onnx' | sort | \
         samples_dir="${voice_dir}/samples"
         mkdir -p "${samples_dir}"
 
+        noise_scale="$(jq --raw-output '.inference.noise_scale' "${onnx}.json")"
+        if [ -z "${noise_scale}" ]; then
+            noise_scale="0.667"
+        fi
+
+        length_scale="$(jq --raw-output '.inference.length_scale' "${onnx}.json")"
+        if [ -z "${length_scale}" ]; then
+            length_scale="1.0"
+        fi
+
+        noise_w="$(jq --raw-output '.inference.noise_w' "${onnx}.json")"
+        if [ -z "${noise_w}" ]; then
+            noise_w="0.8"
+        fi
+
         num_speakers="$(jq --raw-output '.num_speakers' "${onnx}.json")"
         sample_rate="$(jq --raw-output '.audio.sample_rate' "${onnx}.json")"
         last_speaker_id="$((num_speakers-1))"
@@ -60,7 +75,8 @@ find "${piper_voices}" -name '*.onnx' | sort | \
 
                 # Compress to MP3 with ffmpeg
                 head -n1 "${test_sentences}" | \
-                    "${piper_binary}" --model "${onnx}" --speaker "${speaker_id}" --output_raw | \
+                    "${piper_binary}" --model "${onnx}" --speaker "${speaker_id}" --output_raw \
+                      --noise_scale "${noise_scale}" --noise_w "${noise_w}" --length_scale "${length_scale}" | \
                     ffmpeg -hide_banner -loglevel warning -y \
                         -sample_rate "${sample_rate}" -f s16le -ac 1 -i - \
                         -codec:a libmp3lame -qscale:a 2 "${sample_mp3}";

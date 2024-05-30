@@ -213,6 +213,36 @@
         },
         "aliases": []
     },
+    "cy_GB-gwryw_gogleddol-medium": {
+        "key": "cy_GB-gwryw_gogleddol-medium",
+        "name": "gwryw_gogleddol",
+        "language": {
+            "code": "cy_GB",
+            "family": "cy",
+            "region": "GB",
+            "name_native": "Cymraeg",
+            "name_english": "Welsh",
+            "country_english": "Great Britain"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "cy/cy_GB/gwryw_gogleddol/medium/cy_GB-gwryw_gogleddol-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "76ca79c170b0048b190758c3609e9ab9"
+            },
+            "cy/cy_GB/gwryw_gogleddol/medium/cy_GB-gwryw_gogleddol-medium.onnx.json": {
+                "size_bytes": 4975,
+                "md5_digest": "d780e83a324e9ce8c73146b9d066a283"
+            },
+            "cy/cy_GB/gwryw_gogleddol/medium/MODEL_CARD": {
+                "size_bytes": 337,
+                "md5_digest": "39bd3ade08289afe1cb3f867aef957fa"
+            }
+        },
+        "aliases": []
+    },
     "da_DK-talesyntese-medium": {
         "key": "da_DK-talesyntese-medium",
         "name": "talesyntese",
@@ -823,8 +853,8 @@
                 "md5_digest": "04e0151b653bb64540b1cde027054140"
             },
             "el/el_GR/rapunzelina/low/el_GR-rapunzelina-low.onnx.json": {
-                "size_bytes": 4169,
-                "md5_digest": "b2b064991a72745a5b444af536afbe86"
+                "size_bytes": 4198,
+                "md5_digest": "8d6cd8a576008116be5281b13e1c7b45"
             },
             "el/el_GR/rapunzelina/low/MODEL_CARD": {
                 "size_bytes": 303,
@@ -4700,6 +4730,36 @@
         "aliases": [
             "is-ugla-medium"
         ]
+    },
+    "it_IT-paola-medium": {
+        "key": "it_IT-paola-medium",
+        "name": "paola",
+        "language": {
+            "code": "it_IT",
+            "family": "it",
+            "region": "IT",
+            "name_native": "Italiano",
+            "name_english": "Italian",
+            "country_english": "Italy"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "it/it_IT/paola/medium/it_IT-paola-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "3a44e73b12ca5d0c21a72e388b5847c8"
+            },
+            "it/it_IT/paola/medium/it_IT-paola-medium.onnx.json": {
+                "size_bytes": 7100,
+                "md5_digest": "3c983f7292518f042b4d137b2dfe65b3"
+            },
+            "it/it_IT/paola/medium/MODEL_CARD": {
+                "size_bytes": 303,
+                "md5_digest": "436971e8acb0a92dd8dbc42542e59d03"
+            }
+        },
+        "aliases": []
     },
     "it_IT-riccardo-x_low": {
         "key": "it_IT-riccardo-x_low",
