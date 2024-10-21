@@ -5046,6 +5046,36 @@
         },
         "aliases": []
     },
+    "lv_LV-aivars-medium": {
+        "key": "lv_LV-aivars-medium",
+        "name": "aivars",
+        "language": {
+            "code": "lv_LV",
+            "family": "lv",
+            "region": "LV",
+            "name_native": "Latviešu",
+            "name_english": "Latvian",
+            "country_english": "Latvia"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "lv/lv_LV/aivars/medium/lv_LV-aivars-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "5b48c6f958aea5b7e9ff34f6a10882dd"
+            },
+            "lv/lv_LV/aivars/medium/lv_LV-aivars-medium.onnx.json": {
+                "size_bytes": 7242,
+                "md5_digest": "7264f291326a66e8055e3a48fdd0bf55"
+            },
+            "lv/lv_LV/aivars/medium/MODEL_CARD": {
+                "size_bytes": 257,
+                "md5_digest": "171ee8dd94c40ee2faf96837086bd2a7"
+            }
+        },
+        "aliases": []
+    },
     "ne_NP-google-medium": {
         "key": "ne_NP-google-medium",
         "name": "google",
