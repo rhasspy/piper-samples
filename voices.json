@@ -5665,6 +5665,36 @@
             "pl-mls_6892-low"
         ]
     },
+    "pt_BR-cadu-medium": {
+        "key": "pt_BR-cadu-medium",
+        "name": "cadu",
+        "language": {
+            "code": "pt_BR",
+            "family": "pt",
+            "region": "BR",
+            "name_native": "Português",
+            "name_english": "Portuguese",
+            "country_english": "Brazil"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "pt/pt_BR/cadu/medium/pt_BR-cadu-medium.onnx": {
+                "size_bytes": 62950044,
+                "md5_digest": "6f3a6e23694c9088e3696a15191af2cc"
+            },
+            "pt/pt_BR/cadu/medium/pt_BR-cadu-medium.onnx.json": {
+                "size_bytes": 5040,
+                "md5_digest": "3d35f13df6a2f7dc9b7b7924befbe7bb"
+            },
+            "pt/pt_BR/cadu/medium/MODEL_CARD": {
+                "size_bytes": 277,
+                "md5_digest": "4f69a194136ecb54aee5ae98273debc4"
+            }
+        },
+        "aliases": []
+    },
     "pt_BR-edresson-low": {
         "key": "pt_BR-edresson-low",
         "name": "edresson",
@@ -5723,6 +5753,36 @@
             "pt/pt_BR/faber/medium/MODEL_CARD": {
                 "size_bytes": 278,
                 "md5_digest": "a81a3840b1749cf34b0e31de1577ef47"
+            }
+        },
+        "aliases": []
+    },
+    "pt_BR-jeff-medium": {
+        "key": "pt_BR-jeff-medium",
+        "name": "jeff",
+        "language": {
+            "code": "pt_BR",
+            "family": "pt",
+            "region": "BR",
+            "name_native": "Português",
+            "name_english": "Portuguese",
+            "country_english": "Brazil"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "pt/pt_BR/jeff/medium/pt_BR-jeff-medium.onnx": {
+                "size_bytes": 62950044,
+                "md5_digest": "dfb93e9da48638f9efa6b63fdb0b7030"
+            },
+            "pt/pt_BR/jeff/medium/pt_BR-jeff-medium.onnx.json": {
+                "size_bytes": 5041,
+                "md5_digest": "e7d673d946db4d9e9d8644babf347ea9"
+            },
+            "pt/pt_BR/jeff/medium/MODEL_CARD": {
+                "size_bytes": 277,
+                "md5_digest": "e6ec017f5195c56575aab61900e16110"
             }
         },
         "aliases": []
