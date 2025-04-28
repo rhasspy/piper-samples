@@ -1,0 +1,10 @@
+# Model card for lisa (medium)
+
+* Language: sv_SE (Swedish, Sweden)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Training
+
+Finetuned from Norweigan talesyntese voice (medium quality).

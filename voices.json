@@ -213,6 +213,44 @@
         },
         "aliases": []
     },
+    "cy_GB-bu_tts-medium": {
+        "key": "cy_GB-bu_tts-medium",
+        "name": "bu_tts",
+        "language": {
+            "code": "cy_GB",
+            "family": "cy",
+            "region": "GB",
+            "name_native": "Cymraeg",
+            "name_english": "Welsh",
+            "country_english": "Great Britain"
+        },
+        "quality": "medium",
+        "num_speakers": 7,
+        "speaker_id_map": {
+            "benyw-de-pro": 0,
+            "benyw-gogledd-pro": 1,
+            "gwryw-gogledd-pro": 2,
+            "gwryw-gogledd-2": 3,
+            "gwryw-de-1": 4,
+            "gwryw-gogledd-1": 5,
+            "benyw-gogledd-1": 6
+        },
+        "files": {
+            "cy/cy_GB/bu_tts/medium/cy_GB-bu_tts-medium.onnx": {
+                "size_bytes": 77061326,
+                "md5_digest": "81827b7d290b9c478be3b22e07ee028e"
+            },
+            "cy/cy_GB/bu_tts/medium/cy_GB-bu_tts-medium.onnx.json": {
+                "size_bytes": 5145,
+                "md5_digest": "410fcba3c88586d4085be2efd8e57505"
+            },
+            "cy/cy_GB/bu_tts/medium/MODEL_CARD": {
+                "size_bytes": 295,
+                "md5_digest": "9d542d9dd85ce1925837a99200332bb5"
+            }
+        },
+        "aliases": []
+    },
     "cy_GB-gwryw_gogleddol-medium": {
         "key": "cy_GB-gwryw_gogleddol-medium",
         "name": "gwryw_gogleddol",
@@ -3819,6 +3857,36 @@
         },
         "aliases": []
     },
+    "en_US-reza_ibrahim-medium": {
+        "key": "en_US-reza_ibrahim-medium",
+        "name": "reza_ibrahim",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/reza_ibrahim/medium/en_US-reza_ibrahim-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "b9d4059c794df8336060fb7f36264a43"
+            },
+            "en/en_US/reza_ibrahim/medium/en_US-reza_ibrahim-medium.onnx.json": {
+                "size_bytes": 4976,
+                "md5_digest": "94aa2ac1bcb4c64f3c4c561d5d5f5676"
+            },
+            "en/en_US/reza_ibrahim/medium/MODEL_CARD": {
+                "size_bytes": 635,
+                "md5_digest": "941fdcc93ba4b03298ac2218c7e350fc"
+            }
+        },
+        "aliases": []
+    },
     "en_US-ryan-high": {
         "key": "en_US-ryan-high",
         "name": "ryan",
@@ -4164,6 +4232,66 @@
         },
         "aliases": []
     },
+    "fa_IR-ganji-medium": {
+        "key": "fa_IR-ganji-medium",
+        "name": "ganji",
+        "language": {
+            "code": "fa_IR",
+            "family": "fa",
+            "region": "IR",
+            "name_native": "فارسی",
+            "name_english": "Farsi",
+            "country_english": "Iran"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fa/fa_IR/ganji/medium/fa_IR-ganji-medium.onnx": {
+                "size_bytes": 63516050,
+                "md5_digest": "b50577af60b986135b37edaeaabb01b9"
+            },
+            "fa/fa_IR/ganji/medium/fa_IR-ganji-medium.onnx.json": {
+                "size_bytes": 4958,
+                "md5_digest": "717462455e6abf8a4b8ea2365faaa41c"
+            },
+            "fa/fa_IR/ganji/medium/MODEL_CARD": {
+                "size_bytes": 247,
+                "md5_digest": "30c45ec6a69cbca1f65af2f67fce870d"
+            }
+        },
+        "aliases": []
+    },
+    "fa_IR-ganji_adabi-medium": {
+        "key": "fa_IR-ganji_adabi-medium",
+        "name": "ganji_adabi",
+        "language": {
+            "code": "fa_IR",
+            "family": "fa",
+            "region": "IR",
+            "name_native": "فارسی",
+            "name_english": "Farsi",
+            "country_english": "Iran"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fa/fa_IR/ganji_adabi/medium/fa_IR-ganji_adabi-medium.onnx": {
+                "size_bytes": 63516050,
+                "md5_digest": "596844694672ac3d007c544301874553"
+            },
+            "fa/fa_IR/ganji_adabi/medium/fa_IR-ganji_adabi-medium.onnx.json": {
+                "size_bytes": 4964,
+                "md5_digest": "4ddbb3131d8bbf33cdc4d441062db6f4"
+            },
+            "fa/fa_IR/ganji_adabi/medium/MODEL_CARD": {
+                "size_bytes": 253,
+                "md5_digest": "0cdd82f4e66bde5ac302a6cfe6e68337"
+            }
+        },
+        "aliases": []
+    },
     "fa_IR-gyro-medium": {
         "key": "fa_IR-gyro-medium",
         "name": "gyro",
@@ -4190,6 +4318,36 @@
             "fa/fa_IR/gyro/medium/MODEL_CARD": {
                 "size_bytes": 262,
                 "md5_digest": "b30a1713c6e67946e3f1ed33eac06039"
+            }
+        },
+        "aliases": []
+    },
+    "fa_IR-reza_ibrahim-medium": {
+        "key": "fa_IR-reza_ibrahim-medium",
+        "name": "reza_ibrahim",
+        "language": {
+            "code": "fa_IR",
+            "family": "fa",
+            "region": "IR",
+            "name_native": "فارسی",
+            "name_english": "Farsi",
+            "country_english": "Iran"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "fa/fa_IR/reza_ibrahim/medium/fa_IR-reza_ibrahim-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "b9d4059c794df8336060fb7f36264a43"
+            },
+            "fa/fa_IR/reza_ibrahim/medium/fa_IR-reza_ibrahim-medium.onnx.json": {
+                "size_bytes": 4967,
+                "md5_digest": "2b6d6de83d6ea01f161e992b6a1edc8e"
+            },
+            "fa/fa_IR/reza_ibrahim/medium/MODEL_CARD": {
+                "size_bytes": 635,
+                "md5_digest": "941fdcc93ba4b03298ac2218c7e350fc"
             }
         },
         "aliases": []
@@ -6058,6 +6216,36 @@
             "sr/sr_RS/serbski_institut/medium/MODEL_CARD": {
                 "size_bytes": 343,
                 "md5_digest": "407a5b8ebef4877405de2e89eb806633"
+            }
+        },
+        "aliases": []
+    },
+    "sv_SE-lisa-medium": {
+        "key": "sv_SE-lisa-medium",
+        "name": "lisa",
+        "language": {
+            "code": "sv_SE",
+            "family": "sv",
+            "region": "SE",
+            "name_native": "Svenska",
+            "name_english": "Swedish",
+            "country_english": "Sweden"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "sv/sv_SE/lisa/medium/sv_SE-lisa-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "46398d70bbb12d033e15e601a92cd711"
+            },
+            "sv/sv_SE/lisa/medium/sv_SE-lisa-medium.onnx.json": {
+                "size_bytes": 7239,
+                "md5_digest": "1a768f208277aa835e203a969df71345"
+            },
+            "sv/sv_SE/lisa/medium/MODEL_CARD": {
+                "size_bytes": 198,
+                "md5_digest": "730544963a31316127b188dd2a4f462b"
             }
         },
         "aliases": []

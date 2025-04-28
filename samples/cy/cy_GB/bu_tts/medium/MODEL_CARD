@@ -1,0 +1,15 @@
+# Model card for bu_tts (medium)
+
+* Language: cy_GB (Welsh, Great Britain)
+* Speakers: 7
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://huggingface.co/datasets/techiaith/bu-tts-cy-en
+* License: CC-BY
+
+## Training
+
+Finetuned from U.S. English lessac voice (medium quality).
