@@ -6,7 +6,6 @@ dataset.jsonl.gz
 
 *.ckpt
 *.onnx
-*.onnx.json
 *.pt
 *.pt.json
 
