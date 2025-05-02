@@ -3983,6 +3983,36 @@
             "en-us-ryan-medium"
         ]
     },
+    "en_US-sam-medium": {
+        "key": "en_US-sam-medium",
+        "name": "sam",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/sam/medium/en_US-sam-medium.onnx": {
+                "size_bytes": 62950044,
+                "md5_digest": "57efcb38a3d0510051f9f55c517ccb76"
+            },
+            "en/en_US/sam/medium/en_US-sam-medium.onnx.json": {
+                "size_bytes": 5040,
+                "md5_digest": "a124497d09ce818f9800d16f24e1a8d1"
+            },
+            "en/en_US/sam/medium/MODEL_CARD": {
+                "size_bytes": 354,
+                "md5_digest": "6d703b6f41e53c4a6fb6512e91780dc0"
+            }
+        },
+        "aliases": []
+    },
     "es_ES-carlfm-x_low": {
         "key": "es_ES-carlfm-x_low",
         "name": "carlfm",
