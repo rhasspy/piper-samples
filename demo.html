@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Piper Demo</title>
+    <style type="text/css">
+      body {
+          margin: auto;
+          max-width: 90%;
+      }
+
+      #textInput {
+          width: 100%;
+      }
+
+      #logo {
+          margin-left: -30px;
+          height: 6em;
+      }
+
+      #sponsored {
+          position: absolute;
+          right: 75px;
+          top: 20px;
+      }
+
+      #buttonSpeak {
+          font-size: 1.25em;
+          padding: 5px 8px 5px 8px;
+      }
+
+      #divSpeak {
+          margin-top: 10px;
+          margin-bottom: 20px;
+      }
+
+      #divSpeak > audio {
+          vertical-align: bottom;
+          margin-left: 10px;
+      }
+
+      #status {
+          margin-left: 10px;
+      }
+
+      .model {
+          margin-bottom: 10px;
+      }
+
+      .setting {
+          margin-top: 10px;
+      }
+    </style>
+</head>
+<body>
+    <a href="https://github.com/rhasspy/piper" title="Piper TTS">
+      <img id="logo" src="img/logo.png" alt="Piper logo">
+    </a>
+    <a href="https://www.openhomefoundation.org/" title="A library from the Open Home Foundation">
+      <img id="sponsored" src="https://www.openhomefoundation.org/badges/ohf-library.png" alt="A library from the Open Home Foundation">
+    </a>
+
+    <div class="model">
+      <a href="https://huggingface.co/rhasspy/piper-voices/tree/main" target="_blank">Download Models</a>
+    </div>
+
+    <div class="model">
+      <label for="fileModel">Voice Model</label>
+      <input type="file" id="fileModel" accept=".onnx" />
+    </div>
+
+    <div id="divConfig" class="model" hidden>
+      <label for="fileConfig">Voice Config</label>
+      <input type="file" id="fileConfig" accept=".json" />
+    </div>
+
+    <textarea id="textInput" rows=5 aria-label="Text to speak" disabled></textarea>
+
+    <div id="divSpeak">
+      <button id="buttonSpeak" aria-label="Speak text" disabled>Speak</button>
+      <audio id="audioTTS" aria-label="Spoken audio" controls></audio>
+      <span id="status" role="status" aria-live="polite">Ready</span>
+    </div>
+
+    <div id="divSpeaker" class="setting" hidden>
+      <label for="speaker">Speaker</label>
+      <select id="speaker">
+        <option value="">Speaker</option>
+      </select>
+    </div>
+
+    <div class="setting">
+      <label for="lengthScale">Length Scale</label>
+      <input id="lengthScale" type="number" step="0.1" value="1.0" />
+    </div>
+
+    <div class="setting">
+      <label for="noiseScale">Noise Scale</label>
+      <input id="noiseScale" type="number" step="0.1" value="0.667" />
+    </div>
+
+    <div class="setting">
+      <label for="noiseWScale">Noise W Scale</label>
+      <input id="noiseWScale" type="number" step="0.1" value="0.8" />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web/dist/ort.min.js"></script>
+    <script type="module" src="resources/demo.js"></script>
+</body>
+</html>
