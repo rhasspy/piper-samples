@@ -43,4 +43,14 @@ find "${piper_voices}" -name 'speaker_*.mp3' | \
         cp "${voice_dir}/MODEL_CARD" "${output_dir}/"
     done
 
+echo 'Copied samples'
+
+# Copy configs for demo page
+configs_dir="${this_dir}/../configs"
+mkdir -p "${configs_dir}"
+find "${piper_voices}" -name '*.onnx.json' -print0 | xargs -0 -I{} cp {} "${configs_dir}/"
+echo 'Copied configs'
+
+# Copy voices.json
 cp "${piper_voices}/voices.json" "${this_dir}/../"
+echo 'Copied voices.json'
