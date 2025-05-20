@@ -51,6 +51,7 @@ async function main() {
 
     const voiceConfig = JSON.parse(await file.text());
     updateUIForConfig(voiceConfig);
+    voiceConfigUrl = URL.createObjectURL(file);
   });
 
   buttonSpeak.addEventListener("click", async () => {
