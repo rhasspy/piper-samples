@@ -5324,6 +5324,36 @@
         },
         "aliases": []
     },
+    "ne_NP-chitwan-medium": {
+        "key": "ne_NP-chitwan-medium",
+        "name": "chitwan",
+        "language": {
+            "code": "ne_NP",
+            "family": "ne",
+            "region": "NP",
+            "name_native": "नेपाली",
+            "name_english": "Nepali",
+            "country_english": "Nepal"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ne/ne_NP/chitwan/medium/ne_NP-chitwan-medium.onnx": {
+                "size_bytes": 62950044,
+                "md5_digest": "74cdb5b32816c366af74b55ed7494e25"
+            },
+            "ne/ne_NP/chitwan/medium/ne_NP-chitwan-medium.onnx.json": {
+                "size_bytes": 5043,
+                "md5_digest": "7ddc520e24a862016f6d22cde4b70ac1"
+            },
+            "ne/ne_NP/chitwan/medium/MODEL_CARD": {
+                "size_bytes": 275,
+                "md5_digest": "dcd35df097f84ace498d7afeb5b1a29c"
+            }
+        },
+        "aliases": []
+    },
     "ne_NP-google-medium": {
         "key": "ne_NP-google-medium",
         "name": "google",
