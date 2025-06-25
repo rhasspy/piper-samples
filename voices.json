@@ -4013,6 +4013,36 @@
         },
         "aliases": []
     },
+    "es_AR-daniela-high": {
+        "key": "es_AR-daniela-high",
+        "name": "daniela",
+        "language": {
+            "code": "es_AR",
+            "family": "es",
+            "region": "AR",
+            "name_native": "Español",
+            "name_english": "Spanish",
+            "country_english": "Argentina"
+        },
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "es/es_AR/daniela/high/es_AR-daniela-high.onnx": {
+                "size_bytes": 114199011,
+                "md5_digest": "e373fb657c93877dbc438badeadff4cb"
+            },
+            "es/es_AR/daniela/high/es_AR-daniela-high.onnx.json": {
+                "size_bytes": 7248,
+                "md5_digest": "b68d699a1779d98ee94c0cd9a08ba95b"
+            },
+            "es/es_AR/daniela/high/MODEL_CARD": {
+                "size_bytes": 353,
+                "md5_digest": "d940f7c6667a11ea165ff83ef7a86669"
+            }
+        },
+        "aliases": []
+    },
     "es_ES-carlfm-x_low": {
         "key": "es_ES-carlfm-x_low",
         "name": "carlfm",

@@ -1,0 +1,16 @@
+# Model card for daniela (high)
+
+* Language: es_ES (Spanish, Argentina)
+* Speakers: 1
+* Quality: high
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://www.openslr.org/61/
+* License: Attribution-ShareAlike 4.0 International
+
+## Training
+
+Trained by: https://huggingface.co/larcanio/piper-voices
+Finetuned from U.S. English lessac voice (high quality).
