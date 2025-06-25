@@ -4791,6 +4791,66 @@
         },
         "aliases": []
     },
+    "hi_IN-pratham-medium": {
+        "key": "hi_IN-pratham-medium",
+        "name": "pratham",
+        "language": {
+            "code": "hi_IN",
+            "family": "hi",
+            "region": "IN",
+            "name_native": "हिन्दी",
+            "name_english": "Hindi",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "hi/hi_IN/pratham/medium/hi_IN-pratham-medium.onnx": {
+                "size_bytes": 63516050,
+                "md5_digest": "f1e5a629a9e533a7155910530109eb86"
+            },
+            "hi/hi_IN/pratham/medium/hi_IN-pratham-medium.onnx.json": {
+                "size_bytes": 4970,
+                "md5_digest": "ab655cdad90f1939f00d1b3aaf440e99"
+            },
+            "hi/hi_IN/pratham/medium/MODEL_CARD": {
+                "size_bytes": 304,
+                "md5_digest": "eccc77c3d857a883e85c52cb17653c1f"
+            }
+        },
+        "aliases": []
+    },
+    "hi_IN-priyamvada-medium": {
+        "key": "hi_IN-priyamvada-medium",
+        "name": "priyamvada",
+        "language": {
+            "code": "hi_IN",
+            "family": "hi",
+            "region": "IN",
+            "name_native": "हिन्दी",
+            "name_english": "Hindi",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "hi/hi_IN/priyamvada/medium/hi_IN-priyamvada-medium.onnx": {
+                "size_bytes": 63516050,
+                "md5_digest": "7d5e20c2d1e72de8ed772f222e679626"
+            },
+            "hi/hi_IN/priyamvada/medium/hi_IN-priyamvada-medium.onnx.json": {
+                "size_bytes": 4973,
+                "md5_digest": "599ca4dc5d421a9c66692433f618e080"
+            },
+            "hi/hi_IN/priyamvada/medium/MODEL_CARD": {
+                "size_bytes": 307,
+                "md5_digest": "e2b745cf97087be0a97c7f10215bfa70"
+            }
+        },
+        "aliases": []
+    },
     "hu_HU-anna-medium": {
         "key": "hu_HU-anna-medium",
         "name": "anna",
