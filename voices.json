@@ -4821,6 +4821,36 @@
         },
         "aliases": []
     },
+    "he_IL-motek-medium": {
+        "key": "he_IL-motek-medium",
+        "name": "motek",
+        "language": {
+            "code": "he_IL",
+            "family": "he",
+            "region": "IL",
+            "name_native": "עברית",
+            "name_english": "Hebrew",
+            "country_english": "Israel"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "he/he_IL/motek/medium/he_IL-motek-medium.onnx": {
+                "size_bytes": 62950044,
+                "md5_digest": "a7462637b7e43bba0f28e1db93bc538e"
+            },
+            "he/he_IL/motek/medium/he_IL-motek-medium.onnx.json": {
+                "size_bytes": 5034,
+                "md5_digest": "3853c4e2a2e4b7beafac2525f385f226"
+            },
+            "he/he_IL/motek/medium/MODEL_CARD": {
+                "size_bytes": 290,
+                "md5_digest": "c2a5c0e238ae9d2a5aec7d212a44a4ce"
+            }
+        },
+        "aliases": []
+    },
     "hi_IN-pratham-medium": {
         "key": "hi_IN-pratham-medium",
         "name": "pratham",
@@ -4967,6 +4997,36 @@
             "hu/hu_HU/imre/medium/MODEL_CARD": {
                 "size_bytes": 277,
                 "md5_digest": "3efe4f497211542985d2d52d403eecad"
+            }
+        },
+        "aliases": []
+    },
+    "id_ID-news_tts-medium": {
+        "key": "id_ID-news_tts-medium",
+        "name": "news_tts",
+        "language": {
+            "code": "id_ID",
+            "family": "id",
+            "region": "ID",
+            "name_native": "Bahasa Indonesia",
+            "name_english": "Indonesian",
+            "country_english": "Indonesia"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "id/id_ID/news_tts/medium/id_ID-news_tts-medium.onnx": {
+                "size_bytes": 62950044,
+                "md5_digest": "17de01db7ac654655436b6e509893c72"
+            },
+            "id/id_ID/news_tts/medium/id_ID-news_tts-medium.onnx.json": {
+                "size_bytes": 5050,
+                "md5_digest": "c023cfa031cc9ed4cf5dd8d2ef1e48ed"
+            },
+            "id/id_ID/news_tts/medium/MODEL_CARD": {
+                "size_bytes": 308,
+                "md5_digest": "eb0037396b93f38ffbc093dba42cf8be"
             }
         },
         "aliases": []
