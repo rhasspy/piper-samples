@@ -4911,6 +4911,36 @@
         },
         "aliases": []
     },
+    "hi_IN-rohan-medium": {
+        "key": "hi_IN-rohan-medium",
+        "name": "rohan",
+        "language": {
+            "code": "hi_IN",
+            "family": "hi",
+            "region": "IN",
+            "name_native": "हिन्दी",
+            "name_english": "Hindi",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "hi/hi_IN/rohan/medium/hi_IN-rohan-medium.onnx": {
+                "size_bytes": 62950044,
+                "md5_digest": "d63d31559a4ccce62be938ab252a4804"
+            },
+            "hi/hi_IN/rohan/medium/hi_IN-rohan-medium.onnx.json": {
+                "size_bytes": 5041,
+                "md5_digest": "b4aeeef53e2c469def82769aa4ce19eb"
+            },
+            "hi/hi_IN/rohan/medium/MODEL_CARD": {
+                "size_bytes": 359,
+                "md5_digest": "03084fa6c2367cf7d6aaba2a0bd79b71"
+            }
+        },
+        "aliases": []
+    },
     "hu_HU-anna-medium": {
         "key": "hu_HU-anna-medium",
         "name": "anna",
