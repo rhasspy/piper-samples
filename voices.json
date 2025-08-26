@@ -6610,6 +6610,36 @@
         },
         "aliases": []
     },
+    "te_IN-maya-medium": {
+        "key": "te_IN-maya-medium",
+        "name": "maya",
+        "language": {
+            "code": "te_IN",
+            "family": "te",
+            "region": "IN",
+            "name_native": "తెలుగు",
+            "name_english": "Telugu",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "te/te_IN/maya/medium/te_IN-maya-medium.onnx": {
+                "size_bytes": 62950044,
+                "md5_digest": "604fa4083118495c0fff55826ffccefe"
+            },
+            "te/te_IN/maya/medium/te_IN-maya-medium.onnx.json": {
+                "size_bytes": 5040,
+                "md5_digest": "58a134cd3f762e9da9d6bdf72bf3d93c"
+            },
+            "te/te_IN/maya/medium/MODEL_CARD": {
+                "size_bytes": 318,
+                "md5_digest": "c01b34f46af0b9adc394ec01c1db618a"
+            }
+        },
+        "aliases": []
+    },
     "te_IN-padmavathi-medium": {
         "key": "te_IN-padmavathi-medium",
         "name": "padmavathi",
