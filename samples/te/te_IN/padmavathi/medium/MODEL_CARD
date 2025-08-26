@@ -1,0 +1,15 @@
+# Model card for padmavathi (medium)
+
+* Language: te_IN (Telugu, India)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://huggingface.co/datasets/ai4bharat/indicvoices_r
+* License:  CC-BY-4.0
+
+## Training
+
+Trained by: https://github.com/PravalX

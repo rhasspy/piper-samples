@@ -6610,6 +6610,66 @@
         },
         "aliases": []
     },
+    "te_IN-padmavathi-medium": {
+        "key": "te_IN-padmavathi-medium",
+        "name": "padmavathi",
+        "language": {
+            "code": "te_IN",
+            "family": "te",
+            "region": "IN",
+            "name_native": "తెలుగు",
+            "name_english": "Telugu",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "te/te_IN/padmavathi/medium/te_IN-padmavathi-medium.onnx": {
+                "size_bytes": 63516050,
+                "md5_digest": "1a7fb140ecc8b5e8b3e80e460b719319"
+            },
+            "te/te_IN/padmavathi/medium/te_IN-padmavathi-medium.onnx.json": {
+                "size_bytes": 4974,
+                "md5_digest": "3f07441340aecc2a8b89987361e8078e"
+            },
+            "te/te_IN/padmavathi/medium/MODEL_CARD": {
+                "size_bytes": 278,
+                "md5_digest": "14ff83b180d87a5fbea40554c99f3b20"
+            }
+        },
+        "aliases": []
+    },
+    "te_IN-venkatesh-medium": {
+        "key": "te_IN-venkatesh-medium",
+        "name": "venkatesh",
+        "language": {
+            "code": "te_IN",
+            "family": "te",
+            "region": "IN",
+            "name_native": "తెలుగు",
+            "name_english": "Telugu",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "te/te_IN/venkatesh/medium/te_IN-venkatesh-medium.onnx": {
+                "size_bytes": 63516050,
+                "md5_digest": "145092d2d110c4df0fa385dc606fe103"
+            },
+            "te/te_IN/venkatesh/medium/te_IN-venkatesh-medium.onnx.json": {
+                "size_bytes": 4973,
+                "md5_digest": "eaa45c58d43c518c7b2638058f6f1866"
+            },
+            "te/te_IN/venkatesh/medium/MODEL_CARD": {
+                "size_bytes": 277,
+                "md5_digest": "5cf7929a926db4a08d3934ff663f4e92"
+            }
+        },
+        "aliases": []
+    },
     "tr_TR-dfki-medium": {
         "key": "tr_TR-dfki-medium",
         "name": "dfki",
