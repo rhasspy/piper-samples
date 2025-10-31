@@ -1,1 +1,0 @@
-../../../_script/export.sh

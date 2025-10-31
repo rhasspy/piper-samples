@@ -1,1 +1,0 @@
-../../../_script/infer.sh
