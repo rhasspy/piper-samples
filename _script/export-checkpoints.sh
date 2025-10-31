@@ -11,12 +11,7 @@ if [ -z "$2" ]; then
 fi
 
 this_dir="$( cd "$( dirname "$0" )" && pwd )"
-repo_dir="$(realpath "${this_dir}/../../")"
-
-venv="${repo_dir}/src/python/.venv"
-if [ -d "${venv}" ]; then
-    source "${venv}/bin/activate"
-fi
+repo_dir="$(realpath "${this_dir}/../")"
 
 # -----------------------------------------------------------------------------
 
@@ -86,10 +81,9 @@ find "${piper_checkpoints}" -name '*.ckpt' | sort | \
 
         if [ ! -s "${onnx}" ]; then
             # Export to onnx and optimize
-            PYTHONPATH="${repo_dir}/src/python" \
-                python3 -m piper_train.export_onnx \
-                    "${checkpoint}" \
-                    "${onnx}.unoptimized";
+            python3 -m piper.train.export_onnx \
+                --checkpoint "${checkpoint}" \
+                --output-file "${onnx}.unoptimized";
 
             # https://github.com/daquexian/onnx-simplifier
             onnxsim "${onnx}.unoptimized" "${onnx}";
@@ -112,7 +106,7 @@ find "${piper_voices}" -name '*.onnx' | sort | \
         language_family_dir="$(dirname "${language_dir}")";
         language_family="$(basename "${language_family_dir}")"
 
-        test_sentences="${repo_dir}/etc/test_sentences/${language_family}.txt"
+        test_sentences="${repo_dir}/test_sentences/${language_family}.txt"
         if [ ! -s "${test_sentences}" ]; then
             echo "[ERROR] Missing ${test_sentences}" >&2;
             continue;

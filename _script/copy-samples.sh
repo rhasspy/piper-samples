@@ -8,12 +8,7 @@ fi
 
 this_dir="$( cd "$( dirname "$0" )" && pwd )"
 output_samples_dir="$(realpath "${this_dir}/../samples")"
-repo_dir="$(realpath "${this_dir}/../../")"
-
-venv="${repo_dir}/src/python/.venv"
-if [ -d "${venv}" ]; then
-    source "${venv}/bin/activate"
-fi
+repo_dir="$(realpath "${this_dir}/../")"
 
 # -----------------------------------------------------------------------------
 
@@ -39,7 +34,7 @@ find "${piper_voices}" -name 'speaker_*.mp3' | \
         mkdir -p "${output_dir}"
         cp "${sample_mp3}" "${output_dir}/"
 
-        head -n1 "${repo_dir}/etc/test_sentences/${language_family}.txt" > "${output_dir}/sample.txt"
+        head -n1 "${repo_dir}/test_sentences/${language_family}.txt" > "${output_dir}/sample.txt"
         cp "${voice_dir}/MODEL_CARD" "${output_dir}/"
     done
 

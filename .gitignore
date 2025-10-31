@@ -11,7 +11,7 @@ dataset.jsonl.gz
 
 output/
 
-/ar/
-/en-gb/
-
 /_dist/
+/install/
+
+.python-version
