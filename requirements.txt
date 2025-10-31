@@ -1,0 +1,4 @@
+onnx-simplifier<1
+onnxscript
+torch==2.7.0
+piper-tts[train]>=1.3.1,<2
