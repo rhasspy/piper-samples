@@ -6790,66 +6790,6 @@
         },
         "aliases": []
     },
-    "tr_TR-fahrettin-medium": {
-        "key": "tr_TR-fahrettin-medium",
-        "name": "fahrettin",
-        "language": {
-            "code": "tr_TR",
-            "family": "tr",
-            "region": "TR",
-            "name_native": "Türkçe",
-            "name_english": "Turkish",
-            "country_english": "Turkey"
-        },
-        "quality": "medium",
-        "num_speakers": 1,
-        "speaker_id_map": {},
-        "files": {
-            "tr/tr_TR/fahrettin/medium/tr_TR-fahrettin-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "3ab8730ec3a132c79c74a45c451372f8"
-            },
-            "tr/tr_TR/fahrettin/medium/tr_TR-fahrettin-medium.onnx.json": {
-                "size_bytes": 5022,
-                "md5_digest": "38b7beb509cb459da3c8f95841a59435"
-            },
-            "tr/tr_TR/fahrettin/medium/MODEL_CARD": {
-                "size_bytes": 279,
-                "md5_digest": "f0fe18e5a6b7615d59a89dfe4873247f"
-            }
-        },
-        "aliases": []
-    },
-    "tr_TR-fettah-medium": {
-        "key": "tr_TR-fettah-medium",
-        "name": "fettah",
-        "language": {
-            "code": "tr_TR",
-            "family": "tr",
-            "region": "TR",
-            "name_native": "Türkçe",
-            "name_english": "Turkish",
-            "country_english": "Turkey"
-        },
-        "quality": "medium",
-        "num_speakers": 1,
-        "speaker_id_map": {},
-        "files": {
-            "tr/tr_TR/fettah/medium/tr_TR-fettah-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "596984449bd075fc18e6412c66ed99c2"
-            },
-            "tr/tr_TR/fettah/medium/tr_TR-fettah-medium.onnx.json": {
-                "size_bytes": 4877,
-                "md5_digest": "583aa5f4bfac5237afb1cdbdf5bfc992"
-            },
-            "tr/tr_TR/fettah/medium/MODEL_CARD": {
-                "size_bytes": 276,
-                "md5_digest": "9c51c87dc191bd556c0634793c233d5c"
-            }
-        },
-        "aliases": []
-    },
     "uk_UA-lada-x_low": {
         "key": "uk_UA-lada-x_low",
         "name": "lada",
