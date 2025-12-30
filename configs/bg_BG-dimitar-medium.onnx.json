@@ -1,6 +1,7 @@
 {
   "audio": {
-    "sample_rate": 22050
+    "sample_rate": 22050,
+    "quality": "medium"
   },
   "espeak": {
     "voice": "bg"
@@ -503,5 +504,14 @@
   },
   "speaker_id_map": {},
   "hop_length": 256,
-  "piper_version": "1.3.0"
+  "piper_version": "1.3.0",
+  "language": {
+    "code": "bg_BG",
+    "family": "bg",
+    "region": "BG",
+    "name_native": "български",
+    "name_english": "Bulgarian",
+    "country_english": "Bulgaria"
+  },
+  "dataset": "dimitar"
 }
