@@ -17,7 +17,6 @@ repo_dir="$(realpath "${this_dir}/../")"
 
 piper_checkpoints="$1"
 piper_voices="$2"
-piper_binary="${repo_dir}/install/piper"
 
 # -----------------------------------------------------------------------------
 
@@ -131,7 +130,7 @@ find "${piper_voices}" -name '*.onnx' | sort | \
             if [ "${sample_mp3_size}" -lt 1000 ]; then
                 # Compress to MP3 with ffmpeg
                 head -n1 "${test_sentences}" | \
-                    "${piper_binary}" --model "${onnx}" --speaker "${speaker_id}" --output_raw | \
+                    python3 -m piper --model "${onnx}" --speaker "${speaker_id}" --output_raw | \
                     ffmpeg -hide_banner -loglevel warning -y \
                         -sample_rate "${sample_rate}" -f s16le -ac 1 -i - \
                         -codec:a libmp3lame -qscale:a 2 "${sample_mp3}";
