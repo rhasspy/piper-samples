@@ -1,6 +1,6 @@
-# Model card for ronnie (medium)
+# Model card for 超文 (chaowen, medium)
 
-* Language: nl_NL (Dutch, Netherlands)
+* Language: zh_CN (Chinese, China)
 * Speakers: 1
 * Quality: medium
 * Samplerate: 22,050Hz
@@ -12,4 +12,4 @@
 
 ## Training
 
-Finetuned from U.S. English lessac voice (medium quality)
+Finetuned from Xiao Ya voice (medium quality)
