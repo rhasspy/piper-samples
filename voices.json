@@ -6102,6 +6102,36 @@
             "no-talesyntese-medium"
         ]
     },
+    "pl_PL-bass-high": {
+        "key": "pl_PL-bass-high",
+        "name": "bass",
+        "language": {
+            "code": "pl_PL",
+            "family": "pl",
+            "region": "PL",
+            "name_native": "Polski",
+            "name_english": "Polish",
+            "country_english": "Poland"
+        },
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "pl/pl_PL/bass/high/pl_PL-bass-high.onnx": {
+                "size_bytes": 114204024,
+                "md5_digest": "427c7c0975ee21cea29db0f58f827883"
+            },
+            "pl/pl_PL/bass/high/pl_PL-bass-high.onnx.json": {
+                "size_bytes": 4954,
+                "md5_digest": "0a121543c2a697ddb48a74bbdd0fbbe9"
+            },
+            "pl/pl_PL/bass/high/MODEL_CARD": {
+                "size_bytes": 289,
+                "md5_digest": "53b729f8209e4fc98d55c299055d79b5"
+            }
+        },
+        "aliases": []
+    },
     "pl_PL-darkman-medium": {
         "key": "pl_PL-darkman-medium",
         "name": "darkman",
@@ -6617,6 +6647,36 @@
             "sr/sr_RS/serbski_institut/medium/MODEL_CARD": {
                 "size_bytes": 343,
                 "md5_digest": "407a5b8ebef4877405de2e89eb806633"
+            }
+        },
+        "aliases": []
+    },
+    "sv_SE-alma-medium": {
+        "key": "sv_SE-alma-medium",
+        "name": "alma",
+        "language": {
+            "code": "sv_SE",
+            "family": "sv",
+            "region": "SE",
+            "name_native": "Svenska",
+            "name_english": "Swedish",
+            "country_english": "Sweden"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "sv/sv_SE/alma/medium/sv_SE-alma-medium.onnx": {
+                "size_bytes": 63434611,
+                "md5_digest": "93c03e7c0e2f21e78d123a3ee82d54c1"
+            },
+            "sv/sv_SE/alma/medium/sv_SE-alma-medium.onnx.json": {
+                "size_bytes": 6059,
+                "md5_digest": "658c543eee20a73194baeeef032eb190"
+            },
+            "sv/sv_SE/alma/medium/MODEL_CARD": {
+                "size_bytes": 462,
+                "md5_digest": "1b75b90a6acee62f25b393fd16d3d101"
             }
         },
         "aliases": []
