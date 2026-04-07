@@ -6651,6 +6651,36 @@
         },
         "aliases": []
     },
+    "sq_AL-edon-medium": {
+        "key": "sq_AL-edon-medium",
+        "name": "edon",
+        "language": {
+            "code": "sq_AL",
+            "family": "sq",
+            "region": "AL",
+            "name_native": "shqip",
+            "name_english": "Albanian",
+            "country_english": "Albania"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "sq/sq_AL/edon/medium/sq_AL-edon-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "01888cba8f112271d2cdb6c9de17aae7"
+            },
+            "sq/sq_AL/edon/medium/sq_AL-edon-medium.onnx.json": {
+                "size_bytes": 4961,
+                "md5_digest": "ceae64fc2a4411475ef23ebd307d1c53"
+            },
+            "sq/sq_AL/edon/medium/MODEL_CARD": {
+                "size_bytes": 280,
+                "md5_digest": "16caa2b0f1ec47cbd61b9d6f66b28a29"
+            }
+        },
+        "aliases": []
+    },
     "sr_RS-serbski_institut-medium": {
         "key": "sr_RS-serbski_institut-medium",
         "name": "serbski_institut",
