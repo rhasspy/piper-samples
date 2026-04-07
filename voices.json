@@ -4322,6 +4322,66 @@
         },
         "aliases": []
     },
+    "eu_ES-antton-medium": {
+        "key": "eu_ES-antton-medium",
+        "name": "antton",
+        "language": {
+            "code": "eu_ES",
+            "family": "eu",
+            "region": "ES",
+            "name_native": "Euskara",
+            "name_english": "Basque",
+            "country_english": "Spain"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "eu/eu_ES/antton/medium/eu_ES-antton-medium.onnx": {
+                "size_bytes": 63531379,
+                "md5_digest": "4d924421c8f4f3967e79de798209e593"
+            },
+            "eu/eu_ES/antton/medium/eu_ES-antton-medium.onnx.json": {
+                "size_bytes": 5076,
+                "md5_digest": "5607c94add68c88560466b0db460dac5"
+            },
+            "eu/eu_ES/antton/medium/MODEL_CARD": {
+                "size_bytes": 310,
+                "md5_digest": "4b7f8d482c3c7e749e61a5e649a12a29"
+            }
+        },
+        "aliases": []
+    },
+    "eu_ES-maider-medium": {
+        "key": "eu_ES-maider-medium",
+        "name": "maider",
+        "language": {
+            "code": "eu_ES",
+            "family": "eu",
+            "region": "ES",
+            "name_native": "Euskara",
+            "name_english": "Basque",
+            "country_english": "Spain"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "eu/eu_ES/maider/medium/eu_ES-maider-medium.onnx": {
+                "size_bytes": 63531379,
+                "md5_digest": "0e479a47183ccee8b559e3c69c0a4d96"
+            },
+            "eu/eu_ES/maider/medium/eu_ES-maider-medium.onnx.json": {
+                "size_bytes": 5076,
+                "md5_digest": "5489c9b52ebcbac9a2a7e762b1aaa475"
+            },
+            "eu/eu_ES/maider/medium/MODEL_CARD": {
+                "size_bytes": 310,
+                "md5_digest": "09b6891e38e19a3b5de0c2b46aaee02d"
+            }
+        },
+        "aliases": []
+    },
     "fa_IR-amir-medium": {
         "key": "fa_IR-amir-medium",
         "name": "amir",
