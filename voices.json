@@ -5414,6 +5414,39 @@
             "kk-raya-x-low"
         ]
     },
+    "ku_TR-berfin_renas-medium": {
+        "key": "ku_TR-berfin_renas-medium",
+        "name": "berfin_renas",
+        "language": {
+            "code": "ku_TR",
+            "family": "ku",
+            "region": "TR",
+            "name_native": "Kurmancî",
+            "name_english": "cKurmanji Kurdish",
+            "country_english": "Turkey"
+        },
+        "quality": "medium",
+        "num_speakers": 2,
+        "speaker_id_map": {
+            "Berfin": 0,
+            "Renas": 1
+        },
+        "files": {
+            "ku/ku_TR/berfin_renas/medium/ku_TR-berfin_renas-medium.onnx": {
+                "size_bytes": 77060307,
+                "md5_digest": "49f32b10c6f577b3dc3f179cac4947b5"
+            },
+            "ku/ku_TR/berfin_renas/medium/ku_TR-berfin_renas-medium.onnx.json": {
+                "size_bytes": 5131,
+                "md5_digest": "f61ca7f8db00938ac102cd567af41ae1"
+            },
+            "ku/ku_TR/berfin_renas/medium/MODEL_CARD": {
+                "size_bytes": 3756,
+                "md5_digest": "eae988a3ef3f7b85d9552a3407b496be"
+            }
+        },
+        "aliases": []
+    },
     "lb_LU-marylux-medium": {
         "key": "lb_LU-marylux-medium",
         "name": "marylux",
