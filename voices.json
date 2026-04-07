@@ -7080,6 +7080,36 @@
         },
         "aliases": []
     },
+    "ur_PK-fasih-medium": {
+        "key": "ur_PK-fasih-medium",
+        "name": "fasih",
+        "language": {
+            "code": "ur_PK",
+            "family": "ur",
+            "region": "PK",
+            "name_native": "اردو",
+            "name_english": "Urdu",
+            "country_english": "Pakistan"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ur/ur_PK/fasih/medium/ur_PK-fasih-medium.onnx": {
+                "size_bytes": 63532015,
+                "md5_digest": "275113cbb8ffb29e3f8d51d53d266318"
+            },
+            "ur/ur_PK/fasih/medium/ur_PK-fasih-medium.onnx.json": {
+                "size_bytes": 3146,
+                "md5_digest": "e9d386b28cc8da844e6342325e04608b"
+            },
+            "ur/ur_PK/fasih/medium/MODEL_CARD": {
+                "size_bytes": 3017,
+                "md5_digest": "b09bc06b80112279015035852c291a64"
+            }
+        },
+        "aliases": []
+    },
     "vi_VN-25hours_single-low": {
         "key": "vi_VN-25hours_single-low",
         "name": "25hours_single",
