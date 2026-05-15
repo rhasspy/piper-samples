@@ -1,0 +1,15 @@
+# Model card for tetiana (medium)
+
+* Language: uk_UA (Ukrainian, Ukraine)
+* Speakers: 1
+* Quality: high
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://github.com/egorsmkv/ukrainian-tts-datasets
+* License: Apache 2.0
+
+## Training
+
+See: https://huggingface.co/RomanStasyshyn/uk_UA-tetiana-high

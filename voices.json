@@ -7046,6 +7046,96 @@
             "uk-lada-x-low"
         ]
     },
+    "uk_UA-mykyta-high": {
+        "key": "uk_UA-mykyta-high",
+        "name": "mykyta",
+        "language": {
+            "code": "uk_UA",
+            "family": "uk",
+            "region": "UA",
+            "name_native": "украї́нська мо́ва",
+            "name_english": "Ukrainian",
+            "country_english": "Ukraine"
+        },
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "uk/uk_UA/mykyta/high/uk_UA-mykyta-high.onnx": {
+                "size_bytes": 114204024,
+                "md5_digest": "a044d3c12c99ed7c4b687900b0545a6a"
+            },
+            "uk/uk_UA/mykyta/high/uk_UA-mykyta-high.onnx.json": {
+                "size_bytes": 4904,
+                "md5_digest": "4de596951b9faee6842ccc69a17b38a0"
+            },
+            "uk/uk_UA/mykyta/high/MODEL_CARD": {
+                "size_bytes": 294,
+                "md5_digest": "02463094346d83dc73f119b4a437f2f8"
+            }
+        },
+        "aliases": []
+    },
+    "uk_UA-oleksa-high": {
+        "key": "uk_UA-oleksa-high",
+        "name": "oleksa",
+        "language": {
+            "code": "uk_UA",
+            "family": "uk",
+            "region": "UA",
+            "name_native": "украї́нська мо́ва",
+            "name_english": "Ukrainian",
+            "country_english": "Ukraine"
+        },
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "uk/uk_UA/oleksa/high/uk_UA-oleksa-high.onnx": {
+                "size_bytes": 114204024,
+                "md5_digest": "ceb6d2a5db9834a9da85abb613fa0904"
+            },
+            "uk/uk_UA/oleksa/high/uk_UA-oleksa-high.onnx.json": {
+                "size_bytes": 4904,
+                "md5_digest": "4b00c2134ac78e15def386b16a2a3489"
+            },
+            "uk/uk_UA/oleksa/high/MODEL_CARD": {
+                "size_bytes": 294,
+                "md5_digest": "7923086a89d89243557386e3fcb59d7d"
+            }
+        },
+        "aliases": []
+    },
+    "uk_UA-tetiana-high": {
+        "key": "uk_UA-tetiana-high",
+        "name": "tetiana",
+        "language": {
+            "code": "uk_UA",
+            "family": "uk",
+            "region": "UA",
+            "name_native": "украї́нська мо́ва",
+            "name_english": "Ukrainian",
+            "country_english": "Ukraine"
+        },
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "uk/uk_UA/tetiana/high/uk_UA-tetiana-high.onnx": {
+                "size_bytes": 114204024,
+                "md5_digest": "ca4750154e2d635590a41e781d482f2f"
+            },
+            "uk/uk_UA/tetiana/high/uk_UA-tetiana-high.onnx.json": {
+                "size_bytes": 4905,
+                "md5_digest": "26a7f64b682b9d0e3eedffbe4b23d812"
+            },
+            "uk/uk_UA/tetiana/high/MODEL_CARD": {
+                "size_bytes": 296,
+                "md5_digest": "74d60e9522eedad603ae070164f7bb5b"
+            }
+        },
+        "aliases": []
+    },
     "uk_UA-ukrainian_tts-medium": {
         "key": "uk_UA-ukrainian_tts-medium",
         "name": "ukrainian_tts",
