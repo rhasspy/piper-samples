@@ -2,6 +2,14 @@
 
 import EspeakModule from "./espeakng.worker.js";
 
+// Run onnxruntime inference in a Web Worker so it doesn't block the UI thread.
+ort.env.wasm.proxy = true;
+
+// Use multiple threads for inference. This only takes effect when the page is
+// cross-origin isolated (COOP + COEP headers -> SharedArrayBuffer available);
+// otherwise onnxruntime-web silently falls back to a single thread. See serve.py.
+ort.env.wasm.numThreads = navigator.hardwareConcurrency || 4;
+
 const AUDIO_OUTPUT_SYNCHRONOUS = 2;
 const espeakCHARS_AUTO = 0;
 
