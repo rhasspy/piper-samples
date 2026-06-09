@@ -57,52 +57,30 @@ async function setVoice(voiceModelUrl, voiceConfigUrl = undefined) {
   voiceModel = await ort.InferenceSession.create(voiceModelUrl);
 }
 
-async function textToWavAudio(
-  text,
-  speakerId = undefined,
-  noiseScale = undefined,
-  lengthScale = undefined,
-  noiseWScale = undefined,
-) {
+function getSampleRate() {
   if (!voiceConfig) {
     throw new Error("Voice is not set");
   }
-
-  const sampleRate = voiceConfig.audio.sample_rate;
-  const float32Audio = await textToFloat32Audio(
-    text,
-    speakerId,
-    noiseScale,
-    lengthScale,
-    noiseWScale,
-  );
-
-  return float32ToWavBlob(float32Audio, sampleRate);
+  return voiceConfig.audio.sample_rate;
 }
 
-async function textToFloat32Audio(
-  text,
-  speakerId = undefined,
-  lengthScale = undefined,
-  noiseScale = undefined,
-  noiseWScale = undefined,
+// Resolve scale arguments, falling back to the voice config defaults.
+function resolveScales(lengthScale, noiseScale, noiseWScale) {
+  return {
+    lengthScale: lengthScale ?? voiceConfig.inference.length_scale ?? 1.0,
+    noiseScale: noiseScale ?? voiceConfig.inference.noise_scale ?? 0.667,
+    noiseWScale: noiseWScale ?? voiceConfig.inference.noise_w ?? 0.8,
+  };
+}
+
+// Run the ONNX model on a single utterance's phoneme ids, returning Float32 PCM.
+async function synthesizeIds(
+  phonemeIds,
+  speakerId,
+  lengthScale,
+  noiseScale,
+  noiseWScale,
 ) {
-  if (!voiceConfig) {
-    throw new Error("Voice is not set");
-  }
-
-  lengthScale = lengthScale ?? voiceConfig.inference.length_scale ?? 1.0;
-  noiseScale = noiseScale ?? voiceConfig.inference.noise_scale ?? 0.667;
-  noiseWScale = noiseWScale ?? voiceConfig.inference.noise_w ?? 0.8;
-
-  if (voiceConfig.num_speakers > 1) {
-    speakerId = speakerId ?? 0; // first speaker
-  }
-
-  const textPhonemes = textToPhonemes(text);
-  const phonemeIds = phonemesToIds(voiceConfig.phoneme_id_map, textPhonemes);
-
-  // Run onnx model
   const phonemeIdsTensor = new ort.Tensor(
     "int64",
     new BigInt64Array(phonemeIds.map((x) => BigInt(x))),
@@ -129,14 +107,89 @@ async function textToFloat32Audio(
     // Multi-speaker
     feeds["sid"] = new ort.Tensor(
       "int64",
-      BigInt64Array.from([BigInt(speakerId)]),
+      BigInt64Array.from([BigInt(speakerId ?? 0)]),
     );
   }
 
   const results = await voiceModel.run(feeds);
-  const float32Audio = results.output.cpuData;
+  return results.output.cpuData;
+}
 
-  return float32Audio;
+async function textToWavAudio(
+  text,
+  speakerId = undefined,
+  lengthScale = undefined,
+  noiseScale = undefined,
+  noiseWScale = undefined,
+) {
+  if (!voiceConfig) {
+    throw new Error("Voice is not set");
+  }
+
+  const float32Audio = await textToFloat32Audio(
+    text,
+    speakerId,
+    lengthScale,
+    noiseScale,
+    noiseWScale,
+  );
+
+  return float32ToWavBlob(float32Audio, getSampleRate());
+}
+
+async function textToFloat32Audio(
+  text,
+  speakerId = undefined,
+  lengthScale = undefined,
+  noiseScale = undefined,
+  noiseWScale = undefined,
+) {
+  if (!voiceConfig) {
+    throw new Error("Voice is not set");
+  }
+
+  const scales = resolveScales(lengthScale, noiseScale, noiseWScale);
+
+  const textPhonemes = textToPhonemes(text);
+  const phonemeIds = phonemesToIds(voiceConfig.phoneme_id_map, textPhonemes);
+
+  return synthesizeIds(
+    phonemeIds,
+    speakerId,
+    scales.lengthScale,
+    scales.noiseScale,
+    scales.noiseWScale,
+  );
+}
+
+// Synthesize a sentence at a time, yielding Float32 PCM for each as soon as it is
+// ready. Lets the caller start playing early instead of waiting for the whole text.
+async function* textToAudioSentences(
+  text,
+  speakerId = undefined,
+  lengthScale = undefined,
+  noiseScale = undefined,
+  noiseWScale = undefined,
+) {
+  if (!voiceConfig) {
+    throw new Error("Voice is not set");
+  }
+
+  const scales = resolveScales(lengthScale, noiseScale, noiseWScale);
+
+  // textToPhonemes already segments into per-sentence phoneme arrays.
+  const sentences = textToPhonemes(text);
+
+  for (const sentence of sentences) {
+    const phonemeIds = phonemesToIds(voiceConfig.phoneme_id_map, [sentence]);
+    yield await synthesizeIds(
+      phonemeIds,
+      speakerId,
+      scales.lengthScale,
+      scales.noiseScale,
+      scales.noiseWScale,
+    );
+  }
 }
 
 function textToPhonemes(text) {
@@ -308,4 +361,11 @@ function float32ToWavBlob(floatArray, sampleRate) {
   return new Blob([view], { type: "audio/wav" });
 }
 
-export { setVoice, textToWavAudio, textToFloat32Audio };
+export {
+  setVoice,
+  textToWavAudio,
+  textToFloat32Audio,
+  textToAudioSentences,
+  float32ToWavBlob,
+  getSampleRate,
+};
