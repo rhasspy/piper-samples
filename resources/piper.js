@@ -199,22 +199,30 @@ async function* textToAudioSentences(
   }
 }
 
-// Map a UTF-8 byte offset to a JavaScript string (UTF-16 code unit) index. espeak works
-// on the UTF-8 buffer, but the displayed text is indexed in JS string units, so byte
-// offsets must be translated before they can be used to slice/highlight the original text.
-function buildByteToCharMap(text) {
-  const map = new Map();
-  const encoder = new TextEncoder();
+function utf8ByteLength(codePoint) {
+  if (codePoint <= 0x7f) return 1;
+  if (codePoint <= 0x7ff) return 2;
+  if (codePoint <= 0xffff) return 3;
+  return 4;
+}
+
+// espeak reports clause boundaries as UTF-8 byte offsets, but the displayed text is
+// indexed in JS string units. Those offsets only ever move forward, so we translate them
+// with a single forward-walking cursor (no lookup table): each call advances through the
+// string until it reaches the requested byte offset and returns the character index there.
+function makeByteToCharCursor(text) {
   let byte = 0;
-  let char = 0;
-  map.set(0, 0);
-  for (const ch of text) {
-    // Iterating a string yields whole code points, so astral chars stay intact.
-    byte += encoder.encode(ch).length;
-    char += ch.length; // 2 for surrogate pairs, matching String indexing.
-    map.set(byte, char);
-  }
-  return map;
+  let char = 0; // JS string index == character index (surrogate pairs count as 2).
+  return (targetByte) => {
+    while (byte < targetByte && char < text.length) {
+      const codePoint = text.codePointAt(char);
+      byte += utf8ByteLength(codePoint);
+      // Advance one whole character: astral code points are a surrogate pair, so they
+      // occupy two UTF-16 string indices; everything in the BMP occupies one.
+      char += codePoint > 0xffff ? 2 : 1;
+    }
+    return char;
+  };
 }
 
 // Segment text into per-sentence units. Returns an array of
@@ -264,24 +272,9 @@ function textToPhonemes(text) {
   // End of clause and sentences
   const terminatorPtr = espeakInstance._malloc(4);
 
-  // Total UTF-8 byte length, used as the end offset for the final clause (where espeak
-  // sets the next-text pointer to 0 instead of a byte offset).
-  const totalBytes = espeakInstance.lengthBytesUTF8(text);
-
-  // espeak reports offsets into the UTF-8 buffer; convert them to character indices into
-  // the original `text` so they can slice/highlight it directly.
-  const byteToChar = buildByteToCharMap(text);
-  const toChar = (byte) => {
-    const char = byteToChar.get(byte);
-    if (char === undefined) {
-      // espeak landed on a byte offset that is not a character boundary in our map. This
-      // shouldn't happen (espeak advances by whole code points); warn loudly because the
-      // fallback below would silently mis-size the highlight.
-      console.warn(`piper: byte offset ${byte} has no character mapping`);
-      return text.length;
-    }
-    return Math.max(0, Math.min(text.length, char));
-  };
+  // Translates espeak's UTF-8 byte offsets to character indices into the original `text`
+  // so they can slice/highlight it directly.
+  const toChar = makeByteToCharCursor(text);
 
   // Sentence segments, each { phonemes, start, end } in character indices.
   const textPhonemes = [];
