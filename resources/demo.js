@@ -1,7 +1,6 @@
 import {
   setVoice,
   textToAudioSentences,
-  float32ToWavBlob,
   getSampleRate,
 } from "./piper.js";
 
@@ -9,8 +8,7 @@ let voiceUrl = "";
 let loadedVoiceUrl = "";
 let voiceConfigUrl = "";
 
-// Silence inserted between sentences, both for live playback scheduling and in the
-// assembled WAV so replay matches the stream. Tune to taste.
+// Silence inserted between sentences when scheduling live playback. Tune to taste.
 const SENTENCE_GAP_SECONDS = 0.2;
 
 // Web Audio playback state (created lazily on first user gesture, reused after).
@@ -45,6 +43,13 @@ function stopHighlightLoop() {
   }
 }
 
+// Read a numeric scale input, returning null when blank/invalid so piper falls back to the
+// voice config default.
+function parseScaleOrNull(input) {
+  const value = parseFloat(input.value);
+  return isNaN(value) ? null : value;
+}
+
 function stopPlayback() {
   for (const src of activeSources) {
     try {
@@ -64,7 +69,6 @@ async function main() {
   const fileConfig = document.getElementById("fileConfig");
   const divConfig = document.getElementById("divConfig");
   const buttonSpeak = document.getElementById("buttonSpeak");
-  const audioTTS = document.getElementById("audioTTS");
   const textInput = document.getElementById("textInput");
   const highlightView = document.getElementById("highlightView");
   const status = document.getElementById("status");
@@ -73,10 +77,10 @@ async function main() {
   const inputNoiseScale = document.getElementById("noiseScale");
   const inputNoiseWScale = document.getElementById("noiseWScale");
 
-  var speaking = false;
+  let speaking = false;
 
-  fileModel.addEventListener("change", async () => {
-    const file = event.target.files[0];
+  fileModel.addEventListener("change", async (e) => {
+    const file = e.target.files[0];
     if (!file) {
       return;
     }
@@ -116,8 +120,8 @@ async function main() {
     }
   });
 
-  fileConfig.addEventListener("change", async () => {
-    const file = event.target.files[0];
+  fileConfig.addEventListener("change", async (e) => {
+    const file = e.target.files[0];
     if (!file) {
       return;
     }
@@ -213,20 +217,9 @@ async function main() {
       speakerId = parseInt(speakerSelect.value);
     }
 
-    let lengthScale = parseFloat(inputLengthScale.value);
-    if (isNaN(lengthScale)) {
-      lengthScale = null;
-    }
-
-    let noiseScale = parseFloat(inputNoiseScale.value);
-    if (isNaN(noiseScale)) {
-      noiseScale = null;
-    }
-
-    let noiseWScale = parseFloat(inputNoiseWScale.value);
-    if (isNaN(noiseWScale)) {
-      noiseWScale = null;
-    }
+    const lengthScale = parseScaleOrNull(inputLengthScale);
+    const noiseScale = parseScaleOrNull(inputNoiseScale);
+    const noiseWScale = parseScaleOrNull(inputNoiseWScale);
 
     // Stop any in-progress playback and mark this as the current generation.
     const generation = ++playbackGeneration;
@@ -238,7 +231,6 @@ async function main() {
     await audioCtx.resume(); // requires a user gesture, which this click is
 
     const sampleRate = getSampleRate();
-    const chunks = [];
     let nextStartTime = 0;
 
     // Swap the editable textarea for the read-only highlight view, which fills in sentence
@@ -262,8 +254,6 @@ async function main() {
         if (generation !== playbackGeneration) {
           return;
         }
-
-        chunks.push(audio);
 
         // Append any text between the previous sentence and this one as plain text, then
         // the sentence itself as a highlightable span. spans and segments stay in lock-step.
@@ -373,19 +363,18 @@ function updateUIForConfig(voiceConfig) {
   } else {
     // Multi-speaker model
     const speakerIdMap = voiceConfig.speaker_id_map;
-    let sortedSpeakers = Object.keys(speakerIdMap).sort(
+    const sortedSpeakers = Object.keys(speakerIdMap).sort(
       (a, b) => speakerIdMap[a] - speakerIdMap[b],
     );
-    for (let i in sortedSpeakers) {
-      let speaker = sortedSpeakers[i];
-      let option = document.createElement("option");
-      option.text = speaker + " (" + i.toString() + ")";
-      option.value = i.toString();
+    for (const speaker of sortedSpeakers) {
+      const id = speakerIdMap[speaker];
+      const option = document.createElement("option");
+      option.text = `${speaker} (${id})`;
+      option.value = String(id);
       speakerSelect.add(option);
     }
 
-    const selectSpeaker = document.getElementById("divSpeaker");
-    divSpeaker.hidden = false;
+    document.getElementById("divSpeaker").hidden = false;
   }
 
   if (speakerSelect.options.length > 1) {

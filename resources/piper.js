@@ -34,7 +34,6 @@ const EOS = "$";
 const PAD = "_";
 
 let espeakInstance = null;
-let espeakInitialized = false;
 let voiceModel = null;
 let voiceConfig = null;
 
@@ -245,26 +244,16 @@ function textToPhonemes(text) {
   const voice = voiceConfig.espeak.voice;
 
   // Set voice
-  const voicePtr = espeakInstance._malloc(
-    espeakInstance.lengthBytesUTF8(voice) + 1,
-  );
-  espeakInstance.stringToUTF8(
-    voice,
-    voicePtr,
-    espeakInstance.lengthBytesUTF8(voice) + 1,
-  );
+  const voiceBytes = espeakInstance.lengthBytesUTF8(voice) + 1;
+  const voicePtr = espeakInstance._malloc(voiceBytes);
+  espeakInstance.stringToUTF8(voice, voicePtr, voiceBytes);
   espeakInstance._espeak_SetVoiceByName(voicePtr);
   espeakInstance._free(voicePtr);
 
   // Prepare text
-  const textPtr = espeakInstance._malloc(
-    espeakInstance.lengthBytesUTF8(text) + 1,
-  );
-  espeakInstance.stringToUTF8(
-    text,
-    textPtr,
-    espeakInstance.lengthBytesUTF8(text) + 1,
-  );
+  const textBytes = espeakInstance.lengthBytesUTF8(text) + 1;
+  const textPtr = espeakInstance._malloc(textBytes);
+  espeakInstance.stringToUTF8(text, textPtr, textBytes);
 
   const textPtrPtr = espeakInstance._malloc(4);
   espeakInstance.setValue(textPtrPtr, textPtr, "*");
