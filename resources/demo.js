@@ -20,6 +20,31 @@ let playbackGeneration = 0;
 // Source nodes scheduled for the current playback, so we can stop them on re-click.
 let activeSources = [];
 
+// Live-highlight state. `spans` are the per-sentence elements in the read-only view;
+// `segments[i]` is { startTime, endTime } on the audio clock for spans[i]. The rAF loop
+// matches audioCtx.currentTime against the segments to highlight the playing sentence.
+let highlightSpans = [];
+let highlightSegments = [];
+let highlightRAF = null;
+let activeHighlight = -1;
+// True once the synth loop has scheduled every sentence, so the rAF loop knows it can end
+// when the audio clock passes the last segment (rather than stopping mid-stream).
+let highlightSynthDone = false;
+
+function clearHighlight() {
+  if (activeHighlight >= 0 && highlightSpans[activeHighlight]) {
+    highlightSpans[activeHighlight].classList.remove("active");
+  }
+  activeHighlight = -1;
+}
+
+function stopHighlightLoop() {
+  if (highlightRAF !== null) {
+    cancelAnimationFrame(highlightRAF);
+    highlightRAF = null;
+  }
+}
+
 function stopPlayback() {
   for (const src of activeSources) {
     try {
@@ -29,26 +54,9 @@ function stopPlayback() {
     }
   }
   activeSources = [];
-}
-
-// Concatenate per-sentence Float32 chunks with SENTENCE_GAP_SECONDS of silence
-// between them, matching what was played live.
-function joinWithGaps(chunks, sampleRate) {
-  const gapSamples = Math.round(SENTENCE_GAP_SECONDS * sampleRate);
-  const total =
-    chunks.reduce((n, c) => n + c.length, 0) +
-    gapSamples * Math.max(0, chunks.length - 1);
-
-  const out = new Float32Array(total);
-  let offset = 0;
-  chunks.forEach((chunk, i) => {
-    out.set(chunk, offset);
-    offset += chunk.length;
-    if (i < chunks.length - 1) {
-      offset += gapSamples; // leave zeros (silence)
-    }
-  });
-  return out;
+  stopHighlightLoop();
+  clearHighlight();
+  highlightSegments = [];
 }
 
 async function main() {
@@ -58,11 +66,14 @@ async function main() {
   const buttonSpeak = document.getElementById("buttonSpeak");
   const audioTTS = document.getElementById("audioTTS");
   const textInput = document.getElementById("textInput");
+  const highlightView = document.getElementById("highlightView");
   const status = document.getElementById("status");
   const speakerSelect = document.getElementById("speaker");
   const inputLengthScale = document.getElementById("lengthScale");
   const inputNoiseScale = document.getElementById("noiseScale");
   const inputNoiseWScale = document.getElementById("noiseWScale");
+
+  var speaking = false;
 
   fileModel.addEventListener("change", async () => {
     const file = event.target.files[0];
@@ -84,6 +95,21 @@ async function main() {
       const voiceConfig = await response.json();
       updateUIForConfig(voiceConfig);
       divConfig.hidden = true;
+
+      if (voiceUrl != loadedVoiceUrl) {
+        status.innerHTML = "Loading voice...";
+        try {
+          await setVoice(voiceUrl, voiceConfigUrl);
+        }
+        catch (e) {
+          status.innerHTML = "Error loading voice";
+          throw e;
+        }
+        loadedVoiceUrl = voiceUrl;
+      }
+
+      status.innerHTML = "Ready";
+      buttonSpeak.disabled = false;
     } else {
       divConfig.hidden = false;
       speakerSelect.hidden = true;
@@ -99,15 +125,77 @@ async function main() {
     const voiceConfig = JSON.parse(await file.text());
     updateUIForConfig(voiceConfig);
     voiceConfigUrl = URL.createObjectURL(file);
+    status.innerHTML = "Ready";
+    buttonSpeak.disabled = false;
   });
 
-  buttonSpeak.addEventListener("click", async () => {
+  function showHighlightView() {
+    textInput.hidden = true;
+    highlightView.hidden = false;
+  }
+
+  function showEditor() {
+    highlightView.hidden = true;
+    textInput.hidden = false;
+  }
+
+  // Reset the read-only view to empty, ready to receive per-sentence spans.
+  function resetHighlightView() {
+    highlightView.textContent = "";
+    highlightSpans = [];
+  }
+
+  // Final cleanup when playback ends naturally: drop the highlight, return to the editor,
+  // and reset the UI to idle.
+  function finishPlayback() {
+    clearHighlight();
+    showEditor();
+    status.innerHTML = "Ready";
+    buttonSpeak.innerHTML = "Speak";
+    speaking = false;
+  }
+
+  // Poll the audio clock each frame and light up whichever sentence span is currently
+  // playing. BufferSource has no "start" event, so matching audioCtx.currentTime against
+  // the segment table is the reliable trigger, and it self-corrects against scheduling
+  // gaps. Runs until superseded or the audio passes the last scheduled segment.
+  function startHighlightLoop(generation) {
+    const tick = () => {
+      if (generation !== playbackGeneration) {
+        return; // Superseded; stopPlayback already cleaned up.
+      }
+      const t = audioCtx.currentTime;
+      const i = highlightSegments.findIndex(
+        (seg) => t >= seg.startTime && t < seg.endTime,
+      );
+      // Keep the current sentence lit through inter-sentence gaps (i === -1); only switch
+      // when a new sentence actually starts.
+      if (i >= 0 && i !== activeHighlight) {
+        clearHighlight();
+        highlightSpans[i].classList.add("active");
+        highlightSpans[i].scrollIntoView({ block: "nearest" });
+        activeHighlight = i;
+      }
+
+      const last = highlightSegments[highlightSegments.length - 1];
+      if (highlightSynthDone && (!last || t >= last.endTime)) {
+        highlightRAF = null;
+        finishPlayback();
+      } else {
+        highlightRAF = requestAnimationFrame(tick);
+      }
+    };
+    stopHighlightLoop();
+    highlightRAF = requestAnimationFrame(tick);
+  }
+
+  async function speak() {
     if (!voiceUrl) {
       alert("Voice model is not set");
       return;
     }
 
-    if (!voiceConfigUrl) {
+    if (!loadedVoiceUrl) {
       alert("Voice config is not set");
       return;
     }
@@ -118,11 +206,7 @@ async function main() {
       return;
     }
 
-    if (voiceUrl != loadedVoiceUrl) {
-      status.innerHTML = "Loading voice...";
-      await setVoice(voiceUrl, voiceConfigUrl);
-      loadedVoiceUrl = voiceUrl;
-    }
+
 
     let speakerId = null;
     if (speakerSelect.selectedIndex > 0) {
@@ -157,9 +241,17 @@ async function main() {
     const chunks = [];
     let nextStartTime = 0;
 
+    // Swap the editable textarea for the read-only highlight view, which fills in sentence
+    // by sentence as synthesis progresses.
+    highlightSynthDone = false;
+    resetHighlightView();
+    showHighlightView();
+    let viewCursor = 0; // Char offset already emitted into the view.
+    let loopStarted = false;
+
     status.innerHTML = "Synthesizing audio...";
     try {
-      for await (const audio of textToAudioSentences(
+      for await (const { audio, start, end } of textToAudioSentences(
         text,
         speakerId,
         lengthScale,
@@ -173,6 +265,20 @@ async function main() {
 
         chunks.push(audio);
 
+        // Append any text between the previous sentence and this one as plain text, then
+        // the sentence itself as a highlightable span. spans and segments stay in lock-step.
+        if (start > viewCursor) {
+          highlightView.appendChild(
+            document.createTextNode(text.slice(viewCursor, start)),
+          );
+        }
+        const span = document.createElement("span");
+        span.className = "sentence";
+        span.textContent = text.slice(start, end);
+        highlightView.appendChild(span);
+        highlightSpans.push(span);
+        viewCursor = end;
+
         // Schedule this sentence to play right after the previous one.
         const buffer = audioCtx.createBuffer(1, audio.length, sampleRate);
         buffer.copyToChannel(audio, 0);
@@ -182,36 +288,68 @@ async function main() {
 
         if (nextStartTime === 0) {
           nextStartTime = audioCtx.currentTime + 0.1; // small lead-in
-          status.innerHTML = "Playing...";
+          status.innerHTML = "Speaking...";
         }
         // Never schedule in the past: a slow synth yields a gap, not an overlap.
         nextStartTime = Math.max(nextStartTime, audioCtx.currentTime);
-        source.start(nextStartTime);
+        const startedAt = nextStartTime;
+        source.start(startedAt);
         nextStartTime += buffer.duration + SENTENCE_GAP_SECONDS;
 
         activeSources.push(source);
+        highlightSegments.push({
+          startTime: startedAt,
+          endTime: startedAt + buffer.duration,
+        });
+
+        if (!loopStarted) {
+          loopStarted = true;
+          startHighlightLoop(generation);
+        }
       }
     } catch (e) {
-      status.innerHTML = "Error";
+      status.innerHTML = "Error while synthesizing";
+      stopPlayback();
+      showEditor();
       throw e;
     }
 
-    if (generation !== playbackGeneration) {
-      return;
+    // All sentences scheduled. Let the rAF loop end naturally once the audio plays out;
+    // if nothing was produced, there is no loop to restore the editor, so do it here.
+    highlightSynthDone = true;
+    if (!loopStarted) {
+      finishPlayback();
     }
+  }
 
-    // Hybrid: assemble the full WAV so the <audio> element supports replay/seek/download.
-    // Do not auto-play - it is already playing via Web Audio.
-    if (chunks.length > 0) {
-      const full = joinWithGaps(chunks, sampleRate);
-      audioTTS.src = URL.createObjectURL(float32ToWavBlob(full, sampleRate));
+
+  buttonSpeak.addEventListener("click", async () => {
+    if (!speaking) {
+      speaking = true;
+      buttonSpeak.innerHTML = "Stop";
+      try {
+        // Stays "speaking" through playback; finishPlayback() resets the UI when the
+        // audio plays out. speak() resolves once synthesis is scheduled, not when audio ends.
+        await speak();
+      } catch {
+        // speak() already restored the editor and set an error status.
+        speaking = false;
+        buttonSpeak.innerHTML = "Speak";
+      }
+    } else {
+      // If the user clicks Stop while we're still speaking, stop immediately.
+      playbackGeneration++;
+      stopPlayback();
+      showEditor();
+      speaking = false;
+      status.innerHTML = "Ready";
+      buttonSpeak.innerHTML = "Speak";
     }
-
-    status.innerHTML = "Ready";
   });
 
   textInput.disabled = false;
-  buttonSpeak.disabled = false;
+  buttonSpeak.disabled = true;
+  status.innerHTML = "Load voice to begin";
   fileModel.value = "";
   fileConfig.value = "";
 }

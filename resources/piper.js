@@ -115,6 +115,8 @@ async function synthesizeIds(
   return results.output.cpuData;
 }
 
+// Currently unused by the demo (kept for the public API; the demo streams via
+// textToAudioSentences instead).
 async function textToWavAudio(
   text,
   speakerId = undefined,
@@ -137,6 +139,8 @@ async function textToWavAudio(
   return float32ToWavBlob(float32Audio, getSampleRate());
 }
 
+// Currently unused by the demo (kept for the public API; the demo streams via
+// textToAudioSentences instead).
 async function textToFloat32Audio(
   text,
   speakerId = undefined,
@@ -150,7 +154,7 @@ async function textToFloat32Audio(
 
   const scales = resolveScales(lengthScale, noiseScale, noiseWScale);
 
-  const textPhonemes = textToPhonemes(text);
+  const textPhonemes = textToPhonemes(text).map((segment) => segment.phonemes);
   const phonemeIds = phonemesToIds(voiceConfig.phoneme_id_map, textPhonemes);
 
   return synthesizeIds(
@@ -177,29 +181,53 @@ async function* textToAudioSentences(
 
   const scales = resolveScales(lengthScale, noiseScale, noiseWScale);
 
-  // textToPhonemes already segments into per-sentence phoneme arrays.
+  // textToPhonemes already segments into per-sentence { phonemes, start, end }.
   const sentences = textToPhonemes(text);
 
   for (const sentence of sentences) {
-    const phonemeIds = phonemesToIds(voiceConfig.phoneme_id_map, [sentence]);
-    yield await synthesizeIds(
+    const phonemeIds = phonemesToIds(voiceConfig.phoneme_id_map, [sentence.phonemes]);
+    const audio = await synthesizeIds(
       phonemeIds,
       speakerId,
       scales.lengthScale,
       scales.noiseScale,
       scales.noiseWScale,
     );
+    // start/end are character indices into `text`, so the caller can highlight the slice
+    // this audio was synthesized from.
+    yield { audio, start: sentence.start, end: sentence.end };
   }
 }
 
+// Map a UTF-8 byte offset to a JavaScript string (UTF-16 code unit) index. espeak works
+// on the UTF-8 buffer, but the displayed text is indexed in JS string units, so byte
+// offsets must be translated before they can be used to slice/highlight the original text.
+function buildByteToCharMap(text) {
+  const map = new Map();
+  const encoder = new TextEncoder();
+  let byte = 0;
+  let char = 0;
+  map.set(0, 0);
+  for (const ch of text) {
+    // Iterating a string yields whole code points, so astral chars stay intact.
+    byte += encoder.encode(ch).length;
+    char += ch.length; // 2 for surrogate pairs, matching String indexing.
+    map.set(byte, char);
+  }
+  return map;
+}
+
+// Segment text into per-sentence units. Returns an array of
+// { phonemes, start, end } where start/end are character indices into the original
+// `text`, identifying the slice each sentence was synthesized from.
 function textToPhonemes(text) {
   if (!voiceConfig) {
     throw new Error("Voice is not set");
   }
 
   if (voiceConfig.phoneme_type == "text") {
-    // Text phonemes
-    return [Array.from(text.normalize("NFD"))];
+    // Text phonemes: the whole text is a single sentence.
+    return [{ phonemes: Array.from(text.normalize("NFD")), start: 0, end: text.length }];
   }
 
   if (!espeakInstance) {
@@ -236,13 +264,42 @@ function textToPhonemes(text) {
   // End of clause and sentences
   const terminatorPtr = espeakInstance._malloc(4);
 
-  // Phoneme lists for each sentence
+  // Total UTF-8 byte length, used as the end offset for the final clause (where espeak
+  // sets the next-text pointer to 0 instead of a byte offset).
+  const totalBytes = espeakInstance.lengthBytesUTF8(text);
+
+  // espeak reports offsets into the UTF-8 buffer; convert them to character indices into
+  // the original `text` so they can slice/highlight it directly.
+  const byteToChar = buildByteToCharMap(text);
+  const toChar = (byte) => {
+    const char = byteToChar.get(byte);
+    if (char === undefined) {
+      // espeak landed on a byte offset that is not a character boundary in our map. This
+      // shouldn't happen (espeak advances by whole code points); warn loudly because the
+      // fallback below would silently mis-size the highlight.
+      console.warn(`piper: byte offset ${byte} has no character mapping`);
+      return text.length;
+    }
+    return Math.max(0, Math.min(text.length, char));
+  };
+
+  // Sentence segments, each { phonemes, start, end } in character indices.
   const textPhonemes = [];
 
   // Phoneme list for current sentence
   let sentencePhonemes = [];
 
+  // Character offsets: where the next clause begins, and where the current sentence
+  // (accumulation of clauses) began.
+  let cursorChar = 0;
+  let sentenceStartChar = 0;
+
   while (true) {
+    // A new sentence is starting if we haven't accumulated any clauses for it yet.
+    if (sentencePhonemes.length === 0) {
+      sentenceStartChar = cursorChar;
+    }
+
     const phonemesPtr = espeakInstance._espeak_TextToPhonemesWithTerminator(
       textPtrPtr,
       espeakCHARS_AUTO,
@@ -270,13 +327,28 @@ function textToPhonemes(text) {
       sentencePhonemes.push("; ");
     }
 
+    // Where espeak will resume. 0 means the input is exhausted (this clause runs to the
+    // end of the text). Otherwise espeak reads one lookahead character past the clause
+    // boundary, so its resume offset overshoots the true boundary by exactly one
+    // character — subtract it back off (in character space) to land on the start of the
+    // next clause.
+    const nextTextPtr = espeakInstance.getValue(textPtrPtr, "*");
+    const endChar =
+      nextTextPtr === 0
+        ? text.length
+        : Math.max(cursorChar, toChar(nextTextPtr - textPtr) - 1);
+    cursorChar = endChar;
+
     if ((terminator & CLAUSE_TYPE_SENTENCE) === CLAUSE_TYPE_SENTENCE) {
       // End of sentence
-      textPhonemes.push(sentencePhonemes);
+      textPhonemes.push({
+        phonemes: sentencePhonemes,
+        start: sentenceStartChar,
+        end: endChar,
+      });
       sentencePhonemes = [];
     }
 
-    const nextTextPtr = espeakInstance.getValue(textPtrPtr, "*");
     if (nextTextPtr === 0) {
       break; // All text processed
     }
@@ -292,16 +364,20 @@ function textToPhonemes(text) {
 
   // Add lingering phonemes
   if (sentencePhonemes.length > 0) {
-    textPhonemes.push(sentencePhonemes);
+    textPhonemes.push({
+      phonemes: sentencePhonemes,
+      start: sentenceStartChar,
+      end: text.length,
+    });
     sentencePhonemes = [];
   }
 
-  // Prepare phonemes for Piper
-  for (let i = 0; i < textPhonemes.length; i++) {
-    textPhonemes[i] = Array.from(textPhonemes[i].join("").normalize("NFD"));
-  }
-
-  return textPhonemes;
+  // Prepare phonemes for Piper; start/end are already character indices into `text`.
+  return textPhonemes.map((segment) => ({
+    phonemes: Array.from(segment.phonemes.join("").normalize("NFD")),
+    start: segment.start,
+    end: segment.end,
+  }));
 }
 
 function phonemesToIds(idMap, textPhonemes) {
