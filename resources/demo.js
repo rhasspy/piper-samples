@@ -13,55 +13,29 @@ const SENTENCE_GAP_SECONDS = 0.2;
 
 // Web Audio playback state (created lazily on first user gesture, reused after).
 let audioCtx = null;
-// Bumped on each Speak click so an in-flight stream knows to abort.
-let playbackGeneration = 0;
-// Source nodes scheduled for the current playback, so we can stop them on re-click.
-let activeSources = [];
-
-// Live-highlight state. `spans` are the per-sentence elements in the read-only view;
-// `segments[i]` is { startTime, endTime } on the audio clock for spans[i]. The rAF loop
-// matches audioCtx.currentTime against the segments to highlight the playing sentence.
-let highlightSpans = [];
-let highlightSegments = [];
-let highlightRAF = null;
-let activeHighlight = -1;
-// True once the synth loop has scheduled every sentence, so the rAF loop knows it can end
-// when the audio clock passes the last segment (rather than stopping mid-stream).
-let highlightSynthDone = false;
-
-function clearHighlight() {
-  if (activeHighlight >= 0 && highlightSpans[activeHighlight]) {
-    highlightSpans[activeHighlight].classList.remove("active");
-  }
-  activeHighlight = -1;
-}
-
-function stopHighlightLoop() {
-  if (highlightRAF !== null) {
-    cancelAnimationFrame(highlightRAF);
-    highlightRAF = null;
-  }
-}
+// Bumped on Speak/Stop to abort an in-flight synthesis stream. A seek does NOT bump it, so
+// clicking a sentence reschedules playback without killing ongoing synthesis.
+let synthGeneration = 0;
+// True once synthesis has produced every sentence, so the highlight chain knows it may end
+// (revert to the editor) when the audio passes the last sentence rather than mid-stream.
+let synthDone = false;
+// Each sentence's decoded audio, kept index-aligned with the .sentence spans in the view.
+// Retained so a seek can replay without re-synthesizing; never cleared by clearSchedule.
+let sentenceBuffers = [];
+// Audio-clock time the next scheduled source should start at. Per-run scheduling timing and
+// sources live on the spans themselves.
+let nextStartTime = 0;
+// The highlight chain (see armHighlight): the sentence it is about to light, and the single
+// pending setTimeout handle. `highlightTimer === null` means the chain is idle/parked, and is
+// the sole guard against starting a second chain.
+let highlightIndex = 0;
+let highlightTimer = null;
 
 // Read a numeric scale input, returning null when blank/invalid so piper falls back to the
 // voice config default.
 function parseScaleOrNull(input) {
   const value = parseFloat(input.value);
   return isNaN(value) ? null : value;
-}
-
-function stopPlayback() {
-  for (const src of activeSources) {
-    try {
-      src.stop();
-    } catch {
-      // Already stopped/ended.
-    }
-  }
-  activeSources = [];
-  stopHighlightLoop();
-  clearHighlight();
-  highlightSegments = [];
 }
 
 async function main() {
@@ -143,54 +117,132 @@ async function main() {
     textInput.hidden = false;
   }
 
+  // The sentence spans, in document order — index === sentence index === sentenceBuffers
+  // index. The DOM is the list; no separate array is kept.
+  function sentences() {
+    return [...highlightView.querySelectorAll(".sentence")];
+  }
+
   // Reset the read-only view to empty, ready to receive per-sentence spans.
   function resetHighlightView() {
     highlightView.textContent = "";
-    highlightSpans = [];
+  }
+
+  // Tear down the current playback run: cancel the pending highlight timer and stop every
+  // sounding source, and clear each span's per-run timing/highlight. Leaves sentenceBuffers
+  // and the spans themselves intact, so a seek can re-schedule from them. Always nulls
+  // highlightTimer — and the clearTimeout is what makes the chain's captured spans seek-safe
+  // (a seek cancels a pending fire before it can light a now-stale span).
+  function clearSchedule() {
+    if (highlightTimer !== null) {
+      clearTimeout(highlightTimer);
+      highlightTimer = null;
+    }
+    for (const span of sentences()) {
+      if (span.source) {
+        try {
+          span.source.stop();
+        } catch {
+          // Already stopped/ended.
+        }
+        span.source = null;
+      }
+      span.startTime = undefined;
+      span.endTime = undefined;
+      span.classList.remove("active");
+    }
+  }
+
+  // Schedule one sentence to play right after the previously scheduled one, recording its
+  // timing and source on the span, then make sure the highlight chain is running.
+  function scheduleOne(span, buffer) {
+    const source = audioCtx.createBufferSource();
+    source.buffer = buffer;
+    source.connect(audioCtx.destination);
+
+    if (nextStartTime === 0) {
+      nextStartTime = audioCtx.currentTime + 0.1; // small lead-in
+    }
+    // Never schedule in the past: a slow synth yields a gap, not an overlap.
+    nextStartTime = Math.max(nextStartTime, audioCtx.currentTime);
+    source.start(nextStartTime);
+    span.source = source;
+    span.startTime = nextStartTime;
+    span.endTime = nextStartTime + buffer.duration;
+    nextStartTime = span.endTime + SENTENCE_GAP_SECONDS;
+
+    status.innerHTML = "Speaking...";
+    ensureHighlight();
+  }
+
+  // Move the highlight to a span.
+  function setActive(span) {
+    const previous = highlightView.querySelector(".sentence.active");
+    if (previous) {
+      previous.classList.remove("active");
+    }
+    span.classList.add("active");
+    span.scrollIntoView({ block: "nearest" });
+  }
+
+  // Arm the single timer for the next highlight transition, keyed to the audio clock. The
+  // span's scheduled start is in the future, so each delay is re-derived from the live
+  // audioCtx.currentTime — no drift accumulates and inter-sentence gaps are handled because
+  // we fire on the next sentence's start, keeping the previous one lit until then.
+  function armHighlight() {
+    const spans = sentences();
+    const next = spans[highlightIndex];
+    if (next && next.startTime !== undefined) {
+      highlightTimer = setTimeout(
+        () => {
+          setActive(next);
+          highlightIndex++;
+          armHighlight();
+        },
+        Math.max(0, (next.startTime - audioCtx.currentTime) * 1000),
+      );
+    } else if (synthDone) {
+      // Everything is highlighted; revert to the editor after the last sentence ends.
+      const last = spans[spans.length - 1];
+      highlightTimer = setTimeout(
+        finishPlayback,
+        Math.max(0, (last.endTime - audioCtx.currentTime) * 1000),
+      );
+    } else {
+      // Next sentence isn't synthesized yet; park. scheduleOne() re-arms when it arrives.
+      highlightTimer = null;
+    }
+  }
+
+  // Start the highlight chain if it is idle. This `highlightTimer === null` gate is the ONLY
+  // place a chain is started (besides its own self-re-arm), preventing two concurrent chains.
+  function ensureHighlight() {
+    if (highlightTimer === null) {
+      armHighlight();
+    }
+  }
+
+  // Seek: (re)play starting from a given sentence, reusing the retained buffers. Does NOT
+  // bump synthGeneration, so any in-flight synthesis keeps running and its tail appends to
+  // this fresh schedule. Triggered by clicking a sentence.
+  function playFrom(index) {
+    clearSchedule();
+    highlightIndex = index;
+    nextStartTime = 0;
+    const spans = sentences();
+    for (let i = index; i < sentenceBuffers.length; i++) {
+      scheduleOne(spans[i], sentenceBuffers[i]);
+    }
   }
 
   // Final cleanup when playback ends naturally: drop the highlight, return to the editor,
   // and reset the UI to idle.
   function finishPlayback() {
-    clearHighlight();
+    clearSchedule();
     showEditor();
     status.innerHTML = "Ready";
     buttonSpeak.innerHTML = "Speak";
     speaking = false;
-  }
-
-  // Poll the audio clock each frame and light up whichever sentence span is currently
-  // playing. BufferSource has no "start" event, so matching audioCtx.currentTime against
-  // the segment table is the reliable trigger, and it self-corrects against scheduling
-  // gaps. Runs until superseded or the audio passes the last scheduled segment.
-  function startHighlightLoop(generation) {
-    const tick = () => {
-      if (generation !== playbackGeneration) {
-        return; // Superseded; stopPlayback already cleaned up.
-      }
-      const t = audioCtx.currentTime;
-      const i = highlightSegments.findIndex(
-        (seg) => t >= seg.startTime && t < seg.endTime,
-      );
-      // Keep the current sentence lit through inter-sentence gaps (i === -1); only switch
-      // when a new sentence actually starts.
-      if (i >= 0 && i !== activeHighlight) {
-        clearHighlight();
-        highlightSpans[i].classList.add("active");
-        highlightSpans[i].scrollIntoView({ block: "nearest" });
-        activeHighlight = i;
-      }
-
-      const last = highlightSegments[highlightSegments.length - 1];
-      if (highlightSynthDone && (!last || t >= last.endTime)) {
-        highlightRAF = null;
-        finishPlayback();
-      } else {
-        highlightRAF = requestAnimationFrame(tick);
-      }
-    };
-    stopHighlightLoop();
-    highlightRAF = requestAnimationFrame(tick);
   }
 
   async function speak() {
@@ -221,9 +273,15 @@ async function main() {
     const noiseScale = parseScaleOrNull(inputNoiseScale);
     const noiseWScale = parseScaleOrNull(inputNoiseWScale);
 
-    // Stop any in-progress playback and mark this as the current generation.
-    const generation = ++playbackGeneration;
-    stopPlayback();
+    // Fresh run: abort any in-flight synthesis (synthGeneration), tear down playback, and
+    // reset the playhead, retained buffers, and view. clearSchedule does not touch
+    // highlightIndex, so reset it here.
+    const generation = ++synthGeneration;
+    clearSchedule();
+    synthDone = false;
+    sentenceBuffers = [];
+    highlightIndex = 0;
+    nextStartTime = 0;
 
     if (!audioCtx) {
       audioCtx = new AudioContext();
@@ -231,15 +289,12 @@ async function main() {
     await audioCtx.resume(); // requires a user gesture, which this click is
 
     const sampleRate = getSampleRate();
-    let nextStartTime = 0;
 
     // Swap the editable textarea for the read-only highlight view, which fills in sentence
     // by sentence as synthesis progresses.
-    highlightSynthDone = false;
     resetHighlightView();
     showHighlightView();
     let viewCursor = 0; // Char offset already emitted into the view.
-    let loopStarted = false;
 
     status.innerHTML = "Synthesizing audio...";
     try {
@@ -250,65 +305,52 @@ async function main() {
         noiseScale,
         noiseWScale,
       )) {
-        // A newer click superseded us while we were synthesizing.
-        if (generation !== playbackGeneration) {
+        // A newer Speak/Stop superseded us while we were synthesizing. (A seek does NOT
+        // bump synthGeneration, so this keeps going across seeks.)
+        if (generation !== synthGeneration) {
           return;
         }
 
         // Append any text between the previous sentence and this one as plain text, then
-        // the sentence itself as a highlightable span. spans and segments stay in lock-step.
+        // the sentence itself as a clickable span (click = seek here). Timing fields start
+        // undefined so the highlight loop never matches an unscheduled span.
         if (start > viewCursor) {
           highlightView.appendChild(
             document.createTextNode(text.slice(viewCursor, start)),
           );
         }
+        const index = sentenceBuffers.length;
         const span = document.createElement("span");
         span.className = "sentence";
         span.textContent = text.slice(start, end);
+        span.startTime = undefined;
+        span.endTime = undefined;
+        span.addEventListener("click", () => playFrom(index));
         highlightView.appendChild(span);
-        highlightSpans.push(span);
         viewCursor = end;
 
-        // Schedule this sentence to play right after the previous one.
+        // Retain the decoded audio and schedule this one sentence onto the current timeline
+        // (streaming appends exactly one; a seek to an earlier sentence is handled by playFrom).
         const buffer = audioCtx.createBuffer(1, audio.length, sampleRate);
         buffer.copyToChannel(audio, 0);
-        const source = audioCtx.createBufferSource();
-        source.buffer = buffer;
-        source.connect(audioCtx.destination);
-
-        if (nextStartTime === 0) {
-          nextStartTime = audioCtx.currentTime + 0.1; // small lead-in
-          status.innerHTML = "Speaking...";
-        }
-        // Never schedule in the past: a slow synth yields a gap, not an overlap.
-        nextStartTime = Math.max(nextStartTime, audioCtx.currentTime);
-        const startedAt = nextStartTime;
-        source.start(startedAt);
-        nextStartTime += buffer.duration + SENTENCE_GAP_SECONDS;
-
-        activeSources.push(source);
-        highlightSegments.push({
-          startTime: startedAt,
-          endTime: startedAt + buffer.duration,
-        });
-
-        if (!loopStarted) {
-          loopStarted = true;
-          startHighlightLoop(generation);
-        }
+        sentenceBuffers.push(buffer);
+        scheduleOne(span, buffer);
       }
     } catch (e) {
       status.innerHTML = "Error while synthesizing";
-      stopPlayback();
+      clearSchedule();
       showEditor();
       throw e;
     }
 
-    // All sentences scheduled. Let the rAF loop end naturally once the audio plays out;
-    // if nothing was produced, there is no loop to restore the editor, so do it here.
-    highlightSynthDone = true;
-    if (!loopStarted) {
+    // All sentences produced. Mark done, THEN kick the highlight chain: if synthesis briefly
+    // lagged playback the chain parked on the last sentence with synthDone still false, and
+    // this is what arms the finish timer so the view reverts. (Empty text scheduled nothing.)
+    synthDone = true;
+    if (sentenceBuffers.length === 0) {
       finishPlayback();
+    } else {
+      ensureHighlight();
     }
   }
 
@@ -327,9 +369,10 @@ async function main() {
         buttonSpeak.innerHTML = "Speak";
       }
     } else {
-      // If the user clicks Stop while we're still speaking, stop immediately.
-      playbackGeneration++;
-      stopPlayback();
+      // If the user clicks Stop while we're still speaking, stop immediately: abort synth
+      // (synthGeneration) and tear down playback (clearSchedule).
+      synthGeneration++;
+      clearSchedule();
       showEditor();
       speaking = false;
       status.innerHTML = "Ready";

@@ -30,9 +30,20 @@
           background: #fff;
       }
 
+      /* Each sentence is clickable to seek playback there. */
+      #highlightView .sentence {
+          cursor: pointer;
+          border-radius: 2px;
+      }
+
+      /* Lighter tint on hover advertises the click-to-seek affordance; :not(.active) keeps
+         the solid highlight on the sentence that is actually playing. */
+      #highlightView .sentence:hover:not(.active) {
+          background: #fff3c4;
+      }
+
       #highlightView .sentence.active {
           background: #ffe08a;
-          border-radius: 2px;
       }
 
       #logo {
