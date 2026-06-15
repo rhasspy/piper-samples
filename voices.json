@@ -901,6 +901,36 @@
         },
         "aliases": []
     },
+    "el_GR-joy-medium": {
+        "key": "el_GR-joy-medium",
+        "name": "joy",
+        "language": {
+            "code": "el_GR",
+            "family": "el",
+            "region": "GR",
+            "name_native": "Ελληνικά",
+            "name_english": "Greek",
+            "country_english": "Greece"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "el/el_GR/joy/medium/el_GR-joy-medium.onnx": {
+                "size_bytes": 63516050,
+                "md5_digest": "080895960699531c30e70415a75a604d"
+            },
+            "el/el_GR/joy/medium/el_GR-joy-medium.onnx.json": {
+                "size_bytes": 7367,
+                "md5_digest": "775c0b4ac4c12de0dd11df701ab25466"
+            },
+            "el/el_GR/joy/medium/MODEL_CARD": {
+                "size_bytes": 349,
+                "md5_digest": "0c5d1a8976518c1ddb08fd815f9c9b88"
+            }
+        },
+        "aliases": []
+    },
     "el_GR-rapunzelina-low": {
         "key": "el_GR-rapunzelina-low",
         "name": "rapunzelina",
