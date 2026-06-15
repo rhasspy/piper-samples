@@ -4322,6 +4322,36 @@
         },
         "aliases": []
     },
+    "es_MX-ald-x_low": {
+        "key": "es_MX-ald-x_low",
+        "name": "ald",
+        "language": {
+            "code": "es_MX",
+            "family": "es",
+            "region": "MX",
+            "name_native": "Español",
+            "name_english": "Spanish",
+            "country_english": "Mexico"
+        },
+        "quality": "x_low",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "es/es_MX/ald/x_low/es_MX-ald-x_low.onnx": {
+                "size_bytes": 20986952,
+                "md5_digest": "b463f8c0972f28f89494961137cd2dc1"
+            },
+            "es/es_MX/ald/x_low/es_MX-ald-x_low.onnx.json": {
+                "size_bytes": 4877,
+                "md5_digest": "0e53a2c435987374e7ad3cee27e6f4f2"
+            },
+            "es/es_MX/ald/x_low/MODEL_CARD": {
+                "size_bytes": 589,
+                "md5_digest": "35f4d2959d779232c948c1049ae30c08"
+            }
+        },
+        "aliases": []
+    },
     "es_MX-claude-high": {
         "key": "es_MX-claude-high",
         "name": "claude",

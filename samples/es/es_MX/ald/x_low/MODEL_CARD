@@ -1,0 +1,19 @@
+# Model card for ald (x-low)
+
+* Language: es_MX (Spanish, Mexico)
+* Speakers: 1
+* Quality: x-low
+* Samplerate: 22,050Hz
+
+## Dataset
+
+Synthetic speech dataset generated using the original es_MX-ald-medium Piper TTS model.
+
+The dataset contains approximately 8 hours of audio generated from Spanish sentences obtained from the Tatoeba Project:
+https://tatoeba.org/en/downloads
+
+## Training
+
+This model was trained from scratch using the synthetic dataset generated with the es_MX-ald-medium voice.
+
+The goal of this model is to provide a smaller and faster alternative with fewer parameters.
