@@ -62,6 +62,7 @@ async function main() {
     // Reset config
     voiceConfigUrl = "";
     fileConfig.value = "";
+    divConfig.hidden = true;
     speakerSelect.value = "";
 
     voiceUrl = URL.createObjectURL(file);
@@ -73,19 +74,7 @@ async function main() {
       const voiceConfig = await response.json();
       updateUIForConfig(voiceConfig);
       divConfig.hidden = true;
-
-      if (voiceUrl != loadedVoiceUrl) {
-        status.innerHTML = "Loading voice...";
-        try {
-          await setVoice(voiceUrl, voiceConfigUrl);
-        }
-        catch (e) {
-          status.innerHTML = "Error loading voice";
-          throw e;
-        }
-        loadedVoiceUrl = voiceUrl;
-      }
-
+      await loadVoice();
       status.innerHTML = "Ready";
       buttonSpeak.disabled = false;
     } else {
@@ -103,9 +92,24 @@ async function main() {
     const voiceConfig = JSON.parse(await file.text());
     updateUIForConfig(voiceConfig);
     voiceConfigUrl = URL.createObjectURL(file);
+    await loadVoice();
     status.innerHTML = "Ready";
     buttonSpeak.disabled = false;
   });
+
+  async function loadVoice() {
+    if (voiceUrl != loadedVoiceUrl) {
+      status.innerHTML = "Loading voice...";
+      try {
+        await setVoice(voiceUrl, voiceConfigUrl);
+      }
+      catch (e) {
+        status.innerHTML = "Error loading voice";
+        throw e;
+      }
+      loadedVoiceUrl = voiceUrl;
+    }
+  }
 
   function showHighlightView() {
     textInput.hidden = true;
