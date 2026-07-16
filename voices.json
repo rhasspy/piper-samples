@@ -89,6 +89,53 @@
         },
         "aliases": []
     },
+    "bn_BD-google-medium": {
+        "key": "bn_BD-google-medium",
+        "name": "google",
+        "language": {
+            "code": "bn_BD",
+            "family": "bn",
+            "region": "BD",
+            "name_native": "বাংলা",
+            "name_english": "Bengali",
+            "country_english": "Bangladesh"
+        },
+        "quality": "medium",
+        "num_speakers": 16,
+        "speaker_id_map": {
+            "00737": 0,
+            "01232": 1,
+            "02194": 2,
+            "03042": 3,
+            "00779": 4,
+            "01701": 5,
+            "0834": 6,
+            "1010": 7,
+            "3108": 8,
+            "3713": 9,
+            "3958": 10,
+            "4046": 11,
+            "4811": 12,
+            "5958": 13,
+            "9169": 14,
+            "rm": 15
+        },
+        "files": {
+            "bn/bn_BD/google/medium/bn_BD-google-medium.onnx": {
+                "size_bytes": 76782515,
+                "md5_digest": "2a365b2d91bb9cb7ed62c57d9ee0ec48"
+            },
+            "bn/bn_BD/google/medium/bn_BD-google-medium.onnx.json": {
+                "size_bytes": 5494,
+                "md5_digest": "2286795a555ad100657de86646a74f12"
+            },
+            "bn/bn_BD/google/medium/MODEL_CARD": {
+                "size_bytes": 2419,
+                "md5_digest": "1bf6e7d71fa4144b9b571aa4fde29ddc"
+            }
+        },
+        "aliases": []
+    },
     "ca_ES-upc_ona-medium": {
         "key": "ca_ES-upc_ona-medium",
         "name": "upc_ona",
@@ -3913,6 +3960,36 @@
             "en/en_US/ljspeech/medium/MODEL_CARD": {
                 "size_bytes": 517,
                 "md5_digest": "5ad31d314786587d4f97effb0b716d61"
+            }
+        },
+        "aliases": []
+    },
+    "en_US-mike-medium": {
+        "key": "en_US-mike-medium",
+        "name": "mike",
+        "language": {
+            "code": "en_US",
+            "family": "en",
+            "region": "US",
+            "name_native": "English",
+            "name_english": "English",
+            "country_english": "United States"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "en/en_US/mike/medium/en_US-mike-medium.onnx": {
+                "size_bytes": 63221984,
+                "md5_digest": "032952405bbd4eeae409385cde31b8c5"
+            },
+            "en/en_US/mike/medium/en_US-mike-medium.onnx.json": {
+                "size_bytes": 5439,
+                "md5_digest": "b4426eda10444b2bef8b447baeba84b2"
+            },
+            "en/en_US/mike/medium/MODEL_CARD": {
+                "size_bytes": 282,
+                "md5_digest": "7481c1af8de74f9825b5d9b6559dff4c"
             }
         },
         "aliases": []
