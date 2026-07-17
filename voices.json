@@ -6287,11 +6287,11 @@
         "files": {
             "no/no_NO/nvcc/medium/no_NO-nvcc-medium.onnx": {
                 "size_bytes": 76770227,
-                "md5_digest": "56324c58437c9946fcaaf345a85bac62"
+                "md5_digest": "67e04e52b2f195e6db3ae103b58d1710"
             },
             "no/no_NO/nvcc/medium/no_NO-nvcc-medium.onnx.json": {
-                "size_bytes": 5367,
-                "md5_digest": "d831a4a7431ab0d290b74e5e30a266c6"
+                "size_bytes": 5397,
+                "md5_digest": "eb78dda3e46b97cb184dc6e9b91f64ea"
             },
             "no/no_NO/nvcc/medium/MODEL_CARD": {
                 "size_bytes": 268,
@@ -7303,6 +7303,36 @@
             "uk/uk_UA/ukrainian_tts/medium/MODEL_CARD": {
                 "size_bytes": 267,
                 "md5_digest": "ec29babff51fdd0e2c640d371800ee3d"
+            }
+        },
+        "aliases": []
+    },
+    "ur_PK-aegis_female-medium": {
+        "key": "ur_PK-aegis_female-medium",
+        "name": "aegis_female",
+        "language": {
+            "code": "ur_PK",
+            "family": "ur",
+            "region": "PK",
+            "name_native": "اردو",
+            "name_english": "Urdu",
+            "country_english": "Pakistan"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.onnx": {
+                "size_bytes": 63515589,
+                "md5_digest": "81f9f9772025785f548e1aa0de3361b7"
+            },
+            "ur/ur_PK/aegis_female/medium/ur_PK-aegis_female-medium.onnx.json": {
+                "size_bytes": 5236,
+                "md5_digest": "6ee1b0405998a314c51c6744b714becd"
+            },
+            "ur/ur_PK/aegis_female/medium/MODEL_CARD": {
+                "size_bytes": 611,
+                "md5_digest": "bdfc7cbc31734116416a30f3c0a835c6"
             }
         },
         "aliases": []
