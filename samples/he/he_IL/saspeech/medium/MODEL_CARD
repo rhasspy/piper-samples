@@ -1,0 +1,15 @@
+# Model card for saspeech (medium)
+
+* Language: he_IL (Hebrew, Israel)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://www.openslr.org/134 (gold standard)
+* License: See dataset URL
+
+## Training
+
+Finetuned from LibriTTS-R base model.

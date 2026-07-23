@@ -5078,6 +5078,36 @@
         },
         "aliases": []
     },
+    "he_IL-saspeech-medium": {
+        "key": "he_IL-saspeech-medium",
+        "name": "saspeech",
+        "language": {
+            "code": "he_IL",
+            "family": "he",
+            "region": "IL",
+            "name_native": "עִבְרִית‎",
+            "name_english": "Hebrew",
+            "country_english": "Israel"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "he/he_IL/saspeech/medium/he_IL-saspeech-medium.onnx": {
+                "size_bytes": 63221984,
+                "md5_digest": "ffa7fbbbbeab5fa8fb7eb00bf9a0e2a5"
+            },
+            "he/he_IL/saspeech/medium/he_IL-saspeech-medium.onnx.json": {
+                "size_bytes": 5269,
+                "md5_digest": "7da2dd72146707adf21b3caaf4adeb46"
+            },
+            "he/he_IL/saspeech/medium/MODEL_CARD": {
+                "size_bytes": 269,
+                "md5_digest": "a38d2074935e7d8b64da99c67606b01a"
+            }
+        },
+        "aliases": []
+    },
     "hi_IN-pratham-medium": {
         "key": "hi_IN-pratham-medium",
         "name": "pratham",
@@ -5254,6 +5284,36 @@
             "hu/hu_HU/imre/medium/MODEL_CARD": {
                 "size_bytes": 278,
                 "md5_digest": "d8e1936fe46bb5f70b54b6750cf37b4c"
+            }
+        },
+        "aliases": []
+    },
+    "hy_AM-gor-medium": {
+        "key": "hy_AM-gor-medium",
+        "name": "gor",
+        "language": {
+            "code": "hy_AM",
+            "family": "hy",
+            "region": "AM",
+            "name_native": "հայերեն",
+            "name_english": "Armenian",
+            "country_english": "Armenia"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "hy/hy_AM/gor/medium/hy_AM-gor-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "fd726714c656f1cad828bcf102059aa1"
+            },
+            "hy/hy_AM/gor/medium/hy_AM-gor-medium.onnx.json": {
+                "size_bytes": 4967,
+                "md5_digest": "fb816fe191dc49a8349b023dd87090f9"
+            },
+            "hy/hy_AM/gor/medium/MODEL_CARD": {
+                "size_bytes": 269,
+                "md5_digest": "fe8d458821e04b26048bd85199f994b1"
             }
         },
         "aliases": []
@@ -5611,6 +5671,36 @@
             "kk-raya-x-low"
         ]
     },
+    "ko_KR-kss-medium": {
+        "key": "ko_KR-kss-medium",
+        "name": "kss",
+        "language": {
+            "code": "ko_KR",
+            "family": "ko",
+            "region": "KR",
+            "name_native": "한국어",
+            "name_english": "Korean",
+            "country_english": "South Korea"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ko/ko_KR/kss/medium/ko_KR-kss-medium.onnx": {
+                "size_bytes": 63221984,
+                "md5_digest": "bebbd298dffe5ee7b88f2ce41bb4e3a9"
+            },
+            "ko/ko_KR/kss/medium/ko_KR-kss-medium.onnx.json": {
+                "size_bytes": 5232,
+                "md5_digest": "427c0b8d93211ba2ffea1f565819058a"
+            },
+            "ko/ko_KR/kss/medium/MODEL_CARD": {
+                "size_bytes": 333,
+                "md5_digest": "90186834a09a6110dff277d342446845"
+            }
+        },
+        "aliases": []
+    },
     "ku_TR-berfin_renas-medium": {
         "key": "ku_TR-berfin_renas-medium",
         "name": "berfin_renas",
@@ -5760,6 +5850,46 @@
             "ml/ml_IN/meera/medium/MODEL_CARD": {
                 "size_bytes": 308,
                 "md5_digest": "626a0c1d744d0ce6ffca95665c526939"
+            }
+        },
+        "aliases": []
+    },
+    "mr_IN-google-medium": {
+        "key": "mr_IN-google-medium",
+        "name": "google",
+        "language": {
+            "code": "mr_IN",
+            "family": "mr",
+            "region": "IN",
+            "name_native": "मराठी, 𑘦𑘨𑘰𑘙𑘲",
+            "name_english": "Marathi",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 9,
+        "speaker_id_map": {
+            "mrt_01523": 0,
+            "mrt_02436": 1,
+            "mrt_02484": 2,
+            "mrt_02624": 3,
+            "mrt_03349": 4,
+            "mrt_03397": 5,
+            "mrt_03398": 6,
+            "mrt_04310": 7,
+            "mrt_09697": 8
+        },
+        "files": {
+            "mr/mr_IN/google/medium/mr_IN-google-medium.onnx": {
+                "size_bytes": 76768179,
+                "md5_digest": "331957abd31bff58aaa10934cd3ac58f"
+            },
+            "mr/mr_IN/google/medium/mr_IN-google-medium.onnx.json": {
+                "size_bytes": 5467,
+                "md5_digest": "6cba88c1e90cdc81a061d9f6d6d48943"
+            },
+            "mr/mr_IN/google/medium/MODEL_CARD": {
+                "size_bytes": 272,
+                "md5_digest": "db5f8c628d672a4382e5044141c0d977"
             }
         },
         "aliases": []
