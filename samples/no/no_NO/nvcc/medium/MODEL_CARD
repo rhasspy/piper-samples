@@ -1,0 +1,15 @@
+# Model card for nvcc (medium)
+
+* Language: no_NO (Norwegian, Norway)
+* Speakers: 10
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://www.nb.no/sprakbanken/en/resource-catalogue/oai-nb-no-sbr-75/
+* License:  CC0
+
+## Training
+
+Trained from scratch.
