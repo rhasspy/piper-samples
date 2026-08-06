@@ -1,6 +1,6 @@
-# Model card for arjun (medium)
+# Model card for news_tts (medium)
 
-* Language: ml_IN (Malayalam, India)
+* Language: id_ID (Indonesian, Indonesia)
 * Speakers: 1
 * Quality: medium
 * Samplerate: 22,050Hz

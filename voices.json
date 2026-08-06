@@ -254,8 +254,8 @@
                 "md5_digest": "a28c860a87620da2a44ccae38a915aee"
             },
             "cs/cs_CZ/jirka/low/MODEL_CARD": {
-                "size_bytes": 276,
-                "md5_digest": "2fc4e485a141ff91d975190be096ec34"
+                "size_bytes": 273,
+                "md5_digest": "d81fe066eef6bc151728249a2a3109c9"
             }
         },
         "aliases": []
@@ -286,6 +286,36 @@
             "cs/cs_CZ/jirka/medium/MODEL_CARD": {
                 "size_bytes": 282,
                 "md5_digest": "c147108824aeb762a20cc3e69fc31664"
+            }
+        },
+        "aliases": []
+    },
+    "cs_CZ-kasandra-medium": {
+        "key": "cs_CZ-kasandra-medium",
+        "name": "kasandra",
+        "language": {
+            "code": "cs_CZ",
+            "family": "cs",
+            "region": "CZ",
+            "name_native": "Čeština",
+            "name_english": "Czech",
+            "country_english": "Czech Republic"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "cs/cs_CZ/kasandra/medium/cs_CZ-kasandra-medium.onnx": {
+                "size_bytes": 63511038,
+                "md5_digest": "4b74926a8e7a25e86e1bdb01a25bae66"
+            },
+            "cs/cs_CZ/kasandra/medium/cs_CZ-kasandra-medium.onnx.json": {
+                "size_bytes": 3232,
+                "md5_digest": "b7c458cdaccfc2709555961b6328087c"
+            },
+            "cs/cs_CZ/kasandra/medium/MODEL_CARD": {
+                "size_bytes": 424,
+                "md5_digest": "74ce16041ba8117a7c0a92ce59db190a"
             }
         },
         "aliases": []
@@ -841,8 +871,8 @@
                 "md5_digest": "e81686e00a9d825e2488ead660bec6fd"
             },
             "de/de_DE/thorsten/high/MODEL_CARD": {
-                "size_bytes": 281,
-                "md5_digest": "582a051328d56a564e8a38c9029ae630"
+                "size_bytes": 279,
+                "md5_digest": "19da09a2681bb31bce0f12fc16bd7033"
             }
         },
         "aliases": []
@@ -1556,8 +1586,8 @@
                 "md5_digest": "7f37dadb26340c90ebc8088e0b252310"
             },
             "en/en_US/amy/medium/MODEL_CARD": {
-                "size_bytes": 281,
-                "md5_digest": "6fca05ee5bfe8b28211b88b86b47e822"
+                "size_bytes": 284,
+                "md5_digest": "c5f20f730b35aeaa6c18271e3c122451"
             }
         },
         "aliases": []
@@ -3928,8 +3958,8 @@
                 "md5_digest": "de98fc398ddead60fb82d93bfafb3ad1"
             },
             "en/en_US/ljspeech/high/MODEL_CARD": {
-                "size_bytes": 515,
-                "md5_digest": "59322a9a8d2c0e556f0be1171cd54ea7"
+                "size_bytes": 513,
+                "md5_digest": "bc3fe20b3e3f359ec423b98c1b6ed32e"
             }
         },
         "aliases": []
@@ -4205,7 +4235,7 @@
             },
             "es/es_AR/daniela/high/MODEL_CARD": {
                 "size_bytes": 353,
-                "md5_digest": "d940f7c6667a11ea165ff83ef7a86669"
+                "md5_digest": "1e357c5feb1d21ab92edad22503244ac"
             }
         },
         "aliases": []
@@ -5342,8 +5372,8 @@
                 "md5_digest": "c023cfa031cc9ed4cf5dd8d2ef1e48ed"
             },
             "id/id_ID/news_tts/medium/MODEL_CARD": {
-                "size_bytes": 308,
-                "md5_digest": "eb0037396b93f38ffbc093dba42cf8be"
+                "size_bytes": 316,
+                "md5_digest": "3479caa1c8372b776fc2f1900186aaba"
             }
         },
         "aliases": []
@@ -5537,6 +5567,66 @@
         "aliases": [
             "it-riccardo_fasol-x-low"
         ]
+    },
+    "it_IT-serena-high": {
+        "key": "it_IT-serena-high",
+        "name": "serena",
+        "language": {
+            "code": "it_IT",
+            "family": "it",
+            "region": "IT",
+            "name_native": "Italiano",
+            "name_english": "Italian",
+            "country_english": "Italy"
+        },
+        "quality": "high",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "it/it_IT/serena/high/it_IT-serena-high.onnx": {
+                "size_bytes": 114199010,
+                "md5_digest": "e100bf09d16007b666d822f1e267358f"
+            },
+            "it/it_IT/serena/high/it_IT-serena-high.onnx.json": {
+                "size_bytes": 4957,
+                "md5_digest": "09b759966358af4042170a5093f49516"
+            },
+            "it/it_IT/serena/high/MODEL_CARD": {
+                "size_bytes": 262,
+                "md5_digest": "57b7f0e0015fabf9dae95e45cf1511e5"
+            }
+        },
+        "aliases": []
+    },
+    "it_IT-serena-medium": {
+        "key": "it_IT-serena-medium",
+        "name": "serena",
+        "language": {
+            "code": "it_IT",
+            "family": "it",
+            "region": "IT",
+            "name_native": "Italiano",
+            "name_english": "Italian",
+            "country_english": "Italy"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "it/it_IT/serena/medium/it_IT-serena-medium.onnx": {
+                "size_bytes": 63511037,
+                "md5_digest": "808596cb580247648bdaef5ee6b4e7da"
+            },
+            "it/it_IT/serena/medium/it_IT-serena-medium.onnx.json": {
+                "size_bytes": 4959,
+                "md5_digest": "a8d09866528301eed9dcf6a988327b2c"
+            },
+            "it/it_IT/serena/medium/MODEL_CARD": {
+                "size_bytes": 266,
+                "md5_digest": "108f8227a5cefedb6223159e94fbbdff"
+            }
+        },
+        "aliases": []
     },
     "ka_GE-natia-medium": {
         "key": "ka_GE-natia-medium",
@@ -6019,7 +6109,7 @@
             },
             "ne/ne_NP/google/x_low/MODEL_CARD": {
                 "size_bytes": 244,
-                "md5_digest": "5ea405c002a69df5961c8d43cadbb844"
+                "md5_digest": "70914e596d5de29edda9e714603887d6"
             }
         },
         "aliases": [
@@ -7337,8 +7427,8 @@
                 "md5_digest": "4de596951b9faee6842ccc69a17b38a0"
             },
             "uk/uk_UA/mykyta/high/MODEL_CARD": {
-                "size_bytes": 294,
-                "md5_digest": "02463094346d83dc73f119b4a437f2f8"
+                "size_bytes": 292,
+                "md5_digest": "a82050c8a7fcbea0ca4dbc0b20de90c9"
             }
         },
         "aliases": []
@@ -7367,8 +7457,8 @@
                 "md5_digest": "4b00c2134ac78e15def386b16a2a3489"
             },
             "uk/uk_UA/oleksa/high/MODEL_CARD": {
-                "size_bytes": 294,
-                "md5_digest": "7923086a89d89243557386e3fcb59d7d"
+                "size_bytes": 292,
+                "md5_digest": "e61b20c43e0804327d4e1bb79950a014"
             }
         },
         "aliases": []
@@ -7397,8 +7487,8 @@
                 "md5_digest": "26a7f64b682b9d0e3eedffbe4b23d812"
             },
             "uk/uk_UA/tetiana/high/MODEL_CARD": {
-                "size_bytes": 296,
-                "md5_digest": "74d60e9522eedad603ae070164f7bb5b"
+                "size_bytes": 294,
+                "md5_digest": "bfcec9848fd731296b0bbf11905eab12"
             }
         },
         "aliases": []

@@ -1,0 +1,16 @@
+# Model card for kasandra (medium)
+
+* Language: cs_CZ (Czech, Czech Republic)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* Author: Ondřej Šimek
+* URL: https://huggingface.co/ondrazarici/Cassandra-Kasandra-piper-cz
+* License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+
+## Training
+
+The voice model was trained using my own original recordings, and I own the rights to the dataset.
