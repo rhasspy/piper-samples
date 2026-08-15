@@ -5628,6 +5628,39 @@
         },
         "aliases": []
     },
+    "ja_JA-hi_fi_captain-medium": {
+        "key": "ja_JA-hi_fi_captain-medium",
+        "name": "hi_fi_captain",
+        "language": {
+            "code": "ja_JA",
+            "family": "ja",
+            "region": "JA",
+            "name_native": "日本語",
+            "name_english": "Japanese",
+            "country_english": "Japan"
+        },
+        "quality": "medium",
+        "num_speakers": 2,
+        "speaker_id_map": {
+            "female": 0,
+            "male": 1
+        },
+        "files": {
+            "ja/ja_JA/hi_fi_captain/medium/ja_JA-hi_fi_captain-medium.onnx": {
+                "size_bytes": 76753841,
+                "md5_digest": "f9daab8970d06d7e9fc895a879854542"
+            },
+            "ja/ja_JA/hi_fi_captain/medium/ja_JA-hi_fi_captain-medium.onnx.json": {
+                "size_bytes": 5301,
+                "md5_digest": "524e2f278dab6e5abf79e85f481b0015"
+            },
+            "ja/ja_JA/hi_fi_captain/medium/MODEL_CARD": {
+                "size_bytes": 329,
+                "md5_digest": "d122aff60b877f798efe8356b1696f1d"
+            }
+        },
+        "aliases": []
+    },
     "ka_GE-natia-medium": {
         "key": "ka_GE-natia-medium",
         "name": "natia",

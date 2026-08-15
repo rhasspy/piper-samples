@@ -1,0 +1,16 @@
+# Model card for hi-fi-captain (medium)
+
+* Language: ja_JA (Japanese, Japan)
+* Speakers: 2
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://ast-astrec.nict.go.jp/en/release/hi-fi-captain/
+* License: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.en
+
+## Training
+
+Finetuned from LibriTTS-R base model.
+Requires piper 1.7.0 or higher.
