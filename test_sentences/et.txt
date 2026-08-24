@@ -1,0 +1,2 @@
+Vikerkaare põhjustab päikesekiirte eri lainepikkustel erinev murdumine ja peegeldumine ligikaudu kerakujulistelt vihmapiiskadelt vihmaseinal või vihmapilves, kui päikesevalgus langeb piiskadele vaatleja selja tagant.
+Atmosfääris iga veepiisk toimides nagu prisma lahutab valge valguse erineva lainepikkusega komponentideks ja kui selline spektriks lahutamine toimub paljudes miljonites piiskades, siis ilmubki taevasse vikerkaar.
