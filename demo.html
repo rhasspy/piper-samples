@@ -9,8 +9,41 @@
           max-width: 90%;
       }
 
-      #textInput {
+      /* Shared box so the highlight view and the textarea look identical when swapped. */
+      #textInput, #highlightView {
           width: 100%;
+          box-sizing: border-box;
+          font-family: inherit;
+          font-size: 1em;
+          line-height: 1.4;
+          padding: 4px;
+          border: 1px solid #767676;
+          border-radius: 2px;
+      }
+
+      #highlightView {
+          min-height: calc(5 * 1.4em + 8px); /* ~5 rows + padding, matching the textarea */
+          max-height: 40vh;
+          overflow: auto;
+          white-space: pre-wrap;
+          word-wrap: break-word;
+          background: #fff;
+      }
+
+      /* Each sentence is clickable to seek playback there. */
+      #highlightView .sentence {
+          cursor: pointer;
+          border-radius: 2px;
+      }
+
+      /* Lighter tint on hover advertises the click-to-seek affordance; :not(.active) keeps
+         the solid highlight on the sentence that is actually playing. */
+      #highlightView .sentence:hover:not(.active) {
+          background: #fff3c4;
+      }
+
+      #highlightView .sentence.active {
+          background: #ffe08a;
       }
 
       #logo {
@@ -32,11 +65,6 @@
       #divSpeak {
           margin-top: 10px;
           margin-bottom: 20px;
-      }
-
-      #divSpeak > audio {
-          vertical-align: bottom;
-          margin-left: 10px;
       }
 
       #status {
@@ -75,10 +103,10 @@
     </div>
 
     <textarea id="textInput" rows=5 aria-label="Text to speak" disabled></textarea>
+    <div id="highlightView" aria-live="polite" hidden></div>
 
     <div id="divSpeak">
       <button id="buttonSpeak" aria-label="Speak text" disabled>Speak</button>
-      <audio id="audioTTS" aria-label="Spoken audio" controls></audio>
       <span id="status" role="status" aria-live="polite">Ready</span>
     </div>
 
