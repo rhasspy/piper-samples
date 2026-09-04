@@ -1,0 +1,19 @@
+# Model card for tsync2 (medium)
+
+* Language: th_TH (Thai, Thailand)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://huggingface.co/datasets/dubbing-ai/vaja-thai (`tsync2` config)
+* License: CC BY-NC-SA 3.0 (**non-commercial**)
+* Original corpus: NECTEC TSync2, "An Intensive Design of a Thai Speech Synthesis Corpus" (SNLP 2007)
+
+## Training
+
+Finetuned from the LibriTTS-R base model (MRD and SDP).
+
+Requires Piper 1.8 or higher.
+

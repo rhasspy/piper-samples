@@ -7409,6 +7409,36 @@
         },
         "aliases": []
     },
+    "th_TH-tsync2-medium": {
+        "key": "th_TH-tsync2-medium",
+        "name": "tsync2",
+        "language": {
+            "code": "th_TH",
+            "family": "th",
+            "region": "TH",
+            "name_native": "ไทย",
+            "name_english": "Thai",
+            "country_english": "Thailand"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "th/th_TH/tsync2/medium/th_TH-tsync2-medium.onnx": {
+                "size_bytes": 63221984,
+                "md5_digest": "f3f58fc2cfc4f6c591629cb25b47923d"
+            },
+            "th/th_TH/tsync2/medium/th_TH-tsync2-medium.onnx.json": {
+                "size_bytes": 5255,
+                "md5_digest": "01ddb288347a85c36f55c328ad9fa299"
+            },
+            "th/th_TH/tsync2/medium/MODEL_CARD": {
+                "size_bytes": 467,
+                "md5_digest": "f4f9236ba1c0c2972e8eebfbe39e2904"
+            }
+        },
+        "aliases": []
+    },
     "tr_TR-dfki-medium": {
         "key": "tr_TR-dfki-medium",
         "name": "dfki",
