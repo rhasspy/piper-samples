@@ -522,9 +522,9 @@
   "default_speaker_id": 0,
   "piper_version": "1.6.0",
   "language": {
-    "code": "ja_JA",
+    "code": "ja_JP",
     "family": "ja",
-    "region": "JA",
+    "region": "JP",
     "name_native": "日本語",
     "name_english": "Japanese",
     "country_english": "Japan"

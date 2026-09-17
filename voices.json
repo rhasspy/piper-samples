@@ -5619,12 +5619,12 @@
         "speaker_id_map": {},
         "files": {
             "it/it_IT/serena/high/it_IT-serena-high.onnx": {
-                "size_bytes": 114199010,
-                "md5_digest": "e100bf09d16007b666d822f1e267358f"
+                "size_bytes": 114204024,
+                "md5_digest": "0b4d9553883e439fd7bda5475e820bfe"
             },
             "it/it_IT/serena/high/it_IT-serena-high.onnx.json": {
-                "size_bytes": 4957,
-                "md5_digest": "09b759966358af4042170a5093f49516"
+                "size_bytes": 5252,
+                "md5_digest": "15ba3705d51c879d7290cb5bf9826d96"
             },
             "it/it_IT/serena/high/MODEL_CARD": {
                 "size_bytes": 262,
@@ -5649,12 +5649,12 @@
         "speaker_id_map": {},
         "files": {
             "it/it_IT/serena/medium/it_IT-serena-medium.onnx": {
-                "size_bytes": 63511037,
-                "md5_digest": "808596cb580247648bdaef5ee6b4e7da"
+                "size_bytes": 63516051,
+                "md5_digest": "f8c82f1139dfa382686bd7564a633400"
             },
             "it/it_IT/serena/medium/it_IT-serena-medium.onnx.json": {
-                "size_bytes": 4959,
-                "md5_digest": "a8d09866528301eed9dcf6a988327b2c"
+                "size_bytes": 5254,
+                "md5_digest": "a0b3d407bc039d501219857e5aa0e34e"
             },
             "it/it_IT/serena/medium/MODEL_CARD": {
                 "size_bytes": 266,
@@ -5663,13 +5663,13 @@
         },
         "aliases": []
     },
-    "ja_JA-hi_fi_captain-medium": {
-        "key": "ja_JA-hi_fi_captain-medium",
+    "ja_JP-hi_fi_captain-medium": {
+        "key": "ja_JP-hi_fi_captain-medium",
         "name": "hi_fi_captain",
         "language": {
-            "code": "ja_JA",
+            "code": "ja_JP",
             "family": "ja",
-            "region": "JA",
+            "region": "JP",
             "name_native": "日本語",
             "name_english": "Japanese",
             "country_english": "Japan"
@@ -5681,20 +5681,22 @@
             "male": 1
         },
         "files": {
-            "ja/ja_JA/hi_fi_captain/medium/ja_JA-hi_fi_captain-medium.onnx": {
+            "ja/ja_JP/hi_fi_captain/medium/ja_JP-hi_fi_captain-medium.onnx": {
                 "size_bytes": 76753841,
                 "md5_digest": "f9daab8970d06d7e9fc895a879854542"
             },
-            "ja/ja_JA/hi_fi_captain/medium/ja_JA-hi_fi_captain-medium.onnx.json": {
+            "ja/ja_JP/hi_fi_captain/medium/ja_JP-hi_fi_captain-medium.onnx.json": {
                 "size_bytes": 5301,
-                "md5_digest": "524e2f278dab6e5abf79e85f481b0015"
+                "md5_digest": "828a68fa5fc7677f98ea336fa1d66512"
             },
-            "ja/ja_JA/hi_fi_captain/medium/MODEL_CARD": {
+            "ja/ja_JP/hi_fi_captain/medium/MODEL_CARD": {
                 "size_bytes": 361,
-                "md5_digest": "38773e92ba4328dc8a5eefed058d60b8"
+                "md5_digest": "f4c4d57dd187c3836381134026d84c45"
             }
         },
-        "aliases": []
+        "aliases": [
+            "ja_JA-hi_fi_captain-medium"
+        ]
     },
     "ka_GE-natia-medium": {
         "key": "ka_GE-natia-medium",
