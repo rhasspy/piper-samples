@@ -1,0 +1,118 @@
+# Model card for reginute1 (medium)
+
+* Language: lt_LT (Lithuanian, Lithuania)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://huggingface.co/datasets/meldynamics/liepa-tts
+* License: CC-BY-4.0
+
+LIEPA corpus, Vilnius University. One speaker — a professional actress, not
+named here on purpose (the licence credits the publishers, not the person) —
+studio recordings, 5 121 utterances, ~3 hours. Stress and pitch
+accents in the training transcriptions come from the corpus' own annotation,
+sentence by sentence.
+
+## Training
+
+Fine-tuned from the Piper catalogue checkpoint `ru_RU-irina-medium`
+(`rhasspy/piper-checkpoints`), which is itself fine-tuned from
+`en_US-lessac-medium`. Training data licence is CC-BY-4.0; the lineage above is
+stated so that the base-model question (see piper-voices discussion #94) is
+visible rather than hidden.
+
+Released checkpoint: **epoch 9193, val_mel 0.3603** (training stopped 2026-09-06,
+the last ~900 epochs moved val_mel by 0.0015 and the ear no longer heard a
+difference). The training checkpoint is shipped alongside the model
+(`lt_LT-reginute1-medium-e9193.ckpt`, 269 MB,
+optimizer state stripped) so that another Lithuanian voice can start from this
+one rather than from a Russian checkpoint. Both the generator and the
+discriminator are included, since a GAN needs both to continue training.
+
+## Phonemization — please read
+
+This voice uses `phoneme_type: text` with a custom `phoneme_id_map`
+(IPA + three Lithuanian accent marks `ˈ ˌ ˋ`). It does **not** use espeak-ng at
+synthesis time, because espeak-ng misplaces Lithuanian stress in roughly half
+of the words against the corpus' gold annotation.
+
+Text must therefore be phonemized by `phonemize_lithuanian.py` (shipped with
+the voice; submitted as a `PhonemeType.LITHUANIAN` contribution to piper1-gpl)
+together with the stress dictionary `lt_kirciai.tsv`. Plain Piper without the
+phonemizer feeds the model raw letters and will not produce Lithuanian.
+
+Two configs exist for the same model, on purpose:
+
+* **piper-voices catalogue:** `"phoneme_type": "lithuanian"` — Piper runs the
+  phonemizer itself (needs a Piper that includes the piper1-gpl contribution;
+  an older Piper refuses to load the voice with a clear error rather than
+  producing noise). Put `lt_kirciai.tsv` from this repo next to the model or
+  pass `--data-dir`; the catalogue folder holds only the model and config,
+  like every other voice.
+* **this repo / older Piper:** `"phoneme_type": "text"` — you phonemize with
+  the module and pass IPA to Piper (`synth_reginute.py` does exactly that).
+
+This is the same arrangement as the Hebrew (piper1-gpl #244), Chinese pinyin
+(#271) and Japanese (#274) voices: the phoneme type names a phonemizer inside
+Piper, and the catalogue folder holds only the model and the config. See the
+voice repo README, section "For catalogue maintainers", for the merge order
+and the two precedents for shipping the dictionary.
+
+The module also normalizes text first (`skaiciu_pletiklis.py`, picked up
+automatically when present, `expand_text=None` to disable): Lithuanian number
+case endings, clock times, units and letter-by-letter abbreviations. Without
+it espeak-ng reads `5000 eurų` as "penki tūkstantčei" and `15:00` as
+"tūkstantis penkišimtai:".
+
+Recommended: `normalize_audio=False` (the default `True` clips this voice).
+
+## Known limitations
+
+Listed because you will meet them anyway, and finding them yourself after
+being told everything is fine is worse than reading them here.
+
+* **Single short words come out hurried and thin.** The corpus is made of
+  sentences: only 93 of its 5 121 utterances are short standalone ones, and
+  the word "du" (two) appears alone exactly once — as a question. Numbers
+  read one at a time are the worst case; inside a sentence the same words are
+  fine. A short phrase ending in a full stop is a pattern the model has
+  barely seen.
+* **The stress dictionary has individual errors.** It is derived, not
+  hand-checked word by word. Two confirmed: `procentas` and
+  `kilovatvalandės` carry the stress on the wrong syllable, and in both
+  cases the word family disagrees with itself (`procentas` vs
+  `procentinis`). Expect more of the same kind, mostly in loanwords and
+  compounds.
+* **Homographs are not solved and cannot be, by a dictionary.** Lithuanian
+  `nãmo` ("of the house") and `namõ` ("homewards") are spelled identically
+  and differ only in accent. A word-level lookup has no way to choose; that
+  needs sentence context.
+* **The voice needs the phonemizer.** Plain `piper -m lt_LT-reginute1-medium.onnx`
+  will not speak Lithuanian — see the phonemization section above. This is
+  the one limitation that is architectural rather than a rough edge.
+* **`length_scale` is a judgement, not a measurement.** The default 1.30 was
+  chosen by ear against recordings of the original speaker. Other listeners
+  may prefer faster; override it freely. (For what it is worth, the same
+  listener later compared the two side by side against the original speaker
+  reading the same text: this voice came out 1.2 % slower than her, so the
+  setting is at least not far off.)
+
+None of these block ordinary use — the voice reads news, answers a smart
+speaker and speaks long articles without a break. They are listed so that
+you know what you are getting.
+
+## Attribution
+
+* Stress dictionary derived from `svogunas/g2p-lt-lexicon` by Arūnas Smaliukas
+  (CC BY 4.0) and from the LIEPA annotations.
+* LIEPA corpus (2013-2015) — Vilnius University (Institute of Mathematics and
+  Informatics; Faculty of Philology), with the Institute of the Lithuanian
+  Language, the Lithuanian University of Educational Sciences and Šiauliai
+  University. Project lead: prof. Laimutis Telksnys. Corpus work and
+  documentation: Gediminas Navickas.
+* Published to Hugging Face as `meldynamics/liepa-tts` by MEL DYNAMICS, MB.
+* Thanks to Vilnius University for publishing the corpus under an open licence
+  instead of keeping it.

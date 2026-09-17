@@ -5922,6 +5922,36 @@
         },
         "aliases": []
     },
+    "lt_LT-reginute1-medium": {
+        "key": "lt_LT-reginute1-medium",
+        "name": "reginute1",
+        "language": {
+            "code": "lt_LT",
+            "family": "lt",
+            "region": "LT",
+            "name_native": "Lietuvių",
+            "name_english": "Lithuanian",
+            "country_english": "Lithuania"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "lt/lt_LT/reginute1/medium/lt_LT-reginute1-medium.onnx": {
+                "size_bytes": 63516051,
+                "md5_digest": "315dabbe13d83276cb5f921119d87dac"
+            },
+            "lt/lt_LT/reginute1/medium/lt_LT-reginute1-medium.onnx.json": {
+                "size_bytes": 5274,
+                "md5_digest": "d242d34547f8dedd83162481df2a0f31"
+            },
+            "lt/lt_LT/reginute1/medium/MODEL_CARD": {
+                "size_bytes": 6136,
+                "md5_digest": "6eb13bdc8aa1b807af97305a0bf37141"
+            }
+        },
+        "aliases": []
+    },
     "lv_LV-aivars-medium": {
         "key": "lv_LV-aivars-medium",
         "name": "aivars",
