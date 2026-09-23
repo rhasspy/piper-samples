@@ -15,3 +15,6 @@ output/
 /install/
 
 .python-version
+
+.vscode/
+.claude/
