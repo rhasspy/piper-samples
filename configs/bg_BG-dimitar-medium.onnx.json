@@ -10,9 +10,9 @@
   "num_symbols": 256,
   "num_speakers": 1,
   "inference": {
-    "noise_scale": 0.667,
+    "noise_scale": 0.5,
     "length_scale": 1.0,
-    "noise_w": 0.8
+    "noise_w": 0.333
   },
   "phoneme_id_map": {
     "_": [
@@ -498,13 +498,48 @@
     "ʷ": [
       160
     ],
-    "͡": [
+    "aɪ": [
       161
+    ],
+    "aʊ": [
+      162
+    ],
+    "ɔɪ": [
+      163
+    ],
+    "eɪ": [
+      164
+    ],
+    "oʊ": [
+      165
     ]
   },
   "speaker_id_map": {},
   "hop_length": 256,
-  "piper_version": "1.3.0",
+  "default_speaker_id": 0,
+  "piper_version": "1.5.0",
+  "vowel_clusters": [
+    [
+      "a",
+      "ɪ"
+    ],
+    [
+      "a",
+      "ʊ"
+    ],
+    [
+      "e",
+      "ɪ"
+    ],
+    [
+      "o",
+      "ʊ"
+    ],
+    [
+      "ɔ",
+      "ɪ"
+    ]
+  ],
   "language": {
     "code": "bg_BG",
     "family": "bg",

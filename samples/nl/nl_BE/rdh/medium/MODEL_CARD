@@ -12,4 +12,8 @@
 
 ## Training
 
-Trained from scratch.
+Trained from scratch, with MRD and SDP. The audio was filtered first with a 70 Hz high-pass and a 50 Hz notch to remove rumble and mains hum.
+
+Default inference settings are noise_scale 0.5 and noise_w 0.333.
+
+Requires Piper 1.5 or higher.

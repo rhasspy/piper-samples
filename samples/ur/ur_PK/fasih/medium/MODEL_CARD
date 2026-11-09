@@ -20,6 +20,7 @@ Urdu text-to-speech voice for [Piper](https://github.com/OHF-Voice/piper1-gpl).
 - **Quality:** Medium
 - **Phonemizer:** eSpeak (`ur`)
 - **Sample rate:** 22050 Hz
+- **Current version:** v2 (October 2026)
 
 ## Listen
 
@@ -44,12 +45,22 @@ Urdu text-to-speech voice for [Piper](https://github.com/OHF-Voice/piper1-gpl).
 
 ```bash
 echo 'یہ ایک سادہ جملہ ہے۔' | piper \
-  --model ur_PK-male-medium.onnx \
-  --config ur_PK-male-medium.onnx.json \
+  --model ur_PK-fasih-medium-model.onnx \
+  --config ur_PK-fasih-medium-model.onnx.json \
   --output_file output.wav
-````
+```
 
 ## Training Details
+
+*v2 (October 2026):*
+
+* **Base model:** v1 of this voice (`epoch=3206-step=383452.ckpt`), full-model fine-tune
+* **Dataset:** Urdu recordings by Muhammad Noman (same speaker), 11,998 curated clips (~15 h) drawn from his speech collection ([Urdu\_Audio-Realistic](https://huggingface.co/datasets/nzgnzg73/Urdu_Audio-Realistic)), used with the contributor's approval
+* **Training:** steps 383,452 -> 473,452 on an Apple M4 Mac mini (CPU, batch 8)
+* **Final checkpoint:** `checkpoint/epoch=3240-step=473452.ckpt` (val_mel 0.4129)
+* **Listening check:** 3.3/5 vs 2.1/5 for v1 on the same 10 Urdu sentences (blind re-scoring by the CSUN 2027 paper's Urdu reviewer)
+
+*v1:*
 
 * **Base model:** Hindi (`hi_IN`) medium (Rohan) checkpoint
 * **Base checkpoint:** `epoch=3190-step=309852.ckpt` [https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main/hi/hi_IN/rohan/medium](https://huggingface.co/datasets/rhasspy/piper-checkpoints/tree/main/hi/hi_IN/rohan/medium)

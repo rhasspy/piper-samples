@@ -7,11 +7,23 @@
 
 ## Dataset
 
-* URL: https://librivox.org
-* License: public domain
+* URL: https://www.openslr.org/109/
+* License: CC BY 4.0 (Hi-Fi Multi-Speaker English TTS Dataset, NVIDIA Corporation)
+* Paper: Bakhturina, Lavrukhin, Ginsburg and Zhang, "Hi-Fi Multi-Speaker English TTS Dataset", Interspeech 2021, https://arxiv.org/abs/2104.01497
+
+The voice of Cori Samuel, a volunteer reader for LibriVox (https://librivox.org),
+whose public-domain audiobook recordings Hi-Fi TTS is built from (reader 92). This
+voice uses her recordings from the clean subset: 27.3 hours, resampled from 44.1kHz,
+with adjacent segments merged up to 12 seconds (35,146 -> 13,574 utterances).
+Thank you, Cori.
 
 ## Training
 
-See: https://brycebeattie.com/files/tts/
+Finetuned for 150 epochs from the hifi_tts_92 base model (medium quality), which was
+trained on the same recordings, now phonemized as British English (`en-gb-x-rp`)
+instead of U.S. English. With MRD and SDP.
 
-UK English female voice. Single Speaker. Trained from scratch on medium quality settings for 640 epochs. I put together the dataset, which ended up with about 24 hours of recordings. All recordings came from LibriVox.org.
+This succeeds Bryce Beattie's earlier cori voice (`cori-med-640.ckpt`, trained from
+scratch on her LibriVox recordings; see https://brycebeattie.com/files/tts/).
+
+Requires Piper 1.5 or higher.

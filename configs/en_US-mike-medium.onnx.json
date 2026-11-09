@@ -6,14 +6,13 @@
   "espeak": {
     "voice": "en-us"
   },
-  "dataset": "mike",
   "phoneme_type": "espeak",
   "num_symbols": 256,
   "num_speakers": 1,
   "inference": {
-    "noise_scale": 0.667,
+    "noise_scale": 0.5,
     "length_scale": 1.0,
-    "noise_w": 0.8
+    "noise_w": 0.333
   },
   "phoneme_id_map": {
     "_": [
@@ -517,6 +516,7 @@
   },
   "speaker_id_map": {},
   "hop_length": 256,
+  "default_speaker_id": 0,
   "piper_version": "1.5.0",
   "vowel_clusters": [
     [
@@ -547,5 +547,6 @@
     "name_native": "English",
     "name_english": "English",
     "country_english": "United States"
-  }
+  },
+  "dataset": "mike"
 }

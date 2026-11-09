@@ -6,13 +6,14 @@
   "espeak": {
     "voice": "es"
   },
-  "inference": {
-    "noise_scale": 0.667,
-    "length_scale": 1,
-    "noise_w": 0.8
-  },
   "phoneme_type": "espeak",
-  "phoneme_map": {},
+  "num_symbols": 256,
+  "num_speakers": 2,
+  "inference": {
+    "noise_scale": 0.5,
+    "length_scale": 1.0,
+    "noise_w": 0.333
+  },
   "phoneme_id_map": {
     "_": [
       0
@@ -475,15 +476,73 @@
     ],
     "̻": [
       153
+    ],
+    "g": [
+      154
+    ],
+    "ʦ": [
+      155
+    ],
+    "X": [
+      156
+    ],
+    "̝": [
+      157
+    ],
+    "̊": [
+      158
+    ],
+    "ɝ": [
+      159
+    ],
+    "ʷ": [
+      160
+    ],
+    "aɪ": [
+      161
+    ],
+    "aʊ": [
+      162
+    ],
+    "ɔɪ": [
+      163
+    ],
+    "eɪ": [
+      164
+    ],
+    "oʊ": [
+      165
     ]
   },
-  "num_symbols": 256,
-  "num_speakers": 2,
   "speaker_id_map": {
     "M": 0,
     "F": 1
   },
-  "piper_version": "1.0.0",
+  "hop_length": 256,
+  "default_speaker_id": 0,
+  "piper_version": "1.5.0",
+  "vowel_clusters": [
+    [
+      "a",
+      "ɪ"
+    ],
+    [
+      "a",
+      "ʊ"
+    ],
+    [
+      "e",
+      "ɪ"
+    ],
+    [
+      "o",
+      "ʊ"
+    ],
+    [
+      "ɔ",
+      "ɪ"
+    ]
+  ],
   "language": {
     "code": "es_ES",
     "family": "es",

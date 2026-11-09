@@ -12,4 +12,8 @@
 
 ## Training
 
-Finetuned from U.S. English lessac voice (medium quality).
+Finetuned from the rdh base model (medium quality; nl_BE, one Flemish speaker, CC0), with MRD and SDP.
+
+Default inference settings are noise_scale 0.5 and noise_w 0.333.
+
+Requires Piper 1.5 or higher.

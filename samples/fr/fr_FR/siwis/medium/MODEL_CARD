@@ -12,4 +12,7 @@
 
 ## Training
 
-Finetuned from U.S. English lessac voice (medium quality)
+Finetuned from the U.S. English hifi_tts_92 base model (medium quality; the voice of Cori Samuel, Hi-Fi TTS reader 92), with MRD and SDP.
+The 6 utterances longer than 15 seconds (of 9,763) were dropped from epoch 56 on, to allow a larger batch.
+
+Requires Piper 1.5 or higher.
