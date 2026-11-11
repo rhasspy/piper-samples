@@ -4224,16 +4224,16 @@
         "speaker_id_map": {},
         "files": {
             "en/en_US/ryan/medium/en_US-ryan-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "8f06d3aff8ded5a7f13f907e6bec32ac"
+                "size_bytes": 63221984,
+                "md5_digest": "6431a4a167687c60044d9768a47befa3"
             },
             "en/en_US/ryan/medium/en_US-ryan-medium.onnx.json": {
-                "size_bytes": 4883,
-                "md5_digest": "f173a2b5202b3e4128ccc3ed8195306c"
+                "size_bytes": 5466,
+                "md5_digest": "c0699416f4aa54504ce768ffb0a8b96a"
             },
             "en/en_US/ryan/medium/MODEL_CARD": {
-                "size_bytes": 306,
-                "md5_digest": "79d9200481a9dcabfa1803cb9e31c28a"
+                "size_bytes": 448,
+                "md5_digest": "435b713f3784f539934993dc9abf6f27"
             }
         },
         "aliases": [
@@ -5339,16 +5339,16 @@
         "speaker_id_map": {},
         "files": {
             "hu/hu_HU/anna/medium/hu_HU-anna-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "3796f9fa28bd8d390d17828e2e2e952d"
+                "size_bytes": 63221984,
+                "md5_digest": "1d3fdb2f6718786c897d529801935706"
             },
             "hu/hu_HU/anna/medium/hu_HU-anna-medium.onnx.json": {
-                "size_bytes": 5018,
-                "md5_digest": "ae63867e2c2cb6695555a17bdee8b751"
+                "size_bytes": 5458,
+                "md5_digest": "afee8b14a958adb0a8b8f50644da6d25"
             },
             "hu/hu_HU/anna/medium/MODEL_CARD": {
-                "size_bytes": 278,
-                "md5_digest": "d1d16d30a88812e79980a7543e00f0b5"
+                "size_bytes": 455,
+                "md5_digest": "51a5489eeb51edfd35efe368085f268a"
             }
         },
         "aliases": []
@@ -5369,16 +5369,16 @@
         "speaker_id_map": {},
         "files": {
             "hu/hu_HU/berta/medium/hu_HU-berta-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "a94cc2562ba892f462cb502f9d3c3ca3"
+                "size_bytes": 63221984,
+                "md5_digest": "82da9f0a2ad67ade88f1f37afcf3e1ef"
             },
             "hu/hu_HU/berta/medium/hu_HU-berta-medium.onnx.json": {
-                "size_bytes": 4961,
-                "md5_digest": "1f722cc72f330e3ba0222c6a94a527fa"
+                "size_bytes": 5459,
+                "md5_digest": "d215e488c65b99bdebee705dd575d8a1"
             },
             "hu/hu_HU/berta/medium/MODEL_CARD": {
-                "size_bytes": 279,
-                "md5_digest": "0f9f33fcbe0f46c5f521ab08cb339d6c"
+                "size_bytes": 456,
+                "md5_digest": "02573bad24e93d80ef26e4a28c8e355e"
             }
         },
         "aliases": []
@@ -6306,6 +6306,36 @@
             "ne-google-x-low"
         ]
     },
+    "nl_BE-flemishguy-medium": {
+        "key": "nl_BE-flemishguy-medium",
+        "name": "flemishguy",
+        "language": {
+            "code": "nl_BE",
+            "family": "nl",
+            "region": "BE",
+            "name_native": "Nederlands",
+            "name_english": "Dutch",
+            "country_english": "Belgium"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "nl/nl_BE/flemishguy/medium/nl_BE-flemishguy-medium.onnx": {
+                "size_bytes": 63221984,
+                "md5_digest": "00c96bb65f44e0eb3fd9e9c1b6176cfa"
+            },
+            "nl/nl_BE/flemishguy/medium/nl_BE-flemishguy-medium.onnx.json": {
+                "size_bytes": 5464,
+                "md5_digest": "aa1edc2d2072d81b3db7358267d3244e"
+            },
+            "nl/nl_BE/flemishguy/medium/MODEL_CARD": {
+                "size_bytes": 422,
+                "md5_digest": "3d529f4f197f31faf8f8c166aabe1a54"
+            }
+        },
+        "aliases": []
+    },
     "nl_BE-nathalie-medium": {
         "key": "nl_BE-nathalie-medium",
         "name": "nathalie",
@@ -6448,16 +6478,16 @@
         "speaker_id_map": {},
         "files": {
             "nl/nl_NL/alex/medium/nl_NL-alex-medium.onnx": {
-                "size_bytes": 63531476,
-                "md5_digest": "34c3e80cedc491e5d943091cd1b45192"
+                "size_bytes": 63221984,
+                "md5_digest": "545acf824c7831c68dbf998c225c64e4"
             },
             "nl/nl_NL/alex/medium/nl_NL-alex-medium.onnx.json": {
-                "size_bytes": 4965,
-                "md5_digest": "ec40f2446d93f305ca20a729f6de6827"
+                "size_bytes": 5462,
+                "md5_digest": "c22a34aa67160fd9af42008c2fda5972"
             },
             "nl/nl_NL/alex/medium/MODEL_CARD": {
-                "size_bytes": 268,
-                "md5_digest": "bf70f496e459d2007038a479a39692ab"
+                "size_bytes": 420,
+                "md5_digest": "1cfe963a12301261f860ec75eae1eaa1"
             }
         },
         "aliases": []
@@ -7214,16 +7244,16 @@
         "speaker_id_map": {},
         "files": {
             "sk/sk_SK/lili/medium/sk_SK-lili-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "836e078518042448bda8416a8ea52984"
+                "size_bytes": 63221984,
+                "md5_digest": "d3162cda3ebc9f5ad950a23bc0901fe1"
             },
             "sk/sk_SK/lili/medium/sk_SK-lili-medium.onnx.json": {
-                "size_bytes": 4963,
-                "md5_digest": "e49cbd13cb5ce5b8f7e1c1479ec2cc91"
+                "size_bytes": 5461,
+                "md5_digest": "a6f7f62fb5a9b79d48d1858677227579"
             },
             "sk/sk_SK/lili/medium/MODEL_CARD": {
-                "size_bytes": 276,
-                "md5_digest": "64d662183857c9355097fbfc370fa74a"
+                "size_bytes": 453,
+                "md5_digest": "d4ced471bc64a7faa2d311b97139637e"
             }
         },
         "aliases": []
@@ -7427,16 +7457,16 @@
         "speaker_id_map": {},
         "files": {
             "sw/sw_CD/lanfrica/medium/sw_CD-lanfrica-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "7b28078f0e76cb201dc8b512ea4bf4d6"
+                "size_bytes": 63221984,
+                "md5_digest": "3f8db3b5b896c3a95045043a5b3e5bca"
             },
             "sw/sw_CD/lanfrica/medium/sw_CD-lanfrica-medium.onnx.json": {
-                "size_bytes": 4905,
-                "md5_digest": "fee67ee6bbb0ad9d9376b0d1cf2923d1"
+                "size_bytes": 5488,
+                "md5_digest": "dd4ef04d99693f4c8394c4390f1f82b4"
             },
             "sw/sw_CD/lanfrica/medium/MODEL_CARD": {
-                "size_bytes": 315,
-                "md5_digest": "225cc22fc4a35a83f2039988499baa85"
+                "size_bytes": 457,
+                "md5_digest": "00847bceb9eea888dea42943cda6780b"
             }
         },
         "aliases": []
