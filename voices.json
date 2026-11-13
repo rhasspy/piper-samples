@@ -5647,16 +5647,16 @@
         "speaker_id_map": {},
         "files": {
             "it/it_IT/paola/medium/it_IT-paola-medium.onnx": {
-                "size_bytes": 63511038,
-                "md5_digest": "3a44e73b12ca5d0c21a72e388b5847c8"
+                "size_bytes": 63221984,
+                "md5_digest": "a30ce2075673dad72e1b80847ba47543"
             },
             "it/it_IT/paola/medium/it_IT-paola-medium.onnx.json": {
-                "size_bytes": 7099,
-                "md5_digest": "cd471a3757c88a7a4baee6207248b5d5"
+                "size_bytes": 5457,
+                "md5_digest": "6f48c37f0e7765fa834f4193933e1120"
             },
             "it/it_IT/paola/medium/MODEL_CARD": {
-                "size_bytes": 303,
-                "md5_digest": "436971e8acb0a92dd8dbc42542e59d03"
+                "size_bytes": 452,
+                "md5_digest": "cbbb9bb1e0c8a6dc4058fb9ea5c5fadc"
             }
         },
         "aliases": []
@@ -6382,16 +6382,16 @@
         "speaker_id_map": {},
         "files": {
             "nl/nl_BE/nathalie/medium/nl_BE-nathalie-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "ab0c38b5f66764b59ad9e3e98b1c2172"
+                "size_bytes": 63221984,
+                "md5_digest": "4d98134852e26058c04b7f2a57860420"
             },
             "nl/nl_BE/nathalie/medium/nl_BE-nathalie-medium.onnx.json": {
-                "size_bytes": 4879,
-                "md5_digest": "13c6e6c9511447e1906c25748a93f0bd"
+                "size_bytes": 5462,
+                "md5_digest": "95cd27b023dfc997bb7f0c6fb314ac2a"
             },
             "nl/nl_BE/nathalie/medium/MODEL_CARD": {
-                "size_bytes": 284,
-                "md5_digest": "ff335f87ca41a3f89180781498e02635"
+                "size_bytes": 455,
+                "md5_digest": "03468934e0239bb7cf574ab062c966e8"
             }
         },
         "aliases": []
@@ -6786,16 +6786,16 @@
         "speaker_id_map": {},
         "files": {
             "no/no_NO/talesyntese/medium/no_NO-talesyntese-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "9fc876e7edc6593086b4f2f34889f44b"
+                "size_bytes": 63221984,
+                "md5_digest": "b12ae76eb11287d6f8abb56b9c49adcf"
             },
             "no/no_NO/talesyntese/medium/no_NO-talesyntese-medium.onnx.json": {
-                "size_bytes": 4880,
-                "md5_digest": "94b938e1bd319e6a084dc8380fb53619"
+                "size_bytes": 5463,
+                "md5_digest": "134793a174befbc161190ffe9acd7164"
             },
             "no/no_NO/talesyntese/medium/MODEL_CARD": {
-                "size_bytes": 312,
-                "md5_digest": "5fe51d2a4a0e05e85c88a80373000ae1"
+                "size_bytes": 453,
+                "md5_digest": "b16b4e50e3da2f4fc7177fbfd7172bd5"
             }
         },
         "aliases": [
@@ -7092,16 +7092,16 @@
         "speaker_id_map": {},
         "files": {
             "pt/pt_PT/tugão/medium/pt_PT-tugão-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "0642048511ffe36c3b519520614b53f4"
+                "size_bytes": 63221984,
+                "md5_digest": "7d21dbef0251852d72940bd95967c76c"
             },
             "pt/pt_PT/tugão/medium/pt_PT-tugão-medium.onnx.json": {
-                "size_bytes": 5026,
-                "md5_digest": "c4113a1da477aa6db28420454c142ebd"
+                "size_bytes": 5466,
+                "md5_digest": "2df31b995e34781606a593c4cb9acd28"
             },
             "pt/pt_PT/tugão/medium/MODEL_CARD": {
-                "size_bytes": 282,
-                "md5_digest": "d894d2aedf10b01ff8ee3bd13970a79e"
+                "size_bytes": 459,
+                "md5_digest": "809429de751d5560019dc1710375eeff"
             }
         },
         "aliases": []
