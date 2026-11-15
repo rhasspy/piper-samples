@@ -1,0 +1,23 @@
+# Model card for magnoliasis (medium)
+
+* Language: fa_IR (Persian, Iran)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://www.kaggle.com/datasets/magnoliasis/persian-tts-dataset
+* License: **None.** The dataset has no license: its Kaggle page lists the license as "Unknown", and it does not say who the speaker is or where the recordings came from.
+
+No one has granted any rights to use this voice. Do not assume it may be used, modified or redistributed for any purpose, commercial or otherwise. It is not on the [commercial use](https://github.com/OHF-Voice/piper1-gpl/blob/main/docs/COMMERCIAL_USE.md) list.
+
+The voice is named after the Kaggle account that published the dataset. It is a different speaker from `fa_IR-amir`.
+
+## Training
+
+Finetuned from the U.S. English hifi_tts_92 base model (medium quality; the voice of Cori Samuel, Hi-Fi TTS reader 92), with MRD and SDP.
+
+Default inference settings are noise_scale 0.5 and noise_w 0.333.
+
+Requires Piper 1.5 or higher.
