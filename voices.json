@@ -4505,16 +4505,16 @@
         "speaker_id_map": {},
         "files": {
             "es/es_MX/ald/medium/es_MX-ald-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "86374058e59b41ac3b7fe4181e1daad6"
+                "size_bytes": 63221984,
+                "md5_digest": "3b9af44658b3912214dd6397d5089764"
             },
             "es/es_MX/ald/medium/es_MX-ald-medium.onnx.json": {
-                "size_bytes": 4878,
-                "md5_digest": "aedc07cd37e61360144f04aebb05f7dd"
+                "size_bytes": 5460,
+                "md5_digest": "905f7a855940489ec1048200bbbfc884"
             },
             "es/es_MX/ald/medium/MODEL_CARD": {
-                "size_bytes": 320,
-                "md5_digest": "a858af3698e0c7cda6c9ad5d0d11b651"
+                "size_bytes": 467,
+                "md5_digest": "f98cbac0e874049b1d71b7703d7beffc"
             }
         },
         "aliases": []
@@ -5803,15 +5803,15 @@
         "files": {
             "ja/ja_JP/hi_fi_captain/medium/ja_JP-hi_fi_captain-medium.onnx": {
                 "size_bytes": 76753841,
-                "md5_digest": "f9daab8970d06d7e9fc895a879854542"
+                "md5_digest": "40d8742b895e8bfe685d8f343f028a35"
             },
             "ja/ja_JP/hi_fi_captain/medium/ja_JP-hi_fi_captain-medium.onnx.json": {
-                "size_bytes": 5301,
-                "md5_digest": "828a68fa5fc7677f98ea336fa1d66512"
+                "size_bytes": 5503,
+                "md5_digest": "9dda7e54dbee60817ba6d2ad951fb741"
             },
             "ja/ja_JP/hi_fi_captain/medium/MODEL_CARD": {
-                "size_bytes": 361,
-                "md5_digest": "f4c4d57dd187c3836381134026d84c45"
+                "size_bytes": 551,
+                "md5_digest": "307d79ca0eb7244d6056f64b95fec9cf"
             }
         },
         "aliases": [
@@ -6221,15 +6221,15 @@
         "files": {
             "mr/mr_IN/google/medium/mr_IN-google-medium.onnx": {
                 "size_bytes": 76768179,
-                "md5_digest": "331957abd31bff58aaa10934cd3ac58f"
+                "md5_digest": "5435235f4dc62d02dd488602ae55997a"
             },
             "mr/mr_IN/google/medium/mr_IN-google-medium.onnx.json": {
-                "size_bytes": 5467,
-                "md5_digest": "6cba88c1e90cdc81a061d9f6d6d48943"
+                "size_bytes": 5669,
+                "md5_digest": "e95cdbda6721978a396ac0262df16a8c"
             },
             "mr/mr_IN/google/medium/MODEL_CARD": {
-                "size_bytes": 272,
-                "md5_digest": "db5f8c628d672a4382e5044141c0d977"
+                "size_bytes": 470,
+                "md5_digest": "be31dfa7cc391ba66cbade3faefba887"
             }
         },
         "aliases": []
@@ -6908,16 +6908,16 @@
         "speaker_id_map": {},
         "files": {
             "pl/pl_PL/gosia/medium/pl_PL-gosia-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "ecf817530e575025166e454adde1f382"
+                "size_bytes": 63221984,
+                "md5_digest": "5c52ba9b689945eb1b4efa7531d6cb49"
             },
             "pl/pl_PL/gosia/medium/pl_PL-gosia-medium.onnx.json": {
-                "size_bytes": 4814,
-                "md5_digest": "e57055b9eec14e570617af2b716bd5c3"
+                "size_bytes": 5455,
+                "md5_digest": "6defb6165447e117a7f43b5a31000bd7"
             },
             "pl/pl_PL/gosia/medium/MODEL_CARD": {
-                "size_bytes": 275,
-                "md5_digest": "ff04633302a79cee848d97bfd4f18791"
+                "size_bytes": 452,
+                "md5_digest": "d4259561065a9f2f996e1792844e834c"
             }
         },
         "aliases": []
