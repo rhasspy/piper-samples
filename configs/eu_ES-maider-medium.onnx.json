@@ -6,21 +6,13 @@
   "espeak": {
     "voice": "eu"
   },
-  "language": {
-    "code": "eu_ES",
-    "family": "eu",
-    "region": "ES",
-    "name_native": "Euskara",
-    "name_english": "Basque",
-    "country_english": "Spain"
-  },
   "phoneme_type": "espeak",
   "num_symbols": 256,
   "num_speakers": 1,
   "inference": {
-    "noise_scale": 0.667,
+    "noise_scale": 0.5,
     "length_scale": 1.0,
-    "noise_w": 0.8
+    "noise_w": 0.333
   },
   "phoneme_id_map": {
     "_": [
@@ -505,10 +497,103 @@
     ],
     "ʷ": [
       160
+    ],
+    "aɪ": [
+      161
+    ],
+    "aʊ": [
+      162
+    ],
+    "ɔɪ": [
+      163
+    ],
+    "eɪ": [
+      164
+    ],
+    "oʊ": [
+      165
     ]
   },
   "speaker_id_map": {},
   "hop_length": 256,
-  "piper_version": "1.3.0",
+  "default_speaker_id": 0,
+  "piper_version": "1.5.0",
+  "vowel_clusters": [
+    [
+      "a",
+      "ɪ"
+    ],
+    [
+      "a",
+      "ʊ"
+    ],
+    [
+      "e",
+      "ɪ"
+    ],
+    [
+      "o",
+      "ʊ"
+    ],
+    [
+      "ɔ",
+      "ɪ"
+    ]
+  ],
+  "phoneme_counts": {
+    " ": 681593,
+    "!": 2611,
+    ",": 61718,
+    ".": 88259,
+    "?": 7747,
+    "a": 662570,
+    "b": 50787,
+    "c": 582,
+    "d": 41500,
+    "e": 599542,
+    "f": 9176,
+    "h": 10,
+    "i": 353067,
+    "j": 9971,
+    "k": 232699,
+    "l": 105805,
+    "m": 50850,
+    "n": 366261,
+    "o": 246307,
+    "p": 39173,
+    "r": 57504,
+    "s": 375471,
+    "t": 360513,
+    "u": 230312,
+    "x": 451,
+    "ð": 94268,
+    "ɟ": 10108,
+    "ɡ": 29652,
+    "ɣ": 100625,
+    "ɪ": 7741,
+    "ɲ": 27797,
+    "ɾ": 267333,
+    "ʃ": 18247,
+    "ʊ": 5545,
+    "ʎ": 13731,
+    "ʲ": 74254,
+    "ˈ": 746395,
+    "ˌ": 458236,
+    "β": 94330,
+    "θ": 327,
+    "̺": 108999,
+    "̻": 266472,
+    "aɪ": 53620,
+    "aʊ": 19578,
+    "eɪ": 10448
+  },
+  "language": {
+    "code": "eu_ES",
+    "family": "eu",
+    "region": "ES",
+    "name_native": "Euskara",
+    "name_english": "Basque",
+    "country_english": "Spain"
+  },
   "dataset": "maider"
 }

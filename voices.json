@@ -79,8 +79,8 @@
                 "md5_digest": "390962e2e64fdba8c6c889a8bcbffee4"
             },
             "bg/bg_BG/dimitar/medium/bg_BG-dimitar-medium.onnx.json": {
-                "size_bytes": 5474,
-                "md5_digest": "f5e173c52f660420594271a47af1177e"
+                "size_bytes": 6107,
+                "md5_digest": "0baf0ec5f1d2ba0f0103c2274d42bbca"
             },
             "bg/bg_BG/dimitar/medium/MODEL_CARD": {
                 "size_bytes": 425,
@@ -126,8 +126,8 @@
                 "md5_digest": "796bd28ef88a2b437c215e16ef378b43"
             },
             "bn/bn_BD/google/medium/bn_BD-google-medium.onnx.json": {
-                "size_bytes": 5723,
-                "md5_digest": "8b182724e21daece68bf2be670144e0f"
+                "size_bytes": 6556,
+                "md5_digest": "36050bbcb1a4214b38cd720d41442cb8"
             },
             "bn/bn_BD/google/medium/MODEL_CARD": {
                 "size_bytes": 2551,
@@ -280,8 +280,8 @@
                 "md5_digest": "401f2032bfcd322626560c92462a211d"
             },
             "cs/cs_CZ/jirka/medium/cs_CZ-jirka-medium.onnx.json": {
-                "size_bytes": 5465,
-                "md5_digest": "6dab85fea79fd410b98cb75c5bc9506a"
+                "size_bytes": 6154,
+                "md5_digest": "a7fd2172d55ad75dccd398adb0494698"
             },
             "cs/cs_CZ/jirka/medium/MODEL_CARD": {
                 "size_bytes": 459,
@@ -536,8 +536,8 @@
                 "md5_digest": "0013e471e4790f35b89d140b7fec8706"
             },
             "de/de_DE/kerstin/medium/de_DE-kerstin-medium.onnx.json": {
-                "size_bytes": 5459,
-                "md5_digest": "26e43e1f600754a7b0974844e1131607"
+                "size_bytes": 6390,
+                "md5_digest": "4492edc7e2a3d45887c981ccd9e0629a"
             },
             "de/de_DE/kerstin/medium/MODEL_CARD": {
                 "size_bytes": 388,
@@ -959,8 +959,8 @@
                 "md5_digest": "e2fe077168bfe802e951e717dfa85873"
             },
             "de/de_DE/thorsten/medium/de_DE-thorsten-medium.onnx.json": {
-                "size_bytes": 5460,
-                "md5_digest": "996579e89520190067e25f1699867738"
+                "size_bytes": 6455,
+                "md5_digest": "dac4f7530c978753aeb40f214245659f"
             },
             "de/de_DE/thorsten/medium/MODEL_CARD": {
                 "size_bytes": 427,
@@ -1180,8 +1180,8 @@
                 "md5_digest": "b802b4229cf62bb98d53a617dfd8fd4c"
             },
             "en/en_GB/alba/medium/en_GB-alba-medium.onnx.json": {
-                "size_bytes": 5471,
-                "md5_digest": "87dc160c21fa57bb0a70b13a2751d9a7"
+                "size_bytes": 6295,
+                "md5_digest": "10d5edf2d4fea5090f54f6822f6d3087"
             },
             "en/en_GB/alba/medium/MODEL_CARD": {
                 "size_bytes": 501,
@@ -1283,8 +1283,8 @@
                 "md5_digest": "82937b3877db782440eecfe0b8cb204c"
             },
             "en/en_GB/cori/medium/en_GB-cori-medium.onnx.json": {
-                "size_bytes": 5471,
-                "md5_digest": "3501c84afe039f69e99d861aa9d824a3"
+                "size_bytes": 6354,
+                "md5_digest": "01fe92fbeb956e4dec8c996e213cb085"
             },
             "en/en_GB/cori/medium/MODEL_CARD": {
                 "size_bytes": 1171,
@@ -1313,8 +1313,8 @@
                 "md5_digest": "4c0a813acbca7eaf6bf3fd9cb082e2e5"
             },
             "en/en_GB/jenny_dioco/medium/en_GB-jenny_dioco-medium.onnx.json": {
-                "size_bytes": 5478,
-                "md5_digest": "227a23dc5ce91db5b4d7d0f6c98268aa"
+                "size_bytes": 6375,
+                "md5_digest": "66e5de2f8b102b912b76e4cff8a0e7a6"
             },
             "en/en_GB/jenny_dioco/medium/MODEL_CARD": {
                 "size_bytes": 475,
@@ -1612,8 +1612,8 @@
                 "md5_digest": "38778d5003301dd7283706ed56f544cc"
             },
             "en/en_US/amy/medium/en_US-amy-medium.onnx.json": {
-                "size_bytes": 5465,
-                "md5_digest": "9d1b649725807c37af39a2ec559fb2aa"
+                "size_bytes": 6289,
+                "md5_digest": "3616bd23216051a89dc9ff554c3cb486"
             },
             "en/en_US/amy/medium/MODEL_CARD": {
                 "size_bytes": 461,
@@ -1751,8 +1751,8 @@
                 "md5_digest": "b05125d42b399788c6365fb46a6f7a09"
             },
             "en/en_US/hfc_female/medium/en_US-hfc_female-medium.onnx.json": {
-                "size_bytes": 5472,
-                "md5_digest": "4d41f7299169aa23a460aafdf3ce59c6"
+                "size_bytes": 6385,
+                "md5_digest": "399de0f809c4cd29dba64fcfda96ca62"
             },
             "en/en_US/hfc_female/medium/MODEL_CARD": {
                 "size_bytes": 531,
@@ -1811,8 +1811,8 @@
                 "md5_digest": "35abf46e3c04b84a0526316bbd3cbda0"
             },
             "en/en_US/hifi_tts_92/medium/en_US-hifi_tts_92-medium.onnx.json": {
-                "size_bytes": 5473,
-                "md5_digest": "3a005631fdfe9cd4585ffb022fef93ae"
+                "size_bytes": 6409,
+                "md5_digest": "9bd941239187d56e055ddffac93d5b22"
             },
             "en/en_US/hifi_tts_92/medium/MODEL_CARD": {
                 "size_bytes": 1422,
@@ -1841,8 +1841,8 @@
                 "md5_digest": "8dd388e2a102cbde27ca3fba4e78f488"
             },
             "en/en_US/joe/medium/en_US-joe-medium.onnx.json": {
-                "size_bytes": 5465,
-                "md5_digest": "1f50b93e502afa734bb3f50fcce34c52"
+                "size_bytes": 6284,
+                "md5_digest": "52d70146e7b2340ff5fee410f2dc9041"
             },
             "en/en_US/joe/medium/MODEL_CARD": {
                 "size_bytes": 423,
@@ -1933,8 +1933,8 @@
                 "md5_digest": "25e2f89714d6e90d21e1f7892a962250"
             },
             "en/en_US/kathleen/medium/en_US-kathleen-medium.onnx.json": {
-                "size_bytes": 5470,
-                "md5_digest": "5e69538a41dae1c79ce870796e1e13ec"
+                "size_bytes": 6285,
+                "md5_digest": "326b026a73dd57c1e571f5309c53eb2d"
             },
             "en/en_US/kathleen/medium/MODEL_CARD": {
                 "size_bytes": 463,
@@ -4104,8 +4104,8 @@
                 "md5_digest": "4d59d1813484bedfb99a44204ce6e991"
             },
             "en/en_US/mike/medium/en_US-mike-medium.onnx.json": {
-                "size_bytes": 5466,
-                "md5_digest": "e3f50bcd36b49e55a39c304ffb59539b"
+                "size_bytes": 6282,
+                "md5_digest": "1ddf7bcf4b67eb6ec61b39e4bf46f90e"
             },
             "en/en_US/mike/medium/MODEL_CARD": {
                 "size_bytes": 424,
@@ -4258,8 +4258,8 @@
                 "md5_digest": "6431a4a167687c60044d9768a47befa3"
             },
             "en/en_US/ryan/medium/en_US-ryan-medium.onnx.json": {
-                "size_bytes": 5466,
-                "md5_digest": "c0699416f4aa54504ce768ffb0a8b96a"
+                "size_bytes": 6382,
+                "md5_digest": "d419c3b6ca92515179541f9e6facc266"
             },
             "en/en_US/ryan/medium/MODEL_CARD": {
                 "size_bytes": 448,
@@ -4382,8 +4382,8 @@
                 "md5_digest": "0e0aa6d60c4cf692f86c27ee31801e01"
             },
             "es/es_ES/davefx/medium/es_ES-davefx-medium.onnx.json": {
-                "size_bytes": 5458,
-                "md5_digest": "4e342be16f44d8f1bc3625322c0c82af"
+                "size_bytes": 6175,
+                "md5_digest": "8e9cb5395dc87dea98b87406b407c963"
             },
             "es/es_ES/davefx/medium/MODEL_CARD": {
                 "size_bytes": 418,
@@ -4479,8 +4479,8 @@
                 "md5_digest": "f1c228def498dbfefe3b946369510748"
             },
             "es/es_ES/sharvard/medium/es_ES-sharvard-medium.onnx.json": {
-                "size_bytes": 5486,
-                "md5_digest": "695ad6a14e8d98dff56a04276ced7b4c"
+                "size_bytes": 6160,
+                "md5_digest": "aa08e0069d839544e3384e39cc9f8b98"
             },
             "es/es_ES/sharvard/medium/MODEL_CARD": {
                 "size_bytes": 882,
@@ -4509,8 +4509,8 @@
                 "md5_digest": "3b9af44658b3912214dd6397d5089764"
             },
             "es/es_MX/ald/medium/es_MX-ald-medium.onnx.json": {
-                "size_bytes": 5460,
-                "md5_digest": "905f7a855940489ec1048200bbbfc884"
+                "size_bytes": 6173,
+                "md5_digest": "c2d1d1645f4b64eb0b18692fda751d81"
             },
             "es/es_MX/ald/medium/MODEL_CARD": {
                 "size_bytes": 467,
@@ -4604,8 +4604,8 @@
                 "md5_digest": "54751d83f291cdd3c33d1b2381d2c3c7"
             },
             "et/et_EE/news/medium/et_EE-news-medium.onnx.json": {
-                "size_bytes": 5522,
-                "md5_digest": "7c66a1187cd52cc042d2d54e6397174f"
+                "size_bytes": 6353,
+                "md5_digest": "668d761fbb99a1a53b892f51e6138745"
             },
             "et/et_EE/news/medium/MODEL_CARD": {
                 "size_bytes": 647,
@@ -4630,16 +4630,16 @@
         "speaker_id_map": {},
         "files": {
             "eu/eu_ES/antton/medium/eu_ES-antton-medium.onnx": {
-                "size_bytes": 63531379,
-                "md5_digest": "4d924421c8f4f3967e79de798209e593"
+                "size_bytes": 63221984,
+                "md5_digest": "d918d0e1d2b7d065c0480ba6c2a12145"
             },
             "eu/eu_ES/antton/medium/eu_ES-antton-medium.onnx.json": {
-                "size_bytes": 5076,
-                "md5_digest": "5607c94add68c88560466b0db460dac5"
+                "size_bytes": 6227,
+                "md5_digest": "fab2b39155cbd0bfc1504b18baa86b9a"
             },
             "eu/eu_ES/antton/medium/MODEL_CARD": {
-                "size_bytes": 310,
-                "md5_digest": "4b7f8d482c3c7e749e61a5e649a12a29"
+                "size_bytes": 456,
+                "md5_digest": "d19174817d6b970ea96f1e87feed32b3"
             }
         },
         "aliases": []
@@ -4660,16 +4660,16 @@
         "speaker_id_map": {},
         "files": {
             "eu/eu_ES/maider/medium/eu_ES-maider-medium.onnx": {
-                "size_bytes": 63531379,
-                "md5_digest": "0e479a47183ccee8b559e3c69c0a4d96"
+                "size_bytes": 63221984,
+                "md5_digest": "1c2af596628c62e6e58e1186d4019591"
             },
             "eu/eu_ES/maider/medium/eu_ES-maider-medium.onnx.json": {
-                "size_bytes": 5076,
-                "md5_digest": "5489c9b52ebcbac9a2a7e762b1aaa475"
+                "size_bytes": 6227,
+                "md5_digest": "dbdac4175eed7bd302a8d25af32430a8"
             },
             "eu/eu_ES/maider/medium/MODEL_CARD": {
-                "size_bytes": 310,
-                "md5_digest": "09b6891e38e19a3b5de0c2b46aaee02d"
+                "size_bytes": 491,
+                "md5_digest": "34977c21e4c0997e2a4a923b1c68625d"
             }
         },
         "aliases": []
@@ -4814,8 +4814,8 @@
                 "md5_digest": "f3bd8affea021a1d6874524b1eb215b3"
             },
             "fa/fa_IR/magnoliasis/medium/fa_IR-magnoliasis-medium.onnx.json": {
-                "size_bytes": 5462,
-                "md5_digest": "22e5acbdb87e58ff7b14a9a28f783ad0"
+                "size_bytes": 6070,
+                "md5_digest": "95399f95271b4436377b1a9842a75398"
             },
             "fa/fa_IR/magnoliasis/medium/MODEL_CARD": {
                 "size_bytes": 1013,
@@ -4906,8 +4906,8 @@
                 "md5_digest": "fb33320d3cc15c9a286181e5880ad130"
             },
             "fi/fi_FI/harri/medium/fi_FI-harri-medium.onnx.json": {
-                "size_bytes": 5456,
-                "md5_digest": "0ccd0cb734d2f5fddda2851b6cc7c387"
+                "size_bytes": 6079,
+                "md5_digest": "7f460beb64d60d53ed38a6b4196fa622"
             },
             "fi/fi_FI/harri/medium/MODEL_CARD": {
                 "size_bytes": 446,
@@ -5188,8 +5188,8 @@
                 "md5_digest": "bb8456dcd54ce8143ee62c19bf2d4b41"
             },
             "fr/fr_FR/siwis/medium/fr_FR-siwis-medium.onnx.json": {
-                "size_bytes": 5458,
-                "md5_digest": "1ab0f73eb813ff70b6228d03ff9aed94"
+                "size_bytes": 6369,
+                "md5_digest": "9b6d1fac88510aa90c0cfc5a74e224fe"
             },
             "fr/fr_FR/siwis/medium/MODEL_CARD": {
                 "size_bytes": 502,
@@ -5280,15 +5280,15 @@
         "files": {
             "he/he_IL/saspeech/medium/he_IL-saspeech-medium.onnx": {
                 "size_bytes": 63221984,
-                "md5_digest": "ffa7fbbbbeab5fa8fb7eb00bf9a0e2a5"
+                "md5_digest": "1365dd587ef7b1f774cc7fe0efdff5ff"
             },
             "he/he_IL/saspeech/medium/he_IL-saspeech-medium.onnx.json": {
-                "size_bytes": 5269,
-                "md5_digest": "7da2dd72146707adf21b3caaf4adeb46"
+                "size_bytes": 5901,
+                "md5_digest": "cc473522db366b6aa330e180f8a084c1"
             },
             "he/he_IL/saspeech/medium/MODEL_CARD": {
-                "size_bytes": 269,
-                "md5_digest": "a38d2074935e7d8b64da99c67606b01a"
+                "size_bytes": 454,
+                "md5_digest": "35eb78f352e5e304def7f82dfc01fe3b"
             }
         },
         "aliases": []
@@ -5403,8 +5403,8 @@
                 "md5_digest": "1d3fdb2f6718786c897d529801935706"
             },
             "hu/hu_HU/anna/medium/hu_HU-anna-medium.onnx.json": {
-                "size_bytes": 5458,
-                "md5_digest": "afee8b14a958adb0a8b8f50644da6d25"
+                "size_bytes": 6106,
+                "md5_digest": "c2030d63dea2d058057cd49fda8ee8fe"
             },
             "hu/hu_HU/anna/medium/MODEL_CARD": {
                 "size_bytes": 455,
@@ -5433,8 +5433,8 @@
                 "md5_digest": "82da9f0a2ad67ade88f1f37afcf3e1ef"
             },
             "hu/hu_HU/berta/medium/hu_HU-berta-medium.onnx.json": {
-                "size_bytes": 5459,
-                "md5_digest": "d215e488c65b99bdebee705dd575d8a1"
+                "size_bytes": 6109,
+                "md5_digest": "c2430856330d4ca90b87922f0aac7c9c"
             },
             "hu/hu_HU/berta/medium/MODEL_CARD": {
                 "size_bytes": 456,
@@ -5463,8 +5463,8 @@
                 "md5_digest": "acb2bfc3d356c4b55c2139e5ce330db1"
             },
             "hu/hu_HU/imre/medium/hu_HU-imre-medium.onnx.json": {
-                "size_bytes": 5458,
-                "md5_digest": "562d656e3746b0cada5d13e8f1b11a56"
+                "size_bytes": 6106,
+                "md5_digest": "536cd4d9b359f6448811754fb79f0cd3"
             },
             "hu/hu_HU/imre/medium/MODEL_CARD": {
                 "size_bytes": 420,
@@ -5681,8 +5681,8 @@
                 "md5_digest": "a30ce2075673dad72e1b80847ba47543"
             },
             "it/it_IT/paola/medium/it_IT-paola-medium.onnx.json": {
-                "size_bytes": 5457,
-                "md5_digest": "6f48c37f0e7765fa834f4193933e1120"
+                "size_bytes": 6114,
+                "md5_digest": "f1cd952cef30216fe657e162f3404512"
             },
             "it/it_IT/paola/medium/MODEL_CARD": {
                 "size_bytes": 452,
@@ -5806,8 +5806,8 @@
                 "md5_digest": "40d8742b895e8bfe685d8f343f028a35"
             },
             "ja/ja_JP/hi_fi_captain/medium/ja_JP-hi_fi_captain-medium.onnx.json": {
-                "size_bytes": 5503,
-                "md5_digest": "9dda7e54dbee60817ba6d2ad951fb741"
+                "size_bytes": 6057,
+                "md5_digest": "4a2f63ebd34edf85a3a82f991c9d8efe"
             },
             "ja/ja_JP/hi_fi_captain/medium/MODEL_CARD": {
                 "size_bytes": 551,
@@ -5968,15 +5968,15 @@
         "files": {
             "ko/ko_KR/kss/medium/ko_KR-kss-medium.onnx": {
                 "size_bytes": 63221984,
-                "md5_digest": "bebbd298dffe5ee7b88f2ce41bb4e3a9"
+                "md5_digest": "5af4e532e1845ff15d856c2cb05f5c3d"
             },
             "ko/ko_KR/kss/medium/ko_KR-kss-medium.onnx.json": {
-                "size_bytes": 5232,
-                "md5_digest": "427c0b8d93211ba2ffea1f565819058a"
+                "size_bytes": 6222,
+                "md5_digest": "4bf2dd167ed2f8b971da24a9c4cb2891"
             },
             "ko/ko_KR/kss/medium/MODEL_CARD": {
-                "size_bytes": 333,
-                "md5_digest": "90186834a09a6110dff277d342446845"
+                "size_bytes": 531,
+                "md5_digest": "d67c729a938dba4ff857ccc6d45c9d79"
             }
         },
         "aliases": []
@@ -6224,8 +6224,8 @@
                 "md5_digest": "5435235f4dc62d02dd488602ae55997a"
             },
             "mr/mr_IN/google/medium/mr_IN-google-medium.onnx.json": {
-                "size_bytes": 5669,
-                "md5_digest": "e95cdbda6721978a396ac0262df16a8c"
+                "size_bytes": 6467,
+                "md5_digest": "5381d9ff9bc2f746240348766c91a6aa"
             },
             "mr/mr_IN/google/medium/MODEL_CARD": {
                 "size_bytes": 470,
@@ -6254,8 +6254,8 @@
                 "md5_digest": "be7be4a128aa3d0f12514dd31cd0742b"
             },
             "ne/ne_NP/chitwan/medium/ne_NP-chitwan-medium.onnx.json": {
-                "size_bytes": 5468,
-                "md5_digest": "7c60e107bb9de730172957533c040dad"
+                "size_bytes": 6224,
+                "md5_digest": "b9fb6655d52a3318b10d75b522af9167"
             },
             "ne/ne_NP/chitwan/medium/MODEL_CARD": {
                 "size_bytes": 419,
@@ -6386,8 +6386,8 @@
                 "md5_digest": "00c96bb65f44e0eb3fd9e9c1b6176cfa"
             },
             "nl/nl_BE/flemishguy/medium/nl_BE-flemishguy-medium.onnx.json": {
-                "size_bytes": 5464,
-                "md5_digest": "aa1edc2d2072d81b3db7358267d3244e"
+                "size_bytes": 6253,
+                "md5_digest": "9b0745d54dcc7b881c13f44553cb0d54"
             },
             "nl/nl_BE/flemishguy/medium/MODEL_CARD": {
                 "size_bytes": 422,
@@ -6416,8 +6416,8 @@
                 "md5_digest": "4d98134852e26058c04b7f2a57860420"
             },
             "nl/nl_BE/nathalie/medium/nl_BE-nathalie-medium.onnx.json": {
-                "size_bytes": 5462,
-                "md5_digest": "95cd27b023dfc997bb7f0c6fb314ac2a"
+                "size_bytes": 6251,
+                "md5_digest": "531d96bc658b94b9546eba5771a7f3fd"
             },
             "nl/nl_BE/nathalie/medium/MODEL_CARD": {
                 "size_bytes": 455,
@@ -6542,8 +6542,8 @@
                 "md5_digest": "545acf824c7831c68dbf998c225c64e4"
             },
             "nl/nl_NL/alex/medium/nl_NL-alex-medium.onnx.json": {
-                "size_bytes": 5462,
-                "md5_digest": "c22a34aa67160fd9af42008c2fda5972"
+                "size_bytes": 6289,
+                "md5_digest": "7e7d90f7917cf2514976cb50b23db873"
             },
             "nl/nl_NL/alex/medium/MODEL_CARD": {
                 "size_bytes": 420,
@@ -6719,8 +6719,8 @@
                 "md5_digest": "c494ac660a19ab87c7099ca66f619328"
             },
             "nl/nl_NL/pim/medium/nl_NL-pim-medium.onnx.json": {
-                "size_bytes": 5461,
-                "md5_digest": "cc616f5346d070dc6e4ee752927084b7"
+                "size_bytes": 6288,
+                "md5_digest": "0ead1c021e41c7c3a3889010c5357c75"
             },
             "nl/nl_NL/pim/medium/MODEL_CARD": {
                 "size_bytes": 420,
@@ -6749,8 +6749,8 @@
                 "md5_digest": "21ad258c6799791930c705cd1b209238"
             },
             "nl/nl_NL/ronnie/medium/nl_NL-ronnie-medium.onnx.json": {
-                "size_bytes": 5464,
-                "md5_digest": "8ef694f2df3c7dcce48cdfbb9d454232"
+                "size_bytes": 6291,
+                "md5_digest": "14b6acff3f8b2e24ff7709edfe64b592"
             },
             "nl/nl_NL/ronnie/medium/MODEL_CARD": {
                 "size_bytes": 423,
@@ -6820,8 +6820,8 @@
                 "md5_digest": "b12ae76eb11287d6f8abb56b9c49adcf"
             },
             "no/no_NO/talesyntese/medium/no_NO-talesyntese-medium.onnx.json": {
-                "size_bytes": 5463,
-                "md5_digest": "134793a174befbc161190ffe9acd7164"
+                "size_bytes": 6256,
+                "md5_digest": "9f94b03557e3f800f11c9ec9d4930908"
             },
             "no/no_NO/talesyntese/medium/MODEL_CARD": {
                 "size_bytes": 453,
@@ -6882,8 +6882,8 @@
                 "md5_digest": "6d3766f4c48a16e02a6f4ac107c484eb"
             },
             "pl/pl_PL/darkman/medium/pl_PL-darkman-medium.onnx.json": {
-                "size_bytes": 5457,
-                "md5_digest": "90ae33e45ebcc55ff93e57c05356e710"
+                "size_bytes": 6133,
+                "md5_digest": "57dedb95b74a0f3e0447ea580291b3d9"
             },
             "pl/pl_PL/darkman/medium/MODEL_CARD": {
                 "size_bytes": 419,
@@ -6912,8 +6912,8 @@
                 "md5_digest": "5c52ba9b689945eb1b4efa7531d6cb49"
             },
             "pl/pl_PL/gosia/medium/pl_PL-gosia-medium.onnx.json": {
-                "size_bytes": 5455,
-                "md5_digest": "6defb6165447e117a7f43b5a31000bd7"
+                "size_bytes": 6131,
+                "md5_digest": "5fc8335375e53d5bee8bb99363a78fe0"
             },
             "pl/pl_PL/gosia/medium/MODEL_CARD": {
                 "size_bytes": 452,
@@ -7004,8 +7004,8 @@
                 "md5_digest": "323b2ccfbe2d82de949cac94813855e7"
             },
             "pt/pt_BR/cadu/medium/pt_BR-cadu-medium.onnx.json": {
-                "size_bytes": 5465,
-                "md5_digest": "a2574c3160c93068f39492088fd1362d"
+                "size_bytes": 6256,
+                "md5_digest": "b07e0a48e257d9472623d7f204efdb87"
             },
             "pt/pt_BR/cadu/medium/MODEL_CARD": {
                 "size_bytes": 420,
@@ -7066,8 +7066,8 @@
                 "md5_digest": "9bf6f0670e3651512a786434bd0a6efe"
             },
             "pt/pt_BR/faber/medium/pt_BR-faber-medium.onnx.json": {
-                "size_bytes": 5466,
-                "md5_digest": "f2d60b12ff36d58f6112be7536a9fb9f"
+                "size_bytes": 6257,
+                "md5_digest": "ab7990a354da6eca95f2f259f8f6464a"
             },
             "pt/pt_BR/faber/medium/MODEL_CARD": {
                 "size_bytes": 456,
@@ -7096,8 +7096,8 @@
                 "md5_digest": "042dffe4bb69eb5e9f5cf97f951b1e59"
             },
             "pt/pt_BR/jeff/medium/pt_BR-jeff-medium.onnx.json": {
-                "size_bytes": 5465,
-                "md5_digest": "1144fe3e773719fea0606e7b1165d216"
+                "size_bytes": 6256,
+                "md5_digest": "7bdb92288230f46a2ef994a1df5558b2"
             },
             "pt/pt_BR/jeff/medium/MODEL_CARD": {
                 "size_bytes": 420,
@@ -7126,8 +7126,8 @@
                 "md5_digest": "7d21dbef0251852d72940bd95967c76c"
             },
             "pt/pt_PT/tugão/medium/pt_PT-tugão-medium.onnx.json": {
-                "size_bytes": 5466,
-                "md5_digest": "2df31b995e34781606a593c4cb9acd28"
+                "size_bytes": 6280,
+                "md5_digest": "4b09a0a27ff46c75e6a9c59add84e56a"
             },
             "pt/pt_PT/tugão/medium/MODEL_CARD": {
                 "size_bytes": 459,
@@ -7156,8 +7156,8 @@
                 "md5_digest": "0bc450dbffc894f5ed27bc7f61b4e3a2"
             },
             "ro/ro_RO/mihai/medium/ro_RO-mihai-medium.onnx.json": {
-                "size_bytes": 5460,
-                "md5_digest": "fa149071ae0b7b954dd0d3782a09e28f"
+                "size_bytes": 6164,
+                "md5_digest": "b5c3c1b7599225760ba8485ea5bb60dc"
             },
             "ro/ro_RO/mihai/medium/MODEL_CARD": {
                 "size_bytes": 420,
@@ -7186,8 +7186,8 @@
                 "md5_digest": "0fdddcfaf23c01e9804bab8004e7d725"
             },
             "ru/ru_RU/denis/medium/ru_RU-denis-medium.onnx.json": {
-                "size_bytes": 5464,
-                "md5_digest": "ec216e677da050ed7dc0ec90899844bd"
+                "size_bytes": 6196,
+                "md5_digest": "f4932d114829349b68007cbf4ee5147e"
             },
             "ru/ru_RU/denis/medium/MODEL_CARD": {
                 "size_bytes": 418,
@@ -7216,8 +7216,8 @@
                 "md5_digest": "3f68914893fb107c454fd05e80196981"
             },
             "ru/ru_RU/dmitri/medium/ru_RU-dmitri-medium.onnx.json": {
-                "size_bytes": 5465,
-                "md5_digest": "681a4966ffd3b72a252a2704f0c2149f"
+                "size_bytes": 6197,
+                "md5_digest": "7ba9b8c1470022d238b09c997bd46a9f"
             },
             "ru/ru_RU/dmitri/medium/MODEL_CARD": {
                 "size_bytes": 454,
@@ -7308,8 +7308,8 @@
                 "md5_digest": "d3162cda3ebc9f5ad950a23bc0901fe1"
             },
             "sk/sk_SK/lili/medium/sk_SK-lili-medium.onnx.json": {
-                "size_bytes": 5461,
-                "md5_digest": "a6f7f62fb5a9b79d48d1858677227579"
+                "size_bytes": 6151,
+                "md5_digest": "ba644890caae34c62b113d50fa42e942"
             },
             "sk/sk_SK/lili/medium/MODEL_CARD": {
                 "size_bytes": 453,
@@ -7521,8 +7521,8 @@
                 "md5_digest": "3f8db3b5b896c3a95045043a5b3e5bca"
             },
             "sw/sw_CD/lanfrica/medium/sw_CD-lanfrica-medium.onnx.json": {
-                "size_bytes": 5488,
-                "md5_digest": "dd4ef04d99693f4c8394c4390f1f82b4"
+                "size_bytes": 6135,
+                "md5_digest": "6ab3a1e1cdeb64c0c519633a6a4371d1"
             },
             "sw/sw_CD/lanfrica/medium/MODEL_CARD": {
                 "size_bytes": 457,
@@ -8077,8 +8077,8 @@
                 "md5_digest": "6a5fa2ac1cdacad3deb10eb60844a35d"
             },
             "zh/zh_CN/chaowen/medium/zh_CN-chaowen-medium.onnx.json": {
-                "size_bytes": 3157,
-                "md5_digest": "bc31773752c7811b2b4e2e33e83e86a9"
+                "size_bytes": 4360,
+                "md5_digest": "6f17b303f822019552ca45568ba62f3c"
             },
             "zh/zh_CN/chaowen/medium/MODEL_CARD": {
                 "size_bytes": 472,
