@@ -1546,16 +1546,16 @@
         },
         "files": {
             "en/en_GB/vctk/medium/en_GB-vctk-medium.onnx": {
-                "size_bytes": 76952753,
-                "md5_digest": "573025290fdc68812543b7438ace0c29"
+                "size_bytes": 76972979,
+                "md5_digest": "f447bdf9d7a1fb1775ea41cbeedf6b3e"
             },
             "en/en_GB/vctk/medium/en_GB-vctk-medium.onnx.json": {
-                "size_bytes": 6637,
-                "md5_digest": "68e82dee4c9a723e804f9fc0b14f1802"
+                "size_bytes": 8061,
+                "md5_digest": "afef1d00a4fd0d32f7133c02a5a5b403"
             },
             "en/en_GB/vctk/medium/MODEL_CARD": {
-                "size_bytes": 326,
-                "md5_digest": "b88a963e3bee27bc4fff84563f1be388"
+                "size_bytes": 581,
+                "md5_digest": "6d4a6aea92cfb23485785b21011595a0"
             }
         },
         "aliases": []
@@ -7638,15 +7638,15 @@
         "files": {
             "th/th_TH/tsync2/medium/th_TH-tsync2-medium.onnx": {
                 "size_bytes": 63221984,
-                "md5_digest": "f3f58fc2cfc4f6c591629cb25b47923d"
+                "md5_digest": "374c795d4c3d7a87f26cdde51507a1e8"
             },
             "th/th_TH/tsync2/medium/th_TH-tsync2-medium.onnx.json": {
-                "size_bytes": 5255,
-                "md5_digest": "01ddb288347a85c36f55c328ad9fa299"
+                "size_bytes": 6013,
+                "md5_digest": "f3c228a0e18ef2296545f6041bac5377"
             },
             "th/th_TH/tsync2/medium/MODEL_CARD": {
-                "size_bytes": 467,
-                "md5_digest": "f4f9236ba1c0c2972e8eebfbe39e2904"
+                "size_bytes": 635,
+                "md5_digest": "7f0661fbfe98898f871a4a71b667bb79"
             }
         },
         "aliases": []

@@ -6,21 +6,13 @@
   "espeak": {
     "voice": "th"
   },
-  "language": {
-    "code": "th_TH",
-    "family": "th",
-    "region": "TH",
-    "name_native": "ไทย",
-    "name_english": "Thai",
-    "country_english": "Thailand"
-  },
   "phoneme_type": "thai",
   "num_symbols": 256,
   "num_speakers": 1,
   "inference": {
-    "noise_scale": 0.667,
+    "noise_scale": 0.5,
     "length_scale": 1.0,
-    "noise_w": 0.8
+    "noise_w": 0.333
   },
   "phoneme_id_map": {
     "_": [
@@ -525,6 +517,73 @@
   "speaker_id_map": {},
   "hop_length": 256,
   "default_speaker_id": 0,
-  "piper_version": "1.8.0",
+  "piper_version": "1.5.0",
+  "vowel_clusters": [
+    [
+      "a",
+      "ɪ"
+    ],
+    [
+      "a",
+      "ʊ"
+    ],
+    [
+      "e",
+      "ɪ"
+    ],
+    [
+      "o",
+      "ʊ"
+    ],
+    [
+      "ɔ",
+      "ɪ"
+    ]
+  ],
+  "phoneme_counts": {
+    " ": 169,
+    "-": 18,
+    "a": 17384,
+    "b": 1035,
+    "c": 2379,
+    "d": 1265,
+    "e": 1750,
+    "f": 560,
+    "h": 1164,
+    "i": 4525,
+    "j": 4659,
+    "k": 7266,
+    "l": 2868,
+    "m": 3998,
+    "n": 6670,
+    "o": 2442,
+    "p": 4985,
+    "r": 3635,
+    "s": 2880,
+    "t": 6669,
+    "u": 3379,
+    "w": 2742,
+    "ŋ": 4182,
+    "ɔ": 2794,
+    "ɛ": 1871,
+    "ɤ": 852,
+    "ɯ": 2304,
+    "ʔ": 982,
+    "ː": 20165,
+    "1": 10354,
+    "2": 8126,
+    "3": 6720,
+    "4": 5622,
+    "5": 3583,
+    "ʰ": 8076
+  },
+  "language": {
+    "code": "th_TH",
+    "family": "th",
+    "region": "TH",
+    "name_native": "ไทย",
+    "name_english": "Thai",
+    "country_english": "Thailand"
+  },
   "dataset": "tsync2"
 }
