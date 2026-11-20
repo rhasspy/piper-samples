@@ -1219,16 +1219,16 @@
         },
         "files": {
             "en/en_GB/aru/medium/en_GB-aru-medium.onnx": {
-                "size_bytes": 76754097,
-                "md5_digest": "7862d75539b8ef867e7c04e772d323ea"
+                "size_bytes": 76774323,
+                "md5_digest": "9914e2e10dac0086b48203bb98e0ead7"
             },
             "en/en_GB/aru/medium/en_GB-aru-medium.onnx.json": {
-                "size_bytes": 5048,
-                "md5_digest": "903a8ec4cdfea0123a004ab4a87e547c"
+                "size_bytes": 6385,
+                "md5_digest": "83fd5ddb010ce4155afe1e6f10ca94fd"
             },
             "en/en_GB/aru/medium/MODEL_CARD": {
-                "size_bytes": 368,
-                "md5_digest": "09496f38078e0eefe220a497b7b70631"
+                "size_bytes": 545,
+                "md5_digest": "b9227df7678bb01ec0c9e41237cc7e27"
             }
         },
         "aliases": []
@@ -4286,16 +4286,16 @@
         "speaker_id_map": {},
         "files": {
             "en/en_US/sam/medium/en_US-sam-medium.onnx": {
-                "size_bytes": 62950044,
-                "md5_digest": "57efcb38a3d0510051f9f55c517ccb76"
+                "size_bytes": 63221984,
+                "md5_digest": "30617b087cfcfbb5ec3acfcdbb7da121"
             },
             "en/en_US/sam/medium/en_US-sam-medium.onnx.json": {
-                "size_bytes": 5040,
-                "md5_digest": "a124497d09ce818f9800d16f24e1a8d1"
+                "size_bytes": 6325,
+                "md5_digest": "69518828104dae64de0718234369ce9e"
             },
             "en/en_US/sam/medium/MODEL_CARD": {
-                "size_bytes": 354,
-                "md5_digest": "6d703b6f41e53c4a6fb6512e91780dc0"
+                "size_bytes": 496,
+                "md5_digest": "5a209ddd1076327b524028cd8453439b"
             }
         },
         "aliases": []
@@ -7945,16 +7945,16 @@
         "speaker_id_map": {},
         "files": {
             "vi/vi_VN/vais1000/medium/vi_VN-vais1000-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "5e42428c4f6131f75557cf156c9c1526"
+                "size_bytes": 63221984,
+                "md5_digest": "8a5a85614964fd22ff77694a99048d12"
             },
             "vi/vi_VN/vais1000/medium/vi_VN-vais1000-medium.onnx.json": {
-                "size_bytes": 4860,
-                "md5_digest": "5ec9669253541d64ba97f60e422f1ad0"
+                "size_bytes": 6197,
+                "md5_digest": "e134ef2bd72ef0a316de9b7285c52c93"
             },
             "vi/vi_VN/vais1000/medium/MODEL_CARD": {
-                "size_bytes": 361,
-                "md5_digest": "1beeecba9042e5925b0c5fbd138c779d"
+                "size_bytes": 538,
+                "md5_digest": "db73fe4d58cec34fb65cd05a2869f1b0"
             }
         },
         "aliases": []
