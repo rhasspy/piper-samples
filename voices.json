@@ -4690,16 +4690,16 @@
         "speaker_id_map": {},
         "files": {
             "fa/fa_IR/amir/medium/fa_IR-amir-medium.onnx": {
-                "size_bytes": 63531379,
-                "md5_digest": "7c0598c9726427869e1e86447b333539"
+                "size_bytes": 63221984,
+                "md5_digest": "0cfeb811a08d52261882ee03f3f1d6e8"
             },
             "fa/fa_IR/amir/medium/fa_IR-amir-medium.onnx.json": {
-                "size_bytes": 4958,
-                "md5_digest": "48c5e81f5aa4e1c5eba3dda0be403b58"
+                "size_bytes": 6067,
+                "md5_digest": "de12ba86fefd33427a4780dd25d9a653"
             },
             "fa/fa_IR/amir/medium/MODEL_CARD": {
-                "size_bytes": 264,
-                "md5_digest": "0728165259eb968913a680077607cd5c"
+                "size_bytes": 406,
+                "md5_digest": "978091a9e4c789cc2d5f903ef747f212"
             }
         },
         "aliases": []
