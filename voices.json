@@ -1339,16 +1339,16 @@
         "speaker_id_map": {},
         "files": {
             "en/en_GB/northern_english_male/medium/en_GB-northern_english_male-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "4c9a9735bfb76ad67c8b31b23d6840a0"
+                "size_bytes": 63221984,
+                "md5_digest": "5152be2967f911533402a4e24e85e9c4"
             },
             "en/en_GB/northern_english_male/medium/en_GB-northern_english_male-medium.onnx.json": {
-                "size_bytes": 4847,
-                "md5_digest": "0ce3f61a9604616ed475c921fdeedb1a"
+                "size_bytes": 6267,
+                "md5_digest": "470972d40802786926ab59a65caab3ee"
             },
             "en/en_GB/northern_english_male/medium/MODEL_CARD": {
-                "size_bytes": 305,
-                "md5_digest": "8d1b725154c658ead4f068389c319c82"
+                "size_bytes": 447,
+                "md5_digest": "7a04603bd24ce0c110d9ca118041f9c1"
             }
         },
         "aliases": []
@@ -6299,16 +6299,16 @@
         },
         "files": {
             "ne/ne_NP/google/medium/ne_NP-google-medium.onnx": {
-                "size_bytes": 76766385,
-                "md5_digest": "2c24ccfe18eca2f14bccd0a188516109"
+                "size_bytes": 76786611,
+                "md5_digest": "f358cf460cf4aeff392666ef975cd458"
             },
             "ne/ne_NP/google/medium/ne_NP-google-medium.onnx.json": {
-                "size_bytes": 5165,
-                "md5_digest": "28ebbba4fbbbaa5f7ed302e5e7c7105f"
+                "size_bytes": 6447,
+                "md5_digest": "ce2f319db732a6cde1a2226fcb8f3b2e"
             },
             "ne/ne_NP/google/medium/MODEL_CARD": {
-                "size_bytes": 283,
-                "md5_digest": "afe022ba061870d0c9fe085fe9a9f31f"
+                "size_bytes": 460,
+                "md5_digest": "c893b1b1b41fd8c9f64e0c1a06a82545"
             }
         },
         "aliases": [
