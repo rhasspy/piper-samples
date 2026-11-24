@@ -152,16 +152,16 @@
         "speaker_id_map": {},
         "files": {
             "ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium.onnx": {
-                "size_bytes": 63201294,
-                "md5_digest": "58ff3b049b6b721a4c353a551ec5ef3a"
+                "size_bytes": 63221984,
+                "md5_digest": "8f2e257e4a4cc4c161bc4a0a56ceb4c5"
             },
             "ca/ca_ES/upc_ona/medium/ca_ES-upc_ona-medium.onnx.json": {
-                "size_bytes": 4875,
-                "md5_digest": "035e9eb642ab9fa1354f53a77877ae9b"
+                "size_bytes": 6173,
+                "md5_digest": "488289973eeb7d56bf0b965418832b8c"
             },
             "ca/ca_ES/upc_ona/medium/MODEL_CARD": {
-                "size_bytes": 296,
-                "md5_digest": "395c782a56632400f46e7c442c7718bb"
+                "size_bytes": 474,
+                "md5_digest": "f5b764b0f311edb5f5df5357e180f564"
             }
         },
         "aliases": []
@@ -1657,16 +1657,16 @@
         },
         "files": {
             "en/en_US/arctic/medium/en_US-arctic-medium.onnx": {
-                "size_bytes": 76766385,
-                "md5_digest": "497c47037c2e279faf467e0a06f965d2"
+                "size_bytes": 76786611,
+                "md5_digest": "4e4604ad73c9b307e69fb23f03a3173e"
             },
             "en/en_US/arctic/medium/en_US-arctic-medium.onnx.json": {
-                "size_bytes": 5148,
-                "md5_digest": "b7ed018d74f0d5ba7cd49051de43a461"
+                "size_bytes": 6610,
+                "md5_digest": "442b74d467843b4902d2800fda7a2fe9"
             },
             "en/en_US/arctic/medium/MODEL_CARD": {
-                "size_bytes": 289,
-                "md5_digest": "efe5b89e46cf8e0efa254203da8c7baf"
+                "size_bytes": 3020,
+                "md5_digest": "226f620f60332868f423f67ab7218914"
             }
         },
         "aliases": []
