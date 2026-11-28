@@ -1,4 +1,74 @@
 {
+    "af_ZA-google-medium": {
+        "key": "af_ZA-google-medium",
+        "name": "google",
+        "language": {
+            "code": "af_ZA",
+            "family": "af",
+            "region": "ZA",
+            "name_native": "Afrikaans",
+            "name_english": "Afrikaans",
+            "country_english": "South Africa"
+        },
+        "quality": "medium",
+        "num_speakers": 9,
+        "speaker_id_map": {
+            "afr_7214": 0,
+            "afr_8148": 1,
+            "afr_7130": 2,
+            "afr_1919": 3,
+            "afr_8963": 4,
+            "afr_2418": 5,
+            "afr_6590": 6,
+            "afr_8924": 7,
+            "afr_0184": 8
+        },
+        "files": {
+            "af/af_ZA/google/medium/af_ZA-google-medium.onnx": {
+                "size_bytes": 76768179,
+                "md5_digest": "d2dd59884ce2469bbcd0c218170ec4dc"
+            },
+            "af/af_ZA/google/medium/af_ZA-google-medium.onnx.json": {
+                "size_bytes": 6605,
+                "md5_digest": "c3643afe0a15ae006569e2d482629f9c"
+            },
+            "af/af_ZA/google/medium/MODEL_CARD": {
+                "size_bytes": 566,
+                "md5_digest": "1244386d01403d121b3bc5d24fea06ac"
+            }
+        },
+        "aliases": []
+    },
+    "ar_JO-clartts-medium": {
+        "key": "ar_JO-clartts-medium",
+        "name": "clartts",
+        "language": {
+            "code": "ar_JO",
+            "family": "ar",
+            "region": "JO",
+            "name_native": "العربية",
+            "name_english": "Arabic",
+            "country_english": "Jordan"
+        },
+        "quality": "medium",
+        "num_speakers": 1,
+        "speaker_id_map": {},
+        "files": {
+            "ar/ar_JO/clartts/medium/ar_JO-clartts-medium.onnx": {
+                "size_bytes": 63221984,
+                "md5_digest": "015df36143e7a9dc74d9623477cdbe2b"
+            },
+            "ar/ar_JO/clartts/medium/ar_JO-clartts-medium.onnx.json": {
+                "size_bytes": 6064,
+                "md5_digest": "40b1cbcc7a8694547df49ebdbe2e5e25"
+            },
+            "ar/ar_JO/clartts/medium/MODEL_CARD": {
+                "size_bytes": 546,
+                "md5_digest": "32d0dfc720bb34482408e0408542249e"
+            }
+        },
+        "aliases": []
+    },
     "ar_JO-kareem-low": {
         "key": "ar_JO-kareem-low",
         "name": "kareem",
@@ -5263,6 +5333,72 @@
         },
         "aliases": []
     },
+    "gu_IN-google-medium": {
+        "key": "gu_IN-google-medium",
+        "name": "google",
+        "language": {
+            "code": "gu_IN",
+            "family": "gu",
+            "region": "IN",
+            "name_native": "ગુજરાતી",
+            "name_english": "Gujarati",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 35,
+        "speaker_id_map": {
+            "guf_03209": 0,
+            "guf_01414": 1,
+            "guf_04693": 2,
+            "guf_02898": 3,
+            "guf_02595": 4,
+            "guf_05004": 5,
+            "guf_09152": 6,
+            "guf_06488": 7,
+            "guf_06185": 8,
+            "guf_06536": 9,
+            "guf_04741": 10,
+            "guf_01063": 11,
+            "guf_04653": 12,
+            "guf_02858": 13,
+            "guf_05044": 14,
+            "guf_01906": 15,
+            "guf_06839": 16,
+            "guf_04390": 17,
+            "gum_06799": 18,
+            "gum_08758": 19,
+            "gum_09061": 20,
+            "gum_02348": 21,
+            "gum_07046": 22,
+            "gum_00856": 23,
+            "gum_07349": 24,
+            "gum_00553": 25,
+            "gum_05251": 26,
+            "gum_09192": 27,
+            "gum_06612": 28,
+            "gum_00987": 29,
+            "gum_00505": 30,
+            "gum_08710": 31,
+            "gum_01366": 32,
+            "gum_08407": 33,
+            "gum_08841": 34
+        },
+        "files": {
+            "gu/gu_IN/google/medium/gu_IN-google-medium.onnx": {
+                "size_bytes": 76821427,
+                "md5_digest": "6a0a88ed0737c81ed67f9840521d0dbc"
+            },
+            "gu/gu_IN/google/medium/gu_IN-google-medium.onnx.json": {
+                "size_bytes": 7060,
+                "md5_digest": "c44a42700f8f3504651a01e930d6fbda"
+            },
+            "gu/gu_IN/google/medium/MODEL_CARD": {
+                "size_bytes": 472,
+                "md5_digest": "814e6b33b04e0319de691b2b66eeb206"
+            }
+        },
+        "aliases": []
+    },
     "he_IL-saspeech-medium": {
         "key": "he_IL-saspeech-medium",
         "name": "saspeech",
@@ -5950,6 +6086,82 @@
         "aliases": [
             "kk-raya-x-low"
         ]
+    },
+    "kn_IN-google-medium": {
+        "key": "kn_IN-google-medium",
+        "name": "google",
+        "language": {
+            "code": "kn_IN",
+            "family": "kn",
+            "region": "IN",
+            "name_native": "ಕನ್ನಡ",
+            "name_english": "Kannada",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 45,
+        "speaker_id_map": {
+            "knf_09696": 0,
+            "knf_00254": 1,
+            "knf_01493": 2,
+            "knf_03755": 3,
+            "knf_00557": 4,
+            "knf_05550": 5,
+            "knf_02049": 6,
+            "knf_06123": 7,
+            "knf_03271": 8,
+            "knf_02173": 9,
+            "knf_05820": 10,
+            "knf_07901": 11,
+            "knf_03574": 12,
+            "knf_09123": 13,
+            "knf_01779": 14,
+            "knf_03467": 15,
+            "knf_00001": 16,
+            "knf_01796": 17,
+            "knf_08476": 18,
+            "knf_07598": 19,
+            "knm_02894": 20,
+            "knm_04689": 21,
+            "knm_00574": 22,
+            "knm_00271": 23,
+            "knm_07524": 24,
+            "knm_01114": 25,
+            "knm_00417": 26,
+            "knm_00180": 27,
+            "knm_05066": 28,
+            "knm_08025": 29,
+            "knm_09140": 30,
+            "knm_02533": 31,
+            "knm_02352": 32,
+            "knm_00378": 33,
+            "knm_02910": 34,
+            "knm_07221": 35,
+            "knm_05927": 36,
+            "knm_03197": 37,
+            "knm_09877": 38,
+            "knm_04526": 39,
+            "knm_06230": 40,
+            "knm_04992": 41,
+            "knm_04705": 42,
+            "knm_07918": 43,
+            "knm_00811": 44
+        },
+        "files": {
+            "kn/kn_IN/google/medium/kn_IN-google-medium.onnx": {
+                "size_bytes": 76841907,
+                "md5_digest": "bbb50f892c179765a614760c4816704a"
+            },
+            "kn/kn_IN/google/medium/kn_IN-google-medium.onnx.json": {
+                "size_bytes": 7148,
+                "md5_digest": "6474e018f9f6df6f6022ec226edbd16b"
+            },
+            "kn/kn_IN/google/medium/MODEL_CARD": {
+                "size_bytes": 471,
+                "md5_digest": "b1a35812368b5d4b7e5ccee16d682e18"
+            }
+        },
+        "aliases": []
     },
     "ko_KR-kss-medium": {
         "key": "ko_KR-kss-medium",
@@ -7527,6 +7739,77 @@
             "sw/sw_CD/lanfrica/medium/MODEL_CARD": {
                 "size_bytes": 457,
                 "md5_digest": "00847bceb9eea888dea42943cda6780b"
+            }
+        },
+        "aliases": []
+    },
+    "ta_IN-google-medium": {
+        "key": "ta_IN-google-medium",
+        "name": "google",
+        "language": {
+            "code": "ta_IN",
+            "family": "ta",
+            "region": "IN",
+            "name_native": "தமிழ்",
+            "name_english": "Tamil",
+            "country_english": "India"
+        },
+        "quality": "medium",
+        "num_speakers": 40,
+        "speaker_id_map": {
+            "taf_04125": 0,
+            "taf_05572": 1,
+            "taf_03219": 2,
+            "taf_06478": 3,
+            "taf_03822": 4,
+            "taf_04696": 5,
+            "taf_02916": 6,
+            "taf_02330": 7,
+            "taf_08213": 8,
+            "taf_09705": 9,
+            "taf_00008": 10,
+            "taf_02042": 11,
+            "taf_07049": 12,
+            "taf_07352": 13,
+            "taf_07894": 14,
+            "taf_02027": 15,
+            "taf_02345": 16,
+            "taf_06958": 17,
+            "taf_07910": 18,
+            "taf_01484": 19,
+            "taf_09689": 20,
+            "taf_06796": 21,
+            "taf_07367": 22,
+            "tag_09162": 23,
+            "tag_01469": 24,
+            "tag_03777": 25,
+            "tag_01181": 26,
+            "tag_08228": 27,
+            "tag_01818": 28,
+            "tag_01424": 29,
+            "tag_09674": 30,
+            "tag_07925": 31,
+            "tag_05935": 32,
+            "tag_03762": 33,
+            "tag_03191": 34,
+            "tag_05632": 35,
+            "tag_03837": 36,
+            "tag_00929": 37,
+            "tag_08288": 38,
+            "tag_06418": 39
+        },
+        "files": {
+            "ta/ta_IN/google/medium/ta_IN-google-medium.onnx": {
+                "size_bytes": 76831667,
+                "md5_digest": "5ab8087fc7a9f5a34b3c4ecb8b0e8838"
+            },
+            "ta/ta_IN/google/medium/ta_IN-google-medium.onnx.json": {
+                "size_bytes": 7036,
+                "md5_digest": "0300f18042b8b07e240bda4fb0dd7f87"
+            },
+            "ta/ta_IN/google/medium/MODEL_CARD": {
+                "size_bytes": 469,
+                "md5_digest": "d04dedd4eec59c5e8ff8130d28aa124a"
             }
         },
         "aliases": []

@@ -1,0 +1,20 @@
+# Model card for clartts (medium)
+
+* Language: ar_JO (Arabic, Jordan)
+* Speakers: 1
+* Quality: medium
+* Samplerate: 22,050Hz
+
+## Dataset
+
+* URL: https://www.clartts.com/
+* License: Attribution 4.0 International
+* Classical Arabic audiobook read by one male speaker. The voice keeps that reading style, including full case endings.
+
+## Training
+
+Finetuned from the rdh base model (medium quality; nl_BE, one Flemish speaker, CC0), with MRD and SDP.
+
+Default inference settings are noise_scale 0.5 and noise_w 0.333.
+
+Requires Piper 1.5 or higher.
